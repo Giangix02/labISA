@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 use ieee.std_logic_arith.all;
 use ieee.std_logic_unsigned.all;
 
-ENTITY FIR is
+ENTITY FIRV2 is
 	
 	PORT(DIN,C0,C1,C2,C3,C4,C5,C6,C7,C8,C9: IN unsigned (10 downto 0);
 	     VIN,RSTn,clk: in std_logic;
@@ -12,9 +12,9 @@ ENTITY FIR is
 	);
 	
 
-END FIR;
+END FIRV2;
 
-ARCHITECTURE struct of FIR is
+ARCHITECTURE struct of FIRV2 is
 	
 	COMPONENT Adder
 		PORT(IN0, IN1: IN UNSIGNED(10 downto 0);
