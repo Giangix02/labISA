@@ -16,11 +16,11 @@ END FIRV2;
 
 ARCHITECTURE struct of FIRV2 is
 	
-	COMPONENT Adder
-		PORT(IN0, IN1: IN UNSIGNED(10 downto 0);
-             	     Sum: OUT UNSIGNED(10 downto 0)
-			);
-	END COMPONENT;
+	--COMPONENT Adder
+		--PORT(IN0, IN1: IN UNSIGNED(10 downto 0);
+        --     	     Sum: OUT UNSIGNED(10 downto 0)
+		--	);
+	--END COMPONENT;
 
         COMPONENT Mult
 		PORT(IN0, IN1: IN UNSIGNED(10 downto 0);
