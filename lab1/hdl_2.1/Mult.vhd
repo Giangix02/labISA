@@ -6,7 +6,7 @@ use ieee.std_logic_unsigned.all;
 ENTITY Mult is
 	PORT(IN0, IN1: IN UNSIGNED(10 downto 0);
              Molt: OUT UNSIGNED(21 downto 0)
-	)
+	);
 
 END Mult;
 

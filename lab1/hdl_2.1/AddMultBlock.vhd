@@ -16,7 +16,7 @@ ARCHITECTURE beh of AddMultBlock is
 	
 	COMPONENT Adder
 		PORT(IN0, IN1: IN UNSIGNED(10 downto 0);
-             	     Sum: OUT UNSIGNED(11 downto 0)
+             	     Sum: OUT UNSIGNED(10 downto 0)
 			);
 	END COMPONENT;
 

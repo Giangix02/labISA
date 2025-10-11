@@ -12,7 +12,7 @@ ENTITY FIR is
 	     DOUT: out unsigned(10 downto 0);
 	     VOUT: out std_logic;
 	);
-
+	
 
 END FIR;
 
@@ -20,7 +20,7 @@ ARCHITECTURE struct of FIR is
 	
 	COMPONENT Adder
 		PORT(IN0, IN1: IN UNSIGNED(10 downto 0);
-             	     Sum: OUT UNSIGNED(11 downto 0)
+             	     Sum: OUT UNSIGNED(10 downto 0)
 			);
 	END COMPONENT;
 
