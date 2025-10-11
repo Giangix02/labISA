@@ -5,9 +5,9 @@ use ieee.std_logic_unsigned.all;
 
 ENTITY AddMultBlock is
 
-	PORT(DIN, Coeff, DINadd0, DATA_REG: IN UNSIGNED (10 downto 0);
+	PORT(DIN, Coeff, DINadd0: IN UNSIGNED (10 downto 0);
 	     CLK,RSTn, Vin: IN std_logic;
-             Dout: OUT unsigned (10 downto 0)
+             Dout,DATA_REG: OUT unsigned (10 downto 0) --DATA_REG is the actual pipelined data
              );
 
 END AddMultBlock;
@@ -33,16 +33,17 @@ ARCHITECTURE beh of AddMultBlock is
 	     		);
 	END COMPONENT;
 
-	SIGNAL INMUL1, DINadd1: UNSIGNED (10 downto 0);
+	SIGNAL INMUL1, INMUL0, DINadd1: UNSIGNED (10 downto 0);
 	SIGNAL MUL_OUT: UNSIGNED (21 downto 0);
 
 	begin
 
+	DATA_REG <= INMUL0;
 
 	DINadd1 <= "00" & MUL_OUT(21 downto 13);
 	Addereeno: Adder port map(DINadd0, DINadd1, Dout); 
 	Multiplier: Mult port map(INMUL0, INMUL1, MUL_OUT);
-	Reg_data: REG11B port map(CLK,Vin,RSTn,DIN,DATA_REG);
+	Reg_data: REG11B port map(CLK,Vin,RSTn,DIN,INMUL0);
 	Reg_coeff: REG11B port map(CLK,Vin,RSTn,Coeff,INMUL1);
 	
 
