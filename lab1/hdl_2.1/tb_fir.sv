@@ -4,19 +4,19 @@ module tb_fir ();
 
    logic CLK_i;
    logic RST_n_i;
-   logic [15:0] DIN_i;
+   logic [10:0] DIN_i;
    logic VIN_i;
-   logic [15:0] H0_i;
-   logic [15:0] H1_i;
-   logic [15:0] H2_i;
-   logic [15:0] H3_i;
-   logic [15:0] H4_i;
-   logic [15:0] H5_i;
-   logic [15:0] H6_i;
-   logic [15:0] H7_i;
-   logic [15:0] H8_i;
-   logic [15:0] H9_i;
-   logic [15:0] DOUT_i;
+   logic [10:0] H0_i;
+   logic [10:0] H1_i;
+   logic [10:0] H2_i;
+   logic [10:0] H3_i;
+   logic [10:0] H4_i;
+   logic [10:0] H5_i;
+   logic [10:0] H6_i;
+   logic [10:0] H7_i;
+   logic [10:0] H8_i;
+   logic [10:0] H9_i;
+   logic [10:0] DOUT_i;
    logic VOUT_i;
    logic END_SIM_i;
 
@@ -28,32 +28,32 @@ module tb_fir ();
 	         .RST_n(RST_n_i),
 		 .VOUT(VIN_i),
 		 .DOUT(DIN_i),
-		 .H0(H0_i),
-		 .H1(H1_i),
-		 .H2(H2_i),
-		 .H3(H3_i),
-		 .H4(H3_i),
-		 .H5(H3_i),
-		 .H6(H3_i),
-		 .H7(H3_i),
-		 .H8(H3_i),
-		 .H9(H3_i),
+		 .B0(H0_i),
+		 .B1(H1_i),
+		 .B2(H2_i),
+		 .B3(H3_i),
+		 .B4(H4_i),
+		 .B5(H5_i),
+		 .B6(H6_i),
+		 .B7(H7_i),
+		 .B8(H8_i),
+		 .B9(H9_i),
 		 .END_SIM(END_SIM_i));
 
    FIRV2 UUT(.CLK(CLK_i),
-	     .RST_n(RST_n_i),
+	     .RSTn(RST_n_i),
 	     .DIN(DIN_i),
              .VIN(VIN_i),
-	     		 .H0(H0_i),
-		 .H1(H1_i),
-		 .H2(H2_i),
-		 .H3(H3_i),
-		 .H4(H3_i),
-		 .H5(H3_i),
-		 .H6(H3_i),
-		 .H7(H3_i),
-		 .H8(H3_i),
-		 .H9(H3_i),
+	     		 .C0(H0_i),
+		 .C1(H1_i),
+		 .C2(H2_i),
+		 .C3(H3_i),
+		 .C4(H4_i),
+		 .C5(H5_i),
+		 .C6(H6_i),
+		 .C7(H7_i),
+		 .C8(H8_i),
+		 .C9(H9_i),
              .DOUT(DOUT_i),
              .VOUT(VOUT_i));
 

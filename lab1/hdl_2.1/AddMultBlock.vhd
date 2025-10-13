@@ -22,7 +22,7 @@ ARCHITECTURE beh of AddMultBlock is
 
         COMPONENT Mult
 		PORT(IN0, IN1: IN UNSIGNED(10 downto 0);
-             	     Mult: OUT UNSIGNED(21 downto 0)
+             	     Molt: OUT UNSIGNED(21 downto 0)
 			);
         END COMPONENT;
 

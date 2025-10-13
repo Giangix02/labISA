@@ -9,7 +9,7 @@ use std.textio.all;
 
 entity data_maker is
   generic (
-    NBIT : integer := 16);
+    NBIT : integer := 11);
   port (
     CLK     : in  std_logic;
     RST_n   : in  std_logic;
@@ -58,7 +58,7 @@ begin  -- beh
   --A2 <= conv_std_logic_vector(115, NBIT);
 
   process (CLK, RST_n)
-    file fp_in : text open READ_MODE is "./samples.txt";
+    file fp_in : text open READ_MODE is "C:\Users\Lorenzo\Documents\GitHub\labISA\samples.txt";
     variable line_in : line;
     variable x : integer;
   begin  -- process
@@ -71,7 +71,7 @@ begin  -- beh
         if (valid = '1') then
           readline(fp_in, line_in);
           read(line_in, x);
-          DOUT <= conv_std_logic_vector(x, 16) after tco;
+          DOUT <= conv_std_logic_vector(x, 11) after tco;
           VOUT <= '1' after tco;
           sEndSim <= '0' after tco;          
         else

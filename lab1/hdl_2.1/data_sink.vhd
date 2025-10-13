@@ -9,7 +9,7 @@ use std.textio.all;
 
 entity data_sink is
   generic (
-    NBIT : integer := 16);
+    NBIT : integer := 11);
   port (
     CLK   : in std_logic;
     RST_n : in std_logic;
@@ -22,9 +22,9 @@ architecture beh of data_sink is
 begin  -- beh
 
   process (CLK, RST_n)
-    file res_fp : text open WRITE_MODE is "./results_hdl.txt";
+    file res_fp : text open WRITE_MODE is "C:\Users\Lorenzo\Documents\GitHub\labISA\resulsts_vhd.txt";
     variable line_out : line;
-    file fp_in : text open READ_MODE is "./results_c.txt";
+    file fp_in : text open READ_MODE is "C:\Users\Lorenzo\Documents\GitHub\labISA\resultsc.txt";
     variable line_in : line;    
     variable x : integer;
     variable cnt : integer := 0;
