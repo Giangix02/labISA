@@ -16,6 +16,7 @@ module tb_fir ();
    logic [10:0] H7_i;
    logic [10:0] H8_i;
    logic [10:0] H9_i;
+   logic [10:0] H10_i;
    logic [10:0] DOUT_i;
    logic VOUT_i;
    logic END_SIM_i;
@@ -38,6 +39,7 @@ module tb_fir ();
 		 .B7(H7_i),
 		 .B8(H8_i),
 		 .B9(H9_i),
+		 .B10(H10_i),
 		 .END_SIM(END_SIM_i));
 
    FIRV3 UUT(.CLK(CLK_i),
@@ -54,6 +56,7 @@ module tb_fir ();
 		 .C7(H7_i),
 		 .C8(H8_i),
 		 .C9(H9_i),
+		 .C10(H10_i),
              .DOUT(DOUT_i),
              .VOUT(VOUT_i));
 

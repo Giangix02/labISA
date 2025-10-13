@@ -42,11 +42,15 @@ module tb_fir ();
 		 .B10(H10_i),
 		 .END_SIM(END_SIM_i));
 
+<<<<<<< HEAD:lab1/hdl_2.1/tb_fir.sv
    FIRV3 UUT(.CLK(CLK_i),
+=======
+   FIR UUT(.CLK(CLK_i),
+>>>>>>> 195eb3447b3837443e4ec8518f2860dc57c3e333:lab1/hdl_2.1_try_personale/tb_fir.sv
 	     .RSTn(RST_n_i),
 	     .DIN(DIN_i),
              .VIN(VIN_i),
-	     		 .C0(H0_i),
+	    	.C0(H0_i),
 		 .C1(H1_i),
 		 .C2(H2_i),
 		 .C3(H3_i),

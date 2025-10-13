@@ -60,7 +60,7 @@ begin  -- beh
   --A2 <= conv_std_logic_vector(115, NBIT);
 
   process (CLK, RST_n)
-    file fp_in : text open READ_MODE is "C:\Users\Lorenzo\Documents\GitHub\labISA\samples.txt";
+    file fp_in : text open READ_MODE is "C:\Users\Lorenzo\Desktop\ISA\Lab1\samples.txt";
     variable line_in : line;
     variable x : integer;
   begin  -- process
