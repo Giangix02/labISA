@@ -22,9 +22,9 @@ architecture beh of data_sink is
 begin  -- beh
 
   process (CLK, RST_n)
-    file res_fp : text open WRITE_MODE is "C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\samplesG.txt";
+    file res_fp : text open WRITE_MODE is "C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\results_vhdG.txt";
     variable line_out : line;
-    file fp_in : text open READ_MODE is "C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\resultscG.txt";
+    file fp_in : text open READ_MODE is "C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\resultsc.txt";
     variable line_in : line;    
     variable x : integer;
     variable cnt : integer := 0;

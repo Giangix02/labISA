@@ -23,9 +23,9 @@ VATX4F[>HgD;JTCdIXccdd3
 !s100 C<0[OfNObkR<D<?1POIQ31
 Z8 OV;C;10.5b;63
 32
-Z9 !s110 1760369186
+Z9 !s110 1760378584
 !i10b 1
-Z10 !s108 1760369186.000000
+Z10 !s108 1760378584.000000
 Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/Adder.vhd|
 Z12 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/Adder.vhd|
 !i113 1
@@ -66,11 +66,11 @@ V3`lO5cWSdR^`HBgf7lbHV3
 !s100 4GN^@1CRlGS03BbEDhO1I2
 R8
 32
-Z18 !s110 1760369187
+R9
 !i10b 1
 R10
-Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/AddMultBlockV2.vhd|
-Z20 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/AddMultBlockV2.vhd|
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/AddMultBlockV2.vhd|
+Z19 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/AddMultBlockV2.vhd|
 !i113 1
 R13
 R14
@@ -86,39 +86,39 @@ VC<:R>5<Z9;Cm6KYH9L`=N2
 !s100 mkaQil4kCjHW;Dc3G3bO@1
 R8
 32
-R18
+R9
 !i10b 1
 R10
+R18
 R19
-R20
 !i113 1
 R13
 R14
 Eclk_gen
-Z21 w1760201638
-Z22 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z20 w1760201638
+Z21 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R2
 R3
 R4
 R5
-Z23 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/clk_gen.vhd
-Z24 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/clk_gen.vhd
+Z22 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/clk_gen.vhd
+Z23 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/clk_gen.vhd
 l0
 L6
 V4bc`7UdH`BlHk=^=TDQ9H2
 !s100 JA8Ue1n4KCD]`nb]FQfQ[2
 R8
 32
-R18
+R9
 !i10b 1
-Z25 !s108 1760369187.000000
-Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/clk_gen.vhd|
-Z27 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/clk_gen.vhd|
+R10
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/clk_gen.vhd|
+Z25 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/clk_gen.vhd|
 !i113 1
 R13
 R14
 Abeh
-R22
+R21
 R2
 R3
 R4
@@ -129,122 +129,122 @@ VTMdI8m]iNiL79minC_VE?0
 !s100 7Z_M2BEFXb7=E2g1:CoB81
 R8
 32
-R18
+R9
 !i10b 1
+R10
+R24
 R25
-R26
-R27
 !i113 1
 R13
 R14
 Edata_maker
-Z28 w1760363640
-Z29 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
-R22
+Z26 w1760378570
+Z27 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R21
 R2
 R3
 R4
 R5
-Z30 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/data_maker.vhd
-Z31 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/data_maker.vhd
+Z28 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/data_maker.vhd
+Z29 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/data_maker.vhd
 l0
 L10
 VzDY06Uc2gHgkUadZSYkCj0
 !s100 TRC<2C@9W5D1YjF=3d3G<1
 R8
 32
-R18
+R9
 !i10b 1
-R25
-Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/data_maker.vhd|
-Z33 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/data_maker.vhd|
+R10
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/data_maker.vhd|
+Z31 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/data_maker.vhd|
 !i113 1
 R13
 R14
 Abeh
-R29
-R22
+R27
+R21
 R2
 R3
 R4
 DEx4 work 10 data_maker 0 22 zDY06Uc2gHgkUadZSYkCj0
 l46
 L34
-VWGGC_RUS[7RWd_<nSRYJI1
-!s100 if;eXSnae9kQ2k1AoG^gJ3
+V_HFA<_Pf=@7l@0IUN_>K83
+!s100 <fe^comaII^5k4ZE:E@lK1
 R8
 32
-R18
+R9
 !i10b 1
-R25
-R32
-R33
+R10
+R30
+R31
 !i113 1
 R13
 R14
 Edata_sink
-Z34 w1760363619
-R29
-R22
+Z32 w1760378079
+R27
+R21
 R2
 R3
 R4
 R5
-Z35 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/data_sink.vhd
-Z36 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/data_sink.vhd
+Z33 8C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\hdl_2.1\V2\data_sink.vhd
+Z34 FC:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\hdl_2.1\V2\data_sink.vhd
 l0
 L10
 V_8?3V_b^dB;UE`j1Ng:M<3
 !s100 7UVWfgRcWAPPe]=8Cd9gf3
 R8
 32
-R18
+R9
 !i10b 1
-R25
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/data_sink.vhd|
-Z38 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/data_sink.vhd|
+R10
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\hdl_2.1\V2\data_sink.vhd|
+Z36 !s107 C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\hdl_2.1\V2\data_sink.vhd|
 !i113 1
 R13
 R14
 Abeh
-R29
-R22
+R27
+R21
 R2
 R3
 R4
 DEx4 work 9 data_sink 0 22 _8?3V_b^dB;UE`j1Ng:M<3
 l22
 L20
-V?bHOOTbl[``ZK0iY71H073
-!s100 mRal_<3VS=8;NzLT;9:lS1
+Vei1:aN76W^;8MlglfC[;33
+!s100 Fz<@P9PX7RloJkUheVJ`_0
 R8
 32
-R18
+R9
 !i10b 1
-R25
-R37
-R38
+R10
+R35
+R36
 !i113 1
 R13
 R14
 Eff
-Z39 w1760103803
+Z37 w1760103803
 R3
 R4
 R5
-Z40 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/FF.vhd
-Z41 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/FF.vhd
+Z38 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/FF.vhd
+Z39 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/FF.vhd
 l0
 L4
 VaIh0Bz0H_k191O]nYA><V0
 !s100 ELaL2iYUMGSmBQ6O@XNlR1
 R8
 32
-R18
+Z40 !s110 1760378585
 !i10b 1
-R25
-Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/FF.vhd|
-Z43 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/FF.vhd|
+R10
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/FF.vhd|
+Z42 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/FF.vhd|
 !i113 1
 R13
 R14
@@ -258,34 +258,34 @@ Vi^HiDGd8Y_I9eQRT]P>1b1
 !s100 05oL1VdY<AA4SziXZID]?3
 R8
 32
-R18
+R40
 !i10b 1
-R25
+R10
+R41
 R42
-R43
 !i113 1
 R13
 R14
 Efirv3
-Z44 w1760368245
+Z43 w1760368245
 R1
 R2
 R3
 R4
 R5
-Z45 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/FIRV3.vhd
-Z46 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/FIRV3.vhd
+Z44 8C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\hdl_2.1\V2\FIRV3.vhd
+Z45 FC:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\hdl_2.1\V2\FIRV3.vhd
 l0
 L6
 V0abBfP@lKag5<7@^a0>_T2
 !s100 4BSaAeLg?cfD1HK;Xa?HU1
 R8
 32
-R18
+R40
 !i10b 1
-R25
-Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/FIRV3.vhd|
-Z48 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/FIRV3.vhd|
+Z46 !s108 1760378585.000000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\hdl_2.1\V2\FIRV3.vhd|
+Z48 !s107 C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\hdl_2.1\V2\FIRV3.vhd|
 !i113 1
 R13
 R14
@@ -301,9 +301,9 @@ VS3dGXj5H:Zzk;Lfl82:H[1
 !s100 5CcUDRzQL4cBX3M@geUM@0
 R8
 32
-R18
+R40
 !i10b 1
-R25
+R46
 R47
 R48
 !i113 1
@@ -324,9 +324,9 @@ VZ_j9UmmRaMUXP4ZaQPHiF3
 !s100 UQM9YkI2nQFE1G]n63lGR2
 R8
 32
-R18
+R40
 !i10b 1
-R25
+R46
 Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/Mult.vhd|
 Z53 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/Mult.vhd|
 !i113 1
@@ -344,9 +344,9 @@ VZ[hBBmS[Lk?OI=AoJ>zaB0
 !s100 3bIWkN03_BaW@]gLZ>dQ22
 R8
 32
-R18
+R40
 !i10b 1
-R25
+R46
 R52
 R53
 !i113 1
@@ -367,9 +367,9 @@ Vnk74be1d`SEQefkALI2Iz0
 !s100 HdboP6gGm4G_Ej[6VDK]Z2
 R8
 32
-R18
+R40
 !i10b 1
-R25
+R46
 Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/REG11B.vhd|
 Z58 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/REG11B.vhd|
 !i113 1
@@ -387,9 +387,9 @@ Z60 V?mFFQXAzLB5;kLl`AUFCY3
 Z61 !s100 PkcRQo3CM3;=b7=ZX[c[b3
 R8
 32
-R18
+R40
 !i10b 1
-R25
+R46
 R57
 R58
 !i113 1
