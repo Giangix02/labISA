@@ -63,7 +63,7 @@ ARCHITECTURE struct of FIRV3 is
 	Data_reg0: REG11B port map(clk,VIN,RSTn,DIN,DoutReg(0));
 
 	mult0: mult port map(DoutReg(0),C0,mult_out);
-	Add0_in <= mult_out(21) & mult_out(21) & mult_out(21 downto 13);
+	Add0_in <= mult_out(21 downto 13) & "00";
 
      
 
