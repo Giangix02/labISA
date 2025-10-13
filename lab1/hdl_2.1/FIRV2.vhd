@@ -5,7 +5,7 @@ use ieee.std_logic_unsigned.all;
 
 ENTITY FIRV2 is
 	
-	PORT(DIN,C0,C1,C2,C3,C4,C5,C6,C7,C8,C9: IN unsigned (10 downto 0);
+	PORT(DIN,C0,C1,C2,C3,C4,C5,C6,C7,C8,C9,C10: IN unsigned (10 downto 0);
 	     VIN,RSTn,clk: in std_logic;
 	     DOUT: out unsigned(10 downto 0);
 	     VOUT: out std_logic
@@ -44,8 +44,8 @@ ARCHITECTURE struct of FIRV2 is
 	END COMPONENT;
 
 
-	type ADDout_arr is array(0 to 8) of unsigned(10 downto 0);
-        type Dout_reg_arr is array (0 to 9) of unsigned(10 downto 0);
+	type ADDout_arr is array(0 to 9) of unsigned(10 downto 0);
+    type Dout_reg_arr is array (0 to 10) of unsigned(10 downto 0);
 
 	signal DoutReg: Dout_reg_arr;
 	signal ADDout: Addout_arr;
@@ -76,6 +76,7 @@ ARCHITECTURE struct of FIRV2 is
 	cell7: 	    AddMultBlock port map(DoutReg(1),C7,Addout(5),CLK,RSTn,VIN,Addout(6),DoutReg(7));
 	cell8: 	    AddMultBlock port map(DoutReg(1),C8,Addout(6),CLK,RSTn,VIN,Addout(7),DoutReg(8));
 	cell9: 	    AddMultBlock port map(DoutReg(1),C9,Addout(7),CLK,RSTn,VIN,Addout(8),DoutReg(9));
+	cell10: 	AddMultBlock port map(DoutReg(1),C10,Addout(8),CLK,RSTn,VIN,Addout(9),DoutReg(10));
 	
         output_register: REG11B port map(clk,VIN,RSTn,Addout(8),DOUT);
 
