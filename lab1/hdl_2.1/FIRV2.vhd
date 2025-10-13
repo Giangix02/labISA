@@ -67,7 +67,7 @@ ARCHITECTURE struct of FIRV2 is
 
      
 
-        cell1:      AddMultBlock port map(DoutReg(0),C1,Add0_in,CLK,RSTn,VIN,Addout(0),DoutReg(1));
+    cell1:      AddMultBlock port map(DoutReg(0),C1,Add0_in,CLK,RSTn,VIN,Addout(0),DoutReg(1));
 	cell2: 	    AddMultBlock port map(DoutReg(1),C2,Addout(0),CLK,RSTn,VIN,Addout(1),DoutReg(2));
 	cell3: 	    AddMultBlock port map(DoutReg(1),C3,Addout(1),CLK,RSTn,VIN,Addout(2),DoutReg(3));
 	cell4: 	    AddMultBlock port map(DoutReg(1),C4,Addout(2),CLK,RSTn,VIN,Addout(3),DoutReg(4));

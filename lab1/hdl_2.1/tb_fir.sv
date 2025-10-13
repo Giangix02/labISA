@@ -10,6 +10,12 @@ module tb_fir ();
    logic [15:0] H1_i;
    logic [15:0] H2_i;
    logic [15:0] H3_i;
+   logic [15:0] H4_i;
+   logic [15:0] H5_i;
+   logic [15:0] H6_i;
+   logic [15:0] H7_i;
+   logic [15:0] H8_i;
+   logic [15:0] H9_i;
    logic [15:0] DOUT_i;
    logic VOUT_i;
    logic END_SIM_i;
@@ -26,16 +32,28 @@ module tb_fir ();
 		 .H1(H1_i),
 		 .H2(H2_i),
 		 .H3(H3_i),
+		 .H4(H3_i),
+		 .H5(H3_i),
+		 .H6(H3_i),
+		 .H7(H3_i),
+		 .H8(H3_i),
+		 .H9(H3_i),
 		 .END_SIM(END_SIM_i));
 
-   myfir UUT(.CLK(CLK_i),
+   FIRV2 UUT(.CLK(CLK_i),
 	     .RST_n(RST_n_i),
 	     .DIN(DIN_i),
              .VIN(VIN_i),
-	     .H0(H0_i),
-	     .H1(H1_i),
-	     .H2(H2_i),
-	     .H3(H3_i),
+	     		 .H0(H0_i),
+		 .H1(H1_i),
+		 .H2(H2_i),
+		 .H3(H3_i),
+		 .H4(H3_i),
+		 .H5(H3_i),
+		 .H6(H3_i),
+		 .H7(H3_i),
+		 .H8(H3_i),
+		 .H9(H3_i),
              .DOUT(DOUT_i),
              .VOUT(VOUT_i));
 
