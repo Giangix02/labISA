@@ -23,9 +23,9 @@ V6;>RP_eB>l4Bz_CbVjH_J3
 !s100 jdgi4j>H[e3_H5Z@Y80Fo2
 Z8 OV;C;10.5b;63
 32
-Z9 !s110 1760363490
+Z9 !s110 1760366915
 !i10b 1
-Z10 !s108 1760363490.000000
+Z10 !s108 1760366915.000000
 Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/Adder.vhd|
 Z12 !s107 C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/Adder.vhd|
 !i113 1
@@ -52,7 +52,7 @@ R12
 R13
 R14
 Eaddmultblock
-Z15 w1760350846
+Z15 w1760366886
 R1
 R2
 R3
@@ -82,8 +82,8 @@ R4
 DEx4 work 12 addmultblock 0 22 gJO^0W_;[O[In431=l;jg1
 l39
 L15
-VE]e0aTS8gmU[;efkdY;BP3
-!s100 QbS]MV1d:YMbX?CS3DfM70
+V??Cz1S^;a^z2W5o^?YJ<b3
+!s100 e_g0<]^2RYDIoln30:k3n1
 R8
 32
 R9
@@ -95,38 +95,59 @@ R19
 R13
 R14
 Eaddmultblock_tb
-w1760363482
-Z20 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z20 w1760363779
+Z21 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
 R1
 R2
 R3
 R4
 R5
-8C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/AddMultBlock_tb.vhd
-FC:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/AddMultBlock_tb.vhd
+Z22 8C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/AddMultBlock_tb.vhd
+Z23 FC:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/AddMultBlock_tb.vhd
 l0
 L10
 VV^;LRzf?FTGMVj]:I?19`1
 !s100 7nS:BHkm8E4:6SdN@_T9C3
 R8
 32
-Z21 !s110 1760363491
+Z24 !s110 1760366916
 !i10b 1
-Z22 !s108 1760363491.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/AddMultBlock_tb.vhd|
-!s107 C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/AddMultBlock_tb.vhd|
+Z25 !s108 1760366916.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/AddMultBlock_tb.vhd|
+Z27 !s107 C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/AddMultBlock_tb.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R21
+R1
+R2
+R3
+R4
+Z28 DEx4 work 15 addmultblock_tb 0 22 V^;LRzf?FTGMVj]:I?19`1
+l34
+L13
+Z29 Vbo:J>DXmdd8c_aWgQie0S2
+Z30 !s100 :7P7nNOI]RHM=j0HiS:C43
+R8
+32
+R24
+!i10b 1
+R25
+R26
+R27
 !i113 1
 R13
 R14
 Eclk_gen
-Z23 w1760199727
+Z31 w1760199727
 R1
 R2
 R3
 R4
 R5
-Z24 8C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/clk_gen.vhd
-Z25 FC:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/clk_gen.vhd
+Z32 8C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/clk_gen.vhd
+Z33 FC:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/clk_gen.vhd
 l0
 L6
 V4bc`7UdH`BlHk=^=TDQ9H2
@@ -136,8 +157,8 @@ R8
 R9
 !i10b 1
 R10
-Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/clk_gen.vhd|
-Z27 !s107 C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/clk_gen.vhd|
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/clk_gen.vhd|
+Z35 !s107 C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/clk_gen.vhd|
 !i113 1
 R13
 R14
@@ -156,21 +177,21 @@ R8
 R9
 !i10b 1
 R10
-R26
-R27
+R34
+R35
 !i113 1
 R13
 R14
 Edata_maker
-Z28 w1760361029
-R20
+Z36 w1760361029
+R21
 R1
 R2
 R3
 R4
 R5
-Z29 8C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/data_maker.vhd
-Z30 FC:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/data_maker.vhd
+Z37 8C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/data_maker.vhd
+Z38 FC:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/data_maker.vhd
 l0
 L10
 VzDY06Uc2gHgkUadZSYkCj0
@@ -180,13 +201,13 @@ R8
 R9
 !i10b 1
 R10
-Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/data_maker.vhd|
-Z32 !s107 C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/data_maker.vhd|
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/data_maker.vhd|
+Z40 !s107 C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/data_maker.vhd|
 !i113 1
 R13
 R14
 Abeh
-R20
+R21
 R1
 R2
 R3
@@ -201,21 +222,21 @@ R8
 R9
 !i10b 1
 R10
-R31
-R32
+R39
+R40
 !i113 1
 R13
 R14
 Edata_sink
-Z33 w1760354233
-R20
+Z41 w1760354233
+R21
 R1
 R2
 R3
 R4
 R5
-Z34 8C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/data_sink.vhd
-Z35 FC:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/data_sink.vhd
+Z42 8C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/data_sink.vhd
+Z43 FC:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/data_sink.vhd
 l0
 L10
 V_8?3V_b^dB;UE`j1Ng:M<3
@@ -225,13 +246,13 @@ R8
 R9
 !i10b 1
 R10
-Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/data_sink.vhd|
-Z37 !s107 C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/data_sink.vhd|
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/data_sink.vhd|
+Z45 !s107 C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/data_sink.vhd|
 !i113 1
 R13
 R14
 Abeh
-R20
+R21
 R1
 R2
 R3
@@ -246,18 +267,18 @@ R8
 R9
 !i10b 1
 R10
-R36
-R37
+R44
+R45
 !i113 1
 R13
 R14
 Eff
-Z38 w1760185338
+Z46 w1760185338
 R3
 R4
 R5
-Z39 8C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FF.vhd
-Z40 FC:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FF.vhd
+Z47 8C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FF.vhd
+Z48 FC:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FF.vhd
 l0
 L4
 VaIh0Bz0H_k191O]nYA><V0
@@ -267,8 +288,8 @@ R8
 R9
 !i10b 1
 R10
-Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FF.vhd|
-Z42 !s107 C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FF.vhd|
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FF.vhd|
+Z50 !s107 C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FF.vhd|
 !i113 1
 R13
 R14
@@ -285,20 +306,20 @@ R8
 R9
 !i10b 1
 R10
-R41
-R42
+R49
+R50
 !i113 1
 R13
 R14
 Efir
-Z43 w1760200344
+Z51 w1760200344
 R1
 R2
 R3
 R4
 R5
-Z44 8C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FIR.vhd
-Z45 FC:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FIR.vhd
+Z52 8C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FIR.vhd
+Z53 FC:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FIR.vhd
 l0
 L7
 V@fOd8iogMVaRj6XKAPe2?0
@@ -308,8 +329,8 @@ R8
 R9
 !i10b 1
 R10
-Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FIR.vhd|
-Z47 !s107 C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FIR.vhd|
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FIR.vhd|
+Z55 !s107 C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FIR.vhd|
 !i113 1
 R13
 R14
@@ -328,31 +349,31 @@ R8
 R9
 !i10b 1
 R10
-R46
-R47
+R54
+R55
 !i113 1
 R13
 R14
 Efirv2
-R28
+Z56 w1760366848
 R1
 R2
 R3
 R4
 R5
-Z48 8C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FIRV2.vhd
-Z49 FC:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FIRV2.vhd
+Z57 8C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FIRV2.vhd
+Z58 FC:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FIRV2.vhd
 l0
 L6
 VI2eF6YEA3T1hJ<`aT<Dbf0
 !s100 gb[nf9<B@W2eEMWa2CKG23
 R8
 32
-R9
+R24
 !i10b 1
 R10
-Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FIRV2.vhd|
-Z51 !s107 C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FIRV2.vhd|
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FIRV2.vhd|
+Z60 !s107 C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/FIRV2.vhd|
 !i113 1
 R13
 R14
@@ -364,81 +385,83 @@ R4
 DEx4 work 5 firv2 0 22 I2eF6YEA3T1hJ<`aT<Dbf0
 l57
 L17
-VnWj]_aQI1CHY<FG_1GoQV1
-!s100 WlMcFF`IT:S]Ql7Kikz^20
+VbJECmZ6g6SbCzIceL`iAz2
+!s100 YZ90i1I9UQSDl8Ejm7EYE0
 R8
 32
-R9
+R24
 !i10b 1
 R10
-R50
-R51
+R59
+R60
 !i113 1
 R13
 R14
 Emult
-Z52 w1760200185
+Z61 w1760366574
 R1
+Z62 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
 R2
 R3
 R4
 R5
-Z53 8C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/Mult.vhd
-Z54 FC:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/Mult.vhd
+Z63 8C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/Mult.vhd
+Z64 FC:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/Mult.vhd
 l0
-L6
-VjLT4]XlfVheS2U1]DhgS53
-!s100 aF@fUG=k251b3QOco3Cd@0
+L7
+VbVfZ8AK<?6ULka2^a^[iN2
+!s100 ?CH5`?g2@[DPNb@RcA[hd0
 R8
 32
-R21
+R24
 !i10b 1
-R22
-Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/Mult.vhd|
-Z56 !s107 C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/Mult.vhd|
+R25
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/Mult.vhd|
+Z66 !s107 C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/Mult.vhd|
 !i113 1
 R13
 R14
 Abeh
 R1
+R62
 R2
 R3
 R4
-DEx4 work 4 mult 0 22 jLT4]XlfVheS2U1]DhgS53
-l15
-L13
-VZ[hBBmS[Lk?OI=AoJ>zaB0
-!s100 3bIWkN03_BaW@]gLZ>dQ22
+DEx4 work 4 mult 0 22 bVfZ8AK<?6ULka2^a^[iN2
+l18
+L14
+Vd`_iQE??>`efNnGfFZeW22
+!s100 X;UCVmfAz:LSU=hUUVbLD3
 R8
 32
-R21
+R24
 !i10b 1
-R22
-R55
-R56
+R25
+R65
+R66
 !i113 1
 R13
 R14
 Ereg11b
-Z57 w1760197231
+Z67 w1760197231
 R1
 R2
 R3
 R4
 R5
-Z58 8C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/REG11B.vhd
-Z59 FC:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/REG11B.vhd
+Z68 8C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/REG11B.vhd
+Z69 FC:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/REG11B.vhd
 l0
 L6
 VEnG@fjT`n[F]QnQfN]<Ez2
 !s100 cFe@IiMn76mOE=n4z4VRW0
 R8
 32
-R21
+R24
 !i10b 1
-R22
-Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/REG11B.vhd|
-Z61 !s107 C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/REG11B.vhd|
+R25
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/REG11B.vhd|
+Z71 !s107 C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/REG11B.vhd|
 !i113 1
 R13
 R14
@@ -454,17 +477,17 @@ V?mFFQXAzLB5;kLl`AUFCY3
 !s100 PkcRQo3CM3;=b7=ZX[c[b3
 R8
 32
-R21
+R24
 !i10b 1
-R22
-R60
-R61
+R25
+R70
+R71
 !i113 1
 R13
 R14
 vtb_fir
 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-R21
+R24
 !i10b 1
 !s100 @ez=5i[9B;]=HifN^GOVT0
 I?3U4T^2iDGVjOjMT?U99A0
@@ -480,7 +503,7 @@ OV;L;10.5b;63
 r1
 !s85 0
 31
-R22
+R25
 !s107 C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/tb_fir.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Lorenzo/Documents/GitHub/labISA/lab1/hdl_2.1/tb_fir.sv|
 !i113 1
