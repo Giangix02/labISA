@@ -25,6 +25,7 @@ entity data_maker is
     B7      : out std_logic_vector(NBIT-1 downto 0);
     B8      : out std_logic_vector(NBIT-1 downto 0);
     B9      : out std_logic_vector(NBIT-1 downto 0);
+    B10      : out std_logic_vector(NBIT-1 downto 0);
     --A1      : out std_logic_vector(NBIT-1 downto 0);
     --A2      : out std_logic_vector(NBIT-1 downto 0);
     END_SIM : out std_logic);
@@ -53,7 +54,8 @@ begin  -- beh
   B6 <= conv_std_logic_vector(281, NBIT);
   B7 <= conv_std_logic_vector(65, NBIT);
   B8 <= conv_std_logic_vector(-26, NBIT);
-  B9 <= conv_std_logic_vector(-1, NBIT);
+  B9 <= conv_std_logic_vector(-13, NBIT);
+  B10 <= conv_std_logic_vector(-1, NBIT);
   --A1 <= conv_std_logic_vector(-711, NBIT);
   --A2 <= conv_std_logic_vector(115, NBIT);
 
