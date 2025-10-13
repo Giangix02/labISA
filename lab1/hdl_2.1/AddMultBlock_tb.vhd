@@ -60,5 +60,6 @@ mul_in_tb <= "00" & mul_out_tb(21 downto 13);
 moltiplicatore : Mult port map (din_tb, in0_tb, mul_out_tb);
 
 cell : AddMultBlock port map (din_tb, cf_tb, mul_in_tb, clk_tb, rst_tb, vin_tb, dout_tb, datarg_tb);
+cell1 : AddMultBlock port map (din1_tb, cf1_tb, mul1_in_tb, clk_tb, rst_tb, vin_tb, dout1_tb, datarg1_tb);
 
 end behavior;
