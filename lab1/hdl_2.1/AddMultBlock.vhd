@@ -40,7 +40,7 @@ ARCHITECTURE beh of AddMultBlock is
 
 	DATA_REG <= INMUL0;
 
-	DINadd1 <= "00" & MUL_OUT(21 downto 13);
+	DINadd1 <= MUL_OUT(21 downto 13) & "00";
 	Addereeno: Adder port map(DINadd0, DINadd1, Dout); 
 	Multiplier: Mult port map(INMUL0, INMUL1, MUL_OUT);
 	Reg_data: REG11B port map(CLK,Vin,RSTn,DIN,INMUL0);
