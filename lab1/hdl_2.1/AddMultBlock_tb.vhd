@@ -54,7 +54,7 @@ wait;
 end process;
 
 in0_tb <= unsigned(conv_std_logic_vector(-1, 11));
-mul_in_tb <= "00" & mult_out_tb(21 downto 13);
+mul_in_tb <= "00" & mul_out_tb(21 downto 13);
 
 moltiplicatore : Mult port map (din_tb, in0_tb, mul_out_tb);
 
