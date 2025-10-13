@@ -1,0 +1,67 @@
+{C:/Users/Lorenzo/Desktop/ISA/Lab1/hdl_2.1(try personale)/clk_gen.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Lorenzo/Desktop/ISA/Lab1/hdl_2.1(try personale)/clk_gen.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity clk_gen
+-- Compiling architecture beh of clk_gen
+
+} {} {}} {C:/Users/Lorenzo/Desktop/ISA/Lab1/hdl_2.1(try personale)/FF.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Lorenzo/Desktop/ISA/Lab1/hdl_2.1(try personale)/FF.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FF
+-- Compiling architecture beh of FF
+
+} {} {}} {C:/Users/Lorenzo/Desktop/ISA/Lab1/hdl_2.1(try personale)/Adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Lorenzo/Desktop/ISA/Lab1/hdl_2.1(try personale)/Adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Adder
+-- Compiling architecture beh of Adder
+
+} {} {}} {C:/Users/Lorenzo/Desktop/ISA/Lab1/hdl_2.1(try personale)/tb_fir.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Lorenzo/Desktop/ISA/Lab1/hdl_2.1(try personale)/tb_fir.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_fir
+
+Top level modules:
+	tb_fir
+
+} {} {}} {C:/Users/Lorenzo/Desktop/ISA/Lab1/hdl_2.1(try personale)/FIR.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Lorenzo/Desktop/ISA/Lab1/hdl_2.1(try personale)/FIR.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity FIR
+-- Compiling architecture STRUCTURAL of FIR
+
+} {} {}} {C:/Users/Lorenzo/Desktop/ISA/Lab1/hdl_2.1(try personale)/REG11B.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Lorenzo/Desktop/ISA/Lab1/hdl_2.1(try personale)/REG11B.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity REG11B
+-- Compiling architecture beh of REG11B
+
+} {} {}} {C:/Users/Lorenzo/Desktop/ISA/Lab1/hdl_2.1(try personale)/Mult.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Lorenzo/Desktop/ISA/Lab1/hdl_2.1(try personale)/Mult.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Mult
+-- Compiling architecture beh of Mult
+
+} {} {}}

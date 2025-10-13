@@ -42,11 +42,11 @@ module tb_fir ();
 		 .B10(H10_i),
 		 .END_SIM(END_SIM_i));
 
-   FIRV2 UUT(.CLK(CLK_i),
+   FIR UUT(.CLK(CLK_i),
 	     .RSTn(RST_n_i),
 	     .DIN(DIN_i),
              .VIN(VIN_i),
-	     		 .C0(H0_i),
+	    	.C0(H0_i),
 		 .C1(H1_i),
 		 .C2(H2_i),
 		 .C3(H3_i),
