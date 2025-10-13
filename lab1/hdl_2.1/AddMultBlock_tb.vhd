@@ -28,7 +28,7 @@ component AddMultBlock
 END component;
 
 signal din_tb, cf_tb, dinadd_tb, dout_tb, datarg_tb, in0_tb, in1_tb, mul_in_tb: unsigned(10 downto 0);
-signal mul_in_tb: unsigned(22 downto 0);
+signal mul_out_tb: unsigned(22 downto 0);
 signal clk_tb, rst_tb, vin_tb : std_logic;
 
 begin
