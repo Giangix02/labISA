@@ -1,4 +1,4 @@
-//`timescale 1ns
+`timescale 1ns/1ps
 
 module tb_fir ();
 
@@ -62,6 +62,13 @@ module tb_fir ();
 		.VIN(VOUT_i),
 		.DIN(DOUT_i));   
 
+
+	initial begin
+		#40000;
+		$finish(1);
+	end
+
 endmodule
+
 
 		   
