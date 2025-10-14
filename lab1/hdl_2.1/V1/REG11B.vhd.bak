@@ -1,13 +1,13 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_arith.all;
-use ieee.std_logic_signed.all;
+use ieee.std_logic_unsigned.all;
 
 ENTITY REG11B IS
 
 	PORT(CLK,EN,RSTn: IN STD_LOGIC;
-         Din: IN signed(10 downto 0);
-	     Dout: OUT signed(10 downto 0)     
+             Din: IN SIGNED(10 downto 0);
+	     Dout: OUT SIGNED(10 downto 0)     
 	     );
 
 END REG11B;
