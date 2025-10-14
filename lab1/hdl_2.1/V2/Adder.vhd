@@ -4,8 +4,8 @@ use ieee.std_logic_arith.all;
 use ieee.std_logic_signed.all;
 
 ENTITY Adder is
-	PORT(IN0, IN1: IN SIGNED(10 downto 0);
-             Sum: OUT SIGNED(10 downto 0)
+	PORT(IN0, IN1: IN SIGNED(11 downto 0);
+             Sum: OUT SIGNED(11 downto 0)
 	);
 
 END Adder;

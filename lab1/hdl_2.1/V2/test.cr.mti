@@ -8,6 +8,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity clk_gen
 -- Compiling architecture beh of clk_gen
 
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/REG12B.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/REG12B.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity REG12B
+-- Compiling architecture beh of REG12B
+
 } {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/FF.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/FF.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -26,17 +36,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity Adder
 -- Compiling architecture beh of Adder
 
-} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/data_maker.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/data_maker.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Loading package std_logic_textio
--- Compiling entity data_maker
--- Compiling architecture beh of data_maker
-
 } {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/tb_fir.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/tb_fir.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module tb_fir
@@ -44,15 +43,16 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	tb_fir
 
-} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/FIRV3.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\hdl_2.1\V2\FIRV3.vhd}
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/data_maker.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/data_maker.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package std_logic_arith
 -- Loading package STD_LOGIC_SIGNED
--- Compiling entity FIRV3
--- Compiling architecture struct of FIRV3
+-- Loading package std_logic_textio
+-- Compiling entity data_maker
+-- Compiling architecture beh of data_maker
 
 } {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/AddMultBlockV2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\hdl_2.1\V2\AddMultBlockV2.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -64,26 +64,26 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity AddMultBlockV2
 -- Compiling architecture beh of AddMultBlockV2
 
-} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/data_sink.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\hdl_2.1\V2\data_sink.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Loading package std_logic_textio
--- Compiling entity data_sink
--- Compiling architecture beh of data_sink
-
-} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/REG11B.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/REG11B.vhd}
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/FIRV3.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\hdl_2.1\V2\FIRV3.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package std_logic_arith
 -- Loading package STD_LOGIC_SIGNED
--- Compiling entity REG11B
--- Compiling architecture beh of REG11B
+-- Compiling entity FIRV3
+-- Compiling architecture struct of FIRV3
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/data_sink.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/data_sink.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package std_logic_textio
+-- Compiling entity data_sink
+-- Compiling architecture beh of data_sink
 
 } {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/Mult.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/Mult.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -94,5 +94,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package STD_LOGIC_SIGNED
 -- Compiling entity Mult
 -- Compiling architecture beh of Mult
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/REG11B.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/hdl_2.1/V2/REG11B.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity REG11B
+-- Compiling architecture beh of REG11B
 
 } {} {}}
