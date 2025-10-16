@@ -1,4 +1,4 @@
-fs=10000 %% sampling frequency
+fs=10000; %% sampling frequency
 f1=500;  %% first sinewave freq (in band)
 f2=3500; %% second sinnewave freq (out band)
 
@@ -22,9 +22,9 @@ y=filter(bq, 1, x); %% apply filter
 
 %% plots
 figure
-% plot(tt,x1,'--d');
+plot(tt,x1,'--d');
 hold on
-% plot(tt,x2,'r--s');
+plot(tt,x2,'r--s');
 plot(tt,x, 'g');
 plot(tt, y, 'b');
 
