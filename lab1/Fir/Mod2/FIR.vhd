@@ -16,11 +16,13 @@ END FIR;
 
 ARCHITECTURE struct of FIR is
 	
-	--COMPONENT Adder
-		--PORT(IN0, IN1: IN signed(10 downto 0);
-        --     	     Sum: OUT signed(10 downto 0)
-		--	);
-	--END COMPONENT;
+	COMPONENT FF IS
+
+		PORT(D,CLK,EN,RSTn: IN STD_LOGIC;
+	     	Q: OUT STD_LOGIC     
+	     	);
+
+	END COMPONENT;
 
         COMPONENT Mult
 		PORT(IN0, IN1: IN signed(10 downto 0);
@@ -45,43 +47,46 @@ ARCHITECTURE struct of FIR is
 
 
 	type ADDout_arr is array(0 to 9) of signed(10 downto 0);
-    type Dout_reg_arr is array (0 to 10) of signed(10 downto 0);
+    	type Dout_reg_arr is array (0 to 10) of signed(10 downto 0);
 
 	signal DoutReg: Dout_reg_arr;
 	signal ADDout: Addout_arr;
-	signal Coeff0_out, Add0_in, ADD9, ADD9_x2: signed(10 downto 0);
+	signal Coeff0_out, Add0_in: signed(10 downto 0);
 	signal mult_out: signed (21 downto 0);
+	signal vin_FF_out: std_logic;
 	
 	
 
 	begin
 		
-	VOUT <= VIN;
+
+	--VIN->VOUT relation
+
+	VIN_FF: FF port map(VIN,clk,'1',RSTn,vin_FF_out);
+	VOUT_FF: FF port map(vin_FF_out,clk,'1',RSTn,VOUT);
 
        --cell0 (different from the others)
 
 	Data_reg0: REG11B port map(clk,VIN,RSTn,DIN,DoutReg(0));
+	Coeff0_reg: REG11B port map(clk,'1',RSTn,C0,Coeff0_out);
+	mult0: mult port map(DoutReg(0),Coeff0_out,mult_out);
+	Add0_in <= mult_out(20 downto 13) & "000";
+	     
 
-	mult0: mult port map(DoutReg(0),C0,mult_out);
-	Add0_in <= mult_out(21 downto 13) & "00";
-
-     
-
-    	cell1:      AddMultBlockV2 port map(DoutReg(0),C1,Add0_in,CLK,RSTn,VIN,Addout(0),DoutReg(1));
-	cell2: 	    AddMultBlockV2 port map(DoutReg(1),C2,Addout(0),CLK,RSTn,VIN,Addout(1),DoutReg(2));
-	cell3: 	    AddMultBlockV2 port map(DoutReg(2),C3,Addout(1),CLK,RSTn,VIN,Addout(2),DoutReg(3));
-	cell4: 	    AddMultBlockV2 port map(DoutReg(3),C4,Addout(2),CLK,RSTn,VIN,Addout(3),DoutReg(4));
-	cell5: 	    AddMultBlockV2 port map(DoutReg(4),C5,Addout(3),CLK,RSTn,VIN,Addout(4),DoutReg(5));
-	cell6: 	    AddMultBlockV2 port map(DoutReg(5),C6,Addout(4),CLK,RSTn,VIN,Addout(5),DoutReg(6));
-	cell7: 	    AddMultBlockV2 port map(DoutReg(6),C7,Addout(5),CLK,RSTn,VIN,Addout(6),DoutReg(7));
-	cell8: 	    AddMultBlockV2 port map(DoutReg(7),C8,Addout(6),CLK,RSTn,VIN,Addout(7),DoutReg(8));
-	cell9: 	    AddMultBlockV2 port map(DoutReg(8),C9,Addout(7),CLK,RSTn,VIN,Addout(8),DoutReg(9));
-	cell10:     AddMultBlockV2 port map(DoutReg(9),C10,Addout(8),CLK,RSTn,VIN,Addout(9),DoutReg(10));
+    	cell1:      AddMultBlockV2 port map(DoutReg(0),C1,Add0_in,CLK,RSTn,vin_FF_out,Addout(0),DoutReg(1));
+	cell2: 	    AddMultBlockV2 port map(DoutReg(1),C2,Addout(0),CLK,RSTn,vin_FF_out,Addout(1),DoutReg(2));
+	cell3: 	    AddMultBlockV2 port map(DoutReg(2),C3,Addout(1),CLK,RSTn,vin_FF_out,Addout(2),DoutReg(3));
+	cell4: 	    AddMultBlockV2 port map(DoutReg(3),C4,Addout(2),CLK,RSTn,vin_FF_out,Addout(3),DoutReg(4));
+	cell5: 	    AddMultBlockV2 port map(DoutReg(4),C5,Addout(3),CLK,RSTn,vin_FF_out,Addout(4),DoutReg(5));
+	cell6: 	    AddMultBlockV2 port map(DoutReg(5),C6,Addout(4),CLK,RSTn,vin_FF_out,Addout(5),DoutReg(6));
+	cell7: 	    AddMultBlockV2 port map(DoutReg(6),C7,Addout(5),CLK,RSTn,vin_FF_out,Addout(6),DoutReg(7));
+	cell8: 	    AddMultBlockV2 port map(DoutReg(7),C8,Addout(6),CLK,RSTn,vin_FF_out,Addout(7),DoutReg(8));
+	cell9: 	    AddMultBlockV2 port map(DoutReg(8),C9,Addout(7),CLK,RSTn,vin_FF_out,Addout(8),DoutReg(9));
+	cell10:     AddMultBlockV2 port map(DoutReg(9),C10,Addout(8),CLK,RSTn,vin_FF_out,Addout(9),DoutReg(10));
 
 
-	ADD9 <= Addout(9);
-	ADD9_x2 <= ADD9(9 downto 0) & "0"; --multiply by 2 (there shouldn't be underflow or overflow)	
-        output_register: REG11B port map(clk,VIN,RSTn,ADD9_x2,DOUT);
+	
+        output_register: REG11B port map(clk,vin_FF_out,RSTn,Addout(9),DOUT);
 
 	
 END struct;

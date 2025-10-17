@@ -33,16 +33,18 @@ ARCHITECTURE beh of AddMultBlockV2 is
 	     		);
 	END COMPONENT;
 
-	SIGNAL INMUL0, DINadd1: signed (10 downto 0);
+	SIGNAL INMUL0, DINadd1, Coeff_reg_out: signed (10 downto 0);
 	SIGNAL MUL_OUT: signed (21 downto 0);
 
 	begin
 
 	DATA_REG <= INMUL0;
 
-	DINadd1 <= MUL_OUT(21 downto 13) & "00";
+	COEFF_REG: REG11B port map(CLK,'1',RSTn,Coeff,Coeff_reg_out);
+
+	DINadd1 <= MUL_OUT(20 downto 13) & "000";
 	Addereeno: Adder port map(DINadd0, DINadd1, Dout); 
-	Multiplier: Mult port map(INMUL0, Coeff, MUL_OUT);
+	Multiplier: Mult port map(INMUL0, Coeff_reg_out, MUL_OUT);
 	Reg_data: REG11B port map(CLK,Vin,RSTn,DIN,INMUL0);
 	
 	
