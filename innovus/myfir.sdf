@@ -1,0 +1,5673 @@
+(DELAYFILE
+  (SDFVERSION "3.0")
+  (DESIGN "myfir")
+  (DATE "Sat Oct 18 14:32:44 2025")
+  (VENDOR "Cadence Design Systems, Inc.")
+  (PROGRAM "Innovus")
+  (VERSION "v20.11-s130_1 ((64bit) 08/05/2020 15:53 (Linux 2.6.32-431.11.2.el6.x86_64))")
+  (DIVIDER /)
+  (VOLTAGE 1.100000::1.100000)
+  (PROCESS "1.000000::1.000000")
+  (TEMPERATURE 25.000000::25.000000)
+  (TIMESCALE 1.0 ns)
+
+  (CELL
+    (CELLTYPE  "myfir")
+    (INSTANCE)
+      (DELAY
+	(ABSOLUTE
+	(INTERCONNECT FE_PHC523_RSTn/Z FE_PHC522_RSTn/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC520_RSTn/Z FE_PHC519_RSTn/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC518_RSTn/Z Coeff0_reg_Dout_reg_1_/RN  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC517_RSTn/Z FE_PHC403_RSTn/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC517_RSTn/Z FE_PHC516_RSTn/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC516_RSTn/Z Coeff0_reg_Dout_reg_2_/RN  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC515_C4_4/Z FE_PHC372_C4_4/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC501_C10_3/Z FE_PHC344_C10_3/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC499_C1_9/Z FE_PHC293_C1_9/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC498_C10_5/Z FE_PHC294_C10_5/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC497_DIN_8/Z FE_PHC302_DIN_8/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC496_C10_7/Z FE_PHC326_C10_7/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC494_C10_2/Z FE_PHC313_C10_2/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC493_C10_10/Z FE_PHC343_C10_10/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC492_DIN_5/Z FE_PHC370_DIN_5/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC489_C10_9/Z FE_PHC330_C10_9/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC474_C0_0/Z FE_PHC296_C0_0/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC467_C8_6/Z FE_PHC355_C8_6/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC465_C0_2/Z FE_PHC325_C0_2/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC461_C2_7/Z FE_PHC324_C2_7/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC458_C0_4/Z FE_PHC341_C0_4/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC457_C0_8/Z FE_PHC350_C0_8/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC454_C3_10/Z FE_PHC307_C3_10/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC449_C0_3/Z FE_PHC331_C0_3/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC443_C3_7/Z FE_PHC304_C3_7/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC427_C8_10/Z FE_PHC360_C8_10/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC422_C2_5/Z FE_PHC379_C2_5/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC395_C4_2/Z FE_PHC229_C4_2/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC391_DIN_9/Z FE_PHC250_DIN_9/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC389_C9_4/Z FE_PHC178_C9_4/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC385_C5_3/Z cell5_COEFF_REG_Dout_reg_3_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC372_C4_4/Z FE_PHC184_C4_4/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC361_C8_4/Z FE_PHC152_C8_4/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC346_C10_8/Z FE_PHC222_C10_8/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC344_C10_3/Z FE_PHC153_C10_3/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC338_C7_9/Z FE_PHC218_C7_9/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC337_C0_5/Z FE_PHC259_C0_5/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC333_C1_7/Z FE_PHC263_C1_7/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC326_C10_7/Z FE_PHC168_C10_7/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC317_C10_1/Z FE_PHC223_C10_1/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC316_C0_7/Z FE_PHC147_C0_7/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC312_C1_10/Z FE_PHC159_C1_10/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC306_C0_9/Z FE_PHC156_C0_9/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC305_C9_5/Z FE_PHC158_C9_5/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC303_DIN_1/Z FE_PHC146_DIN_1/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC296_C0_0/Z FE_PHC160_C0_0/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC293_C1_9/Z FE_PHC248_C1_9/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC292_DIN_7/Z FE_PHC194_DIN_7/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC289_C5_4/Z FE_PHC242_C5_4/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC287_C6_6/Z FE_PHC268_C6_6/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC286_C6_3/Z FE_PHC142_C6_3/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC274_C4_10/Z FE_PHC180_C4_10/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC273_C4_9/Z FE_PHC209_C4_9/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC272_C4_3/Z FE_PHC227_C4_3/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC268_C6_6/Z FE_PHC129_C6_6/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC267_C4_7/Z FE_PHC126_C4_7/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC263_C1_7/Z FE_PHC93_C1_7/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC261_C1_0/Z FE_PHC90_C1_0/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC258_C9_1/Z FE_PHC81_C9_1/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC246_C0_2/Z FE_PHC38_C0_2/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC236_C6_5/Z FE_PHC51_C6_5/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC229_C4_2/Z FE_PHC50_C4_2/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC225_DIN_2/Z FE_PHC101_DIN_2/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC187_C2_0/Z FE_PHC107_C2_0/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC185_C0_1/Z FE_PHC86_C0_1/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC179_DIN_3/Z FE_PHC10_DIN_3/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC178_C9_4/Z FE_PHC80_C9_4/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC171_C10_2/Z FE_PHC99_C10_2/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC158_C9_5/Z FE_PHC12_C9_5/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC157_C10_4/Z FE_PHC8_C10_4/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC156_C0_9/Z FE_PHC121_C0_9/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC155_C1_8/Z FE_PHC91_C1_8/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC153_C10_3/Z FE_PHC33_C10_3/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC150_C0_10/Z FE_PHC120_C0_10/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC148_C7_6/Z FE_PHC97_C7_6/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC147_C0_7/Z FE_PHC87_C0_7/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC145_DIN_0/Z FE_PHC47_DIN_0/A  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC137_VIN/Z VIN_FF_Q_reg/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC136_RSTn/Z Coeff0_reg_Dout_reg_3_/RN  (0.013::) (0.011::))
+	(INTERCONNECT FE_PHC136_RSTn/Z Data_reg0_Dout_reg_10_/RN  (0.011::) (0.010::))
+	(INTERCONNECT FE_PHC136_RSTn/Z Data_reg0_Dout_reg_5_/RN  (0.011::) (0.010::))
+	(INTERCONNECT FE_PHC136_RSTn/Z Coeff0_reg_Dout_reg_8_/RN  (0.013::) (0.012::))
+	(INTERCONNECT FE_PHC136_RSTn/Z Data_reg0_Dout_reg_4_/RN  (0.011::) (0.009::))
+	(INTERCONNECT FE_PHC136_RSTn/Z Coeff0_reg_Dout_reg_4_/RN  (0.013::) (0.012::))
+	(INTERCONNECT FE_PHC136_RSTn/Z Data_reg0_Dout_reg_1_/RN  (0.010::) (0.009::))
+	(INTERCONNECT FE_PHC136_RSTn/Z Coeff0_reg_Dout_reg_7_/RN  (0.014::) (0.012::))
+	(INTERCONNECT FE_PHC136_RSTn/Z Coeff0_reg_Dout_reg_6_/RN  (0.014::) (0.012::))
+	(INTERCONNECT FE_PHC136_RSTn/Z Data_reg0_Dout_reg_3_/RN  (0.010::) (0.009::))
+	(INTERCONNECT FE_PHC136_RSTn/Z Coeff0_reg_Dout_reg_10_/RN  (0.014::) (0.013::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell10_COEFF_REG_Dout_reg_10_/RN  (0.014::) (0.012::))
+	(INTERCONNECT FE_PHC136_RSTn/Z Coeff0_reg_Dout_reg_5_/RN  (0.014::) (0.012::))
+	(INTERCONNECT FE_PHC136_RSTn/Z Data_reg0_Dout_reg_0_/RN  (0.009::) (0.008::))
+	(INTERCONNECT FE_PHC136_RSTn/Z Coeff0_reg_Dout_reg_9_/RN  (0.014::) (0.013::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell10_COEFF_REG_Dout_reg_8_/RN  (0.014::) (0.012::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_COEFF_REG_Dout_reg_10_/RN  (0.009::) (0.008::))
+	(INTERCONNECT FE_PHC136_RSTn/Z Data_reg0_Dout_reg_2_/RN  (0.009::) (0.008::))
+	(INTERCONNECT FE_PHC136_RSTn/Z VOUT_FF_Q_reg/SN  (0.014::) (0.013::))
+	(INTERCONNECT FE_PHC136_RSTn/Z VIN_FF_Q_reg/SN  (0.014::) (0.013::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell10_COEFF_REG_Dout_reg_7_/RN  (0.014::) (0.012::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_COEFF_REG_Dout_reg_8_/RN  (0.008::) (0.007::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_COEFF_REG_Dout_reg_6_/RN  (0.009::) (0.008::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_COEFF_REG_Dout_reg_9_/RN  (0.007::) (0.006::))
+	(INTERCONNECT FE_PHC136_RSTn/Z Data_reg0_Dout_reg_8_/RN  (0.006::) (0.005::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_COEFF_REG_Dout_reg_5_/RN  (0.009::) (0.008::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_COEFF_REG_Dout_reg_4_/RN  (0.009::) (0.008::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_COEFF_REG_Dout_reg_7_/RN  (0.007::) (0.006::))
+	(INTERCONNECT FE_PHC136_RSTn/Z Data_reg0_Dout_reg_6_/RN  (0.005::) (0.004::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_COEFF_REG_Dout_reg_1_/RN  (0.009::) (0.008::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_COEFF_REG_Dout_reg_0_/RN  (0.009::) (0.008::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_COEFF_REG_Dout_reg_2_/RN  (0.009::) (0.008::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_COEFF_REG_Dout_reg_3_/RN  (0.009::) (0.008::))
+	(INTERCONNECT FE_PHC136_RSTn/Z Data_reg0_Dout_reg_9_/RN  (0.004::) (0.003::))
+	(INTERCONNECT FE_PHC136_RSTn/Z Data_reg0_Dout_reg_7_/RN  (0.004::) (0.004::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_Reg_data_Dout_reg_7_/RN  (0.003::) (0.003::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_Reg_data_Dout_reg_2_/RN  (0.003::) (0.002::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_Reg_data_Dout_reg_4_/RN  (0.003::) (0.002::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_Reg_data_Dout_reg_5_/RN  (0.005::) (0.004::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_Reg_data_Dout_reg_0_/RN  (0.004::) (0.003::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_Reg_data_Dout_reg_6_/RN  (0.005::) (0.004::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_Reg_data_Dout_reg_1_/RN  (0.004::) (0.003::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_Reg_data_Dout_reg_8_/RN  (0.006::) (0.005::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_Reg_data_Dout_reg_3_/RN  (0.004::) (0.003::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_Reg_data_Dout_reg_10_/RN  (0.007::) (0.005::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell1_Reg_data_Dout_reg_9_/RN  (0.007::) (0.006::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_Reg_data_Dout_reg_10_/RN  (0.009::) (0.008::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_Reg_data_Dout_reg_9_/RN  (0.010::) (0.008::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_Reg_data_Dout_reg_7_/RN  (0.010::) (0.008::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_Reg_data_Dout_reg_0_/RN  (0.010::) (0.009::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_Reg_data_Dout_reg_8_/RN  (0.011::) (0.009::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_Reg_data_Dout_reg_6_/RN  (0.011::) (0.010::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_Reg_data_Dout_reg_4_/RN  (0.012::) (0.010::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_Reg_data_Dout_reg_5_/RN  (0.012::) (0.011::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_Reg_data_Dout_reg_2_/RN  (0.013::) (0.011::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_Reg_data_Dout_reg_3_/RN  (0.013::) (0.012::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_Reg_data_Dout_reg_1_/RN  (0.014::) (0.012::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_COEFF_REG_Dout_reg_1_/RN  (0.014::) (0.013::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_COEFF_REG_Dout_reg_2_/RN  (0.015::) (0.013::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_COEFF_REG_Dout_reg_0_/RN  (0.014::) (0.013::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_COEFF_REG_Dout_reg_10_/RN  (0.015::) (0.014::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_COEFF_REG_Dout_reg_3_/RN  (0.015::) (0.014::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_COEFF_REG_Dout_reg_8_/RN  (0.015::) (0.014::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_COEFF_REG_Dout_reg_7_/RN  (0.015::) (0.014::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_COEFF_REG_Dout_reg_4_/RN  (0.015::) (0.014::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_COEFF_REG_Dout_reg_9_/RN  (0.015::) (0.014::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_COEFF_REG_Dout_reg_5_/RN  (0.015::) (0.014::))
+	(INTERCONNECT FE_PHC136_RSTn/Z cell2_COEFF_REG_Dout_reg_6_/RN  (0.015::) (0.014::))
+	(INTERCONNECT FE_PHC135_DIN_7/Z Data_reg0_Dout_reg_7_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC134_C7_0/Z cell7_COEFF_REG_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC133_C1_1/Z cell1_COEFF_REG_Dout_reg_1_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC132_C6_10/Z cell6_COEFF_REG_Dout_reg_10_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC131_C6_0/Z cell6_COEFF_REG_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC130_C6_1/Z cell6_COEFF_REG_Dout_reg_1_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC129_C6_6/Z cell6_COEFF_REG_Dout_reg_6_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC128_C4_4/Z cell4_COEFF_REG_Dout_reg_4_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC127_C4_1/Z cell4_COEFF_REG_Dout_reg_1_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC126_C4_7/Z cell4_COEFF_REG_Dout_reg_7_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC125_DIN_6/Z Data_reg0_Dout_reg_6_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC124_C10_7/Z cell10_COEFF_REG_Dout_reg_7_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC123_C7_1/Z cell7_COEFF_REG_Dout_reg_1_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC122_C7_2/Z cell7_COEFF_REG_Dout_reg_2_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC121_C0_9/Z Coeff0_reg_Dout_reg_9_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC120_C0_10/Z Coeff0_reg_Dout_reg_10_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC119_C0_5/Z Coeff0_reg_Dout_reg_5_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC118_C5_1/Z cell5_COEFF_REG_Dout_reg_1_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC117_C2_9/Z cell2_COEFF_REG_Dout_reg_9_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC116_C3_1/Z cell3_COEFF_REG_Dout_reg_1_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC115_C3_3/Z cell3_COEFF_REG_Dout_reg_3_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC114_C3_5/Z cell3_COEFF_REG_Dout_reg_5_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC113_C2_1/Z cell2_COEFF_REG_Dout_reg_1_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC112_C8_9/Z cell8_COEFF_REG_Dout_reg_9_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC111_C3_2/Z cell3_COEFF_REG_Dout_reg_2_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC110_C3_4/Z cell3_COEFF_REG_Dout_reg_4_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC109_C3_6/Z cell3_COEFF_REG_Dout_reg_6_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC108_C5_2/Z cell5_COEFF_REG_Dout_reg_2_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC107_C2_0/Z cell2_COEFF_REG_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC106_C2_2/Z cell2_COEFF_REG_Dout_reg_2_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC105_C2_8/Z cell2_COEFF_REG_Dout_reg_8_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC104_C5_7/Z cell5_COEFF_REG_Dout_reg_7_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC103_C8_6/Z cell8_COEFF_REG_Dout_reg_6_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC102_C4_3/Z cell4_COEFF_REG_Dout_reg_3_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC101_DIN_2/Z Data_reg0_Dout_reg_2_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC100_C10_8/Z cell10_COEFF_REG_Dout_reg_8_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC99_C10_2/Z cell10_COEFF_REG_Dout_reg_2_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC98_C10_6/Z cell10_COEFF_REG_Dout_reg_6_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC97_C7_6/Z cell7_COEFF_REG_Dout_reg_6_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC96_C7_5/Z cell7_COEFF_REG_Dout_reg_5_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC95_C7_7/Z cell7_COEFF_REG_Dout_reg_7_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC94_C7_9/Z cell7_COEFF_REG_Dout_reg_9_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC93_C1_7/Z cell1_COEFF_REG_Dout_reg_7_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC92_C1_6/Z cell1_COEFF_REG_Dout_reg_6_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC91_C1_8/Z cell1_COEFF_REG_Dout_reg_8_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC90_C1_0/Z cell1_COEFF_REG_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC89_C1_2/Z cell1_COEFF_REG_Dout_reg_2_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC88_C1_10/Z cell1_COEFF_REG_Dout_reg_10_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC87_C0_7/Z Coeff0_reg_Dout_reg_7_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC86_C0_1/Z Coeff0_reg_Dout_reg_1_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC85_C0_3/Z Coeff0_reg_Dout_reg_3_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC84_C0_8/Z Coeff0_reg_Dout_reg_8_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC83_C9_3/Z cell9_COEFF_REG_Dout_reg_3_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC82_C9_0/Z cell9_COEFF_REG_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC81_C9_1/Z cell9_COEFF_REG_Dout_reg_1_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC80_C9_4/Z cell9_COEFF_REG_Dout_reg_4_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC79_C9_10/Z cell9_COEFF_REG_Dout_reg_10_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC78_C5_0/Z cell5_COEFF_REG_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC77_C8_10/Z cell8_COEFF_REG_Dout_reg_10_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC75_C3_0/Z cell3_COEFF_REG_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC74_C3_9/Z cell3_COEFF_REG_Dout_reg_9_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC73_C5_4/Z cell5_COEFF_REG_Dout_reg_4_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC72_C5_5/Z cell5_COEFF_REG_Dout_reg_5_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC71_C5_6/Z cell5_COEFF_REG_Dout_reg_6_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC70_C8_0/Z cell8_COEFF_REG_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC69_C8_2/Z cell8_COEFF_REG_Dout_reg_2_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC68_C3_8/Z cell3_COEFF_REG_Dout_reg_8_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC67_C3_10/Z cell3_COEFF_REG_Dout_reg_10_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC66_C5_8/Z cell5_COEFF_REG_Dout_reg_8_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC65_C5_9/Z cell5_COEFF_REG_Dout_reg_9_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC64_C8_1/Z cell8_COEFF_REG_Dout_reg_1_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC63_C8_7/Z cell8_COEFF_REG_Dout_reg_7_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC62_C5_10/Z cell5_COEFF_REG_Dout_reg_10_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC61_C8_5/Z cell8_COEFF_REG_Dout_reg_5_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC60_C8_8/Z cell8_COEFF_REG_Dout_reg_8_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC59_C4_10/Z cell4_COEFF_REG_Dout_reg_10_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC58_C4_6/Z cell4_COEFF_REG_Dout_reg_6_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC57_C7_10/Z cell7_COEFF_REG_Dout_reg_10_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC56_DIN_8/Z Data_reg0_Dout_reg_8_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC55_C7_4/Z cell7_COEFF_REG_Dout_reg_4_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC54_C0_4/Z Coeff0_reg_Dout_reg_4_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC53_C9_8/Z cell9_COEFF_REG_Dout_reg_8_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC52_C3_7/Z cell3_COEFF_REG_Dout_reg_7_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC51_C6_5/Z cell6_COEFF_REG_Dout_reg_5_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC50_C4_2/Z cell4_COEFF_REG_Dout_reg_2_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC49_C4_5/Z cell4_COEFF_REG_Dout_reg_5_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC48_C4_8/Z cell4_COEFF_REG_Dout_reg_8_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC47_DIN_0/Z Data_reg0_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC46_DIN_10/Z Data_reg0_Dout_reg_10_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC45_C10_10/Z cell10_COEFF_REG_Dout_reg_10_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC44_C10_0/Z cell10_COEFF_REG_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC43_C10_1/Z cell10_COEFF_REG_Dout_reg_1_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC42_C1_9/Z cell1_COEFF_REG_Dout_reg_9_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC41_C1_3/Z cell1_COEFF_REG_Dout_reg_3_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC40_C0_6/Z Coeff0_reg_Dout_reg_6_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC39_C0_0/Z Coeff0_reg_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC38_C0_2/Z Coeff0_reg_Dout_reg_2_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC37_C9_2/Z cell9_COEFF_REG_Dout_reg_2_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC36_C6_3/Z cell6_COEFF_REG_Dout_reg_3_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC35_C6_2/Z cell6_COEFF_REG_Dout_reg_2_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC34_DIN_9/Z Data_reg0_Dout_reg_9_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC33_C10_3/Z cell10_COEFF_REG_Dout_reg_3_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC32_C10_9/Z cell10_COEFF_REG_Dout_reg_9_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC31_C1_4/Z cell1_COEFF_REG_Dout_reg_4_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC30_C1_5/Z cell1_COEFF_REG_Dout_reg_5_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC29_C9_7/Z cell9_COEFF_REG_Dout_reg_7_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC28_C9_9/Z cell9_COEFF_REG_Dout_reg_9_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC27_C2_4/Z cell2_COEFF_REG_Dout_reg_4_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC26_C8_4/Z cell8_COEFF_REG_Dout_reg_4_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC25_C6_7/Z cell6_COEFF_REG_Dout_reg_7_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC24_C4_0/Z cell4_COEFF_REG_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC23_C4_9/Z cell4_COEFF_REG_Dout_reg_9_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC22_C7_8/Z cell7_COEFF_REG_Dout_reg_8_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC21_C2_6/Z cell2_COEFF_REG_Dout_reg_6_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC20_C2_7/Z cell2_COEFF_REG_Dout_reg_7_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC19_C2_10/Z cell2_COEFF_REG_Dout_reg_10_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC18_C8_3/Z cell8_COEFF_REG_Dout_reg_3_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC17_C6_4/Z cell6_COEFF_REG_Dout_reg_4_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC16_C6_9/Z cell6_COEFF_REG_Dout_reg_9_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC15_C6_8/Z cell6_COEFF_REG_Dout_reg_8_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC14_C7_3/Z cell7_COEFF_REG_Dout_reg_3_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC13_C9_6/Z cell9_COEFF_REG_Dout_reg_6_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC12_C9_5/Z cell9_COEFF_REG_Dout_reg_5_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC11_C2_5/Z cell2_COEFF_REG_Dout_reg_5_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC10_DIN_3/Z Data_reg0_Dout_reg_3_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC9_DIN_5/Z Data_reg0_Dout_reg_5_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC8_C10_4/Z cell10_COEFF_REG_Dout_reg_4_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC7_C10_5/Z cell10_COEFF_REG_Dout_reg_5_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC6_C2_3/Z cell2_COEFF_REG_Dout_reg_3_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC5_DIN_4/Z Data_reg0_Dout_reg_4_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC4_DIN_1/Z Data_reg0_Dout_reg_1_/D  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC3_VIN/Z Data_reg0_clk_gate_Dout_reg/latch/E  (0.000::) (0.000::))
+	(INTERCONNECT FE_PHC3_VIN/Z FE_PHC137_VIN/A  (0.000::) (0.000::))
+	(INTERCONNECT CTS_ccl_a_buf_00015/Z cell4_Reg_data_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00015/Z cell3_Reg_data_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00015/Z cell3_COEFF_REG_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00015/Z cell2_Reg_data_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00015/Z cell2_COEFF_REG_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00015/Z cell1_Reg_data_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00015/Z cell1_COEFF_REG_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00015/Z Data_reg0_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00013/Z cell8_Reg_data_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00013/Z cell7_Reg_data_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00013/Z cell7_COEFF_REG_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00013/Z cell6_Reg_data_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00013/Z cell6_COEFF_REG_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00013/Z cell5_Reg_data_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00013/Z cell4_COEFF_REG_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00011/Z output_register_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00011/Z cell10_Reg_data_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00011/Z cell10_COEFF_REG_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00011/Z cell9_Reg_data_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00011/Z cell9_COEFF_REG_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00011/Z cell8_COEFF_REG_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00011/Z cell5_COEFF_REG_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00011/Z Coeff0_reg_clk_gate_Dout_reg/latch/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00011/Z CTS_ccl_a_buf_00003/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00003/Z VIN_FF_Q_reg/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT CTS_ccl_a_buf_00003/Z VOUT_FF_Q_reg/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT DIN[9] FE_PHC502_DIN_9/A  (0.000::) (0.000::))
+	(INTERCONNECT DIN[8] FE_PHC497_DIN_8/A  (-0.001::) (-0.001::))
+	(INTERCONNECT DIN[7] FE_PHC510_DIN_7/A  (0.000::) (0.000::))
+	(INTERCONNECT DIN[6] FE_PHC505_DIN_6/A  (0.000::) (0.000::))
+	(INTERCONNECT DIN[5] FE_PHC492_DIN_5/A  (0.000::) (0.000::))
+	(INTERCONNECT DIN[1] FE_PHC513_DIN_1/A  (0.000::) (0.000::))
+	(INTERCONNECT DIN[0] FE_PHC511_DIN_0/A  (0.000::) (0.000::))
+	(INTERCONNECT C0[10] FE_PHC481_C0_10/A  (0.000::) (0.000::))
+	(INTERCONNECT C0[9] FE_PHC486_C0_9/A  (0.000::) (0.000::))
+	(INTERCONNECT C0[8] FE_PHC457_C0_8/A  (-0.000::) (-0.000::))
+	(INTERCONNECT C0[7] FE_PHC487_C0_7/A  (0.000::) (0.000::))
+	(INTERCONNECT C0[6] FE_PHC462_C0_6/A  (0.000::) (0.000::))
+	(INTERCONNECT C0[5] FE_PHC448_C0_5/A  (-0.000::) (-0.000::))
+	(INTERCONNECT C0[4] FE_PHC458_C0_4/A  (-0.000::) (-0.001::))
+	(INTERCONNECT C0[3] FE_PHC449_C0_3/A  (0.000::) (0.000::))
+	(INTERCONNECT C0[2] FE_PHC465_C0_2/A  (-0.000::) (-0.000::))
+	(INTERCONNECT C0[1] FE_PHC475_C0_1/A  (0.000::) (0.000::))
+	(INTERCONNECT C0[0] FE_PHC474_C0_0/A  (0.000::) (0.000::))
+	(INTERCONNECT C1[10] FE_PHC503_C1_10/A  (0.000::) (0.000::))
+	(INTERCONNECT C1[9] FE_PHC499_C1_9/A  (-0.000::) (-0.000::))
+	(INTERCONNECT C1[8] FE_PHC495_C1_8/A  (-0.001::) (-0.001::))
+	(INTERCONNECT C1[6] FE_PHC471_C1_6/A  (-0.000::) (-0.000::))
+	(INTERCONNECT C1[4] FE_PHC460_C1_4/A  (0.000::) (0.000::))
+	(INTERCONNECT C1[3] FE_PHC466_C1_3/A  (0.000::) (0.000::))
+	(INTERCONNECT C1[2] FE_PHC450_C1_2/A  (0.000::) (0.000::))
+	(INTERCONNECT C1[1] FE_PHC470_C1_1/A  (0.000::) (0.000::))
+	(INTERCONNECT C1[0] FE_PHC456_C1_0/A  (0.000::) (0.000::))
+	(INTERCONNECT C3[9] FE_PHC451_C3_9/A  (0.000::) (0.000::))
+	(INTERCONNECT C3[3] FE_PHC472_C3_3/A  (0.000::) (0.000::))
+	(INTERCONNECT C3[2] FE_PHC413_C3_2/A  (0.000::) (0.000::))
+	(INTERCONNECT C3[0] FE_PHC434_C3_0/A  (0.000::) (0.000::))
+	(INTERCONNECT C5[8] FE_PHC423_C5_8/A  (-0.001::) (-0.001::))
+	(INTERCONNECT C5[4] FE_PHC512_C5_4/A  (-0.001::) (-0.001::))
+	(INTERCONNECT C5[3] FE_PHC138_C5_3/A  (0.000::) (0.000::))
+	(INTERCONNECT C5[2] FE_PHC405_C5_2/A  (0.001::) (0.001::))
+	(INTERCONNECT C5[1] FE_PHC424_C5_1/A  (-0.001::) (-0.001::))
+	(INTERCONNECT C5[0] FE_PHC414_C5_0/A  (-0.000::) (-0.000::))
+	(INTERCONNECT C8[1] FE_PHC419_C8_1/A  (0.000::) (0.000::))
+	(INTERCONNECT C8[0] FE_PHC408_C8_0/A  (0.000::) (0.000::))
+	(INTERCONNECT C9[8] FE_PHC426_C9_8/A  (0.000::) (0.000::))
+	(INTERCONNECT C9[6] FE_PHC439_C9_6/A  (0.000::) (0.000::))
+	(INTERCONNECT C10[10] FE_PHC493_C10_10/A  (-0.000::) (-0.000::))
+	(INTERCONNECT C10[9] FE_PHC489_C10_9/A  (-0.000::) (-0.000::))
+	(INTERCONNECT C10[7] FE_PHC496_C10_7/A  (-0.000::) (-0.001::))
+	(INTERCONNECT C10[6] FE_PHC485_C10_6/A  (-0.000::) (-0.000::))
+	(INTERCONNECT C10[5] FE_PHC498_C10_5/A  (-0.000::) (-0.000::))
+	(INTERCONNECT C10[1] FE_PHC477_C10_1/A  (-0.001::) (-0.001::))
+	(INTERCONNECT clk CTS_ccl_a_buf_00011/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT clk CTS_ccl_a_buf_00013/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT clk CTS_ccl_a_buf_00015/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT VIN_FF_Q_reg/Q output_register_clk_gate_Dout_reg/latch/E  (0.002::) (0.002::))
+	(INTERCONNECT VIN_FF_Q_reg/Q cell10_Reg_data_clk_gate_Dout_reg/latch/E  (0.001::) (0.001::))
+	(INTERCONNECT VIN_FF_Q_reg/Q cell9_Reg_data_clk_gate_Dout_reg/latch/E  (0.001::) (0.001::))
+	(INTERCONNECT VIN_FF_Q_reg/Q cell8_Reg_data_clk_gate_Dout_reg/latch/E  (0.005::) (0.005::))
+	(INTERCONNECT VIN_FF_Q_reg/Q cell7_Reg_data_clk_gate_Dout_reg/latch/E  (0.005::) (0.005::))
+	(INTERCONNECT VIN_FF_Q_reg/Q cell6_Reg_data_clk_gate_Dout_reg/latch/E  (0.005::) (0.005::))
+	(INTERCONNECT VIN_FF_Q_reg/Q cell5_Reg_data_clk_gate_Dout_reg/latch/E  (0.005::) (0.005::))
+	(INTERCONNECT VIN_FF_Q_reg/Q cell4_Reg_data_clk_gate_Dout_reg/latch/E  (0.004::) (0.004::))
+	(INTERCONNECT VIN_FF_Q_reg/Q cell3_Reg_data_clk_gate_Dout_reg/latch/E  (0.004::) (0.004::))
+	(INTERCONNECT VIN_FF_Q_reg/Q cell2_Reg_data_clk_gate_Dout_reg/latch/E  (0.003::) (0.003::))
+	(INTERCONNECT VIN_FF_Q_reg/Q cell1_Reg_data_clk_gate_Dout_reg/latch/E  (0.003::) (0.003::))
+	(INTERCONNECT VIN_FF_Q_reg/Q VOUT_FF_Q_reg/D  (0.001::) (0.001::))
+	(INTERCONNECT Data_reg0_Dout_reg_8_/Q mult0_mult_16_U472/B  (0.000::) (0.000::))
+	(INTERCONNECT Data_reg0_Dout_reg_8_/Q mult0_mult_16_U323/A  (0.000::) (0.000::))
+	(INTERCONNECT Data_reg0_Dout_reg_8_/Q cell1_Reg_data_Dout_reg_8_/D  (0.000::) (0.000::))
+	(INTERCONNECT Data_reg0_Dout_reg_6_/Q mult0_mult_16_U468/B  (0.000::) (0.000::))
+	(INTERCONNECT Data_reg0_Dout_reg_6_/Q mult0_mult_16_U322/A  (0.000::) (0.000::))
+	(INTERCONNECT Data_reg0_Dout_reg_6_/Q cell1_Reg_data_Dout_reg_6_/D  (0.000::) (0.000::))
+	(INTERCONNECT Data_reg0_Dout_reg_4_/Q mult0_mult_16_U464/B  (0.000::) (0.000::))
+	(INTERCONNECT Data_reg0_Dout_reg_4_/Q mult0_mult_16_U321/A  (0.000::) (0.000::))
+	(INTERCONNECT Data_reg0_Dout_reg_4_/Q cell1_Reg_data_Dout_reg_4_/D  (0.000::) (0.000::))
+	(INTERCONNECT Data_reg0_Dout_reg_2_/Q mult0_mult_16_U493/A  (0.000::) (0.000::))
+	(INTERCONNECT Data_reg0_Dout_reg_2_/Q mult0_mult_16_U486/B  (0.000::) (0.000::))
+	(INTERCONNECT Data_reg0_Dout_reg_2_/Q cell1_Reg_data_Dout_reg_2_/D  (0.000::) (0.000::))
+	(INTERCONNECT Data_reg0_Dout_reg_0_/Q mult0_mult_16_U315/A  (0.000::) (0.000::))
+	(INTERCONNECT Data_reg0_Dout_reg_0_/Q cell1_Reg_data_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell1_Reg_data_Dout_reg_8_/Q cell1_Multiplier_mult_16_U472/B  (0.000::) (0.000::))
+	(INTERCONNECT cell1_Reg_data_Dout_reg_8_/Q cell1_Multiplier_mult_16_U323/A  (0.001::) (0.001::))
+	(INTERCONNECT cell1_Reg_data_Dout_reg_8_/Q cell2_Reg_data_Dout_reg_8_/D  (0.001::) (0.001::))
+	(INTERCONNECT cell1_Reg_data_Dout_reg_6_/Q cell1_Multiplier_mult_16_U468/B  (0.000::) (0.000::))
+	(INTERCONNECT cell1_Reg_data_Dout_reg_6_/Q cell1_Multiplier_mult_16_U322/A  (0.001::) (0.001::))
+	(INTERCONNECT cell1_Reg_data_Dout_reg_6_/Q cell2_Reg_data_Dout_reg_6_/D  (0.001::) (0.001::))
+	(INTERCONNECT cell1_Reg_data_Dout_reg_4_/Q cell1_Multiplier_mult_16_U464/B  (0.001::) (0.001::))
+	(INTERCONNECT cell1_Reg_data_Dout_reg_4_/Q cell1_Multiplier_mult_16_U321/A  (0.001::) (0.001::))
+	(INTERCONNECT cell1_Reg_data_Dout_reg_4_/Q cell2_Reg_data_Dout_reg_4_/D  (0.001::) (0.001::))
+	(INTERCONNECT cell1_Reg_data_Dout_reg_2_/Q cell1_Multiplier_mult_16_U493/A  (0.001::) (0.001::))
+	(INTERCONNECT cell1_Reg_data_Dout_reg_2_/Q cell1_Multiplier_mult_16_U486/B  (0.001::) (0.001::))
+	(INTERCONNECT cell1_Reg_data_Dout_reg_2_/Q cell2_Reg_data_Dout_reg_2_/D  (0.001::) (0.001::))
+	(INTERCONNECT cell1_Reg_data_Dout_reg_0_/Q cell1_Multiplier_mult_16_U315/A  (0.000::) (0.000::))
+	(INTERCONNECT cell1_Reg_data_Dout_reg_0_/Q cell2_Reg_data_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell2_Reg_data_Dout_reg_8_/Q cell2_Multiplier_mult_16_U472/B  (0.001::) (0.001::))
+	(INTERCONNECT cell2_Reg_data_Dout_reg_8_/Q cell2_Multiplier_mult_16_U323/A  (0.001::) (0.001::))
+	(INTERCONNECT cell2_Reg_data_Dout_reg_8_/Q cell3_Reg_data_Dout_reg_8_/D  (0.001::) (0.001::))
+	(INTERCONNECT cell2_Reg_data_Dout_reg_6_/Q cell2_Multiplier_mult_16_U468/B  (0.001::) (0.001::))
+	(INTERCONNECT cell2_Reg_data_Dout_reg_6_/Q cell2_Multiplier_mult_16_U322/A  (0.001::) (0.001::))
+	(INTERCONNECT cell2_Reg_data_Dout_reg_6_/Q cell3_Reg_data_Dout_reg_6_/D  (0.001::) (0.001::))
+	(INTERCONNECT cell2_Reg_data_Dout_reg_4_/Q cell2_Multiplier_mult_16_U464/B  (0.000::) (0.000::))
+	(INTERCONNECT cell2_Reg_data_Dout_reg_4_/Q cell2_Multiplier_mult_16_U321/A  (0.000::) (0.000::))
+	(INTERCONNECT cell2_Reg_data_Dout_reg_4_/Q cell3_Reg_data_Dout_reg_4_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell2_Reg_data_Dout_reg_2_/Q cell2_Multiplier_mult_16_U493/A  (0.000::) (0.000::))
+	(INTERCONNECT cell2_Reg_data_Dout_reg_2_/Q cell2_Multiplier_mult_16_U486/B  (0.000::) (0.000::))
+	(INTERCONNECT cell2_Reg_data_Dout_reg_2_/Q cell3_Reg_data_Dout_reg_2_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell2_Reg_data_Dout_reg_0_/Q cell2_Multiplier_mult_16_U315/A  (0.000::) (0.000::))
+	(INTERCONNECT cell2_Reg_data_Dout_reg_0_/Q cell3_Reg_data_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell3_Reg_data_Dout_reg_8_/Q cell3_Multiplier_mult_16_U472/B  (0.001::) (0.001::))
+	(INTERCONNECT cell3_Reg_data_Dout_reg_8_/Q cell3_Multiplier_mult_16_U323/A  (0.001::) (0.001::))
+	(INTERCONNECT cell3_Reg_data_Dout_reg_8_/Q cell4_Reg_data_Dout_reg_8_/D  (0.001::) (0.001::))
+	(INTERCONNECT cell3_Reg_data_Dout_reg_6_/Q cell3_Multiplier_mult_16_U468/B  (0.001::) (0.001::))
+	(INTERCONNECT cell3_Reg_data_Dout_reg_6_/Q cell3_Multiplier_mult_16_U322/A  (0.001::) (0.001::))
+	(INTERCONNECT cell3_Reg_data_Dout_reg_6_/Q cell4_Reg_data_Dout_reg_6_/D  (0.001::) (0.001::))
+	(INTERCONNECT cell3_Reg_data_Dout_reg_4_/Q cell3_Multiplier_mult_16_U464/B  (0.001::) (0.001::))
+	(INTERCONNECT cell3_Reg_data_Dout_reg_4_/Q cell3_Multiplier_mult_16_U321/A  (0.001::) (0.001::))
+	(INTERCONNECT cell3_Reg_data_Dout_reg_4_/Q cell4_Reg_data_Dout_reg_4_/D  (0.001::) (0.001::))
+	(INTERCONNECT cell3_Reg_data_Dout_reg_2_/Q cell3_Multiplier_mult_16_U493/A  (0.001::) (0.001::))
+	(INTERCONNECT cell3_Reg_data_Dout_reg_2_/Q cell3_Multiplier_mult_16_U486/B  (0.001::) (0.001::))
+	(INTERCONNECT cell3_Reg_data_Dout_reg_2_/Q cell4_Reg_data_Dout_reg_2_/D  (0.001::) (0.001::))
+	(INTERCONNECT cell3_Reg_data_Dout_reg_0_/Q cell3_Multiplier_mult_16_U315/A  (0.000::) (0.000::))
+	(INTERCONNECT cell3_Reg_data_Dout_reg_0_/Q cell4_Reg_data_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell4_Reg_data_Dout_reg_8_/Q cell4_Multiplier_mult_16_U472/B  (0.000::) (0.000::))
+	(INTERCONNECT cell4_Reg_data_Dout_reg_8_/Q cell4_Multiplier_mult_16_U323/A  (0.000::) (0.000::))
+	(INTERCONNECT cell4_Reg_data_Dout_reg_8_/Q cell5_Reg_data_Dout_reg_8_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell4_Reg_data_Dout_reg_6_/Q cell4_Multiplier_mult_16_U468/B  (0.000::) (0.000::))
+	(INTERCONNECT cell4_Reg_data_Dout_reg_6_/Q cell4_Multiplier_mult_16_U322/A  (0.000::) (0.000::))
+	(INTERCONNECT cell4_Reg_data_Dout_reg_6_/Q cell5_Reg_data_Dout_reg_6_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell4_Reg_data_Dout_reg_4_/Q cell4_Multiplier_mult_16_U464/B  (0.000::) (0.000::))
+	(INTERCONNECT cell4_Reg_data_Dout_reg_4_/Q cell4_Multiplier_mult_16_U321/A  (0.000::) (0.000::))
+	(INTERCONNECT cell4_Reg_data_Dout_reg_4_/Q cell5_Reg_data_Dout_reg_4_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell4_Reg_data_Dout_reg_2_/Q cell4_Multiplier_mult_16_U493/A  (0.000::) (0.000::))
+	(INTERCONNECT cell4_Reg_data_Dout_reg_2_/Q cell4_Multiplier_mult_16_U486/B  (0.000::) (0.000::))
+	(INTERCONNECT cell4_Reg_data_Dout_reg_2_/Q cell5_Reg_data_Dout_reg_2_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell4_Reg_data_Dout_reg_0_/Q cell4_Multiplier_mult_16_U315/A  (0.000::) (0.000::))
+	(INTERCONNECT cell4_Reg_data_Dout_reg_0_/Q cell5_Reg_data_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell5_Reg_data_Dout_reg_8_/Q cell5_Multiplier_mult_16_U472/B  (0.001::) (0.001::))
+	(INTERCONNECT cell5_Reg_data_Dout_reg_8_/Q cell5_Multiplier_mult_16_U323/A  (0.001::) (0.001::))
+	(INTERCONNECT cell5_Reg_data_Dout_reg_8_/Q cell6_Reg_data_Dout_reg_8_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell5_Reg_data_Dout_reg_6_/Q cell5_Multiplier_mult_16_U468/B  (0.001::) (0.001::))
+	(INTERCONNECT cell5_Reg_data_Dout_reg_6_/Q cell5_Multiplier_mult_16_U322/A  (0.001::) (0.001::))
+	(INTERCONNECT cell5_Reg_data_Dout_reg_6_/Q cell6_Reg_data_Dout_reg_6_/D  (0.001::) (0.001::))
+	(INTERCONNECT cell5_Reg_data_Dout_reg_4_/Q cell5_Multiplier_mult_16_U464/B  (0.001::) (0.001::))
+	(INTERCONNECT cell5_Reg_data_Dout_reg_4_/Q cell5_Multiplier_mult_16_U321/A  (0.001::) (0.001::))
+	(INTERCONNECT cell5_Reg_data_Dout_reg_4_/Q cell6_Reg_data_Dout_reg_4_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell5_Reg_data_Dout_reg_2_/Q cell5_Multiplier_mult_16_U493/A  (0.001::) (0.001::))
+	(INTERCONNECT cell5_Reg_data_Dout_reg_2_/Q cell5_Multiplier_mult_16_U486/B  (0.001::) (0.001::))
+	(INTERCONNECT cell5_Reg_data_Dout_reg_2_/Q cell6_Reg_data_Dout_reg_2_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell5_Reg_data_Dout_reg_0_/Q cell5_Multiplier_mult_16_U315/A  (0.000::) (0.000::))
+	(INTERCONNECT cell5_Reg_data_Dout_reg_0_/Q cell6_Reg_data_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell6_Reg_data_Dout_reg_8_/Q cell6_Multiplier_mult_16_U472/B  (0.000::) (0.000::))
+	(INTERCONNECT cell6_Reg_data_Dout_reg_8_/Q cell6_Multiplier_mult_16_U323/A  (0.000::) (0.000::))
+	(INTERCONNECT cell6_Reg_data_Dout_reg_8_/Q cell7_Reg_data_Dout_reg_8_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell6_Reg_data_Dout_reg_6_/Q cell6_Multiplier_mult_16_U468/B  (0.000::) (0.000::))
+	(INTERCONNECT cell6_Reg_data_Dout_reg_6_/Q cell6_Multiplier_mult_16_U322/A  (0.000::) (0.000::))
+	(INTERCONNECT cell6_Reg_data_Dout_reg_6_/Q cell7_Reg_data_Dout_reg_6_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell6_Reg_data_Dout_reg_4_/Q cell6_Multiplier_mult_16_U464/B  (0.000::) (0.000::))
+	(INTERCONNECT cell6_Reg_data_Dout_reg_4_/Q cell6_Multiplier_mult_16_U321/A  (0.000::) (0.000::))
+	(INTERCONNECT cell6_Reg_data_Dout_reg_4_/Q cell7_Reg_data_Dout_reg_4_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell6_Reg_data_Dout_reg_2_/Q cell6_Multiplier_mult_16_U493/A  (0.000::) (0.000::))
+	(INTERCONNECT cell6_Reg_data_Dout_reg_2_/Q cell6_Multiplier_mult_16_U486/B  (0.000::) (0.000::))
+	(INTERCONNECT cell6_Reg_data_Dout_reg_2_/Q cell7_Reg_data_Dout_reg_2_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell6_Reg_data_Dout_reg_0_/Q cell6_Multiplier_mult_16_U315/A  (0.000::) (0.000::))
+	(INTERCONNECT cell6_Reg_data_Dout_reg_0_/Q cell7_Reg_data_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell7_Reg_data_Dout_reg_8_/Q cell7_Multiplier_mult_16_U472/B  (0.001::) (0.001::))
+	(INTERCONNECT cell7_Reg_data_Dout_reg_8_/Q cell7_Multiplier_mult_16_U323/A  (0.000::) (0.000::))
+	(INTERCONNECT cell7_Reg_data_Dout_reg_8_/Q cell8_Reg_data_Dout_reg_8_/D  (0.001::) (0.001::))
+	(INTERCONNECT cell7_Reg_data_Dout_reg_6_/Q cell7_Multiplier_mult_16_U468/B  (0.001::) (0.001::))
+	(INTERCONNECT cell7_Reg_data_Dout_reg_6_/Q cell7_Multiplier_mult_16_U322/A  (0.001::) (0.001::))
+	(INTERCONNECT cell7_Reg_data_Dout_reg_6_/Q cell8_Reg_data_Dout_reg_6_/D  (0.001::) (0.001::))
+	(INTERCONNECT cell7_Reg_data_Dout_reg_4_/Q cell7_Multiplier_mult_16_U464/B  (0.001::) (0.001::))
+	(INTERCONNECT cell7_Reg_data_Dout_reg_4_/Q cell7_Multiplier_mult_16_U321/A  (0.001::) (0.001::))
+	(INTERCONNECT cell7_Reg_data_Dout_reg_4_/Q cell8_Reg_data_Dout_reg_4_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell7_Reg_data_Dout_reg_2_/Q cell7_Multiplier_mult_16_U493/A  (0.000::) (0.000::))
+	(INTERCONNECT cell7_Reg_data_Dout_reg_2_/Q cell7_Multiplier_mult_16_U486/B  (0.000::) (0.000::))
+	(INTERCONNECT cell7_Reg_data_Dout_reg_2_/Q cell8_Reg_data_Dout_reg_2_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell7_Reg_data_Dout_reg_0_/Q cell7_Multiplier_mult_16_U315/A  (0.000::) (0.000::))
+	(INTERCONNECT cell7_Reg_data_Dout_reg_0_/Q cell8_Reg_data_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell8_Reg_data_Dout_reg_8_/Q cell8_Multiplier_mult_16_U472/B  (0.000::) (0.000::))
+	(INTERCONNECT cell8_Reg_data_Dout_reg_8_/Q cell8_Multiplier_mult_16_U323/A  (0.000::) (0.000::))
+	(INTERCONNECT cell8_Reg_data_Dout_reg_8_/Q cell9_Reg_data_Dout_reg_8_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell8_Reg_data_Dout_reg_6_/Q cell8_Multiplier_mult_16_U468/B  (0.000::) (0.000::))
+	(INTERCONNECT cell8_Reg_data_Dout_reg_6_/Q cell8_Multiplier_mult_16_U322/A  (0.000::) (0.000::))
+	(INTERCONNECT cell8_Reg_data_Dout_reg_6_/Q cell9_Reg_data_Dout_reg_6_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell8_Reg_data_Dout_reg_4_/Q cell8_Multiplier_mult_16_U464/B  (0.000::) (0.000::))
+	(INTERCONNECT cell8_Reg_data_Dout_reg_4_/Q cell8_Multiplier_mult_16_U321/A  (0.000::) (0.000::))
+	(INTERCONNECT cell8_Reg_data_Dout_reg_4_/Q cell9_Reg_data_Dout_reg_4_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell8_Reg_data_Dout_reg_2_/Q cell8_Multiplier_mult_16_U493/A  (0.001::) (0.001::))
+	(INTERCONNECT cell8_Reg_data_Dout_reg_2_/Q cell8_Multiplier_mult_16_U486/B  (0.001::) (0.001::))
+	(INTERCONNECT cell8_Reg_data_Dout_reg_2_/Q cell9_Reg_data_Dout_reg_2_/D  (0.001::) (0.001::))
+	(INTERCONNECT cell8_Reg_data_Dout_reg_0_/Q cell8_Multiplier_mult_16_U315/A  (0.000::) (0.000::))
+	(INTERCONNECT cell8_Reg_data_Dout_reg_0_/Q cell9_Reg_data_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT cell9_Reg_data_Dout_reg_8_/Q cell9_Multiplier_mult_16_U472/B  (0.001::) (0.001::))
+	(INTERCONNECT cell9_Reg_data_Dout_reg_8_/Q cell9_Multiplier_mult_16_U323/A  (0.001::) (0.001::))
+	(INTERCONNECT cell9_Reg_data_Dout_reg_8_/Q cell10_Reg_data_Dout_reg_8_/D  (0.001::) (0.001::))
+	(INTERCONNECT cell9_Reg_data_Dout_reg_6_/Q cell9_Multiplier_mult_16_U468/B  (0.001::) (0.001::))
+	(INTERCONNECT cell9_Reg_data_Dout_reg_6_/Q cell9_Multiplier_mult_16_U322/A  (0.001::) (0.001::))
+	(INTERCONNECT cell9_Reg_data_Dout_reg_6_/Q cell10_Reg_data_Dout_reg_6_/D  (0.001::) (0.001::))
+	(INTERCONNECT cell9_Reg_data_Dout_reg_4_/Q cell9_Multiplier_mult_16_U464/B  (0.001::) (0.001::))
+	(INTERCONNECT cell9_Reg_data_Dout_reg_4_/Q cell9_Multiplier_mult_16_U321/A  (0.001::) (0.001::))
+	(INTERCONNECT cell9_Reg_data_Dout_reg_4_/Q cell10_Reg_data_Dout_reg_4_/D  (0.001::) (0.001::))
+	(INTERCONNECT cell9_Reg_data_Dout_reg_2_/Q cell9_Multiplier_mult_16_U493/A  (0.001::) (0.001::))
+	(INTERCONNECT cell9_Reg_data_Dout_reg_2_/Q cell9_Multiplier_mult_16_U486/B  (0.001::) (0.001::))
+	(INTERCONNECT cell9_Reg_data_Dout_reg_2_/Q cell10_Reg_data_Dout_reg_2_/D  (0.001::) (0.001::))
+	(INTERCONNECT cell9_Reg_data_Dout_reg_0_/Q cell9_Multiplier_mult_16_U315/A  (0.000::) (0.000::))
+	(INTERCONNECT cell9_Reg_data_Dout_reg_0_/Q cell10_Reg_data_Dout_reg_0_/D  (0.000::) (0.000::))
+	(INTERCONNECT Data_reg0_clk_gate_Dout_reg/latch/GCK Data_reg0_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT Data_reg0_clk_gate_Dout_reg/latch/GCK Data_reg0_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT Data_reg0_clk_gate_Dout_reg/latch/GCK Data_reg0_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT Data_reg0_clk_gate_Dout_reg/latch/GCK Data_reg0_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT Data_reg0_clk_gate_Dout_reg/latch/GCK Data_reg0_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT Data_reg0_clk_gate_Dout_reg/latch/GCK Data_reg0_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT Data_reg0_clk_gate_Dout_reg/latch/GCK Data_reg0_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT Data_reg0_clk_gate_Dout_reg/latch/GCK Data_reg0_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT Data_reg0_clk_gate_Dout_reg/latch/GCK Data_reg0_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT Data_reg0_clk_gate_Dout_reg/latch/GCK Data_reg0_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT Data_reg0_clk_gate_Dout_reg/latch/GCK Data_reg0_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT Coeff0_reg_clk_gate_Dout_reg/latch/GCK Coeff0_reg_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT Coeff0_reg_clk_gate_Dout_reg/latch/GCK Coeff0_reg_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT Coeff0_reg_clk_gate_Dout_reg/latch/GCK Coeff0_reg_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT Coeff0_reg_clk_gate_Dout_reg/latch/GCK Coeff0_reg_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT Coeff0_reg_clk_gate_Dout_reg/latch/GCK Coeff0_reg_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT Coeff0_reg_clk_gate_Dout_reg/latch/GCK Coeff0_reg_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT Coeff0_reg_clk_gate_Dout_reg/latch/GCK Coeff0_reg_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT Coeff0_reg_clk_gate_Dout_reg/latch/GCK Coeff0_reg_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT Coeff0_reg_clk_gate_Dout_reg/latch/GCK Coeff0_reg_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT Coeff0_reg_clk_gate_Dout_reg/latch/GCK Coeff0_reg_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT Coeff0_reg_clk_gate_Dout_reg/latch/GCK Coeff0_reg_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell1_COEFF_REG_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell1_COEFF_REG_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell1_COEFF_REG_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell1_COEFF_REG_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell1_COEFF_REG_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell1_COEFF_REG_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell1_COEFF_REG_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell1_COEFF_REG_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell1_COEFF_REG_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell1_COEFF_REG_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell1_COEFF_REG_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_Reg_data_clk_gate_Dout_reg/latch/GCK cell1_Reg_data_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_Reg_data_clk_gate_Dout_reg/latch/GCK cell1_Reg_data_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_Reg_data_clk_gate_Dout_reg/latch/GCK cell1_Reg_data_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_Reg_data_clk_gate_Dout_reg/latch/GCK cell1_Reg_data_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_Reg_data_clk_gate_Dout_reg/latch/GCK cell1_Reg_data_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_Reg_data_clk_gate_Dout_reg/latch/GCK cell1_Reg_data_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_Reg_data_clk_gate_Dout_reg/latch/GCK cell1_Reg_data_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_Reg_data_clk_gate_Dout_reg/latch/GCK cell1_Reg_data_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_Reg_data_clk_gate_Dout_reg/latch/GCK cell1_Reg_data_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_Reg_data_clk_gate_Dout_reg/latch/GCK cell1_Reg_data_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_Reg_data_clk_gate_Dout_reg/latch/GCK cell1_Reg_data_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell2_COEFF_REG_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell2_COEFF_REG_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell2_COEFF_REG_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell2_COEFF_REG_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell2_COEFF_REG_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell2_COEFF_REG_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell2_COEFF_REG_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell2_COEFF_REG_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell2_COEFF_REG_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell2_COEFF_REG_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell2_COEFF_REG_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_Reg_data_clk_gate_Dout_reg/latch/GCK cell2_Reg_data_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_Reg_data_clk_gate_Dout_reg/latch/GCK cell2_Reg_data_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_Reg_data_clk_gate_Dout_reg/latch/GCK cell2_Reg_data_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_Reg_data_clk_gate_Dout_reg/latch/GCK cell2_Reg_data_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_Reg_data_clk_gate_Dout_reg/latch/GCK cell2_Reg_data_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_Reg_data_clk_gate_Dout_reg/latch/GCK cell2_Reg_data_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_Reg_data_clk_gate_Dout_reg/latch/GCK cell2_Reg_data_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_Reg_data_clk_gate_Dout_reg/latch/GCK cell2_Reg_data_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_Reg_data_clk_gate_Dout_reg/latch/GCK cell2_Reg_data_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_Reg_data_clk_gate_Dout_reg/latch/GCK cell2_Reg_data_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell2_Reg_data_clk_gate_Dout_reg/latch/GCK cell2_Reg_data_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell3_COEFF_REG_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell3_COEFF_REG_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell3_COEFF_REG_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell3_COEFF_REG_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell3_COEFF_REG_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell3_COEFF_REG_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell3_COEFF_REG_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell3_COEFF_REG_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell3_COEFF_REG_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell3_COEFF_REG_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell3_COEFF_REG_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_Reg_data_clk_gate_Dout_reg/latch/GCK cell3_Reg_data_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_Reg_data_clk_gate_Dout_reg/latch/GCK cell3_Reg_data_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_Reg_data_clk_gate_Dout_reg/latch/GCK cell3_Reg_data_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_Reg_data_clk_gate_Dout_reg/latch/GCK cell3_Reg_data_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_Reg_data_clk_gate_Dout_reg/latch/GCK cell3_Reg_data_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_Reg_data_clk_gate_Dout_reg/latch/GCK cell3_Reg_data_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_Reg_data_clk_gate_Dout_reg/latch/GCK cell3_Reg_data_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_Reg_data_clk_gate_Dout_reg/latch/GCK cell3_Reg_data_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_Reg_data_clk_gate_Dout_reg/latch/GCK cell3_Reg_data_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_Reg_data_clk_gate_Dout_reg/latch/GCK cell3_Reg_data_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_Reg_data_clk_gate_Dout_reg/latch/GCK cell3_Reg_data_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell4_COEFF_REG_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell4_COEFF_REG_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell4_COEFF_REG_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell4_COEFF_REG_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell4_COEFF_REG_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell4_COEFF_REG_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell4_COEFF_REG_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell4_COEFF_REG_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell4_COEFF_REG_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell4_COEFF_REG_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell4_COEFF_REG_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_Reg_data_clk_gate_Dout_reg/latch/GCK cell4_Reg_data_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_Reg_data_clk_gate_Dout_reg/latch/GCK cell4_Reg_data_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_Reg_data_clk_gate_Dout_reg/latch/GCK cell4_Reg_data_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_Reg_data_clk_gate_Dout_reg/latch/GCK cell4_Reg_data_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_Reg_data_clk_gate_Dout_reg/latch/GCK cell4_Reg_data_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_Reg_data_clk_gate_Dout_reg/latch/GCK cell4_Reg_data_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_Reg_data_clk_gate_Dout_reg/latch/GCK cell4_Reg_data_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_Reg_data_clk_gate_Dout_reg/latch/GCK cell4_Reg_data_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_Reg_data_clk_gate_Dout_reg/latch/GCK cell4_Reg_data_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_Reg_data_clk_gate_Dout_reg/latch/GCK cell4_Reg_data_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_Reg_data_clk_gate_Dout_reg/latch/GCK cell4_Reg_data_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell5_COEFF_REG_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell5_COEFF_REG_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell5_COEFF_REG_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell5_COEFF_REG_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell5_COEFF_REG_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell5_COEFF_REG_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell5_COEFF_REG_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell5_COEFF_REG_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell5_COEFF_REG_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell5_COEFF_REG_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell5_COEFF_REG_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_Reg_data_clk_gate_Dout_reg/latch/GCK cell5_Reg_data_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_Reg_data_clk_gate_Dout_reg/latch/GCK cell5_Reg_data_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_Reg_data_clk_gate_Dout_reg/latch/GCK cell5_Reg_data_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_Reg_data_clk_gate_Dout_reg/latch/GCK cell5_Reg_data_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_Reg_data_clk_gate_Dout_reg/latch/GCK cell5_Reg_data_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_Reg_data_clk_gate_Dout_reg/latch/GCK cell5_Reg_data_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_Reg_data_clk_gate_Dout_reg/latch/GCK cell5_Reg_data_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_Reg_data_clk_gate_Dout_reg/latch/GCK cell5_Reg_data_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_Reg_data_clk_gate_Dout_reg/latch/GCK cell5_Reg_data_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_Reg_data_clk_gate_Dout_reg/latch/GCK cell5_Reg_data_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_Reg_data_clk_gate_Dout_reg/latch/GCK cell5_Reg_data_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell6_COEFF_REG_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell6_COEFF_REG_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell6_COEFF_REG_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell6_COEFF_REG_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell6_COEFF_REG_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell6_COEFF_REG_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell6_COEFF_REG_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell6_COEFF_REG_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell6_COEFF_REG_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell6_COEFF_REG_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell6_COEFF_REG_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_Reg_data_clk_gate_Dout_reg/latch/GCK cell6_Reg_data_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_Reg_data_clk_gate_Dout_reg/latch/GCK cell6_Reg_data_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_Reg_data_clk_gate_Dout_reg/latch/GCK cell6_Reg_data_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_Reg_data_clk_gate_Dout_reg/latch/GCK cell6_Reg_data_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_Reg_data_clk_gate_Dout_reg/latch/GCK cell6_Reg_data_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_Reg_data_clk_gate_Dout_reg/latch/GCK cell6_Reg_data_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_Reg_data_clk_gate_Dout_reg/latch/GCK cell6_Reg_data_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_Reg_data_clk_gate_Dout_reg/latch/GCK cell6_Reg_data_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_Reg_data_clk_gate_Dout_reg/latch/GCK cell6_Reg_data_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_Reg_data_clk_gate_Dout_reg/latch/GCK cell6_Reg_data_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell6_Reg_data_clk_gate_Dout_reg/latch/GCK cell6_Reg_data_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell7_COEFF_REG_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell7_COEFF_REG_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell7_COEFF_REG_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell7_COEFF_REG_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell7_COEFF_REG_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell7_COEFF_REG_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell7_COEFF_REG_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell7_COEFF_REG_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell7_COEFF_REG_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell7_COEFF_REG_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell7_COEFF_REG_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_Reg_data_clk_gate_Dout_reg/latch/GCK cell7_Reg_data_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_Reg_data_clk_gate_Dout_reg/latch/GCK cell7_Reg_data_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_Reg_data_clk_gate_Dout_reg/latch/GCK cell7_Reg_data_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_Reg_data_clk_gate_Dout_reg/latch/GCK cell7_Reg_data_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_Reg_data_clk_gate_Dout_reg/latch/GCK cell7_Reg_data_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_Reg_data_clk_gate_Dout_reg/latch/GCK cell7_Reg_data_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_Reg_data_clk_gate_Dout_reg/latch/GCK cell7_Reg_data_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_Reg_data_clk_gate_Dout_reg/latch/GCK cell7_Reg_data_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_Reg_data_clk_gate_Dout_reg/latch/GCK cell7_Reg_data_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_Reg_data_clk_gate_Dout_reg/latch/GCK cell7_Reg_data_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_Reg_data_clk_gate_Dout_reg/latch/GCK cell7_Reg_data_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell8_COEFF_REG_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell8_COEFF_REG_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell8_COEFF_REG_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell8_COEFF_REG_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell8_COEFF_REG_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell8_COEFF_REG_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell8_COEFF_REG_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell8_COEFF_REG_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell8_COEFF_REG_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell8_COEFF_REG_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell8_COEFF_REG_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_Reg_data_clk_gate_Dout_reg/latch/GCK cell8_Reg_data_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_Reg_data_clk_gate_Dout_reg/latch/GCK cell8_Reg_data_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_Reg_data_clk_gate_Dout_reg/latch/GCK cell8_Reg_data_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_Reg_data_clk_gate_Dout_reg/latch/GCK cell8_Reg_data_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_Reg_data_clk_gate_Dout_reg/latch/GCK cell8_Reg_data_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_Reg_data_clk_gate_Dout_reg/latch/GCK cell8_Reg_data_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_Reg_data_clk_gate_Dout_reg/latch/GCK cell8_Reg_data_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_Reg_data_clk_gate_Dout_reg/latch/GCK cell8_Reg_data_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_Reg_data_clk_gate_Dout_reg/latch/GCK cell8_Reg_data_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_Reg_data_clk_gate_Dout_reg/latch/GCK cell8_Reg_data_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_Reg_data_clk_gate_Dout_reg/latch/GCK cell8_Reg_data_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell9_COEFF_REG_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell9_COEFF_REG_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell9_COEFF_REG_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell9_COEFF_REG_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell9_COEFF_REG_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell9_COEFF_REG_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell9_COEFF_REG_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell9_COEFF_REG_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell9_COEFF_REG_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell9_COEFF_REG_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell9_COEFF_REG_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_Reg_data_clk_gate_Dout_reg/latch/GCK cell9_Reg_data_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_Reg_data_clk_gate_Dout_reg/latch/GCK cell9_Reg_data_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_Reg_data_clk_gate_Dout_reg/latch/GCK cell9_Reg_data_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_Reg_data_clk_gate_Dout_reg/latch/GCK cell9_Reg_data_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_Reg_data_clk_gate_Dout_reg/latch/GCK cell9_Reg_data_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_Reg_data_clk_gate_Dout_reg/latch/GCK cell9_Reg_data_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_Reg_data_clk_gate_Dout_reg/latch/GCK cell9_Reg_data_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_Reg_data_clk_gate_Dout_reg/latch/GCK cell9_Reg_data_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_Reg_data_clk_gate_Dout_reg/latch/GCK cell9_Reg_data_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_Reg_data_clk_gate_Dout_reg/latch/GCK cell9_Reg_data_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell9_Reg_data_clk_gate_Dout_reg/latch/GCK cell9_Reg_data_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell10_COEFF_REG_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell10_COEFF_REG_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell10_COEFF_REG_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell10_COEFF_REG_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell10_COEFF_REG_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell10_COEFF_REG_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell10_COEFF_REG_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell10_COEFF_REG_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell10_COEFF_REG_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell10_COEFF_REG_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_COEFF_REG_clk_gate_Dout_reg/latch/GCK cell10_COEFF_REG_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_Reg_data_clk_gate_Dout_reg/latch/GCK cell10_Reg_data_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_Reg_data_clk_gate_Dout_reg/latch/GCK cell10_Reg_data_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_Reg_data_clk_gate_Dout_reg/latch/GCK cell10_Reg_data_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_Reg_data_clk_gate_Dout_reg/latch/GCK cell10_Reg_data_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_Reg_data_clk_gate_Dout_reg/latch/GCK cell10_Reg_data_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_Reg_data_clk_gate_Dout_reg/latch/GCK cell10_Reg_data_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_Reg_data_clk_gate_Dout_reg/latch/GCK cell10_Reg_data_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_Reg_data_clk_gate_Dout_reg/latch/GCK cell10_Reg_data_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_Reg_data_clk_gate_Dout_reg/latch/GCK cell10_Reg_data_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_Reg_data_clk_gate_Dout_reg/latch/GCK cell10_Reg_data_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_Reg_data_clk_gate_Dout_reg/latch/GCK cell10_Reg_data_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT output_register_clk_gate_Dout_reg/latch/GCK output_register_Dout_reg_0_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT output_register_clk_gate_Dout_reg/latch/GCK output_register_Dout_reg_1_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT output_register_clk_gate_Dout_reg/latch/GCK output_register_Dout_reg_2_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT output_register_clk_gate_Dout_reg/latch/GCK output_register_Dout_reg_3_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT output_register_clk_gate_Dout_reg/latch/GCK output_register_Dout_reg_4_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT output_register_clk_gate_Dout_reg/latch/GCK output_register_Dout_reg_5_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT output_register_clk_gate_Dout_reg/latch/GCK output_register_Dout_reg_6_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT output_register_clk_gate_Dout_reg/latch/GCK output_register_Dout_reg_7_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT output_register_clk_gate_Dout_reg/latch/GCK output_register_Dout_reg_8_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT output_register_clk_gate_Dout_reg/latch/GCK output_register_Dout_reg_9_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT output_register_clk_gate_Dout_reg/latch/GCK output_register_Dout_reg_10_/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_Addereeno_add_16_U1_1/S cell6_Addereeno_add_16_U1_1/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_Addereeno_add_16_U1_2/S output_register_Dout_reg_2_/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell10_Addereeno_add_16_U1_1/S output_register_Dout_reg_1_/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell1_Addereeno_add_16_U1_2/CO cell1_Addereeno_add_16_U1_3/CI  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell3_Addereeno_add_16_U1_2/CO cell3_Addereeno_add_16_U1_3/CI  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell4_Addereeno_add_16_U1_2/CO cell4_Addereeno_add_16_U1_3/CI  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell5_Addereeno_add_16_U1_2/CO cell5_Addereeno_add_16_U1_3/CI  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell7_Addereeno_add_16_U1_2/CO cell7_Addereeno_add_16_U1_3/CI  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT cell8_Addereeno_add_16_U1_2/CO cell8_Addereeno_add_16_U1_3/CI  (0.000::0.000) (0.000::0.000))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC523_RSTn)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC520_RSTn)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.024::) (0.023::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC518_RSTn)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.030::) (0.030::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC517_RSTn)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.031::) (0.031::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC516_RSTn)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.035::) (0.034::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X1")
+    (INSTANCE  FE_PHC515_C4_4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.019::) (0.023::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X1")
+    (INSTANCE  FE_PHC501_C10_3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.021::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X1")
+    (INSTANCE  FE_PHC499_C1_9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.021::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X1")
+    (INSTANCE  FE_PHC498_C10_5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.020::) (0.023::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X1")
+    (INSTANCE  FE_PHC497_DIN_8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.020::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X1")
+    (INSTANCE  FE_PHC496_C10_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.019::) (0.022::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X1")
+    (INSTANCE  FE_PHC494_C10_2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.020::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X1")
+    (INSTANCE  FE_PHC493_C10_10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.019::) (0.023::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X1")
+    (INSTANCE  FE_PHC492_DIN_5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.020::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X1")
+    (INSTANCE  FE_PHC489_C10_9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.018::) (0.023::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X1")
+    (INSTANCE  FE_PHC474_C0_0)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.019::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X1")
+    (INSTANCE  FE_PHC467_C8_6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.018::) (0.023::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X1")
+    (INSTANCE  FE_PHC465_C0_2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.021::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X1")
+    (INSTANCE  FE_PHC461_C2_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.020::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X1")
+    (INSTANCE  FE_PHC458_C0_4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.018::) (0.022::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X1")
+    (INSTANCE  FE_PHC457_C0_8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.018::) (0.023::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X1")
+    (INSTANCE  FE_PHC454_C3_10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.018::) (0.023::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X1")
+    (INSTANCE  FE_PHC449_C0_3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.018::) (0.023::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X1")
+    (INSTANCE  FE_PHC443_C3_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.018::) (0.023::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X1")
+    (INSTANCE  FE_PHC427_C8_10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.019::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X1")
+    (INSTANCE  FE_PHC422_C2_5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.018::) (0.023::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC395_C4_2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC391_DIN_9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC389_C9_4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.024::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC385_C5_3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC372_C4_4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC361_C8_4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC346_C10_8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC344_C10_3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.029::) (0.029::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC338_C7_9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC337_C0_5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC333_C1_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.024::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC326_C10_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.028::) (0.027::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC317_C10_1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC316_C0_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC312_C1_10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.028::) (0.028::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC306_C0_9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC305_C9_5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC303_DIN_1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC296_C0_0)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.028::) (0.027::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC293_C1_9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.030::) (0.029::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC292_DIN_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC289_C5_4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.028::) (0.028::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC287_C6_6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.024::) (0.023::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC286_C6_3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC274_C4_10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC273_C4_9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.029::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC272_C4_3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.028::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC268_C6_6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.028::) (0.028::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC267_C4_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC263_C1_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.027::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC261_C1_0)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC258_C9_1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC246_C0_2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC236_C6_5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC229_C4_2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.029::) (0.028::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC225_DIN_2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.027::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC187_C2_0)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC185_C0_1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC179_DIN_3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC178_C9_4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC171_C10_2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC158_C9_5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.029::) (0.028::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC157_C10_4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.027::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC156_C0_9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.029::) (0.029::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC155_C1_8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.024::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC153_C10_3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.027::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC150_C0_10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC148_C7_6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.027::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC147_C0_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.027::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC145_DIN_0)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.028::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC137_VIN)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.030::) (0.030::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUF_X16")
+    (INSTANCE  FE_PHC136_RSTn)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.030::) (0.027::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC135_DIN_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC134_C7_0)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC133_C1_1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC132_C6_10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC131_C6_0)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC130_C6_1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC129_C6_6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.028::) (0.028::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC128_C4_4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC127_C4_1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.024::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC126_C4_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC125_DIN_6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC124_C10_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC123_C7_1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC122_C7_2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC121_C0_9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.027::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC120_C0_10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.027::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC119_C0_5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC118_C5_1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.024::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC117_C2_9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC116_C3_1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC115_C3_3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC114_C3_5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.024::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC113_C2_1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC112_C8_9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC111_C3_2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC110_C3_4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC109_C3_6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.024::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC108_C5_2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC107_C2_0)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC106_C2_2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC105_C2_8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC104_C5_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC103_C8_6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC102_C4_3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC101_DIN_2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.028::) (0.027::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC100_C10_8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC99_C10_2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.028::) (0.028::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC98_C10_6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC97_C7_6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.027::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC96_C7_5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC95_C7_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC94_C7_9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC93_C1_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.027::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC92_C1_6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC91_C1_8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.027::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC90_C1_0)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.027::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC89_C1_2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC88_C1_10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC87_C0_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC86_C0_1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.027::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC85_C0_3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC84_C0_8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC83_C9_3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC82_C9_0)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.024::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC81_C9_1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC80_C9_4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC79_C9_10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.024::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC78_C5_0)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC77_C8_10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.024::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC75_C3_0)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC74_C3_9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC73_C5_4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC72_C5_5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.024::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC71_C5_6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.024::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC70_C8_0)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.024::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC69_C8_2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC68_C3_8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC67_C3_10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC66_C5_8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC65_C5_9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC64_C8_1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC63_C8_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC62_C5_10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.024::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC61_C8_5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.024::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC60_C8_8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC59_C4_10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC58_C4_6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC57_C7_10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC56_DIN_8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC55_C7_4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC54_C0_4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC53_C9_8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC52_C3_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC51_C6_5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.027::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC50_C4_2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.028::) (0.028::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC49_C4_5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC48_C4_8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC47_DIN_0)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.028::) (0.028::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC46_DIN_10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC45_C10_10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC44_C10_0)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC43_C10_1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC42_C1_9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC41_C1_3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.024::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC40_C0_6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC39_C0_0)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC38_C0_2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.027::) (0.027::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC37_C9_2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC36_C6_3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.024::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC35_C6_2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC34_DIN_9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC33_C10_3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.028::) (0.027::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC32_C10_9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC31_C1_4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC30_C1_5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC29_C9_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC28_C9_9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC27_C2_4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC26_C8_4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.024::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC25_C6_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC24_C4_0)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC23_C4_9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC22_C7_8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC21_C2_6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC20_C2_7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC19_C2_10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC18_C8_3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC17_C6_4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC16_C6_9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC15_C6_8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC14_C7_3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC13_C9_6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC12_C9_5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.028::) (0.027::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC11_C2_5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC10_DIN_3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.029::) (0.029::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC9_DIN_5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC8_C10_4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.028::) (0.028::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC7_C10_5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC6_C2_3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.025::) (0.025::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC5_DIN_4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC4_DIN_1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.026::) (0.026::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  FE_PHC3_VIN)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.034::) (0.034::))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X2")
+    (INSTANCE  CTS_ccl_a_buf_00015)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.000::0.000) (0.000::0.000))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X2")
+    (INSTANCE  CTS_ccl_a_buf_00013)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.000::0.000) (0.000::0.000))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X1")
+    (INSTANCE  CTS_ccl_a_buf_00003)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.000::0.000) (0.000::0.000))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKBUF_X2")
+    (INSTANCE  CTS_ccl_a_buf_00011)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Z  (0.000::0.000) (0.000::0.000))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFS_X1")
+    (INSTANCE  VIN_FF_Q_reg)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH SN Q  (0.229::) ()))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH SN Q  (0.229::) ()))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH SN Q  (0.292::) ()))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH SN Q  (0.292::) ()))
+	(IOPATH (posedge CK) Q  (0.166::) (0.122::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFS_X1")
+    (INSTANCE  VOUT_FF_Q_reg)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  Data_reg0_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Data_reg0_Dout_reg_0_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.040::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.040::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.040::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.040::)))
+	(IOPATH (posedge CK) Q  (0.116::) (0.099::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Data_reg0_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Data_reg0_Dout_reg_2_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.046::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.046::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.046::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.046::)))
+	(IOPATH (posedge CK) Q  (0.125::) (0.105::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Data_reg0_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Data_reg0_Dout_reg_4_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.048::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.048::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.048::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.048::)))
+	(IOPATH (posedge CK) Q  (0.128::) (0.107::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Data_reg0_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Data_reg0_Dout_reg_6_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.048::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.048::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.049::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.049::)))
+	(IOPATH (posedge CK) Q  (0.130::) (0.109::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Data_reg0_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Data_reg0_Dout_reg_8_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.047::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.047::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.047::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.047::)))
+	(IOPATH (posedge CK) Q  (0.128::) (0.107::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Data_reg0_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Data_reg0_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  Coeff0_reg_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Coeff0_reg_Dout_reg_0_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Coeff0_reg_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Coeff0_reg_Dout_reg_2_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Coeff0_reg_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Coeff0_reg_Dout_reg_4_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Coeff0_reg_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Coeff0_reg_Dout_reg_6_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Coeff0_reg_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Coeff0_reg_Dout_reg_8_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Coeff0_reg_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  Coeff0_reg_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  cell1_COEFF_REG_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_COEFF_REG_Dout_reg_0_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_COEFF_REG_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_COEFF_REG_Dout_reg_2_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_COEFF_REG_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_COEFF_REG_Dout_reg_4_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_COEFF_REG_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_COEFF_REG_Dout_reg_6_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_COEFF_REG_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_COEFF_REG_Dout_reg_8_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_COEFF_REG_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_COEFF_REG_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "FA_X1")
+    (INSTANCE  cell1_Addereeno_add_16_U1_2)
+      (DELAY
+	(ABSOLUTE
+	(COND (B==1'b1)&&(CI==1'b0) (IOPATH A CO  (0.052::0.052) (0.079::0.079)))
+	(COND (B==1'b0)&&(CI==1'b1) (IOPATH A CO  (0.048::0.048) (0.083::0.083)))
+	(COND (A==1'b1)&&(CI==1'b0) (IOPATH B CO  (0.052::0.052) (0.083::0.083)))
+	(COND (A==1'b0)&&(CI==1'b1) (IOPATH B CO  (0.051::0.051) (0.083::0.083)))
+	(COND (A==1'b1)&&(B==1'b0) (IOPATH CI CO  (0.046::0.046) (0.076::0.076)))
+	(COND (A==1'b0)&&(B==1'b1) (IOPATH CI CO  (0.048::0.048) (0.074::0.074)))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  cell1_Reg_data_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_Reg_data_Dout_reg_0_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.043::)))
+	(IOPATH (posedge CK) Q  (0.122::) (0.103::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_Reg_data_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_Reg_data_Dout_reg_2_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.048::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.048::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.048::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.048::)))
+	(IOPATH (posedge CK) Q  (0.130::) (0.109::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_Reg_data_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_Reg_data_Dout_reg_4_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.049::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.049::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.050::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.050::)))
+	(IOPATH (posedge CK) Q  (0.133::) (0.110::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_Reg_data_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_Reg_data_Dout_reg_6_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.051::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.051::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.051::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.051::)))
+	(IOPATH (posedge CK) Q  (0.134::) (0.111::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_Reg_data_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_Reg_data_Dout_reg_8_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.050::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.050::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.050::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.050::)))
+	(IOPATH (posedge CK) Q  (0.133::) (0.110::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_Reg_data_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell1_Reg_data_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  cell2_COEFF_REG_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_COEFF_REG_Dout_reg_0_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_COEFF_REG_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_COEFF_REG_Dout_reg_2_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_COEFF_REG_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_COEFF_REG_Dout_reg_4_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_COEFF_REG_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_COEFF_REG_Dout_reg_6_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_COEFF_REG_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_COEFF_REG_Dout_reg_8_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_COEFF_REG_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_COEFF_REG_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  cell2_Reg_data_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_Reg_data_Dout_reg_0_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.045::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.045::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.045::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.045::)))
+	(IOPATH (posedge CK) Q  (0.122::) (0.104::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_Reg_data_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_Reg_data_Dout_reg_2_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.049::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.049::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.049::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.049::)))
+	(IOPATH (posedge CK) Q  (0.129::) (0.108::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_Reg_data_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_Reg_data_Dout_reg_4_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.050::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.050::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.050::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.050::)))
+	(IOPATH (posedge CK) Q  (0.130::) (0.108::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_Reg_data_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_Reg_data_Dout_reg_6_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.050::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.050::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.050::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.050::)))
+	(IOPATH (posedge CK) Q  (0.132::) (0.109::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_Reg_data_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_Reg_data_Dout_reg_8_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.050::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.050::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.051::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.051::)))
+	(IOPATH (posedge CK) Q  (0.132::) (0.109::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_Reg_data_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell2_Reg_data_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  cell3_COEFF_REG_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_COEFF_REG_Dout_reg_0_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_COEFF_REG_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_COEFF_REG_Dout_reg_2_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_COEFF_REG_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_COEFF_REG_Dout_reg_4_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_COEFF_REG_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_COEFF_REG_Dout_reg_6_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_COEFF_REG_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_COEFF_REG_Dout_reg_8_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_COEFF_REG_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_COEFF_REG_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "FA_X1")
+    (INSTANCE  cell3_Addereeno_add_16_U1_2)
+      (DELAY
+	(ABSOLUTE
+	(COND (B==1'b1)&&(CI==1'b0) (IOPATH A CO  (0.053::0.053) (0.080::0.080)))
+	(COND (B==1'b0)&&(CI==1'b1) (IOPATH A CO  (0.049::0.049) (0.083::0.083)))
+	(COND (A==1'b1)&&(CI==1'b0) (IOPATH B CO  (0.053::0.053) (0.083::0.083)))
+	(COND (A==1'b0)&&(CI==1'b1) (IOPATH B CO  (0.052::0.052) (0.084::0.084)))
+	(COND (A==1'b1)&&(B==1'b0) (IOPATH CI CO  (0.047::0.047) (0.076::0.076)))
+	(COND (A==1'b0)&&(B==1'b1) (IOPATH CI CO  (0.049::0.049) (0.074::0.074)))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  cell3_Reg_data_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_Reg_data_Dout_reg_0_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.036::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.036::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.036::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.036::)))
+	(IOPATH (posedge CK) Q  (0.120::) (0.103::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_Reg_data_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_Reg_data_Dout_reg_2_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.041::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.041::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.041::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.041::)))
+	(IOPATH (posedge CK) Q  (0.127::) (0.107::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_Reg_data_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_Reg_data_Dout_reg_4_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.043::)))
+	(IOPATH (posedge CK) Q  (0.133::) (0.109::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_Reg_data_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_Reg_data_Dout_reg_6_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.043::)))
+	(IOPATH (posedge CK) Q  (0.133::) (0.109::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_Reg_data_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_Reg_data_Dout_reg_8_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.043::)))
+	(IOPATH (posedge CK) Q  (0.131::) (0.109::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_Reg_data_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell3_Reg_data_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  cell4_COEFF_REG_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_COEFF_REG_Dout_reg_0_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_COEFF_REG_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_COEFF_REG_Dout_reg_2_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_COEFF_REG_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_COEFF_REG_Dout_reg_4_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_COEFF_REG_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_COEFF_REG_Dout_reg_6_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_COEFF_REG_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_COEFF_REG_Dout_reg_8_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_COEFF_REG_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_COEFF_REG_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "FA_X1")
+    (INSTANCE  cell4_Addereeno_add_16_U1_2)
+      (DELAY
+	(ABSOLUTE
+	(COND (B==1'b1)&&(CI==1'b0) (IOPATH A CO  (0.056::0.060) (0.075::0.082)))
+	(COND (B==1'b0)&&(CI==1'b1) (IOPATH A CO  (0.052::0.056) (0.079::0.085)))
+	(COND (A==1'b1)&&(CI==1'b0) (IOPATH B CO  (0.055::0.060) (0.079::0.085)))
+	(COND (A==1'b0)&&(CI==1'b1) (IOPATH B CO  (0.054::0.058) (0.080::0.086)))
+	(COND (A==1'b1)&&(B==1'b0) (IOPATH CI CO  (0.050::0.054) (0.072::0.078)))
+	(COND (A==1'b0)&&(B==1'b1) (IOPATH CI CO  (0.052::0.056) (0.069::0.076)))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  cell4_Reg_data_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_Reg_data_Dout_reg_0_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.036::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.036::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.036::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.036::)))
+	(IOPATH (posedge CK) Q  (0.119::) (0.102::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_Reg_data_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_Reg_data_Dout_reg_2_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.040::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.040::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.040::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.040::)))
+	(IOPATH (posedge CK) Q  (0.126::) (0.106::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_Reg_data_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_Reg_data_Dout_reg_4_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.043::)))
+	(IOPATH (posedge CK) Q  (0.131::) (0.108::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_Reg_data_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_Reg_data_Dout_reg_6_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.044::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.044::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.044::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.044::)))
+	(IOPATH (posedge CK) Q  (0.132::) (0.109::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_Reg_data_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_Reg_data_Dout_reg_8_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.043::)))
+	(IOPATH (posedge CK) Q  (0.131::) (0.108::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_Reg_data_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell4_Reg_data_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  cell5_COEFF_REG_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_COEFF_REG_Dout_reg_0_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_COEFF_REG_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_COEFF_REG_Dout_reg_2_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_COEFF_REG_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_COEFF_REG_Dout_reg_4_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_COEFF_REG_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_COEFF_REG_Dout_reg_6_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_COEFF_REG_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_COEFF_REG_Dout_reg_8_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_COEFF_REG_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_COEFF_REG_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "FA_X1")
+    (INSTANCE  cell5_Addereeno_add_16_U1_1)
+      (DELAY
+	(ABSOLUTE
+	(COND (B==1'b1)&&(CI==1'b0) (IOPATH A S  (0.118::0.118) (0.093::0.093)))
+	(COND (B==1'b0)&&(CI==1'b1) (IOPATH A S  (0.119::0.119) (0.093::0.093)))
+	(COND (B==1'b1)&&(CI==1'b1) (IOPATH A S  (0.060::0.060) (0.077::0.077)))
+	(COND (B==1'b0)&&(CI==1'b0) (IOPATH A S  (0.047::0.047) (0.107::0.107)))
+	(COND (A==1'b1)&&(CI==1'b0) (IOPATH B S  (0.124::0.124) (0.093::0.093)))
+	(COND (A==1'b0)&&(CI==1'b1) (IOPATH B S  (0.119::0.119) (0.099::0.099)))
+	(COND (A==1'b1)&&(CI==1'b1) (IOPATH B S  (0.059::0.059) (0.072::0.072)))
+	(COND (A==1'b0)&&(CI==1'b0) (IOPATH B S  (0.044::0.044) (0.104::0.104)))
+	(COND (A==1'b1)&&(B==1'b0) (IOPATH CI S  (0.117::0.117) (0.090::0.090)))
+	(COND (A==1'b0)&&(B==1'b1) (IOPATH CI S  (0.112::0.112) (0.096::0.096)))
+	(COND (A==1'b1)&&(B==1'b1) (IOPATH CI S  (0.059::0.059) (0.067::0.067)))
+	(COND (A==1'b0)&&(B==1'b0) (IOPATH CI S  (0.043::0.043) (0.098::0.098)))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "FA_X1")
+    (INSTANCE  cell5_Addereeno_add_16_U1_2)
+      (DELAY
+	(ABSOLUTE
+	(COND (B==1'b1)&&(CI==1'b0) (IOPATH A CO  (0.056::0.058) (0.079::0.082)))
+	(COND (B==1'b0)&&(CI==1'b1) (IOPATH A CO  (0.052::0.054) (0.082::0.085)))
+	(COND (A==1'b1)&&(CI==1'b0) (IOPATH B CO  (0.055::0.058) (0.082::0.085)))
+	(COND (A==1'b0)&&(CI==1'b1) (IOPATH B CO  (0.054::0.056) (0.083::0.086)))
+	(COND (A==1'b1)&&(B==1'b0) (IOPATH CI CO  (0.050::0.052) (0.075::0.078)))
+	(COND (A==1'b0)&&(B==1'b1) (IOPATH CI CO  (0.052::0.054) (0.073::0.076)))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  cell5_Reg_data_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_Reg_data_Dout_reg_0_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.035::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.035::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.035::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.035::)))
+	(IOPATH (posedge CK) Q  (0.118::) (0.101::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_Reg_data_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_Reg_data_Dout_reg_2_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.044::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.044::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.044::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.044::)))
+	(IOPATH (posedge CK) Q  (0.133::) (0.110::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_Reg_data_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_Reg_data_Dout_reg_4_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.048::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.048::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.049::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.049::)))
+	(IOPATH (posedge CK) Q  (0.140::) (0.114::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_Reg_data_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_Reg_data_Dout_reg_6_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.044::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.044::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.045::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.045::)))
+	(IOPATH (posedge CK) Q  (0.133::) (0.110::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_Reg_data_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_Reg_data_Dout_reg_8_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.045::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.045::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.045::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.045::)))
+	(IOPATH (posedge CK) Q  (0.134::) (0.111::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_Reg_data_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell5_Reg_data_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  cell6_COEFF_REG_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_COEFF_REG_Dout_reg_0_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_COEFF_REG_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_COEFF_REG_Dout_reg_2_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_COEFF_REG_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_COEFF_REG_Dout_reg_4_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_COEFF_REG_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_COEFF_REG_Dout_reg_6_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_COEFF_REG_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_COEFF_REG_Dout_reg_8_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_COEFF_REG_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_COEFF_REG_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  cell6_Reg_data_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_Reg_data_Dout_reg_0_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.034::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.034::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.034::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.034::)))
+	(IOPATH (posedge CK) Q  (0.117::) (0.100::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_Reg_data_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_Reg_data_Dout_reg_2_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.039::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.039::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.039::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.039::)))
+	(IOPATH (posedge CK) Q  (0.124::) (0.104::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_Reg_data_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_Reg_data_Dout_reg_4_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.041::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.041::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.041::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.041::)))
+	(IOPATH (posedge CK) Q  (0.127::) (0.106::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_Reg_data_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_Reg_data_Dout_reg_6_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.041::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.041::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.041::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.041::)))
+	(IOPATH (posedge CK) Q  (0.127::) (0.106::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_Reg_data_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_Reg_data_Dout_reg_8_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.041::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.041::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.041::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.041::)))
+	(IOPATH (posedge CK) Q  (0.128::) (0.107::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_Reg_data_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell6_Reg_data_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  cell7_COEFF_REG_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_COEFF_REG_Dout_reg_0_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_COEFF_REG_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_COEFF_REG_Dout_reg_2_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_COEFF_REG_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_COEFF_REG_Dout_reg_4_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_COEFF_REG_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_COEFF_REG_Dout_reg_6_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_COEFF_REG_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_COEFF_REG_Dout_reg_8_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_COEFF_REG_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_COEFF_REG_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "FA_X1")
+    (INSTANCE  cell7_Addereeno_add_16_U1_2)
+      (DELAY
+	(ABSOLUTE
+	(COND (B==1'b1)&&(CI==1'b0) (IOPATH A CO  (0.058::0.058) (0.083::0.083)))
+	(COND (B==1'b0)&&(CI==1'b1) (IOPATH A CO  (0.054::0.054) (0.086::0.086)))
+	(COND (A==1'b1)&&(CI==1'b0) (IOPATH B CO  (0.057::0.057) (0.086::0.086)))
+	(COND (A==1'b0)&&(CI==1'b1) (IOPATH B CO  (0.056::0.056) (0.087::0.087)))
+	(COND (A==1'b1)&&(B==1'b0) (IOPATH CI CO  (0.052::0.052) (0.079::0.079)))
+	(COND (A==1'b0)&&(B==1'b1) (IOPATH CI CO  (0.054::0.054) (0.077::0.077)))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  cell7_Reg_data_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_Reg_data_Dout_reg_0_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.038::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.037::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.038::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.038::)))
+	(IOPATH (posedge CK) Q  (0.122::) (0.103::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_Reg_data_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_Reg_data_Dout_reg_2_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.042::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.042::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.042::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.042::)))
+	(IOPATH (posedge CK) Q  (0.129::) (0.107::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_Reg_data_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_Reg_data_Dout_reg_4_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.045::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.045::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.045::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.045::)))
+	(IOPATH (posedge CK) Q  (0.134::) (0.110::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_Reg_data_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_Reg_data_Dout_reg_6_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.044::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.044::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.045::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.045::)))
+	(IOPATH (posedge CK) Q  (0.133::) (0.110::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_Reg_data_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_Reg_data_Dout_reg_8_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.043::)))
+	(IOPATH (posedge CK) Q  (0.131::) (0.108::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_Reg_data_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell7_Reg_data_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  cell8_COEFF_REG_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_COEFF_REG_Dout_reg_0_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_COEFF_REG_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_COEFF_REG_Dout_reg_2_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_COEFF_REG_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_COEFF_REG_Dout_reg_4_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_COEFF_REG_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_COEFF_REG_Dout_reg_6_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_COEFF_REG_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_COEFF_REG_Dout_reg_8_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_COEFF_REG_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_COEFF_REG_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "FA_X1")
+    (INSTANCE  cell8_Addereeno_add_16_U1_2)
+      (DELAY
+	(ABSOLUTE
+	(COND (B==1'b1)&&(CI==1'b0) (IOPATH A CO  (0.055::0.055) (0.082::0.082)))
+	(COND (B==1'b0)&&(CI==1'b1) (IOPATH A CO  (0.051::0.051) (0.085::0.085)))
+	(COND (A==1'b1)&&(CI==1'b0) (IOPATH B CO  (0.055::0.055) (0.085::0.085)))
+	(COND (A==1'b0)&&(CI==1'b1) (IOPATH B CO  (0.054::0.054) (0.086::0.086)))
+	(COND (A==1'b1)&&(B==1'b0) (IOPATH CI CO  (0.050::0.050) (0.078::0.078)))
+	(COND (A==1'b0)&&(B==1'b1) (IOPATH CI CO  (0.052::0.052) (0.076::0.076)))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  cell8_Reg_data_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_Reg_data_Dout_reg_0_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.038::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.038::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.038::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.038::)))
+	(IOPATH (posedge CK) Q  (0.123::) (0.104::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_Reg_data_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_Reg_data_Dout_reg_2_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.041::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.041::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.041::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.041::)))
+	(IOPATH (posedge CK) Q  (0.128::) (0.107::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_Reg_data_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_Reg_data_Dout_reg_4_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.044::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.044::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.044::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.044::)))
+	(IOPATH (posedge CK) Q  (0.132::) (0.110::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_Reg_data_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_Reg_data_Dout_reg_6_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.043::)))
+	(IOPATH (posedge CK) Q  (0.131::) (0.109::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_Reg_data_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_Reg_data_Dout_reg_8_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.044::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.044::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.044::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.044::)))
+	(IOPATH (posedge CK) Q  (0.132::) (0.110::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_Reg_data_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell8_Reg_data_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  cell9_COEFF_REG_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_COEFF_REG_Dout_reg_0_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_COEFF_REG_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_COEFF_REG_Dout_reg_2_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_COEFF_REG_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_COEFF_REG_Dout_reg_4_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_COEFF_REG_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_COEFF_REG_Dout_reg_6_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_COEFF_REG_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_COEFF_REG_Dout_reg_8_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_COEFF_REG_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_COEFF_REG_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  cell9_Reg_data_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_Reg_data_Dout_reg_0_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.038::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.038::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.038::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.038::)))
+	(IOPATH (posedge CK) Q  (0.123::) (0.104::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_Reg_data_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_Reg_data_Dout_reg_2_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.041::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.041::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.041::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.041::)))
+	(IOPATH (posedge CK) Q  (0.127::) (0.106::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_Reg_data_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_Reg_data_Dout_reg_4_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.043::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.043::)))
+	(IOPATH (posedge CK) Q  (0.131::) (0.108::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_Reg_data_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_Reg_data_Dout_reg_6_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.042::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.042::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.042::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.042::)))
+	(IOPATH (posedge CK) Q  (0.130::) (0.108::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_Reg_data_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_Reg_data_Dout_reg_8_)
+      (DELAY
+	(ABSOLUTE
+	(COND (CK==1'b1)&&(D==1'b1) (IOPATH RN Q  () (0.042::)))
+	(COND (CK==1'b1)&&(D==1'b0) (IOPATH RN Q  () (0.042::)))
+	(COND (CK==1'b0)&&(D==1'b1) (IOPATH RN Q  () (0.042::)))
+	(COND (CK==1'b0)&&(D==1'b0) (IOPATH RN Q  () (0.042::)))
+	(IOPATH (posedge CK) Q  (0.130::) (0.108::))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_Reg_data_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell9_Reg_data_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  cell10_COEFF_REG_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_COEFF_REG_Dout_reg_0_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_COEFF_REG_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_COEFF_REG_Dout_reg_2_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_COEFF_REG_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_COEFF_REG_Dout_reg_4_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_COEFF_REG_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_COEFF_REG_Dout_reg_6_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_COEFF_REG_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_COEFF_REG_Dout_reg_8_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_COEFF_REG_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_COEFF_REG_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "FA_X1")
+    (INSTANCE  cell10_Addereeno_add_16_U1_1)
+      (DELAY
+	(ABSOLUTE
+	(COND (B==1'b1)&&(CI==1'b0) (IOPATH A S  (0.108::0.108) (0.080::0.080)))
+	(COND (B==1'b0)&&(CI==1'b1) (IOPATH A S  (0.108::0.108) (0.081::0.081)))
+	(COND (B==1'b1)&&(CI==1'b1) (IOPATH A S  (0.047::0.047) (0.065::0.065)))
+	(COND (B==1'b0)&&(CI==1'b0) (IOPATH A S  (0.036::0.036) (0.093::0.093)))
+	(COND (A==1'b1)&&(CI==1'b0) (IOPATH B S  (0.114::0.114) (0.079::0.079)))
+	(COND (A==1'b0)&&(CI==1'b1) (IOPATH B S  (0.109::0.109) (0.087::0.087)))
+	(COND (A==1'b1)&&(CI==1'b1) (IOPATH B S  (0.047::0.047) (0.061::0.061)))
+	(COND (A==1'b0)&&(CI==1'b0) (IOPATH B S  (0.034::0.034) (0.089::0.089)))
+	(COND (A==1'b1)&&(B==1'b0) (IOPATH CI S  (0.106::0.106) (0.079::0.079)))
+	(COND (A==1'b0)&&(B==1'b1) (IOPATH CI S  (0.101::0.101) (0.084::0.084)))
+	(COND (A==1'b1)&&(B==1'b1) (IOPATH CI S  (0.046::0.046) (0.056::0.056)))
+	(COND (A==1'b0)&&(B==1'b0) (IOPATH CI S  (0.033::0.033) (0.083::0.083)))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "FA_X1")
+    (INSTANCE  cell10_Addereeno_add_16_U1_2)
+      (DELAY
+	(ABSOLUTE
+	(COND (B==1'b1)&&(CI==1'b0) (IOPATH A S  (0.108::0.108) (0.080::0.080)))
+	(COND (B==1'b0)&&(CI==1'b1) (IOPATH A S  (0.108::0.108) (0.081::0.081)))
+	(COND (B==1'b1)&&(CI==1'b1) (IOPATH A S  (0.047::0.047) (0.065::0.065)))
+	(COND (B==1'b0)&&(CI==1'b0) (IOPATH A S  (0.036::0.036) (0.093::0.093)))
+	(COND (A==1'b1)&&(CI==1'b0) (IOPATH B S  (0.114::0.114) (0.079::0.079)))
+	(COND (A==1'b0)&&(CI==1'b1) (IOPATH B S  (0.109::0.109) (0.087::0.087)))
+	(COND (A==1'b1)&&(CI==1'b1) (IOPATH B S  (0.047::0.047) (0.061::0.061)))
+	(COND (A==1'b0)&&(CI==1'b0) (IOPATH B S  (0.034::0.034) (0.089::0.089)))
+	(COND (A==1'b1)&&(B==1'b0) (IOPATH CI S  (0.106::0.106) (0.079::0.079)))
+	(COND (A==1'b0)&&(B==1'b1) (IOPATH CI S  (0.101::0.101) (0.084::0.084)))
+	(COND (A==1'b1)&&(B==1'b1) (IOPATH CI S  (0.046::0.046) (0.056::0.056)))
+	(COND (A==1'b0)&&(B==1'b0) (IOPATH CI S  (0.033::0.033) (0.083::0.083)))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  cell10_Reg_data_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_Reg_data_Dout_reg_0_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_Reg_data_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_Reg_data_Dout_reg_2_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_Reg_data_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_Reg_data_Dout_reg_4_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_Reg_data_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_Reg_data_Dout_reg_6_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_Reg_data_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_Reg_data_Dout_reg_8_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_Reg_data_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  cell10_Reg_data_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKGATETST_X1")
+    (INSTANCE  output_register_clk_gate_Dout_reg/latch)
+      (DELAY
+	(ABSOLUTE
+	(COND (E==1'b1)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b1)&&(SE==1'b0) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b1) (IOPATH CK GCK  (0.000::0.000) (0.000::0.000)))
+	(COND (E==1'b0)&&(SE==1'b0) (IOPATH CK GCK  () (0.000::0.000)))
+	)
+      )
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  output_register_Dout_reg_0_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  output_register_Dout_reg_1_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  output_register_Dout_reg_2_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  output_register_Dout_reg_3_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  output_register_Dout_reg_4_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  output_register_Dout_reg_5_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  output_register_Dout_reg_6_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  output_register_Dout_reg_7_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  output_register_Dout_reg_8_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  output_register_Dout_reg_9_)
+      (TIMINGCHECK
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFR_X1")
+    (INSTANCE  output_register_Dout_reg_10_)
+      (TIMINGCHECK
+      )
+  )
+)
