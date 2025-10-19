@@ -1,0 +1,10 @@
+QuestaSim
+source /eda/scripts/init_questa_core_prime
+vlib work
+Synopsys
+source /eda/scripts/init_design_vision
+Virtuoso
+source /eda/scripts/init_cadence_2020-21
+source design.globals
+set init_mmmc_file mmm_design.tcl
+init_design

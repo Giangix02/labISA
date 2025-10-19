@@ -1,0 +1,14 @@
+source /eda/scripts/init_questa_core_prime
+vlib work
+vcom ./work ../src/Adder.vhd
+vcom ./work ../src/AddMultBlockV2.vhd
+vcom ./work ../tb/clk_gen.vhd
+vcom ./work ../tb/data_maker.vhd
+vcom ./work ../tb/data_sink.vhd
+vcom ./work ../src/FF.vhd
+vcom ./work ../src/Mult.vhd
+vcom ./work ../src/myfir.vhd
+vcom ./work ../src/REG11B.vhd
+vlog ./work ../tb/tb_fir.sv
+vsim work.tb_fir -voptargs=*acc
+run 100ns
