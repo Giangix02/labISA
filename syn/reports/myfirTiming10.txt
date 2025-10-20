@@ -1,4 +1,3 @@
-Warning: Design 'myfir' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
 Information: Updating design information... (UID-85)
  
 ****************************************
@@ -8,28 +7,131 @@ Report : timing
         -max_paths 1
 Design : myfir
 Version: S-2021.06-SP4
-Date   : Mon Oct 20 16:42:05 2025
+Date   : Mon Oct 20 17:13:20 2025
 ****************************************
 
 Operating Conditions: typical   Library: NangateOpenCellLibrary
 Wire Load Model Mode: top
 
-  Startpoint: output_register/Dout[10] (internal pin)
-  Endpoint: DOUT[10] (output port clocked by CLK)
-  Path Group: (none)
+  Startpoint: cReg1/Dout_reg[1]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: DataRegOut/Dout_reg[10]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
   Path Type: max
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
   myfir              5K_hvratio_1_1        NangateOpenCellLibrary
 
-  Point                                    Incr       Path
-  -----------------------------------------------------------
-  output_register/Dout[10] (REG11B)        0.00       0.00 r
-  DOUT[10] (out)                           0.00       0.00 r
-  data arrival time                                   0.00
-  -----------------------------------------------------------
-  (Path is unconstrained)
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  cReg1/Dout_reg[1]/CK (DFFR_X1)                          0.00       0.00 r
+  cReg1/Dout_reg[1]/Q (DFFR_X1)                           0.18       0.18 r
+  cReg1/Dout[1] (REG11B_9)                                0.00       0.18 r
+  mul1/IN0[1] (Mult_9)                                    0.00       0.18 r
+  mul1/mult_28/a[1] (Mult_9_DW_mult_tc_0_DW_mult_tc_9)
+                                                          0.00       0.18 r
+  mul1/mult_28/U489/Z (XOR2_X1)                           0.11       0.28 r
+  mul1/mult_28/U297/ZN (INV_X1)                           0.06       0.35 f
+  mul1/mult_28/U481/ZN (NAND2_X1)                         0.10       0.44 r
+  mul1/mult_28/U356/ZN (OAI22_X1)                         0.06       0.50 f
+  mul1/mult_28/U74/S (HA_X1)                              0.08       0.58 f
+  mul1/mult_28/U478/ZN (AOI222_X1)                        0.11       0.69 r
+  mul1/mult_28/U298/ZN (INV_X1)                           0.03       0.72 f
+  mul1/mult_28/U477/ZN (AOI222_X1)                        0.09       0.81 r
+  mul1/mult_28/U301/ZN (INV_X1)                           0.03       0.84 f
+  mul1/mult_28/U476/ZN (AOI222_X1)                        0.09       0.93 r
+  mul1/mult_28/U300/ZN (INV_X1)                           0.03       0.96 f
+  mul1/mult_28/U475/ZN (AOI222_X1)                        0.09       1.05 r
+  mul1/mult_28/U296/ZN (INV_X1)                           0.03       1.08 f
+  mul1/mult_28/U474/ZN (AOI222_X1)                        0.09       1.17 r
+  mul1/mult_28/U295/ZN (INV_X1)                           0.03       1.20 f
+  mul1/mult_28/U473/ZN (AOI222_X1)                        0.09       1.30 r
+  mul1/mult_28/U294/ZN (INV_X1)                           0.03       1.32 f
+  mul1/mult_28/U472/ZN (AOI222_X1)                        0.11       1.43 r
+  mul1/mult_28/U471/ZN (OAI222_X1)                        0.07       1.50 f
+  mul1/mult_28/U470/ZN (AOI222_X1)                        0.11       1.61 r
+  mul1/mult_28/U469/ZN (OAI222_X1)                        0.07       1.68 f
+  mul1/mult_28/U11/CO (FA_X1)                             0.10       1.77 f
+  mul1/mult_28/U10/CO (FA_X1)                             0.09       1.86 f
+  mul1/mult_28/U9/CO (FA_X1)                              0.09       1.95 f
+  mul1/mult_28/U8/CO (FA_X1)                              0.09       2.04 f
+  mul1/mult_28/U7/CO (FA_X1)                              0.09       2.13 f
+  mul1/mult_28/U6/CO (FA_X1)                              0.09       2.23 f
+  mul1/mult_28/U5/CO (FA_X1)                              0.09       2.31 f
+  mul1/mult_28/U323/Z (XOR2_X1)                           0.07       2.38 f
+  mul1/mult_28/U322/Z (XOR2_X1)                           0.08       2.46 f
+  mul1/mult_28/product[20] (Mult_9_DW_mult_tc_0_DW_mult_tc_9)
+                                                          0.00       2.46 f
+  mul1/Molt[10] (Mult_9)                                  0.00       2.46 f
+  add0/IN1[10] (Adder_9)                                  0.00       2.46 f
+  add0/add_21/B[10] (Adder_9_DW01_add_0_DW01_add_9)       0.00       2.46 f
+  add0/add_21/U1_10/S (FA_X1)                             0.15       2.61 r
+  add0/add_21/SUM[10] (Adder_9_DW01_add_0_DW01_add_9)     0.00       2.61 r
+  add0/Sum[10] (Adder_9)                                  0.00       2.61 r
+  add1/IN0[10] (Adder_8)                                  0.00       2.61 r
+  add1/add_21/A[10] (Adder_8_DW01_add_0_DW01_add_8)       0.00       2.61 r
+  add1/add_21/U1_10/S (FA_X1)                             0.12       2.73 f
+  add1/add_21/SUM[10] (Adder_8_DW01_add_0_DW01_add_8)     0.00       2.73 f
+  add1/Sum[10] (Adder_8)                                  0.00       2.73 f
+  add2/IN0[10] (Adder_7)                                  0.00       2.73 f
+  add2/add_21/A[10] (Adder_7_DW01_add_0_DW01_add_7)       0.00       2.73 f
+  add2/add_21/U1_10/S (FA_X1)                             0.15       2.87 r
+  add2/add_21/SUM[10] (Adder_7_DW01_add_0_DW01_add_7)     0.00       2.87 r
+  add2/Sum[10] (Adder_7)                                  0.00       2.87 r
+  add3/IN0[10] (Adder_6)                                  0.00       2.87 r
+  add3/add_21/A[10] (Adder_6_DW01_add_0_DW01_add_6)       0.00       2.87 r
+  add3/add_21/U1_10/S (FA_X1)                             0.12       2.99 f
+  add3/add_21/SUM[10] (Adder_6_DW01_add_0_DW01_add_6)     0.00       2.99 f
+  add3/Sum[10] (Adder_6)                                  0.00       2.99 f
+  add4/IN0[10] (Adder_5)                                  0.00       2.99 f
+  add4/add_21/A[10] (Adder_5_DW01_add_0_DW01_add_5)       0.00       2.99 f
+  add4/add_21/U1_10/S (FA_X1)                             0.15       3.14 r
+  add4/add_21/SUM[10] (Adder_5_DW01_add_0_DW01_add_5)     0.00       3.14 r
+  add4/Sum[10] (Adder_5)                                  0.00       3.14 r
+  add5/IN0[10] (Adder_4)                                  0.00       3.14 r
+  add5/add_21/A[10] (Adder_4_DW01_add_0_DW01_add_4)       0.00       3.14 r
+  add5/add_21/U1_10/S (FA_X1)                             0.12       3.25 f
+  add5/add_21/SUM[10] (Adder_4_DW01_add_0_DW01_add_4)     0.00       3.25 f
+  add5/Sum[10] (Adder_4)                                  0.00       3.25 f
+  add6/IN0[10] (Adder_3)                                  0.00       3.25 f
+  add6/add_21/A[10] (Adder_3_DW01_add_0_DW01_add_3)       0.00       3.25 f
+  add6/add_21/U1_10/S (FA_X1)                             0.15       3.40 r
+  add6/add_21/SUM[10] (Adder_3_DW01_add_0_DW01_add_3)     0.00       3.40 r
+  add6/Sum[10] (Adder_3)                                  0.00       3.40 r
+  add7/IN0[10] (Adder_2)                                  0.00       3.40 r
+  add7/add_21/A[10] (Adder_2_DW01_add_0_DW01_add_2)       0.00       3.40 r
+  add7/add_21/U1_10/S (FA_X1)                             0.12       3.52 f
+  add7/add_21/SUM[10] (Adder_2_DW01_add_0_DW01_add_2)     0.00       3.52 f
+  add7/Sum[10] (Adder_2)                                  0.00       3.52 f
+  add8/IN0[10] (Adder_1)                                  0.00       3.52 f
+  add8/add_21/A[10] (Adder_1_DW01_add_0_DW01_add_1)       0.00       3.52 f
+  add8/add_21/U1_10/S (FA_X1)                             0.13       3.65 f
+  add8/add_21/SUM[10] (Adder_1_DW01_add_0_DW01_add_1)     0.00       3.65 f
+  add8/Sum[10] (Adder_1)                                  0.00       3.65 f
+  add9/IN0[10] (Adder_0)                                  0.00       3.65 f
+  add9/add_21/A[10] (Adder_0_DW01_add_0)                  0.00       3.65 f
+  add9/add_21/U1_10/S (FA_X1)                             0.14       3.79 r
+  add9/add_21/SUM[10] (Adder_0_DW01_add_0)                0.00       3.79 r
+  add9/Sum[10] (Adder_0)                                  0.00       3.79 r
+  DataRegOut/Din[10] (REG11B_11)                          0.00       3.79 r
+  DataRegOut/Dout_reg[10]/D (DFFR_X1)                     0.01       3.79 r
+  data arrival time                                                  3.79
+
+  clock CLK (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.07       9.93
+  DataRegOut/Dout_reg[10]/CK (DFFR_X1)                    0.00       9.93 r
+  library setup time                                     -0.03       9.90
+  data required time                                                 9.90
+  --------------------------------------------------------------------------
+  data required time                                                 9.90
+  data arrival time                                                 -3.79
+  --------------------------------------------------------------------------
+  slack (MET)                                                        6.10
 
 
 1

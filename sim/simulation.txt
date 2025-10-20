@@ -1,7 +1,6 @@
 source /eda/scripts/init_questa_core_prime
 vlib work
 vcom ./work ../src/Adder.vhd
-vcom ./work ../src/AddMultBlockV2.vhd
 vcom ./work ../tb/clk_gen.vhd
 vcom ./work ../tb/data_maker.vhd
 vcom ./work ../tb/data_sink.vhd
