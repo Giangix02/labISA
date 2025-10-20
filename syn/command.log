@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running dc_shell Version S-2021.06-SP4 for linux64 -- Nov 23, 2021
-#@ # Date:   Fri Oct 17 19:23:52 2025
+#@ # Date:   Mon Oct 20 14:34:53 2025
 #@ # Run by: isa30_2025_2026@isaserver
 #@ 
 
@@ -8043,6 +8043,7 @@ source /home/isa30_2025_2026/labISA/syn/.synopsys_dc.setup
 #@ set synthetic_library [list "dw_foundation.sldb" ]
 #@ # -- End source /home/isa30_2025_2026/labISA/syn/.synopsys_dc.setup
 
+source synthesi.scr
 source synthesis.scr
 #@ # -- Starting source synthesis.scr
 
@@ -8057,7 +8058,7 @@ source synthesis.scr
 #@ elaborate myfir -arch struct -lib WORK
 #@ uniquify
 #@ link
-#@ create_clock -name CLK -period 10.0 clk
+#@ create_clock -name CLK -period 6.4 clk
 #@ set_dont_touch_network CLK
 #@ set_clock_uncertainty 0.07 [get_clocks CLK]
 #@ set_input_delay 0.5 -max -clock clk [remove_from_collection [all_inputs] CLK]
@@ -8065,8 +8066,9 @@ source synthesis.scr
 #@ set OLOAD [load_of NangateOpenCellLibrary/BUF_X4/A]
 #@ set $OLOAD [all_outputs]
 #@ compile -gate_clock
-#@ report_timing > ./reports/myfirTiming10.txt
-#@ report_area > ./reports/myfirArea.txt
+#@ report_timing > ./reports/myfirTiming6.4.txt
+#@ report_area > ./reports/myfirArea6.4.txt
+#@ report_power > ./reports/myfirPower6.4
 #@ ungroup -all -flatten
 #@ change_names -hierarchy -rules verilog
 #@ write_sdf ../netlist/myfir.sdf
@@ -8075,15 +8077,204 @@ source synthesis.scr
 #@ 
 #@ # -- End source synthesis.scr
 
-create_clock -name CLK -period 0.0 clk
-compile -gate_clock
-report_timing > ./reports/myfirTiming0.txt
-create_clock -name CLK -period 2.8 clk
-compile -gate_clock
-report_timing > ./reports/myfirTiming2.8.txt
-create_clock -name CLK -period 3 clk
-compile -gate_clock
-report_timing > ./reports/myfirTiming3.txt
-create_clock -name CLK -period 3.2 clk
-compile -gate_clock
-report_timing > ./reports/myfirTiming3.2.txt
+report_power -hier
+source synthesis.scr
+#@ # -- Starting source synthesis.scr
+
+#@ dc_shell-xg-t
+#@ analyze -f vhdl -lib WORK ../src/Adder.vhd
+#@ analyze -f vhdl -lib WORK ../src/AddMultBlockV2.vhd
+#@ analyze -f vhdl -lib WORK ../src/FF.vhd
+#@ analyze -f vhdl -lib WORK ../src/Mult.vhd
+#@ analyze -f vhdl -lib WORK ../src/myfir.vhd
+#@ analyze -f vhdl -lib WORK ../src/REG11B.vhd
+#@ set power_preserve_rtl_hier_names true
+#@ elaborate myfir -arch struct -lib WORK
+#@ uniquify
+#@ link
+#@ create_clock -name CLK -period 3.2 clk
+#@ set_dont_touch_network CLK
+#@ set_clock_uncertainty 0.07 [get_clocks CLK]
+#@ set_input_delay 0.5 -max -clock clk [remove_from_collection [all_inputs] CLK]
+#@ set_output_delay 0.5 -max -clock CLK [all_outputs]
+#@ set OLOAD [load_of NangateOpenCellLibrary/BUF_X4/A]
+#@ set $OLOAD [all_outputs]
+#@ compile 
+#@ report_timing > ./reports/myfirTiming3.2.txt
+#@ report_area > ./reports/myfirArea3.2.txt
+#@ report_power > ./reports/myfirPower3.2
+#@ ungroup -all -flatten
+#@ change_names -hierarchy -rules verilog
+#@ write_sdf ../netlist/myfir.sdf
+#@ write -f verilog -hierarchy -output ../netlist/myfir.v
+#@ write_sdc ../netlist/myfir.sdc
+#@ 
+#@ # -- End source synthesis.scr
+
+source synthesis.scr
+#@ # -- Starting source synthesis.scr
+
+#@ dc_shell-xg-t
+#@ analyze -f vhdl -lib WORK ../src/Adder.vhd
+#@ analyze -f vhdl -lib WORK ../src/AddMultBlockV2.vhd
+#@ analyze -f vhdl -lib WORK ../src/FF.vhd
+#@ analyze -f vhdl -lib WORK ../src/Mult.vhd
+#@ analyze -f vhdl -lib WORK ../src/myfir.vhd
+#@ analyze -f vhdl -lib WORK ../src/REG11B.vhd
+#@ set power_preserve_rtl_hier_names true
+#@ elaborate myfir -arch struct -lib WORK
+#@ uniquify
+#@ link
+#@ create_clock -name CLK -period 6.4 clk
+#@ set_dont_touch_network CLK
+#@ set_clock_uncertainty 0.07 [get_clocks CLK]
+#@ set_input_delay 0.5 -max -clock clk [remove_from_collection [all_inputs] CLK]
+#@ set_output_delay 0.5 -max -clock CLK [all_outputs]
+#@ set OLOAD [load_of NangateOpenCellLibrary/BUF_X4/A]
+#@ set $OLOAD [all_outputs]
+#@ compile 
+#@ report_timing > ./reports/myfirTiming6.4.txt
+#@ report_area > ./reports/myfirArea6.4.txt
+#@ report_power > ./reports/myfirPower6.4.txt
+#@ ungroup -all -flatten
+#@ change_names -hierarchy -rules verilog
+#@ write_sdf ../netlist/myfir.sdf
+#@ write -f verilog -hierarchy -output ../netlist/myfir.v
+#@ write_sdc ../netlist/myfir.sdc
+#@ 
+#@ # -- End source synthesis.scr
+
+source synthesis.scr
+#@ # -- Starting source synthesis.scr
+
+#@ dc_shell-xg-t
+#@ analyze -f vhdl -lib WORK ../src/Adder.vhd
+#@ analyze -f vhdl -lib WORK ../src/AddMultBlockV2.vhd
+#@ analyze -f vhdl -lib WORK ../src/FF.vhd
+#@ analyze -f vhdl -lib WORK ../src/Mult.vhd
+#@ analyze -f vhdl -lib WORK ../src/myfir.vhd
+#@ analyze -f vhdl -lib WORK ../src/REG11B.vhd
+#@ set power_preserve_rtl_hier_names true
+#@ elaborate myfir -arch struct -lib WORK
+#@ uniquify
+#@ link
+#@ create_clock -name CLK -period 6.4 clk
+#@ set_dont_touch_network CLK
+#@ set_clock_uncertainty 0.07 [get_clocks CLK]
+#@ set_input_delay 0.5 -max -clock clk [remove_from_collection [all_inputs] CLK]
+#@ set_output_delay 0.5 -max -clock CLK [all_outputs]
+#@ set OLOAD [load_of NangateOpenCellLibrary/BUF_X4/A]
+#@ set $OLOAD [all_outputs]
+#@ compile 
+#@ report_timing > ./reports/myfirTiming6.4.txt
+#@ report_area > ./reports/myfirArea6.4.txt
+#@ report_power > ./reports/myfirPower6.4.txt
+#@ ungroup -all -flatten
+#@ change_names -hierarchy -rules verilog
+#@ write_sdf ../netlist/myfir.sdf
+#@ write -f verilog -hierarchy -output ../netlist/myfir.v
+#@ write_sdc ../netlist/myfir.sdc
+#@ 
+#@ # -- End source synthesis.scr
+
+source synthesis.scr
+#@ # -- Starting source synthesis.scr
+
+#@ dc_shell-xg-t
+#@ analyze -f vhdl -lib WORK ../src/Adder.vhd
+#@ analyze -f vhdl -lib WORK ../src/AddMultBlockV2.vhd
+#@ analyze -f vhdl -lib WORK ../src/FF.vhd
+#@ analyze -f vhdl -lib WORK ../src/Mult.vhd
+#@ analyze -f vhdl -lib WORK ../src/myfir.vhd
+#@ analyze -f vhdl -lib WORK ../src/REG11B.vhd
+#@ set power_preserve_rtl_hier_names true
+#@ elaborate myfir -arch struct -lib WORK
+#@ uniquify
+#@ link
+#@ create_clock -name CLK -period 3.2 clk
+#@ set_dont_touch_network CLK
+#@ set_clock_uncertainty 0.07 [get_clocks CLK]
+#@ set_input_delay 0.5 -max -clock clk [remove_from_collection [all_inputs] CLK]
+#@ set_output_delay 0.5 -max -clock CLK [all_outputs]
+#@ set OLOAD [load_of NangateOpenCellLibrary/BUF_X4/A]
+#@ set $OLOAD [all_outputs]
+#@ compile 
+#@ report_timing > ./reports/myfirTiming3.2.txt
+#@ report_area > ./reports/myfirArea3.2.txt
+#@ report_power > ./reports/myfirPower3.2.txt
+#@ ungroup -all -flatten
+#@ change_names -hierarchy -rules verilog
+#@ write_sdf ../netlist/myfir.sdf
+#@ write -f verilog -hierarchy -output ../netlist/myfir.v
+#@ write_sdc ../netlist/myfir.sdc
+#@ 
+#@ # -- End source synthesis.scr
+
+source synthesis.scr
+#@ # -- Starting source synthesis.scr
+
+#@ dc_shell-xg-t
+#@ analyze -f vhdl -lib WORK ../src/Adder.vhd
+#@ analyze -f vhdl -lib WORK ../src/AddMultBlockV2.vhd
+#@ analyze -f vhdl -lib WORK ../src/FF.vhd
+#@ analyze -f vhdl -lib WORK ../src/Mult.vhd
+#@ analyze -f vhdl -lib WORK ../src/myfir.vhd
+#@ analyze -f vhdl -lib WORK ../src/REG11B.vhd
+#@ set power_preserve_rtl_hier_names true
+#@ elaborate myfir -arch struct -lib WORK
+#@ uniquify
+#@ link
+#@ create_clock -name CLK -period 3.2 clk
+#@ set_dont_touch_network CLK
+#@ set_clock_uncertainty 0.07 [get_clocks CLK]
+#@ set_input_delay 0.5 -max -clock clk [remove_from_collection [all_inputs] CLK]
+#@ set_output_delay 0.5 -max -clock CLK [all_outputs]
+#@ set OLOAD [load_of NangateOpenCellLibrary/BUF_X4/A]
+#@ set $OLOAD [all_outputs]
+#@ compile
+#@ report_timing > ./reports/myfirTiming3.2.txt
+#@ report_area > ./reportsGateClock/myfirArea3.2.txt
+#@ report_power > ./reportsGateClock/myfirPower3.2.txt
+#@ ungroup -all -flatten
+#@ change_names -hierarchy -rules verilog
+#@ write_sdf ../netlist/myfir.sdf
+#@ write -f verilog -hierarchy -output ../netlist/myfir.v
+#@ write_sdc ../netlist/myfir.sdc
+#@ 
+#@ 
+#@ # -- End source synthesis.scr
+
+source synthesis.scr
+#@ # -- Starting source synthesis.scr
+
+#@ dc_shell-xg-t
+#@ analyze -f vhdl -lib WORK ../src/Adder.vhd
+#@ analyze -f vhdl -lib WORK ../src/AddMultBlockV2.vhd
+#@ analyze -f vhdl -lib WORK ../src/FF.vhd
+#@ analyze -f vhdl -lib WORK ../src/Mult.vhd
+#@ analyze -f vhdl -lib WORK ../src/myfir.vhd
+#@ analyze -f vhdl -lib WORK ../src/REG11B.vhd
+#@ set power_preserve_rtl_hier_names true
+#@ elaborate myfir -arch struct -lib WORK
+#@ uniquify
+#@ link
+#@ create_clock -name CLK -period 3.4 clk
+#@ set_dont_touch_network CLK
+#@ set_clock_uncertainty 0.07 [get_clocks CLK]
+#@ set_input_delay 0.5 -max -clock clk [remove_from_collection [all_inputs] CLK]
+#@ set_output_delay 0.5 -max -clock CLK [all_outputs]
+#@ set OLOAD [load_of NangateOpenCellLibrary/BUF_X4/A]
+#@ set $OLOAD [all_outputs]
+#@ compile
+#@ report_timing > ./reports/myfirTiming3.4.txt
+#@ report_area > ./reports/myfirArea3.4.txt
+#@ report_power > ./reports/myfirPower3.4.txt
+#@ ungroup -all -flatten
+#@ change_names -hierarchy -rules verilog
+#@ write_sdf ../netlist/myfir.sdf
+#@ write -f verilog -hierarchy -output ../netlist/myfir.v
+#@ write_sdc ../netlist/myfir.sdc
+#@ 
+#@ 
+#@ # -- End source synthesis.scr
+

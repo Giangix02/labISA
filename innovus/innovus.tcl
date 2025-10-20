@@ -138,13 +138,13 @@ write_sdf -ideal_clock_network -recompute_delay_calc myfir.sdf
 getDrawView
 setDrawView fplan
 win
-dumpToGIF Snapshots/ss_Myfir0.fplan.gif
+dumpToGIF ./Snapshots/ss_Myfir0.fplan.gif
 getDrawView
 setDrawView amoeba
 win
-dumpToGIF Snapshots/ss_Myfir0.amoeba.gif
+dumpToGIF ./Snapshots/ss_Myfir0.amoeba.gif
 getDrawView
 setDrawView place
 win
-dumpToGIF Snapshots/ss_Myfir0.place.gif
+dumpToGIF ./Snapshots/ss_Myfir0.place.gif
 checkPlace checkplace.ss.rpt

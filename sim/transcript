@@ -12,401 +12,44 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-do simulation.do
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:39:34 on Oct 17,2025
-# vcom -reportprogress 300 ./work ../src/Adder.vhd 
-# ** Error: (vcom-2054) File "./work" is a directory.
-# End time: 19:39:35 on Oct 17,2025, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 0
-# ** Error: /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vcom failed.
-# Error in macro ./simulation.do line 1
-# /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vcom failed.
-#     while executing
-# "vcom ./work ../src/Adder.vhd"
-do simulation.do
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:09 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/Adder.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_SIGNED
-# -- Compiling entity Adder
-# -- Compiling architecture beh of Adder
-# End time: 19:41:10 on Oct 17,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:10 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/AddMultBlockV2.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_SIGNED
-# -- Compiling entity AddMultBlockV2
-# -- Compiling architecture beh of AddMultBlockV2
-# End time: 19:41:10 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:10 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../tb/clk_gen.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity clk_gen
-# -- Compiling architecture beh of clk_gen
-# End time: 19:41:10 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:10 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../tb/data_maker.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package std_logic_textio
-# -- Compiling entity data_maker
-# -- Compiling architecture beh of data_maker
-# End time: 19:41:10 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:10 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../tb/data_sink.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package std_logic_textio
-# -- Compiling entity data_sink
-# -- Compiling architecture beh of data_sink
-# End time: 19:41:11 on Oct 17,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:11 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/FF.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity FF
-# -- Compiling architecture beh of FF
-# End time: 19:41:11 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:11 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/Mult.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_SIGNED
-# -- Compiling entity Mult
-# -- Compiling architecture beh of Mult
-# End time: 19:41:11 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:11 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/myfir.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_SIGNED
-# -- Compiling entity myfir
-# -- Compiling architecture struct of myfir
-# End time: 19:41:11 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:11 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/REG11B.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_SIGNED
-# -- Compiling entity REG11B
-# -- Compiling architecture beh of REG11B
-# End time: 19:41:11 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:11 on Oct 17,2025
-# vlog -reportprogress 300 -sv -work ./work ../tb/tb_fir.sv 
-# -- Compiling module tb_fir
-# 
-# Top level modules:
-# 	tb_fir
-# End time: 19:41:12 on Oct 17,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vsim work.tb_fir -voptargs="*acc" 
-# Start time: 19:41:12 on Oct 17,2025
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Error: (vopt-13130) Failed to find design unit *acc.
-#         Searched libraries:
-#             work
-# Optimization failed
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./simulation.do PAUSED at line 11
-do simulation.do
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:42 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/Adder.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_SIGNED
-# -- Compiling entity Adder
-# -- Compiling architecture beh of Adder
-# End time: 19:41:42 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:42 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/AddMultBlockV2.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_SIGNED
-# -- Compiling entity AddMultBlockV2
-# -- Compiling architecture beh of AddMultBlockV2
-# End time: 19:41:42 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:42 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../tb/clk_gen.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity clk_gen
-# -- Compiling architecture beh of clk_gen
-# End time: 19:41:42 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:42 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../tb/data_maker.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package std_logic_textio
-# -- Compiling entity data_maker
-# -- Compiling architecture beh of data_maker
-# End time: 19:41:43 on Oct 17,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:43 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../tb/data_sink.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package std_logic_textio
-# -- Compiling entity data_sink
-# -- Compiling architecture beh of data_sink
-# End time: 19:41:43 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:43 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/FF.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity FF
-# -- Compiling architecture beh of FF
-# End time: 19:41:43 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:43 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/Mult.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_SIGNED
-# -- Compiling entity Mult
-# -- Compiling architecture beh of Mult
-# End time: 19:41:43 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:43 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/myfir.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_SIGNED
-# -- Compiling entity myfir
-# -- Compiling architecture struct of myfir
-# End time: 19:41:43 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:43 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/REG11B.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_SIGNED
-# -- Compiling entity REG11B
-# -- Compiling architecture beh of REG11B
-# End time: 19:41:44 on Oct 17,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:44 on Oct 17,2025
-# vlog -reportprogress 300 -sv -work ./work ../tb/tb_fir.sv 
-# -- Compiling module tb_fir
-# 
-# Top level modules:
-# 	tb_fir
-# End time: 19:41:44 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim work.tb_fir -voptargs="*acc" 
-# Start time: 19:41:12 on Oct 17,2025
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Error: (vopt-13130) Failed to find design unit *acc.
-#         Searched libraries:
-#             work
-# Optimization failed
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=0.
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./simulation.do PAUSED at line 11
-do simulation.do
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:50 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/Adder.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_SIGNED
-# -- Compiling entity Adder
-# -- Compiling architecture beh of Adder
-# End time: 19:41:51 on Oct 17,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:51 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/AddMultBlockV2.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_SIGNED
-# -- Compiling entity AddMultBlockV2
-# -- Compiling architecture beh of AddMultBlockV2
-# End time: 19:41:51 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:51 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../tb/clk_gen.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity clk_gen
-# -- Compiling architecture beh of clk_gen
-# End time: 19:41:51 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:51 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../tb/data_maker.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package std_logic_textio
-# -- Compiling entity data_maker
-# -- Compiling architecture beh of data_maker
-# End time: 19:41:51 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:51 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../tb/data_sink.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package std_logic_textio
-# -- Compiling entity data_sink
-# -- Compiling architecture beh of data_sink
-# End time: 19:41:52 on Oct 17,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:52 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/FF.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity FF
-# -- Compiling architecture beh of FF
-# End time: 19:41:52 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:52 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/Mult.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_SIGNED
-# -- Compiling entity Mult
-# -- Compiling architecture beh of Mult
-# End time: 19:41:52 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:52 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/myfir.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_SIGNED
-# -- Compiling entity myfir
-# -- Compiling architecture struct of myfir
-# End time: 19:41:52 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:52 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/REG11B.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_SIGNED
-# -- Compiling entity REG11B
-# -- Compiling architecture beh of REG11B
-# End time: 19:41:52 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:41:53 on Oct 17,2025
-# vlog -reportprogress 300 -sv -work ./work ../tb/tb_fir.sv 
-# -- Compiling module tb_fir
-# 
-# Top level modules:
-# 	tb_fir
-# End time: 19:41:53 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim work.tb_fir -voptargs="+acc" 
-# Start time: 19:41:12 on Oct 17,2025
-# ** Note: (vsim-3812) Design is being optimized...
+# vsim -L /eda/dk/nangate45/verilog/qsim2020.4 -sdftyp "/tb_fir/UUT=../netlist/myfir.sdf" work.tb_fir 
+# Start time: 15:58:03 on Oct 20,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Loading sv_std.std
 # Loading work.tb_fir(fast)
+# Loading work.myfir(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.BUF_X4(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.CLKBUF_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.BUF_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.NAND2_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.OAI21_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.DFFS_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.INV_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.DFFR_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.SDFFR_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.XOR2_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.XNOR2_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.OAI22_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.NAND3_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.MUX2_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.AOI222_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.OAI222_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.OR3_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.NOR2_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.AND2_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.XOR2_X2(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.OR2_X2(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.CLKBUF_X3(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.NAND2_X2(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.AND3_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.BUF_X2(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.AND3_X2(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.INV_X2(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.FA_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.HA_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.DFFR_X2(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.OR2_X1(fast)
+# Loading /eda/dk/nangate45/verilog/qsim2020.4.XNOR2_X2(fast)
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -415,528 +58,537 @@ do simulation.do
 # Loading work.clk_gen(beh)#1
 # Loading ieee.std_logic_textio(body)
 # Loading work.data_maker(beh)#1
-# ** Warning: (vsim-7) Failed to open VHDL file "C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\samples.txt" in r mode.
-# No such file or directory. (errno = ENOENT)
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/SM
-# Loading ieee.std_logic_signed(body)
-# Loading work.myfir(struct)#1
-# Loading work.ff(beh)#1
-# Loading work.reg11b(beh)#1
-# Loading work.mult(beh)#1
-# Loading work.addmultblockv2(beh)#1
-# Loading work.adder(beh)#1
 # Loading work.data_sink(beh)#1
-# ** Warning: (vsim-7) Failed to open VHDL file "C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\resultsc.txt" in r mode.
-# No such file or directory. (errno = ENOENT)
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/DS
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell10/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell10/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell10/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell10/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell9/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell9/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell9/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell9/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell8/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell8/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell8/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell8/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell7/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell7/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell7/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell7/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell6/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell6/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell6/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell6/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell5/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell5/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell5/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell5/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell4/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell4/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell4/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell4/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell3/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell3/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell3/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell3/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell2/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell2/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell2/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell2/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell1/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell1/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell1/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell1/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/mult0
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/mult0
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell10/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell10/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell9/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell9/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell8/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell8/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell7/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell7/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell6/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell6/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell5/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell5/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell4/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell4/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell3/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell3/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell2/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell2/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell1/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell1/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell10/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell10/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell9/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell9/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell8/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell8/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell7/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell7/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell6/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell6/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell5/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell5/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell4/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell4/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell3/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell3/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell2/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell2/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell1/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell1/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /tb_fir/UUT/cell2/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /tb_fir/UUT/cell3/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /tb_fir/UUT/cell4/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /tb_fir/UUT/cell5/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /tb_fir/UUT/cell6/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /tb_fir/UUT/cell7/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /tb_fir/UUT/cell8/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /tb_fir/UUT/cell9/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /tb_fir/UUT/cell10/Addereeno
-do simulation.do
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:42:18 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/Adder.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_SIGNED
-# -- Compiling entity Adder
-# -- Compiling architecture beh of Adder
-# End time: 19:42:19 on Oct 17,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:42:19 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/AddMultBlockV2.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_SIGNED
-# -- Compiling entity AddMultBlockV2
-# -- Compiling architecture beh of AddMultBlockV2
-# End time: 19:42:19 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:42:19 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../tb/clk_gen.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity clk_gen
-# -- Compiling architecture beh of clk_gen
-# End time: 19:42:19 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:42:19 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../tb/data_maker.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package std_logic_textio
-# -- Compiling entity data_maker
-# -- Compiling architecture beh of data_maker
-# End time: 19:42:19 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:42:19 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../tb/data_sink.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package std_logic_textio
-# -- Compiling entity data_sink
-# -- Compiling architecture beh of data_sink
-# End time: 19:42:20 on Oct 17,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:42:20 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/FF.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity FF
-# -- Compiling architecture beh of FF
-# End time: 19:42:20 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:42:20 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/Mult.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_SIGNED
-# -- Compiling entity Mult
-# -- Compiling architecture beh of Mult
-# End time: 19:42:20 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:42:20 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/myfir.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_SIGNED
-# -- Compiling entity myfir
-# -- Compiling architecture struct of myfir
-# End time: 19:42:20 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:42:20 on Oct 17,2025
-# vcom -reportprogress 300 -work ./work ../src/REG11B.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_SIGNED
-# -- Compiling entity REG11B
-# -- Compiling architecture beh of REG11B
-# End time: 19:42:20 on Oct 17,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:42:20 on Oct 17,2025
-# vlog -reportprogress 300 -sv -work ./work ../tb/tb_fir.sv 
-# -- Compiling module tb_fir
-# 
-# Top level modules:
-# 	tb_fir
-# End time: 19:42:21 on Oct 17,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 19:42:21 on Oct 17,2025, Elapsed time: 0:01:09
-# Errors: 2, Warnings: 93
-# vsim work.tb_fir -voptargs="+acc" 
-# Start time: 19:42:21 on Oct 17,2025
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# Loading sv_std.std
-# Loading work.tb_fir(fast)
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.clk_gen(beh)#1
-# Loading ieee.std_logic_textio(body)
-# Loading work.data_maker(beh)#1
-# ** Warning: (vsim-7) Failed to open VHDL file "C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\samples.txt" in r mode.
-# No such file or directory. (errno = ENOENT)
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/SM
-# Loading ieee.std_logic_signed(body)
-# Loading work.myfir(struct)#1
-# Loading work.ff(beh)#1
-# Loading work.reg11b(beh)#1
-# Loading work.mult(beh)#1
-# Loading work.addmultblockv2(beh)#1
-# Loading work.adder(beh)#1
-# Loading work.data_sink(beh)#1
-# ** Warning: (vsim-7) Failed to open VHDL file "C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\resultsc.txt" in r mode.
-# No such file or directory. (errno = ENOENT)
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/DS
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell10/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell10/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell10/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell10/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell9/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell9/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell9/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell9/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell8/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell8/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell8/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell8/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell7/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell7/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell7/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell7/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell6/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell6/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell6/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell6/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell5/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell5/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell5/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell5/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell4/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell4/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell4/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell4/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell3/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell3/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell3/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell3/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell2/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell2/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell2/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell2/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell1/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell1/Multiplier
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell1/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/cell1/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/mult0
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_fir/UUT/mult0
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell10/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell10/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell9/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell9/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell8/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell8/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell7/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell7/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell6/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell6/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell5/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell5/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell4/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell4/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell3/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell3/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell2/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell2/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell1/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_fir/UUT/cell1/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell10/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell10/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell9/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell9/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell8/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell8/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell7/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell7/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell6/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell6/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell5/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell5/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell4/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell4/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell3/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell3/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell2/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell2/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell1/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 2  Instance: /tb_fir/UUT/cell1/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /tb_fir/UUT/cell2/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /tb_fir/UUT/cell3/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /tb_fir/UUT/cell4/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /tb_fir/UUT/cell5/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /tb_fir/UUT/cell6/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /tb_fir/UUT/cell7/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /tb_fir/UUT/cell8/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /tb_fir/UUT/cell9/Addereeno
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /tb_fir/UUT/cell10/Addereeno
+# Loading instances from ../netlist/myfir.sdf
+# Loading timing data from ../netlist/myfir.sdf
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/output_register_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/output_register_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/output_register_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/output_register_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/output_register_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/output_register_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/output_register_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/output_register_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/output_register_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/output_register_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/output_register_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_Reg_data_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_Reg_data_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_Reg_data_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_Reg_data_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_Reg_data_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_Reg_data_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_Reg_data_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_Reg_data_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_Reg_data_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_Reg_data_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_Reg_data_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_COEFF_REG_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_COEFF_REG_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_COEFF_REG_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_COEFF_REG_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_COEFF_REG_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_COEFF_REG_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_COEFF_REG_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_COEFF_REG_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_COEFF_REG_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_COEFF_REG_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell10_COEFF_REG_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_Reg_data_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_Reg_data_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_Reg_data_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_Reg_data_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_Reg_data_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_Reg_data_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_Reg_data_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_Reg_data_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_Reg_data_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_Reg_data_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_Reg_data_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_COEFF_REG_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_COEFF_REG_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_COEFF_REG_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_COEFF_REG_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_COEFF_REG_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_COEFF_REG_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_COEFF_REG_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_COEFF_REG_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_COEFF_REG_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_COEFF_REG_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell9_COEFF_REG_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_Reg_data_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_Reg_data_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_Reg_data_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_Reg_data_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_Reg_data_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_Reg_data_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_Reg_data_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_Reg_data_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_Reg_data_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_Reg_data_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_Reg_data_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_COEFF_REG_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_COEFF_REG_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_COEFF_REG_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_COEFF_REG_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_COEFF_REG_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_COEFF_REG_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_COEFF_REG_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_COEFF_REG_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_COEFF_REG_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_COEFF_REG_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell8_COEFF_REG_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_Reg_data_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_Reg_data_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_Reg_data_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_Reg_data_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_Reg_data_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_Reg_data_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_Reg_data_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_Reg_data_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_Reg_data_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_Reg_data_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_Reg_data_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_COEFF_REG_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_COEFF_REG_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_COEFF_REG_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_COEFF_REG_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_COEFF_REG_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_COEFF_REG_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_COEFF_REG_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_COEFF_REG_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_COEFF_REG_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_COEFF_REG_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell7_COEFF_REG_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_Reg_data_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_Reg_data_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_Reg_data_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_Reg_data_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_Reg_data_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_Reg_data_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_Reg_data_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_Reg_data_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_Reg_data_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_Reg_data_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_Reg_data_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_COEFF_REG_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_COEFF_REG_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_COEFF_REG_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_COEFF_REG_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_COEFF_REG_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_COEFF_REG_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_COEFF_REG_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_COEFF_REG_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_COEFF_REG_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_COEFF_REG_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell6_COEFF_REG_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_Reg_data_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_Reg_data_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_Reg_data_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_Reg_data_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_Reg_data_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_Reg_data_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_Reg_data_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_Reg_data_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_Reg_data_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_Reg_data_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_Reg_data_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_COEFF_REG_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_COEFF_REG_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_COEFF_REG_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_COEFF_REG_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_COEFF_REG_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_COEFF_REG_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_COEFF_REG_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_COEFF_REG_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_COEFF_REG_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_COEFF_REG_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell5_COEFF_REG_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_Reg_data_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_Reg_data_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_Reg_data_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_Reg_data_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_Reg_data_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_Reg_data_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_Reg_data_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_Reg_data_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_Reg_data_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_Reg_data_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_Reg_data_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_COEFF_REG_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_COEFF_REG_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_COEFF_REG_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_COEFF_REG_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_COEFF_REG_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_COEFF_REG_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_COEFF_REG_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_COEFF_REG_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_COEFF_REG_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_COEFF_REG_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell4_COEFF_REG_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_Reg_data_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_Reg_data_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_Reg_data_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_Reg_data_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_Reg_data_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_Reg_data_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_Reg_data_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_Reg_data_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_Reg_data_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_Reg_data_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1866): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_Reg_data_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_COEFF_REG_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_COEFF_REG_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_COEFF_REG_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_COEFF_REG_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_COEFF_REG_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_COEFF_REG_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_COEFF_REG_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_COEFF_REG_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_COEFF_REG_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_COEFF_REG_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell3_COEFF_REG_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_Reg_data_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_Reg_data_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_Reg_data_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_Reg_data_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_Reg_data_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_Reg_data_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_Reg_data_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_Reg_data_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_Reg_data_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_Reg_data_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_Reg_data_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_COEFF_REG_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_COEFF_REG_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_COEFF_REG_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_COEFF_REG_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_COEFF_REG_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_COEFF_REG_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_COEFF_REG_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_COEFF_REG_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_COEFF_REG_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_COEFF_REG_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell2_COEFF_REG_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_Reg_data_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_Reg_data_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_Reg_data_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_Reg_data_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_Reg_data_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_Reg_data_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_Reg_data_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_Reg_data_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_Reg_data_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1866): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_Reg_data_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_Reg_data_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_COEFF_REG_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_COEFF_REG_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_COEFF_REG_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_COEFF_REG_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_COEFF_REG_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_COEFF_REG_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_COEFF_REG_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_COEFF_REG_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_COEFF_REG_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_COEFF_REG_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/cell1_COEFF_REG_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Coeff0_reg_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Coeff0_reg_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Coeff0_reg_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Coeff0_reg_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Coeff0_reg_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Coeff0_reg_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Coeff0_reg_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Coeff0_reg_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Coeff0_reg_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Coeff0_reg_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Coeff0_reg_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Data_reg0_Dout_reg_10_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Data_reg0_Dout_reg_9_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Data_reg0_Dout_reg_8_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Data_reg0_Dout_reg_6_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Data_reg0_Dout_reg_4_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Data_reg0_Dout_reg_3_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Data_reg0_Dout_reg_5_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Data_reg0_Dout_reg_0_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Data_reg0_Dout_reg_1_
+# ** Warning: (vsim-3448) nofile(4463): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Data_reg0_Dout_reg_2_
+# ** Warning: (vsim-3448) nofile(1758): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/Data_reg0_Dout_reg_7_
+# ** Warning: (vsim-3448) nofile(1974): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/VOUT_FF_Q_reg
+# ** Warning: (vsim-3448) nofile(1974): Timing check limit can not be negative. Setting negative check constraint (0 ns) to zero.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir/UUT/VIN_FF_Q_reg
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fir File: ../tb/tb_fir.sv
+vcd file ../vcd/myfir_syn.vcd
+vcd add /tb_fir/UUT/*
+run 40 us
+# ** Error: Results are different: index=1 c=-8 HDL=0
+#    Time: 11900 ns  Iteration: 2  Instance: /tb_fir/DS
+# ** Error: Results are different: index=2 c=-8 HDL=0
+#    Time: 22100 ns  Iteration: 2  Instance: /tb_fir/DS
+# ** Error: Results are different: index=3 c=-24 HDL=-8
+#    Time: 25500 ns  Iteration: 2  Instance: /tb_fir/DS
+# ** Error: Results are different: index=4 c=16 HDL=-8
+#    Time: 28900 ns  Iteration: 2  Instance: /tb_fir/DS
+# ** Error: Results are different: index=5 c=104 HDL=-24
+#    Time: 32300 ns  Iteration: 2  Instance: /tb_fir/DS
+# ** Error: Results are different: index=6 c=168 HDL=16
+#    Time: 35700 ns  Iteration: 2  Instance: /tb_fir/DS
+# ** Error: Results are different: index=7 c=248 HDL=104
+#    Time: 39100 ns  Iteration: 2  Instance: /tb_fir/DS
+# End time: 16:26:08 on Oct 20,2025, Elapsed time: 0:28:05
+# Errors: 7, Warnings: 255

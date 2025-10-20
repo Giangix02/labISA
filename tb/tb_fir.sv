@@ -1,4 +1,4 @@
-`timescale 1ns/1ps
+//`timescale 1ns
 
 module tb_fir ();
 
@@ -42,7 +42,7 @@ module tb_fir ();
 		 .B10(H10_i),
 		 .END_SIM(END_SIM_i));
 
-   myfir UUT(.CLK(CLK_i),
+   myfir UUT(.clk(CLK_i),
 	     .RSTn(RST_n_i),
 	     .DIN(DIN_i),
              .VIN(VIN_i),
@@ -66,10 +66,10 @@ module tb_fir ();
 		.DIN(DOUT_i));   
 
 
-	initial begin
-		#40000;
-		$finish(1);
-	end
+	//initial begin
+		//#40000;
+		//$finish(1);
+	//end
 
 endmodule
 

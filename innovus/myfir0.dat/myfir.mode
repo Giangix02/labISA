@@ -26,19 +26,6 @@ catch {setNanoRouteMode -quiet -grouteExpTdStdDelay 10.100000}
 catch {setNanoRouteMode -quiet -timingEngine ""}
 
 catch { setPlaceMode -place_design_floorplan_mode false }
-catch { setPlaceMode -place_detail_check_route false }
-catch { setPlaceMode -place_detail_preserve_routing true }
-catch { setPlaceMode -place_detail_remove_affected_routing false }
-catch { setPlaceMode -place_detail_swap_eeq_cells false }
-catch { setPlaceMode -place_global_clock_gate_aware true }
-catch { setPlaceMode -place_global_cong_effort auto }
-catch { setPlaceMode -place_global_ignore_scan true }
-catch { setPlaceMode -place_global_ignore_spare false }
-catch { setPlaceMode -place_global_module_aware_spare false }
-catch { setPlaceMode -place_global_place_io_pins true }
-catch { setPlaceMode -place_global_reorder_scan true }
-catch { setPlaceMode -powerDriven false }
-catch { setPlaceMode -timingDriven true }
 catch { setIlmMode -keepHighFanoutPorts true -keepLoopBack false -keepInstInSdc false -keepFlatten true }
 catch { setUsefulSkewMode -ecoRoute false }
 catch { setUsefulSkewMode -maxAllowedDelay 1 }
