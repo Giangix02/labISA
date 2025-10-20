@@ -1,3 +1,4 @@
+Warning: Design 'myfir' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
 Information: Updating design information... (UID-85)
  
 ****************************************
@@ -7,168 +8,28 @@ Report : timing
         -max_paths 1
 Design : myfir
 Version: S-2021.06-SP4
-Date   : Fri Oct 17 19:24:29 2025
+Date   : Mon Oct 20 16:42:05 2025
 ****************************************
 
 Operating Conditions: typical   Library: NangateOpenCellLibrary
 Wire Load Model Mode: top
 
-  Startpoint: cell1/Reg_data/Dout_reg[1]
-              (rising edge-triggered flip-flop clocked by CLK)
-  Endpoint: output_register/Dout_reg[10]
-            (rising edge-triggered flip-flop clocked by CLK)
-  Path Group: CLK
+  Startpoint: output_register/Dout[10] (internal pin)
+  Endpoint: DOUT[10] (output port clocked by CLK)
+  Path Group: (none)
   Path Type: max
 
   Des/Clust/Port     Wire Load Model       Library
   ------------------------------------------------
   myfir              5K_hvratio_1_1        NangateOpenCellLibrary
 
-  Point                                                   Incr       Path
-  --------------------------------------------------------------------------
-  clock CLK (rise edge)                                   0.00       0.00
-  clock network delay (ideal)                             0.00       0.00
-  cell1/Reg_data/Dout_reg[1]/CK (DFFR_X1)                 0.00       0.00 r
-  cell1/Reg_data/Dout_reg[1]/Q (DFFR_X1)                  0.18       0.18 r
-  cell1/Reg_data/Dout[1] (REG11B_18)                      0.00       0.18 r
-  cell1/Multiplier/IN0[1] (Mult_9)                        0.00       0.18 r
-  cell1/Multiplier/mult_16/a[1] (Mult_9_DW_mult_tc_0_DW_mult_tc_9)
-                                                          0.00       0.18 r
-  cell1/Multiplier/mult_16/U493/Z (XOR2_X1)               0.11       0.29 r
-  cell1/Multiplier/mult_16/U299/ZN (INV_X1)               0.06       0.35 f
-  cell1/Multiplier/mult_16/U485/ZN (NAND2_X1)             0.10       0.45 r
-  cell1/Multiplier/mult_16/U360/ZN (OAI22_X1)             0.06       0.51 f
-  cell1/Multiplier/mult_16/U75/S (HA_X1)                  0.08       0.59 f
-  cell1/Multiplier/mult_16/U482/ZN (AOI222_X1)            0.11       0.70 r
-  cell1/Multiplier/mult_16/U300/ZN (INV_X1)               0.03       0.73 f
-  cell1/Multiplier/mult_16/U481/ZN (AOI222_X1)            0.09       0.82 r
-  cell1/Multiplier/mult_16/U303/ZN (INV_X1)               0.03       0.85 f
-  cell1/Multiplier/mult_16/U480/ZN (AOI222_X1)            0.09       0.94 r
-  cell1/Multiplier/mult_16/U302/ZN (INV_X1)               0.03       0.97 f
-  cell1/Multiplier/mult_16/U479/ZN (AOI222_X1)            0.09       1.06 r
-  cell1/Multiplier/mult_16/U298/ZN (INV_X1)               0.03       1.09 f
-  cell1/Multiplier/mult_16/U478/ZN (AOI222_X1)            0.09       1.18 r
-  cell1/Multiplier/mult_16/U297/ZN (INV_X1)               0.03       1.21 f
-  cell1/Multiplier/mult_16/U477/ZN (AOI222_X1)            0.09       1.30 r
-  cell1/Multiplier/mult_16/U296/ZN (INV_X1)               0.03       1.33 f
-  cell1/Multiplier/mult_16/U476/ZN (AOI222_X1)            0.11       1.44 r
-  cell1/Multiplier/mult_16/U475/ZN (OAI222_X1)            0.07       1.51 f
-  cell1/Multiplier/mult_16/U474/ZN (AOI222_X1)            0.11       1.62 r
-  cell1/Multiplier/mult_16/U473/ZN (OAI222_X1)            0.07       1.68 f
-  cell1/Multiplier/mult_16/U12/CO (FA_X1)                 0.10       1.78 f
-  cell1/Multiplier/mult_16/U11/S (FA_X1)                  0.14       1.91 r
-  cell1/Multiplier/mult_16/product[14] (Mult_9_DW_mult_tc_0_DW_mult_tc_9)
-                                                          0.00       1.91 r
-  cell1/Multiplier/Molt[14] (Mult_9)                      0.00       1.91 r
-  cell1/Addereeno/IN1[4] (Adder_9)                        0.00       1.91 r
-  cell1/Addereeno/add_16/B[4] (Adder_9_DW01_add_0_DW01_add_9)
-                                                          0.00       1.91 r
-  cell1/Addereeno/add_16/U1_4/S (FA_X1)                   0.12       2.04 f
-  cell1/Addereeno/add_16/SUM[4] (Adder_9_DW01_add_0_DW01_add_9)
-                                                          0.00       2.04 f
-  cell1/Addereeno/Sum[4] (Adder_9)                        0.00       2.04 f
-  cell1/Dout[4] (AddMultBlockV2_9)                        0.00       2.04 f
-  cell2/DINadd0[4] (AddMultBlockV2_8)                     0.00       2.04 f
-  cell2/Addereeno/IN0[4] (Adder_8)                        0.00       2.04 f
-  cell2/Addereeno/add_16/A[4] (Adder_8_DW01_add_0_DW01_add_8)
-                                                          0.00       2.04 f
-  cell2/Addereeno/add_16/U1_4/CO (FA_X1)                  0.10       2.14 f
-  cell2/Addereeno/add_16/U1_5/CO (FA_X1)                  0.09       2.23 f
-  cell2/Addereeno/add_16/U1_6/S (FA_X1)                   0.14       2.37 r
-  cell2/Addereeno/add_16/SUM[6] (Adder_8_DW01_add_0_DW01_add_8)
-                                                          0.00       2.37 r
-  cell2/Addereeno/Sum[6] (Adder_8)                        0.00       2.37 r
-  cell2/Dout[6] (AddMultBlockV2_8)                        0.00       2.37 r
-  cell3/DINadd0[6] (AddMultBlockV2_7)                     0.00       2.37 r
-  cell3/Addereeno/IN0[6] (Adder_7)                        0.00       2.37 r
-  cell3/Addereeno/add_16/A[6] (Adder_7_DW01_add_0_DW01_add_7)
-                                                          0.00       2.37 r
-  cell3/Addereeno/add_16/U1_6/S (FA_X1)                   0.12       2.48 f
-  cell3/Addereeno/add_16/SUM[6] (Adder_7_DW01_add_0_DW01_add_7)
-                                                          0.00       2.48 f
-  cell3/Addereeno/Sum[6] (Adder_7)                        0.00       2.48 f
-  cell3/Dout[6] (AddMultBlockV2_7)                        0.00       2.48 f
-  cell4/DINadd0[6] (AddMultBlockV2_6)                     0.00       2.48 f
-  cell4/Addereeno/IN0[6] (Adder_6)                        0.00       2.48 f
-  cell4/Addereeno/add_16/A[6] (Adder_6_DW01_add_0_DW01_add_6)
-                                                          0.00       2.48 f
-  cell4/Addereeno/add_16/U1_6/CO (FA_X1)                  0.10       2.59 f
-  cell4/Addereeno/add_16/U1_7/S (FA_X1)                   0.14       2.72 r
-  cell4/Addereeno/add_16/SUM[7] (Adder_6_DW01_add_0_DW01_add_6)
-                                                          0.00       2.72 r
-  cell4/Addereeno/Sum[7] (Adder_6)                        0.00       2.72 r
-  cell4/Dout[7] (AddMultBlockV2_6)                        0.00       2.72 r
-  cell5/DINadd0[7] (AddMultBlockV2_5)                     0.00       2.72 r
-  cell5/Addereeno/IN0[7] (Adder_5)                        0.00       2.72 r
-  cell5/Addereeno/add_16/A[7] (Adder_5_DW01_add_0_DW01_add_5)
-                                                          0.00       2.72 r
-  cell5/Addereeno/add_16/U1_7/S (FA_X1)                   0.12       2.84 f
-  cell5/Addereeno/add_16/SUM[7] (Adder_5_DW01_add_0_DW01_add_5)
-                                                          0.00       2.84 f
-  cell5/Addereeno/Sum[7] (Adder_5)                        0.00       2.84 f
-  cell5/Dout[7] (AddMultBlockV2_5)                        0.00       2.84 f
-  cell6/DINadd0[7] (AddMultBlockV2_4)                     0.00       2.84 f
-  cell6/Addereeno/IN0[7] (Adder_4)                        0.00       2.84 f
-  cell6/Addereeno/add_16/A[7] (Adder_4_DW01_add_0_DW01_add_4)
-                                                          0.00       2.84 f
-  cell6/Addereeno/add_16/U1_7/CO (FA_X1)                  0.10       2.95 f
-  cell6/Addereeno/add_16/U1_8/S (FA_X1)                   0.14       3.08 r
-  cell6/Addereeno/add_16/SUM[8] (Adder_4_DW01_add_0_DW01_add_4)
-                                                          0.00       3.08 r
-  cell6/Addereeno/Sum[8] (Adder_4)                        0.00       3.08 r
-  cell6/Dout[8] (AddMultBlockV2_4)                        0.00       3.08 r
-  cell7/DINadd0[8] (AddMultBlockV2_3)                     0.00       3.08 r
-  cell7/Addereeno/IN0[8] (Adder_3)                        0.00       3.08 r
-  cell7/Addereeno/add_16/A[8] (Adder_3_DW01_add_0_DW01_add_3)
-                                                          0.00       3.08 r
-  cell7/Addereeno/add_16/U1_8/S (FA_X1)                   0.12       3.20 f
-  cell7/Addereeno/add_16/SUM[8] (Adder_3_DW01_add_0_DW01_add_3)
-                                                          0.00       3.20 f
-  cell7/Addereeno/Sum[8] (Adder_3)                        0.00       3.20 f
-  cell7/Dout[8] (AddMultBlockV2_3)                        0.00       3.20 f
-  cell8/DINadd0[8] (AddMultBlockV2_2)                     0.00       3.20 f
-  cell8/Addereeno/IN0[8] (Adder_2)                        0.00       3.20 f
-  cell8/Addereeno/add_16/A[8] (Adder_2_DW01_add_0_DW01_add_2)
-                                                          0.00       3.20 f
-  cell8/Addereeno/add_16/U1_8/CO (FA_X1)                  0.10       3.30 f
-  cell8/Addereeno/add_16/U1_9/S (FA_X1)                   0.14       3.44 r
-  cell8/Addereeno/add_16/SUM[9] (Adder_2_DW01_add_0_DW01_add_2)
-                                                          0.00       3.44 r
-  cell8/Addereeno/Sum[9] (Adder_2)                        0.00       3.44 r
-  cell8/Dout[9] (AddMultBlockV2_2)                        0.00       3.44 r
-  cell9/DINadd0[9] (AddMultBlockV2_1)                     0.00       3.44 r
-  cell9/Addereeno/IN0[9] (Adder_1)                        0.00       3.44 r
-  cell9/Addereeno/add_16/A[9] (Adder_1_DW01_add_0_DW01_add_1)
-                                                          0.00       3.44 r
-  cell9/Addereeno/add_16/U1_9/S (FA_X1)                   0.12       3.56 f
-  cell9/Addereeno/add_16/SUM[9] (Adder_1_DW01_add_0_DW01_add_1)
-                                                          0.00       3.56 f
-  cell9/Addereeno/Sum[9] (Adder_1)                        0.00       3.56 f
-  cell9/Dout[9] (AddMultBlockV2_1)                        0.00       3.56 f
-  cell10/DINadd0[9] (AddMultBlockV2_0)                    0.00       3.56 f
-  cell10/Addereeno/IN0[9] (Adder_0)                       0.00       3.56 f
-  cell10/Addereeno/add_16/A[9] (Adder_0_DW01_add_0)       0.00       3.56 f
-  cell10/Addereeno/add_16/U1_9/CO (FA_X1)                 0.10       3.66 f
-  cell10/Addereeno/add_16/U1_10/S (FA_X1)                 0.13       3.79 r
-  cell10/Addereeno/add_16/SUM[10] (Adder_0_DW01_add_0)
-                                                          0.00       3.79 r
-  cell10/Addereeno/Sum[10] (Adder_0)                      0.00       3.79 r
-  cell10/Dout[10] (AddMultBlockV2_0)                      0.00       3.79 r
-  output_register/Din[10] (REG11B_20)                     0.00       3.79 r
-  output_register/Dout_reg[10]/D (DFFR_X1)                0.01       3.80 r
-  data arrival time                                                  3.80
-
-  clock CLK (rise edge)                                  10.00      10.00
-  clock network delay (ideal)                             0.00      10.00
-  clock uncertainty                                      -0.07       9.93
-  output_register/Dout_reg[10]/CK (DFFR_X1)               0.00       9.93 r
-  library setup time                                     -0.03       9.90
-  data required time                                                 9.90
-  --------------------------------------------------------------------------
-  data required time                                                 9.90
-  data arrival time                                                 -3.80
-  --------------------------------------------------------------------------
-  slack (MET)                                                        6.10
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  output_register/Dout[10] (REG11B)        0.00       0.00 r
+  DOUT[10] (out)                           0.00       0.00 r
+  data arrival time                                   0.00
+  -----------------------------------------------------------
+  (Path is unconstrained)
 
 
 1

@@ -1,0 +1,56 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated black box outputs. (PWR-428)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : myfir
+Version: S-2021.06-SP4
+Date   : Mon Oct 20 16:42:05 2025
+****************************************
+
+
+Library(s) Used:
+
+    No libraries used.
+
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+myfir                  5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  =   0.0000 uW    (0%)
+  Net Switching Power  = 530.6304 nW  (100%)
+                         ---------
+Total Dynamic Power    = 530.6304 nW  (100%)
+
+Cell Leakage Power     =   0.0000 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.5306            0.0000            0.5306  ( 100.00%)
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+--------------------------------------------------------------------------------------------------
+Total              0.0000 uW         0.5306 uW         0.0000 nW         0.5306 uW
+1
