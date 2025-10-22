@@ -29,7 +29,7 @@ ARCHITECTURE struct of FIR_UNF is
 	END COMPONENT;
 
 	SIGNAL C0_out, C1_out, C2_out, C3_out, C4_out, C5_out, C6_out, C7_out, C8_out, C9_out, C10_out : SIGNED (10 DOWNTO 0);
-	SIGNAL i0_R0_out, i0_R1_out, i0_R2_out, i1_R0_out, i1_R1_out, i1_R2_out, i2_R0_out, i2_R1_out, i2_R3_out, i2_R4_out: SIGNED (10 DOWNTO 0);
+	SIGNAL i0_R0_out, i0_R1_out, i0_R2_out, i1_R0_out, i1_R1_out, i1_R2_out, i2_R0_out, i2_R1_out, i2_R2_out, i2_R3_out: SIGNED (10 DOWNTO 0);
 	SIGNAL DIN3k_out, DIN3k1_out, DIN3k2_out : signed (10 downto 0);
 	SIGNAL J0_OUT, J1_OUT, J2_OUT : SIGNED (10 DOWNTO 0);
 
@@ -73,10 +73,10 @@ ARCHITECTURE struct of FIR_UNF is
 	j0: jSeries port map(DIN3K_out, i2_R0_out, i1_R0_out, i0_R0_out, i2_R1_out, i1_R1_out, i0_R1_out, i2_R2_out, i1_R2_out, i0_R2_out, i2_R3_out, 
 			     C0,C1,C2,C3,C4,C5,C6,C7,C8,C9,C10, J0_OUT);
 
-	j0: jSeries port map(DIN3K1_out, DIN3K_out, i2_R0_out, i1_R0_out, i0_R0_out, i2_R1_out, i1_R1_out, i0_R1_out, i2_R2_out, i1_R2_out, i0_R2_out, 
+	j1: jSeries port map(DIN3K1_out, DIN3K_out, i2_R0_out, i1_R0_out, i0_R0_out, i2_R1_out, i1_R1_out, i0_R1_out, i2_R2_out, i1_R2_out, i0_R2_out, 
 			     C0,C1,C2,C3,C4,C5,C6,C7,C8,C9,C10, J1_OUT);
 
-	j0: jSeries port map(DIN3K2_out, DIN3K1_out, DIN3K_out, i2_R0_out, i1_R0_out, i0_R0_out, i2_R1_out, i1_R1_out, i0_R1_out, i2_R2_out, i1_R2_out, 
+	j2: jSeries port map(DIN3K2_out, DIN3K1_out, DIN3K_out, i2_R0_out, i1_R0_out, i0_R0_out, i2_R1_out, i1_R1_out, i0_R1_out, i2_R2_out, i1_R2_out, 
 			     C0,C1,C2,C3,C4,C5,C6,C7,C8,C9,C10, J2_OUT);
 
 
