@@ -14,7 +14,9 @@ entity data_maker is
     CLK     : in  std_logic;
     RST_n   : in  std_logic;
     VOUT    : out std_logic;
-    DOUT    : out std_logic_vector(NBIT-1 downto 0);
+    DOUT3k    : out std_logic_vector(NBIT-1 downto 0);
+    DOUT3k1    : out std_logic_vector(NBIT-1 downto 0);
+    DOUT3k2    : out std_logic_vector(NBIT-1 downto 0);
     B0      : out std_logic_vector(NBIT-1 downto 0);
     B1      : out std_logic_vector(NBIT-1 downto 0);
     B2      : out std_logic_vector(NBIT-1 downto 0);
@@ -65,15 +67,28 @@ begin  -- beh
     variable x : integer;
   begin  -- process
     if RST_n = '0' then                 -- asynchronous reset (active low)
-      DOUT <= (others => '0') after tco;      
+      DOUT3k <= (others => '0') after tco;   
+      DOUT3k1 <= (others => '0') after tco; 
+      DOUT3k2 <= (others => '0') after tco;    
       VOUT <= '0' after tco;
       sEndSim <= '0' after tco;
     elsif CLK'event and CLK = '1' then  -- rising clock edge
       if not endfile(fp_in) then
         if (valid = '1') then
+
           readline(fp_in, line_in);
           read(line_in, x);
-          DOUT <= conv_std_logic_vector(x, 11) after tco;
+          DOUT3k <= conv_std_logic_vector(x, 11) ;
+
+          readline(fp_in, line_in);
+          read(line_in, x);
+          DOUT3k1 <= conv_std_logic_vector(x, 11) ;
+
+          readline(fp_in, line_in);
+          read(line_in, x);
+          DOUT3k2 <= conv_std_logic_vector(x, 11) ;
+
+
           VOUT <= '1' after tco;
           sEndSim <= '0' after tco;          
         else

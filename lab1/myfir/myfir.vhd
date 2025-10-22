@@ -12,7 +12,7 @@ ENTITY myfir is
 	);
 	
 
-END FIR;
+END myfir;
 
 ARCHITECTURE struct of myfir is
 	

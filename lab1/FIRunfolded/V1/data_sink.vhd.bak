@@ -47,7 +47,7 @@ begin  -- beh
         if not endfile(fp_in) then
           readline(fp_in, line_in);
           read(line_in, x);
-          --assert conv_integer(signed(DIN3k) ) = x report "Results are different: index=" & integer'image(cnt) & " c=" & integer'image(x) & " HDL=" & integer'image(conv_integer(signed(DIN)))  severity error;
+          assert conv_integer(signed(DIN3k) ) = x report "Results are different: index=" & integer'image(cnt) & " c=" & integer'image(x) & " HDL=" & integer'image(conv_integer(signed(DIN)))  severity error;
         else
           assert VIN = '0' report "Reached EOF in results_c.txt" severity error;  
         end if;

@@ -4,7 +4,9 @@ module tb_fir ();
 
    logic CLK_i;
    logic RST_n_i;
-   logic [10:0] DIN_i;
+   logic [10:0] DIN3k_i;
+   logic [10:0] DIN3k1_i;
+   logic [10:0] DIN3k2_i;
    logic VIN_i;
    logic [10:0] H0_i;
    logic [10:0] H1_i;
@@ -17,7 +19,9 @@ module tb_fir ();
    logic [10:0] H8_i;
    logic [10:0] H9_i;
    logic [10:0] H10_i;
-   logic [10:0] DOUT_i;
+   logic [10:0] DOUT3k_i;
+   logic [10:0] DOUT3k1_i;
+   logic [10:0] DOUT3k2_i;
    logic VOUT_i;
    logic END_SIM_i;
 
@@ -28,7 +32,9 @@ module tb_fir ();
    data_maker SM(.CLK(CLK_i),
 	         .RST_n(RST_n_i),
 		 .VOUT(VIN_i),
-		 .DOUT(DIN_i),
+		 .DOUT3k(DIN3k_i),
+		 .DOUT3k1(DIN3k1_i),
+		 .DOUT3k2(DIN3k2_i),
 		 .B0(H0_i),
 		 .B1(H1_i),
 		 .B2(H2_i),
@@ -42,9 +48,11 @@ module tb_fir ();
 		 .B10(H10_i),
 		 .END_SIM(END_SIM_i));
 
-   myfir UUT(.CLK(CLK_i),
+   FIR_UNF UUT(.CLK(CLK_i),
 	     .RSTn(RST_n_i),
-	     .DIN(DIN_i),
+	     .DIN3k(DIN3k_i),
+	     .DIN3k1(DIN3k1_i),
+	     .DIN3k2(DIN3k2_i),
              .VIN(VIN_i),
 	     		 .C0(H0_i),
 		 .C1(H1_i),
@@ -57,13 +65,17 @@ module tb_fir ();
 		 .C8(H8_i),
 		 .C9(H9_i),
 		 .C10(H10_i),
-             .DOUT(DOUT_i),
+             .DOUT3k(DOUT3k_i),
+             .DOUT3k1(DOUT3k1_i),
+             .DOUT3k2(DOUT3k2_i),
              .VOUT(VOUT_i));
 
    data_sink DS(.CLK(CLK_i),
 		.RST_n(RST_n_i),
 		.VIN(VOUT_i),
-		.DIN(DOUT_i));   
+		.DIN3k(DOUT3k_i),   
+		.DIN3k1(DOUT3k1_i),
+		.DIN3k2(DOUT3k2_i));
 
 
 	initial begin
