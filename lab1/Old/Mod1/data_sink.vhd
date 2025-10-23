@@ -19,8 +19,8 @@ end data_sink;
 
 architecture beh of data_sink is
 
-  file res_fp : text open WRITE_MODE is "C:\Users\Lorenzo\Documents\GitHub\labISA\lab1\Fir\Mod1\resultsvhd.txt";
-  file fp_in : text open READ_MODE is "C:\Users\Lorenzo\Documents\GitHub\labISA\lab1\resultsc.txt";
+  file res_fp : text open WRITE_MODE is "C:\Users\Giulia\OneDrive - Politecnico di Torino\Desktop\ISA\labISA\lab1\results_vhd.txt";
+  file fp_in : text open READ_MODE is "C:\Users\Giulia\OneDrive - Politecnico di Torino\Desktop\ISA\labISA\lab1\resultsc.txt";
 begin  -- beh
 
   process (CLK, RST_n)

@@ -1,0 +1,399 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir
+Eadder
+Z0 w1760890636
+Z1 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 19
+Z5 dC:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1
+Z6 8C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/Adder.vhd
+Z7 FC:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/Adder.vhd
+l0
+L6 1
+V6;>RP_eB>l4Bz_CbVjH_J3
+!s100 jdgi4j>H[e3_H5Z@Y80Fo2
+Z8 OV;C;2020.1;71
+32
+Z9 !s110 1760972603
+!i10b 1
+Z10 !s108 1760972603.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/Adder.vhd|
+Z12 !s107 C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/Adder.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Abeh
+R1
+R2
+R3
+R4
+DEx4 work 5 adder 0 22 6;>RP_eB>l4Bz_CbVjH_J3
+!i122 19
+l17
+L13 11
+VTdEzed>eKDYe:_eMEP7oU2
+!s100 T>ziaUJ2m=jndLjdjhJm?1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eclk_gen
+R0
+R1
+R2
+R3
+R4
+!i122 20
+R5
+Z15 8C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/clk_gen.vhd
+Z16 FC:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/clk_gen.vhd
+l0
+L6 1
+V4bc`7UdH`BlHk=^=TDQ9H2
+!s100 JA8Ue1n4KCD]`nb]FQfQ[2
+R8
+32
+R9
+!i10b 1
+R10
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/clk_gen.vhd|
+Z18 !s107 C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/clk_gen.vhd|
+!i113 1
+R13
+R14
+Abeh
+R1
+R2
+R3
+R4
+DEx4 work 7 clk_gen 0 22 4bc`7UdH`BlHk=^=TDQ9H2
+!i122 20
+l19
+L13 25
+VTMdI8m]iNiL79minC_VE?0
+!s100 7Z_M2BEFXb7=E2g1:CoB81
+R8
+32
+R9
+!i10b 1
+R10
+R17
+R18
+!i113 1
+R13
+R14
+Edata_maker
+Z19 w1760973280
+Z20 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R1
+R2
+R3
+R4
+!i122 28
+R5
+Z21 8C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/data_maker.vhd
+Z22 FC:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/data_maker.vhd
+l0
+Z23 L10 1
+VzDY06Uc2gHgkUadZSYkCj0
+!s100 TRC<2C@9W5D1YjF=3d3G<1
+R8
+32
+Z24 !s110 1760973510
+!i10b 1
+Z25 !s108 1760973510.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/data_maker.vhd|
+Z27 !s107 C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/data_maker.vhd|
+!i113 1
+R13
+R14
+Abeh
+R20
+R1
+R2
+R3
+R4
+DEx4 work 10 data_maker 0 22 zDY06Uc2gHgkUadZSYkCj0
+!i122 28
+l46
+L34 80
+V3]7lFL8N2B4fAKQ9;NDM72
+!s100 >`j>0WUaB4TkR_l3BWm<O0
+R8
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R13
+R14
+Edata_sink
+R19
+R20
+R1
+R2
+R3
+R4
+!i122 29
+R5
+Z28 8C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/data_sink.vhd
+Z29 FC:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/data_sink.vhd
+l0
+R23
+V_8?3V_b^dB;UE`j1Ng:M<3
+!s100 7UVWfgRcWAPPe]=8Cd9gf3
+R8
+32
+R24
+!i10b 1
+R25
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/data_sink.vhd|
+Z31 !s107 C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/data_sink.vhd|
+!i113 1
+R13
+R14
+Abeh
+R20
+R1
+R2
+R3
+R4
+Z32 DEx4 work 9 data_sink 0 22 _8?3V_b^dB;UE`j1Ng:M<3
+!i122 29
+l24
+Z33 L20 34
+Z34 VdV`FaRigjJ64n9K>_N8mk2
+Z35 !s100 Igg92Km^ch=JbJ`9Nj7LB2
+R8
+32
+R24
+!i10b 1
+R25
+R30
+R31
+!i113 1
+R13
+R14
+Eff
+R0
+R3
+R4
+!i122 23
+R5
+Z36 8C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/FF.vhd
+Z37 FC:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/FF.vhd
+l0
+L4 1
+VaIh0Bz0H_k191O]nYA><V0
+!s100 ELaL2iYUMGSmBQ6O@XNlR1
+R8
+32
+R9
+!i10b 1
+R10
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/FF.vhd|
+Z39 !s107 C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/FF.vhd|
+!i113 1
+R13
+R14
+Abeh
+R3
+R4
+DEx4 work 2 ff 0 22 aIh0Bz0H_k191O]nYA><V0
+!i122 23
+l14
+L12 21
+V:ZREIaOD;F@aM<kzQ<ElV1
+!s100 Rh;S<z0ZzK6RN?=Fl01kA2
+R8
+32
+R9
+!i10b 1
+R10
+R38
+R39
+!i113 1
+R13
+R14
+Efir
+R0
+R1
+R2
+R3
+R4
+!i122 24
+R5
+Z40 8C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/FIR.vhd
+Z41 FC:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/FIR.vhd
+l0
+L6 1
+V[MTzlUj1ko4_`iJToTK;^2
+!s100 M1kndL5@IDOJU2[fV8ZJ63
+R8
+32
+R9
+!i10b 1
+R10
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/FIR.vhd|
+Z43 !s107 C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/FIR.vhd|
+!i113 1
+R13
+R14
+Astructural
+R1
+R2
+R3
+R4
+DEx4 work 3 fir 0 22 [MTzlUj1ko4_`iJToTK;^2
+!i122 24
+l53
+L16 92
+VGzZU=;9ZbQCTE7AXJaDR12
+!s100 TTmj<_U5GD9TZ1<N:a@7_2
+R8
+32
+R9
+!i10b 1
+R10
+R42
+R43
+!i113 1
+R13
+R14
+Emult
+R0
+R1
+Z44 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+R2
+R3
+R4
+!i122 25
+R5
+Z45 8C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/Mult.vhd
+Z46 FC:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/Mult.vhd
+l0
+L7 1
+VI`haNU_oaJzz[[_nz<PCV2
+!s100 F[X@4S4S9GbA8[BSngB731
+R8
+32
+R9
+!i10b 1
+R10
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/Mult.vhd|
+Z48 !s107 C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/Mult.vhd|
+!i113 1
+R13
+R14
+Abeh
+R1
+R44
+R2
+R3
+R4
+DEx4 work 4 mult 0 22 I`haNU_oaJzz[[_nz<PCV2
+!i122 25
+l21
+L14 20
+V9A?gimO`NQH6]dHe[=Sg71
+!s100 WX>2RF`RakC18R=o<;ezz1
+R8
+32
+R9
+!i10b 1
+R10
+R47
+R48
+!i113 1
+R13
+R14
+Ereg11b
+R0
+R1
+R2
+R3
+R4
+!i122 26
+R5
+Z49 8C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/REG11B.vhd
+Z50 FC:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/REG11B.vhd
+l0
+L6 1
+VEnG@fjT`n[F]QnQfN]<Ez2
+!s100 cFe@IiMn76mOE=n4z4VRW0
+R8
+32
+Z51 !s110 1760972604
+!i10b 1
+Z52 !s108 1760972604.000000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/REG11B.vhd|
+Z54 !s107 C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/REG11B.vhd|
+!i113 1
+R13
+R14
+Abeh
+R1
+R2
+R3
+R4
+DEx4 work 6 reg11b 0 22 EnG@fjT`n[F]QnQfN]<Ez2
+!i122 26
+l17
+L15 21
+V?mFFQXAzLB5;kLl`AUFCY3
+!s100 PkcRQo3CM3;=b7=ZX[c[b3
+R8
+32
+R51
+!i10b 1
+R52
+R53
+R54
+!i113 1
+R13
+R14
+vtb_fir
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R51
+!i10b 1
+!s100 b2?B7ccc=24YcOSX^U9^41
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IJQYhEWdi;B`[DA<^hhVgi2
+VDg1SIo80bB@j0V0VzS_@n1
+S1
+R5
+R0
+8C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/tb_fir.sv
+FC:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/tb_fir.sv
+!i122 27
+L0 3 72
+OV;L;2020.1;71
+r1
+!s85 0
+31
+R52
+!s107 C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/tb_fir.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/tb_fir.sv|
+!i113 1
+o-work work -sv
+tCvgOpt 0
