@@ -12,7 +12,11 @@ ENTITY myfir is
 	);
 	
 
-END FIR;
+<<<<<<< HEAD
+END;
+=======
+END myfir;
+>>>>>>> 21e5d328ba2bd2ea78a848c9da757b1c7a7e12c7
 
 ARCHITECTURE struct of myfir is
 	
