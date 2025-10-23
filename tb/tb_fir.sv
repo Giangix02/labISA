@@ -1,4 +1,4 @@
-`timescale 1ns/1ps
+//`timescale 1ns
 
 module tb_fir ();
 
@@ -46,7 +46,7 @@ module tb_fir ();
 	     .RSTn(RST_n_i),
 	     .DIN(DIN_i),
              .VIN(VIN_i),
-	     		 .C0(H0_i),
+	    	.C0(H0_i),
 		 .C1(H1_i),
 		 .C2(H2_i),
 		 .C3(H3_i),
@@ -60,16 +60,17 @@ module tb_fir ();
              .DOUT(DOUT_i),
              .VOUT(VOUT_i));
 
+
    data_sink DS(.CLK(CLK_i),
 		.RST_n(RST_n_i),
 		.VIN(VOUT_i),
 		.DIN(DOUT_i));   
 
 
-	initial begin
-		#40000;
-		$finish(1);
-	end
+	//initial begin
+		//#40000;
+		//$finish(1);
+	//end
 
 endmodule
 

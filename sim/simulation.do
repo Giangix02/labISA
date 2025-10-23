@@ -1,5 +1,4 @@
 vcom -work ./work ../src/Adder.vhd
-vcom -work ./work ../src/AddMultBlockV2.vhd
 vcom -work ./work ../tb/clk_gen.vhd
 vcom -work ./work ../tb/data_maker.vhd
 vcom -work ./work ../tb/data_sink.vhd

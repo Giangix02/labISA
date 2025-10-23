@@ -1,0 +1,464 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+Eadder
+Z0 w1761056543
+Z1 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1
+Z6 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/Adder.vhd
+Z7 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/Adder.vhd
+l0
+L6
+VATX4F[>HgD;JTCdIXccdd3
+!s100 C<0[OfNObkR<D<?1POIQ31
+Z8 OV;C;10.5b;63
+32
+Z9 !s110 1761157699
+!i10b 1
+Z10 !s108 1761157699.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/Adder.vhd|
+Z12 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/Adder.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Abeh
+R1
+R2
+R3
+R4
+DEx4 work 5 adder 0 22 ATX4F[>HgD;JTCdIXccdd3
+l15
+L13
+V2mG3cPmNOAV6UkXoT9[]73
+!s100 MeESeg:ACNKRo6W1YnYPm0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eaddmult
+R0
+R1
+R2
+R3
+R4
+R5
+Z15 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/addMult.vhd
+Z16 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/addMult.vhd
+l0
+L6
+V9B@8S5RhIJUe@JiE7WQc:3
+!s100 m6P:>b1]=EMFeWC6RKMbh0
+R8
+32
+R9
+!i10b 1
+R10
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/addMult.vhd|
+Z18 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/addMult.vhd|
+!i113 1
+R13
+R14
+Astruct
+R1
+R2
+R3
+R4
+DEx4 work 7 addmult 0 22 9B@8S5RhIJUe@JiE7WQc:3
+l28
+L14
+VCcH3:e8=zAaJEgVbL_U0S0
+!s100 9MGamS9^WAzj?6Tne@Vg`0
+R8
+32
+R9
+!i10b 1
+R10
+R17
+R18
+!i113 1
+R13
+R14
+Eclk_gen
+R0
+Z19 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+R4
+R5
+Z20 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/clk_gen.vhd
+Z21 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/clk_gen.vhd
+l0
+L6
+V4bc`7UdH`BlHk=^=TDQ9H2
+!s100 JA8Ue1n4KCD]`nb]FQfQ[2
+R8
+32
+R9
+!i10b 1
+R10
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/clk_gen.vhd|
+Z23 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/clk_gen.vhd|
+!i113 1
+R13
+R14
+Abeh
+R19
+R2
+R3
+R4
+DEx4 work 7 clk_gen 0 22 4bc`7UdH`BlHk=^=TDQ9H2
+l19
+L13
+VTMdI8m]iNiL79minC_VE?0
+!s100 7Z_M2BEFXb7=E2g1:CoB81
+R8
+32
+R9
+!i10b 1
+R10
+R22
+R23
+!i113 1
+R13
+R14
+Edata_maker
+Z24 w1761157045
+Z25 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R19
+R2
+R3
+R4
+R5
+Z26 8C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\FIRunfolded\V1\data_maker.vhd
+Z27 FC:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\FIRunfolded\V1\data_maker.vhd
+l0
+L10
+Vn0EK=8VX[3ZgGTBMoVO2A0
+!s100 WYINOhEgQ13gJlZ1GmKbK0
+R8
+32
+R9
+!i10b 1
+R10
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\FIRunfolded\V1\data_maker.vhd|
+Z29 !s107 C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\FIRunfolded\V1\data_maker.vhd|
+!i113 1
+R13
+R14
+Abeh
+R25
+R19
+R2
+R3
+R4
+DEx4 work 10 data_maker 0 22 n0EK=8VX[3ZgGTBMoVO2A0
+l48
+L36
+VjRH^1[BYD^27BAooXg2`92
+!s100 ;2=JkGMAZW4^UV6K2<^O>2
+R8
+32
+R9
+!i10b 1
+R10
+R28
+R29
+!i113 1
+R13
+R14
+Edata_sink
+Z30 w1761156233
+R25
+R19
+R2
+R3
+R4
+R5
+Z31 8C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\FIRunfolded\V1\data_sink.vhd
+Z32 FC:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\FIRunfolded\V1\data_sink.vhd
+l0
+L10
+Vml2bh8?JWV^djnFm]1Jg_2
+!s100 =iBYYFjjjleBjK5PkA;I50
+R8
+32
+R9
+!i10b 1
+R10
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\FIRunfolded\V1\data_sink.vhd|
+Z34 !s107 C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\FIRunfolded\V1\data_sink.vhd|
+!i113 1
+R13
+R14
+Abeh
+R25
+R19
+R2
+R3
+R4
+DEx4 work 9 data_sink 0 22 ml2bh8?JWV^djnFm]1Jg_2
+l24
+L22
+VbTAm1hXF5b1jNdUho;WnZ0
+!s100 ^3AO;l=2bcol`]gI>DUI;1
+R8
+32
+R9
+!i10b 1
+R10
+R33
+R34
+!i113 1
+R13
+R14
+Eff
+R0
+R3
+R4
+R5
+Z35 8C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\FIRunfolded\V1\FF.vhd
+Z36 FC:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\FIRunfolded\V1\FF.vhd
+l0
+L4
+VaIh0Bz0H_k191O]nYA><V0
+!s100 ELaL2iYUMGSmBQ6O@XNlR1
+R8
+32
+R9
+!i10b 1
+R10
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\FIRunfolded\V1\FF.vhd|
+Z38 !s107 C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\FIRunfolded\V1\FF.vhd|
+!i113 1
+R13
+R14
+Abeh
+R3
+R4
+DEx4 work 2 ff 0 22 aIh0Bz0H_k191O]nYA><V0
+l14
+L12
+Vi^HiDGd8Y_I9eQRT]P>1b1
+!s100 05oL1VdY<AA4SziXZID]?3
+R8
+32
+R9
+!i10b 1
+R10
+R37
+R38
+!i113 1
+R13
+R14
+Efir_unf
+Z39 w1761157684
+R1
+R2
+R3
+R4
+R5
+Z40 8C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\FIRunfolded\V1\FIR_UNF.vhd
+Z41 FC:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\FIRunfolded\V1\FIR_UNF.vhd
+l0
+L6
+VA25cmi]DYfM8;_zheD?072
+!s100 POF:@WZcP7VSb9lS@EIEj0
+R8
+32
+R9
+!i10b 1
+R10
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\FIRunfolded\V1\FIR_UNF.vhd|
+Z43 !s107 C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\FIRunfolded\V1\FIR_UNF.vhd|
+!i113 1
+R13
+R14
+Astruct
+R1
+R2
+R3
+R4
+DEx4 work 7 fir_unf 0 22 A25cmi]DYfM8;_zheD?072
+l43
+L17
+VM_k@YYk[GS@aH:lf[Q^go3
+!s100 9WQXc?GZ5V6O_k:gcIUd>1
+R8
+32
+R9
+!i10b 1
+R10
+R42
+R43
+!i113 1
+R13
+R14
+Ejseries
+R0
+R1
+R2
+R3
+R4
+R5
+Z44 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/jSeries.vhd
+Z45 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/jSeries.vhd
+l0
+L6
+VGlocBUJP@A^b`bknbcB`f2
+!s100 ilCaA>gm2l_c<gbe7V8_F1
+R8
+32
+R9
+!i10b 1
+R10
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/jSeries.vhd|
+Z47 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/jSeries.vhd|
+!i113 1
+R13
+R14
+Astruct
+R1
+R2
+R3
+R4
+DEx4 work 7 jseries 0 22 GlocBUJP@A^b`bknbcB`f2
+l28
+L14
+VXD[6gTnZZDN?8NgYEzo_d1
+!s100 ;X^JDoQL227;4k?6D4ER62
+R8
+32
+R9
+!i10b 1
+R10
+R46
+R47
+!i113 1
+R13
+R14
+Emult_rounded
+R0
+R1
+R2
+R3
+R4
+R5
+Z48 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/Mult_rounded.vhd
+Z49 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/Mult_rounded.vhd
+l0
+L6
+V6F:R@Ii`::E2FNz_ALiD]0
+!s100 MQPO0^^fAIA8Q0W5bUj7E1
+R8
+32
+R9
+!i10b 1
+R10
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/Mult_rounded.vhd|
+Z51 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/Mult_rounded.vhd|
+!i113 1
+R13
+R14
+Abeh
+R1
+R2
+R3
+R4
+DEx4 work 12 mult_rounded 0 22 6F:R@Ii`::E2FNz_ALiD]0
+l17
+L13
+VRXXL9I[m?IAOze:?cG@FC1
+!s100 >G33[LIV3=Gi8a0jAo]5S2
+R8
+32
+R9
+!i10b 1
+R10
+R50
+R51
+!i113 1
+R13
+R14
+Ereg11b
+R0
+R1
+R2
+R3
+R4
+R5
+Z52 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/REG11B.vhd
+Z53 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/REG11B.vhd
+l0
+L6
+V:FDGZO[4YS<T5`D]5:oX[1
+!s100 VlYd3?]EHz]TUd2<ZI@W93
+R8
+32
+R9
+!i10b 1
+R10
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/REG11B.vhd|
+Z55 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/REG11B.vhd|
+!i113 1
+R13
+R14
+Abeh
+R1
+R2
+R3
+R4
+DEx4 work 6 reg11b 0 22 :FDGZO[4YS<T5`D]5:oX[1
+l17
+L15
+V?mFFQXAzLB5;kLl`AUFCY3
+!s100 PkcRQo3CM3;=b7=ZX[c[b3
+R8
+32
+R9
+!i10b 1
+R10
+R54
+R55
+!i113 1
+R13
+R14
+vtb_fir
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R9
+!i10b 1
+!s100 9NZ=V@VL1]H=gA4fn>czM0
+I_>nHa?A7n>X6`j=8[7<Qf2
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 tb_fir_sv_unit
+S1
+R5
+w1761155780
+8C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\FIRunfolded\V1\tb_fir.sv
+FC:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\FIRunfolded\V1\tb_fir.sv
+L0 3
+OV;L;10.5b;63
+r1
+!s85 0
+31
+R10
+!s107 C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\FIRunfolded\V1\tb_fir.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\FIRunfolded\V1\tb_fir.sv|
+!i113 1
+o-work work -sv
+tCvgOpt 0

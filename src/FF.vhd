@@ -16,7 +16,7 @@ ARCHITECTURE beh of FF is
 	BEGIN
 
 	IF(RSTn = '0') then
-	   Q <= '1'; -- warning: this is asynchronous reset (only for the exercise 2.2)
+	   Q <= '0'; -- warning: this is asynchronous reset (only for the exercise 2.2)
 	
 	ELSIF(CLK'EVENT and CLK = '1') then
 
