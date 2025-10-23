@@ -76,8 +76,12 @@ ARCHITECTURE struct of FIR_UNF is
 	DOUT3k1_REG: REG11B port map(clk,VIN,RSTn,J1_OUT,DOUT3k1);
 	DOUT3k2_REG: REG11B port map(clk,VIN,RSTn,J2_OUT,DOUT3k2);
 
-	FF_VIN: FF port map(VIN,clk,'1',RSTn,ff_vin_out);
-	FF_VOUT: FF port map(ff_vin_out,clk,'1',RSTn,VOUT);
+	--FF_VIN: FF port map(VIN,clk,'1',RSTn,ff_vin_out);
+
+        --this FF has been removed because due to how data_sink is made, VIN signal wouldn't have been synchronized
+	--with how this FIR_UNF was designed.
+
+	FF_VOUT: FF port map(VIN,clk,'1',RSTn,VOUT);
 
 
 	j0: jSeries port map(DIN3K_out, i2_R0_out, i1_R0_out, i0_R0_out, i2_R1_out, i1_R1_out, i0_R1_out, i2_R2_out, i1_R2_out, i0_R2_out, i2_R3_out, 
