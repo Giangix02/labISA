@@ -1,0 +1,7 @@
+%copiare tutto quello sotto nel terminale aperto in syn con design_compiler chiuso
+vcd2saif -input ../vcd/myfir_syn.vcd -output ../saif/myfir_syn.saif
+dc_shell-xg-t
+read_verilog -netlist ../netlist/myfir.v
+read_saif -input ../saif/myfir_syn.saif -instance tb_fir/UUT -unit ns -scale 1
+create_clock -name CLK -period 7.6 CLK
+report_power > ./reportsGateClockBackann.txt/myfirBackann7.6.txt

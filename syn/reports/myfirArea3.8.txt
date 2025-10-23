@@ -3,21 +3,21 @@
 Report : area
 Design : myfir
 Version: S-2021.06-SP4
-Date   : Mon Oct 20 17:16:40 2025
+Date   : Thu Oct 23 10:25:09 2025
 ****************************************
 
 Library(s) Used:
 
     NangateOpenCellLibrary (File: /eda/dk/nangate45/synopsys/NangateOpenCellLibrary_typical_ecsm.db)
 
-Number of ports:                          147
-Number of nets:                          4803
-Number of cells:                         3783
+Number of ports:                         2259
+Number of nets:                          6729
+Number of cells:                         3850
 Number of combinational cells:           3473
 Number of sequential cells:               255
 Number of macros/black boxes:               0
 Number of buf/inv:                        390
-Number of references:                      25
+Number of references:                      47
 
 Combinational area:               6182.638019
 Buf/Inv area:                      226.898000

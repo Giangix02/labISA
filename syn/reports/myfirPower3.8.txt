@@ -1,12 +1,14 @@
+Loading db file '/eda/dk/nangate45/synopsys/NangateOpenCellLibrary_typical_ecsm.db'
 Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
 Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
  
 ****************************************
 Report : power
         -analysis_effort low
 Design : myfir
 Version: S-2021.06-SP4
-Date   : Mon Oct 20 17:16:43 2025
+Date   : Thu Oct 23 10:25:11 2025
 ****************************************
 
 
@@ -32,12 +34,12 @@ Power-specific unit information :
     Leakage Power Units = 1nW
 
 
-  Cell Internal Power  = 862.1002 uW   (71%)
-  Net Switching Power  = 354.4973 uW   (29%)
+  Cell Internal Power  = 679.4406 uW   (74%)
+  Net Switching Power  = 237.1914 uW   (26%)
                          ---------
-Total Dynamic Power    =   1.2166 mW  (100%)
+Total Dynamic Power    = 916.6320 uW  (100%)
 
-Cell Leakage Power     = 153.8414 uW
+Cell Leakage Power     = 153.6624 uW
 
 
                  Internal         Switching           Leakage            Total
@@ -47,9 +49,9 @@ io_pad             0.0000            0.0000            0.0000            0.0000 
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
 clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
-register         486.1425           39.7830        2.1165e+04          547.0905  (  39.92%)
+register         478.2848           39.8050        2.1132e+04          539.2215  (  50.38%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational    375.9572          314.7143        1.3268e+05          823.3486  (  60.08%)
+combinational    201.1561          197.3863        1.3253e+05          531.0729  (  49.62%)
 --------------------------------------------------------------------------------------------------
-Total            862.0997 uW       354.4973 uW     1.5384e+05 nW     1.3704e+03 uW
+Total            679.4409 uW       237.1913 uW     1.5366e+05 nW     1.0703e+03 uW
 1

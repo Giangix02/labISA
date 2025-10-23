@@ -1,12 +1,12 @@
 ###################################################################
 
-# Created by write_sdc on Mon Oct 20 17:16:32 2025
+# Created by write_sdc on Thu Oct 23 12:24:38 2025
 
 ###################################################################
 set sdc_version 2.1
 
 set_units -time ns -resistance MOhm -capacitance fF -voltage V -current mA
-create_clock [get_ports CLK]  -period 3.8  -waveform {0 1.9}
+create_clock [get_ports CLK]  -period 7.6  -waveform {0 3.8}
 set_clock_uncertainty 0.07  [get_clocks CLK]
 set_input_delay -clock CLK  -max 0.5  [get_ports RSTn]
 set_input_delay -clock CLK  -max 0.5  [get_ports VIN]
