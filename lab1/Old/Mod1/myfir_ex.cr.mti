@@ -1,0 +1,67 @@
+{C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/clk_gen.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/clk_gen.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity clk_gen
+-- Compiling architecture beh of clk_gen
+
+} {} {}} {C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/Adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/Adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Adder
+-- Compiling architecture beh of Adder
+
+} {} {}} {C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/FF.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/FF.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FF
+-- Compiling architecture beh of FF
+
+} {} {}} {C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/FIR.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/FIR.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity FIR
+-- Compiling architecture STRUCTURAL of FIR
+
+} {} {}} {C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/tb_fir.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/tb_fir.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_fir
+
+Top level modules:
+	tb_fir
+
+} {} {}} {C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/Mult.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/Mult.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Mult
+-- Compiling architecture beh of Mult
+
+} {} {}} {C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/REG11B.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/Old/Mod1/REG11B.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity REG11B
+-- Compiling architecture beh of REG11B
+
+} {} {}}

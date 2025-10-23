@@ -1,0 +1,442 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Giulia/vhdl_2025/sebc/lab2/2.3
+Eadder
+Z0 w1760890637
+Z1 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 10
+Z5 dC:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir
+Z6 8C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/Adder.vhd
+Z7 FC:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/Adder.vhd
+l0
+L6 1
+VATX4F[>HgD;JTCdIXccdd3
+!s100 C<0[OfNObkR<D<?1POIQ31
+Z8 OV;C;2020.1;71
+32
+Z9 !s110 1760969144
+!i10b 1
+Z10 !s108 1760969144.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/Adder.vhd|
+Z12 !s107 C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/Adder.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Abeh
+R1
+R2
+R3
+R4
+DEx4 work 5 adder 0 22 ATX4F[>HgD;JTCdIXccdd3
+!i122 10
+l15
+Z15 L13 6
+V2mG3cPmNOAV6UkXoT9[]73
+!s100 MeESeg:ACNKRo6W1YnYPm0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eaddmultblockv2
+R0
+R1
+R2
+R3
+R4
+!i122 11
+R5
+Z16 8C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/AddMultBlockV2.vhd
+Z17 FC:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/AddMultBlockV2.vhd
+l0
+L6 1
+V3`lO5cWSdR^`HBgf7lbHV3
+!s100 4GN^@1CRlGS03BbEDhO1I2
+R8
+32
+R9
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/AddMultBlockV2.vhd|
+Z19 !s107 C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/AddMultBlockV2.vhd|
+!i113 1
+R13
+R14
+Abeh
+R1
+R2
+R3
+R4
+DEx4 work 14 addmultblockv2 0 22 3`lO5cWSdR^`HBgf7lbHV3
+!i122 11
+l39
+L15 39
+V4H:b3Mf:o[C>0>7:HUJiY2
+!s100 B2i`=^c1@XBDOZU6fI][e2
+R8
+32
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Eclk_gen
+R0
+Z20 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+R4
+!i122 12
+R5
+Z21 8C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/clk_gen.vhd
+Z22 FC:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/clk_gen.vhd
+l0
+L6 1
+V4bc`7UdH`BlHk=^=TDQ9H2
+!s100 JA8Ue1n4KCD]`nb]FQfQ[2
+R8
+32
+R9
+!i10b 1
+R10
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/clk_gen.vhd|
+Z24 !s107 C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/clk_gen.vhd|
+!i113 1
+R13
+R14
+Abeh
+R20
+R2
+R3
+R4
+DEx4 work 7 clk_gen 0 22 4bc`7UdH`BlHk=^=TDQ9H2
+!i122 12
+l19
+L13 25
+VTMdI8m]iNiL79minC_VE?0
+!s100 7Z_M2BEFXb7=E2g1:CoB81
+R8
+32
+R9
+!i10b 1
+R10
+R23
+R24
+!i113 1
+R13
+R14
+Edata_maker
+Z25 w1760969133
+Z26 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R20
+R2
+R3
+R4
+!i122 13
+R5
+Z27 8C:\Users\Giulia\OneDrive - Politecnico di Torino\Desktop\ISA\labISA\lab1\myfir\data_maker.vhd
+Z28 FC:\Users\Giulia\OneDrive - Politecnico di Torino\Desktop\ISA\labISA\lab1\myfir\data_maker.vhd
+l0
+Z29 L10 1
+VzDY06Uc2gHgkUadZSYkCj0
+!s100 TRC<2C@9W5D1YjF=3d3G<1
+R8
+32
+R9
+!i10b 1
+R10
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Giulia\OneDrive - Politecnico di Torino\Desktop\ISA\labISA\lab1\myfir\data_maker.vhd|
+Z31 !s107 C:\Users\Giulia\OneDrive - Politecnico di Torino\Desktop\ISA\labISA\lab1\myfir\data_maker.vhd|
+!i113 1
+R13
+R14
+Abeh
+R26
+R20
+R2
+R3
+R4
+DEx4 work 10 data_maker 0 22 zDY06Uc2gHgkUadZSYkCj0
+!i122 13
+l46
+L34 80
+V3]7lFL8N2B4fAKQ9;NDM72
+!s100 >`j>0WUaB4TkR_l3BWm<O0
+R8
+32
+R9
+!i10b 1
+R10
+R30
+R31
+!i113 1
+R13
+R14
+Edata_sink
+Z32 w1760969124
+R26
+R20
+R2
+R3
+R4
+!i122 14
+R5
+Z33 8C:\Users\Giulia\OneDrive - Politecnico di Torino\Desktop\ISA\labISA\lab1\myfir\data_sink.vhd
+Z34 FC:\Users\Giulia\OneDrive - Politecnico di Torino\Desktop\ISA\labISA\lab1\myfir\data_sink.vhd
+l0
+R29
+V_8?3V_b^dB;UE`j1Ng:M<3
+!s100 7UVWfgRcWAPPe]=8Cd9gf3
+R8
+32
+R9
+!i10b 1
+R10
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Giulia\OneDrive - Politecnico di Torino\Desktop\ISA\labISA\lab1\myfir\data_sink.vhd|
+Z36 !s107 C:\Users\Giulia\OneDrive - Politecnico di Torino\Desktop\ISA\labISA\lab1\myfir\data_sink.vhd|
+!i113 1
+R13
+R14
+Abeh
+R26
+R20
+R2
+R3
+R4
+DEx4 work 9 data_sink 0 22 _8?3V_b^dB;UE`j1Ng:M<3
+!i122 14
+l22
+L20 32
+VY=A7mLQzIK03]cUEPjU<W2
+!s100 bY<>6Y74ZOY3hEdIzOAgn1
+R8
+32
+R9
+!i10b 1
+R10
+R35
+R36
+!i113 1
+R13
+R14
+Eff
+R0
+R3
+R4
+!i122 15
+R5
+Z37 8C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/FF.vhd
+Z38 FC:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/FF.vhd
+l0
+L4 1
+VaIh0Bz0H_k191O]nYA><V0
+!s100 ELaL2iYUMGSmBQ6O@XNlR1
+R8
+32
+R9
+!i10b 1
+R10
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/FF.vhd|
+Z40 !s107 C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/FF.vhd|
+!i113 1
+R13
+R14
+Abeh
+R3
+R4
+DEx4 work 2 ff 0 22 aIh0Bz0H_k191O]nYA><V0
+!i122 15
+l14
+L12 21
+Vi^HiDGd8Y_I9eQRT]P>1b1
+!s100 05oL1VdY<AA4SziXZID]?3
+R8
+32
+R9
+!i10b 1
+R10
+R39
+R40
+!i113 1
+R13
+R14
+Emult
+R0
+R1
+R2
+R3
+R4
+!i122 16
+R5
+Z41 8C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/Mult.vhd
+Z42 FC:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/Mult.vhd
+l0
+L6 1
+VZ_j9UmmRaMUXP4ZaQPHiF3
+!s100 UQM9YkI2nQFE1G]n63lGR2
+R8
+32
+Z43 !s110 1760969145
+!i10b 1
+R10
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/Mult.vhd|
+Z45 !s107 C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/Mult.vhd|
+!i113 1
+R13
+R14
+Abeh
+R1
+R2
+R3
+R4
+DEx4 work 4 mult 0 22 Z_j9UmmRaMUXP4ZaQPHiF3
+!i122 16
+l15
+R15
+VZ[hBBmS[Lk?OI=AoJ>zaB0
+!s100 3bIWkN03_BaW@]gLZ>dQ22
+R8
+32
+R43
+!i10b 1
+R10
+R44
+R45
+!i113 1
+R13
+R14
+Emyfir
+Z46 w1760968982
+R1
+R2
+R3
+R4
+!i122 17
+R5
+Z47 8C:\Users\Giulia\OneDrive - Politecnico di Torino\Desktop\ISA\labISA\lab1\myfir\myfir.vhd
+Z48 FC:\Users\Giulia\OneDrive - Politecnico di Torino\Desktop\ISA\labISA\lab1\myfir\myfir.vhd
+l0
+L6 1
+Vg`U2]P0DYj1OUe=^m>>XJ0
+!s100 Q43g_m`MKX6hfJM<EgSOX1
+R8
+32
+R43
+!i10b 1
+Z49 !s108 1760969145.000000
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Giulia\OneDrive - Politecnico di Torino\Desktop\ISA\labISA\lab1\myfir\myfir.vhd|
+Z51 !s107 C:\Users\Giulia\OneDrive - Politecnico di Torino\Desktop\ISA\labISA\lab1\myfir\myfir.vhd|
+!i113 1
+R13
+R14
+Astruct
+R1
+R2
+R3
+R4
+DEx4 work 5 myfir 0 22 g`U2]P0DYj1OUe=^m>>XJ0
+!i122 17
+l60
+L17 76
+V@A2_`jB4agnlfKPI4`Cbh1
+!s100 ?=fT_V:RlL?8=UO3TXC7R2
+R8
+32
+R43
+!i10b 1
+R49
+R50
+R51
+!i113 1
+R13
+R14
+Ereg11b
+R0
+R1
+R2
+R3
+R4
+!i122 18
+R5
+Z52 8C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/REG11B.vhd
+Z53 FC:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/REG11B.vhd
+l0
+L6 1
+V:FDGZO[4YS<T5`D]5:oX[1
+!s100 VlYd3?]EHz]TUd2<ZI@W93
+R8
+32
+R43
+!i10b 1
+R49
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/REG11B.vhd|
+Z55 !s107 C:/Users/Giulia/OneDrive - Politecnico di Torino/Desktop/ISA/labISA/lab1/myfir/REG11B.vhd|
+!i113 1
+R13
+R14
+Abeh
+R1
+R2
+R3
+R4
+DEx4 work 6 reg11b 0 22 :FDGZO[4YS<T5`D]5:oX[1
+!i122 18
+l17
+L15 21
+V?mFFQXAzLB5;kLl`AUFCY3
+!s100 PkcRQo3CM3;=b7=ZX[c[b3
+R8
+32
+R43
+!i10b 1
+R49
+R54
+R55
+!i113 1
+R13
+R14
+vtb_fir
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1760969146
+!i10b 1
+!s100 nmRI`KVA_CIB@_j7`Ce_A2
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IdE58RKEEO_PGYBQ[b8:3<3
+VDg1SIo80bB@j0V0VzS_@n1
+S1
+R5
+R0
+8C:\Users\Giulia\OneDrive - Politecnico di Torino\Desktop\ISA\labISA\lab1\myfir\tb_fir.sv
+FC:\Users\Giulia\OneDrive - Politecnico di Torino\Desktop\ISA\labISA\lab1\myfir\tb_fir.sv
+!i122 19
+L0 3 72
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1760969146.000000
+!s107 C:\Users\Giulia\OneDrive - Politecnico di Torino\Desktop\ISA\labISA\lab1\myfir\tb_fir.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\Giulia\OneDrive - Politecnico di Torino\Desktop\ISA\labISA\lab1\myfir\tb_fir.sv|
+!i113 1
+o-work work -sv
+tCvgOpt 0
