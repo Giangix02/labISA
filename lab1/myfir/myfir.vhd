@@ -10,13 +10,8 @@ ENTITY myfir is
 	     DOUT: out signed(10 downto 0);
 	     VOUT: out std_logic
 	);
-	
-
-<<<<<<< HEAD
-END;
-=======
 END myfir;
->>>>>>> 21e5d328ba2bd2ea78a848c9da757b1c7a7e12c7
+
 
 ARCHITECTURE struct of myfir is
 	

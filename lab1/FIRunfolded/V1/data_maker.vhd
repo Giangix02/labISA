@@ -35,7 +35,7 @@ end data_maker;
 
 architecture beh of data_maker is
 
-  constant tco : time := 10 ns;
+  constant tco : time := 1 ns;
   constant N_CYC_END_SIM : integer := 11;
   constant LFSR_INIT : integer := 1365;  
 
@@ -78,15 +78,15 @@ begin  -- beh
 
           readline(fp_in, line_in);
           read(line_in, x);
-          DOUT3k <= conv_std_logic_vector(x, 11) ;
+          DOUT3k <= conv_std_logic_vector(x, 11) after tco;
 
           readline(fp_in, line_in);
           read(line_in, x);
-          DOUT3k1 <= conv_std_logic_vector(x, 11) ;
+          DOUT3k1 <= conv_std_logic_vector(x, 11) after tco;
 
           readline(fp_in, line_in);
           read(line_in, x);
-          DOUT3k2 <= conv_std_logic_vector(x, 11) ;
+          DOUT3k2 <= conv_std_logic_vector(x, 11) after tco;
 
 
           VOUT <= '1' after tco;
