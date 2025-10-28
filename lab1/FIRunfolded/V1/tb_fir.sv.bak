@@ -1,4 +1,4 @@
-//`timescale 1ns/1ps
+`timescale 1ns/1ps
 
 module tb_fir ();
 
@@ -48,7 +48,7 @@ module tb_fir ();
 		 .B10(H10_i),
 		 .END_SIM(END_SIM_i));
 
-   FIR_UNF UUT(.clk(CLK_i),
+   FIR_UNF UUT(.CLK(CLK_i),
 	     .RSTn(RST_n_i),
 	     .DIN3k(DIN3k_i),
 	     .DIN3k1(DIN3k1_i),

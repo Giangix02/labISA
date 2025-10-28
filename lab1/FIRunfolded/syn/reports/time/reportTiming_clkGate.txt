@@ -1,0 +1,174 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : FIR_UNF
+Version: S-2021.06-SP4
+Date   : Tue Oct 28 15:37:39 2025
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: C1[0] (input port clocked by MY_CLK)
+  Endpoint: DOUT3k1_REG/Dout_reg[10]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FIR_UNF            5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.50       0.50 f
+  C1[0] (in)                                              0.00       0.50 f
+  j1/C1[0] (jSeries_2)                                    0.00       0.50 f
+  j1/addMult0/C[0] (addMult_20)                           0.00       0.50 f
+  j1/addMult0/MULT/IN1[0] (Mult_rounded_20)               0.00       0.50 f
+  j1/addMult0/MULT/mult_18/b[0] (Mult_rounded_20_DW_mult_tc_0_DW_mult_tc_4)
+                                                          0.00       0.50 f
+  j1/addMult0/MULT/mult_18/U385/ZN (INV_X1)               0.04       0.54 r
+  j1/addMult0/MULT/mult_18/U339/ZN (INV_X1)               0.03       0.57 f
+  j1/addMult0/MULT/mult_18/U538/ZN (OR3_X1)               0.09       0.66 f
+  j1/addMult0/MULT/mult_18/U537/ZN (OAI21_X1)             0.04       0.70 r
+  j1/addMult0/MULT/mult_18/U72/S (HA_X1)                  0.08       0.78 r
+  j1/addMult0/MULT/mult_18/U71/S (FA_X1)                  0.12       0.90 f
+  j1/addMult0/MULT/mult_18/U347/ZN (NAND2_X1)             0.03       0.93 r
+  j1/addMult0/MULT/mult_18/U299/ZN (AND3_X2)              0.06       1.00 r
+  j1/addMult0/MULT/mult_18/U344/ZN (OAI222_X1)            0.05       1.05 f
+  j1/addMult0/MULT/mult_18/U349/ZN (NAND2_X1)             0.03       1.08 r
+  j1/addMult0/MULT/mult_18/U297/ZN (AND3_X2)              0.06       1.14 r
+  j1/addMult0/MULT/mult_18/U351/ZN (OAI222_X1)            0.05       1.19 f
+  j1/addMult0/MULT/mult_18/U359/ZN (NAND2_X1)             0.03       1.22 r
+  j1/addMult0/MULT/mult_18/U313/ZN (AND3_X2)              0.06       1.29 r
+  j1/addMult0/MULT/mult_18/U357/ZN (OAI222_X1)            0.05       1.34 f
+  j1/addMult0/MULT/mult_18/U340/ZN (NAND2_X1)             0.03       1.37 r
+  j1/addMult0/MULT/mult_18/U342/ZN (AND3_X1)              0.06       1.42 r
+  j1/addMult0/MULT/mult_18/U314/ZN (OAI222_X2)            0.06       1.49 f
+  j1/addMult0/MULT/mult_18/U336/ZN (NAND2_X1)             0.04       1.53 r
+  j1/addMult0/MULT/mult_18/U338/ZN (NAND3_X1)             0.04       1.57 f
+  j1/addMult0/MULT/mult_18/U311/ZN (XNOR2_X1)             0.06       1.64 f
+  j1/addMult0/MULT/mult_18/product[14] (Mult_rounded_20_DW_mult_tc_0_DW_mult_tc_4)
+                                                          0.00       1.64 f
+  j1/addMult0/MULT/Molt[4] (Mult_rounded_20)              0.00       1.64 f
+  j1/addMult0/ADD/IN0[4] (Adder_20)                       0.00       1.64 f
+  j1/addMult0/ADD/add_16/A[4] (Adder_20_DW01_add_0_DW01_add_19)
+                                                          0.00       1.64 f
+  j1/addMult0/ADD/add_16/U1_4/CO (FA_X1)                  0.10       1.74 f
+  j1/addMult0/ADD/add_16/U1_5/CO (FA_X1)                  0.09       1.83 f
+  j1/addMult0/ADD/add_16/U1_6/CO (FA_X1)                  0.09       1.92 f
+  j1/addMult0/ADD/add_16/U1_7/S (FA_X1)                   0.14       2.05 r
+  j1/addMult0/ADD/add_16/SUM[7] (Adder_20_DW01_add_0_DW01_add_19)
+                                                          0.00       2.05 r
+  j1/addMult0/ADD/Sum[7] (Adder_20)                       0.00       2.05 r
+  j1/addMult0/OUTPUT_A[7] (addMult_20)                    0.00       2.05 r
+  j1/addMult1/INPUT_A[7] (addMult_19)                     0.00       2.05 r
+  j1/addMult1/ADD/IN1[7] (Adder_19)                       0.00       2.05 r
+  j1/addMult1/ADD/add_16/B[7] (Adder_19_DW01_add_0_DW01_add_18)
+                                                          0.00       2.05 r
+  j1/addMult1/ADD/add_16/U1_7/S (FA_X1)                   0.12       2.18 f
+  j1/addMult1/ADD/add_16/SUM[7] (Adder_19_DW01_add_0_DW01_add_18)
+                                                          0.00       2.18 f
+  j1/addMult1/ADD/Sum[7] (Adder_19)                       0.00       2.18 f
+  j1/addMult1/OUTPUT_A[7] (addMult_19)                    0.00       2.18 f
+  j1/addMult2/INPUT_A[7] (addMult_18)                     0.00       2.18 f
+  j1/addMult2/ADD/IN1[7] (Adder_18)                       0.00       2.18 f
+  j1/addMult2/ADD/add_16/B[7] (Adder_18_DW01_add_0_DW01_add_17)
+                                                          0.00       2.18 f
+  j1/addMult2/ADD/add_16/U1_7/S (FA_X1)                   0.15       2.33 r
+  j1/addMult2/ADD/add_16/SUM[7] (Adder_18_DW01_add_0_DW01_add_17)
+                                                          0.00       2.33 r
+  j1/addMult2/ADD/Sum[7] (Adder_18)                       0.00       2.33 r
+  j1/addMult2/OUTPUT_A[7] (addMult_18)                    0.00       2.33 r
+  j1/addMult3/INPUT_A[7] (addMult_17)                     0.00       2.33 r
+  j1/addMult3/ADD/IN1[7] (Adder_17)                       0.00       2.33 r
+  j1/addMult3/ADD/add_16/B[7] (Adder_17_DW01_add_0_DW01_add_16)
+                                                          0.00       2.33 r
+  j1/addMult3/ADD/add_16/U1_7/S (FA_X1)                   0.12       2.45 f
+  j1/addMult3/ADD/add_16/SUM[7] (Adder_17_DW01_add_0_DW01_add_16)
+                                                          0.00       2.45 f
+  j1/addMult3/ADD/Sum[7] (Adder_17)                       0.00       2.45 f
+  j1/addMult3/OUTPUT_A[7] (addMult_17)                    0.00       2.45 f
+  j1/addMult4/INPUT_A[7] (addMult_16)                     0.00       2.45 f
+  j1/addMult4/ADD/IN1[7] (Adder_16)                       0.00       2.45 f
+  j1/addMult4/ADD/add_16/B[7] (Adder_16_DW01_add_0_DW01_add_15)
+                                                          0.00       2.45 f
+  j1/addMult4/ADD/add_16/U1_7/S (FA_X1)                   0.15       2.60 r
+  j1/addMult4/ADD/add_16/SUM[7] (Adder_16_DW01_add_0_DW01_add_15)
+                                                          0.00       2.60 r
+  j1/addMult4/ADD/Sum[7] (Adder_16)                       0.00       2.60 r
+  j1/addMult4/OUTPUT_A[7] (addMult_16)                    0.00       2.60 r
+  j1/addMult5/INPUT_A[7] (addMult_15)                     0.00       2.60 r
+  j1/addMult5/ADD/IN1[7] (Adder_15)                       0.00       2.60 r
+  j1/addMult5/ADD/add_16/B[7] (Adder_15_DW01_add_0_DW01_add_14)
+                                                          0.00       2.60 r
+  j1/addMult5/ADD/add_16/U1_7/S (FA_X1)                   0.12       2.72 f
+  j1/addMult5/ADD/add_16/SUM[7] (Adder_15_DW01_add_0_DW01_add_14)
+                                                          0.00       2.72 f
+  j1/addMult5/ADD/Sum[7] (Adder_15)                       0.00       2.72 f
+  j1/addMult5/OUTPUT_A[7] (addMult_15)                    0.00       2.72 f
+  j1/addMult6/INPUT_A[7] (addMult_14)                     0.00       2.72 f
+  j1/addMult6/ADD/IN1[7] (Adder_14)                       0.00       2.72 f
+  j1/addMult6/ADD/add_16/B[7] (Adder_14_DW01_add_0_DW01_add_13)
+                                                          0.00       2.72 f
+  j1/addMult6/ADD/add_16/U1_7/CO (FA_X1)                  0.10       2.82 f
+  j1/addMult6/ADD/add_16/U1_8/CO (FA_X1)                  0.09       2.92 f
+  j1/addMult6/ADD/add_16/U1_9/S (FA_X1)                   0.14       3.05 r
+  j1/addMult6/ADD/add_16/SUM[9] (Adder_14_DW01_add_0_DW01_add_13)
+                                                          0.00       3.05 r
+  j1/addMult6/ADD/Sum[9] (Adder_14)                       0.00       3.05 r
+  j1/addMult6/OUTPUT_A[9] (addMult_14)                    0.00       3.05 r
+  j1/addMult7/INPUT_A[9] (addMult_13)                     0.00       3.05 r
+  j1/addMult7/ADD/IN1[9] (Adder_13)                       0.00       3.05 r
+  j1/addMult7/ADD/add_16/B[9] (Adder_13_DW01_add_0_DW01_add_12)
+                                                          0.00       3.05 r
+  j1/addMult7/ADD/add_16/U1_9/S (FA_X1)                   0.12       3.17 f
+  j1/addMult7/ADD/add_16/SUM[9] (Adder_13_DW01_add_0_DW01_add_12)
+                                                          0.00       3.17 f
+  j1/addMult7/ADD/Sum[9] (Adder_13)                       0.00       3.17 f
+  j1/addMult7/OUTPUT_A[9] (addMult_13)                    0.00       3.17 f
+  j1/addMult8/INPUT_A[9] (addMult_12)                     0.00       3.17 f
+  j1/addMult8/ADD/IN1[9] (Adder_12)                       0.00       3.17 f
+  j1/addMult8/ADD/add_16/B[9] (Adder_12_DW01_add_0_DW01_add_11)
+                                                          0.00       3.17 f
+  j1/addMult8/ADD/add_16/U1_9/S (FA_X1)                   0.13       3.30 f
+  j1/addMult8/ADD/add_16/SUM[9] (Adder_12_DW01_add_0_DW01_add_11)
+                                                          0.00       3.30 f
+  j1/addMult8/ADD/Sum[9] (Adder_12)                       0.00       3.30 f
+  j1/addMult8/OUTPUT_A[9] (addMult_12)                    0.00       3.30 f
+  j1/addMult9/INPUT_A[9] (addMult_11)                     0.00       3.30 f
+  j1/addMult9/ADD/IN1[9] (Adder_11)                       0.00       3.30 f
+  j1/addMult9/ADD/add_16/B[9] (Adder_11_DW01_add_0_DW01_add_10)
+                                                          0.00       3.30 f
+  j1/addMult9/ADD/add_16/U1_9/CO (FA_X1)                  0.10       3.41 f
+  j1/addMult9/ADD/add_16/U1_10/S (FA_X1)                  0.13       3.54 r
+  j1/addMult9/ADD/add_16/SUM[10] (Adder_11_DW01_add_0_DW01_add_10)
+                                                          0.00       3.54 r
+  j1/addMult9/ADD/Sum[10] (Adder_11)                      0.00       3.54 r
+  j1/addMult9/OUTPUT_A[10] (addMult_11)                   0.00       3.54 r
+  j1/DATA_OUT[10] (jSeries_2)                             0.00       3.54 r
+  DOUT3k1_REG/Din[10] (REG11B_2)                          0.00       3.54 r
+  DOUT3k1_REG/Dout_reg[10]/D (DFFR_X1)                    0.01       3.55 r
+  data arrival time                                                  3.55
+
+  clock MY_CLK (rise edge)                                3.65       3.65
+  clock network delay (ideal)                             0.00       3.65
+  clock uncertainty                                      -0.07       3.58
+  DOUT3k1_REG/Dout_reg[10]/CK (DFFR_X1)                   0.00       3.58 r
+  library setup time                                     -0.03       3.55
+  data required time                                                 3.55
+  --------------------------------------------------------------------------
+  data required time                                                 3.55
+  data arrival time                                                 -3.55
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

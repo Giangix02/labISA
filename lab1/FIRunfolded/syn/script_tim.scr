@@ -1,0 +1,27 @@
+analyze -f VHDL -lib WORK ../V1/Adder.vhd
+analyze -f VHDL -lib WORK ../V1/Mult_rounded.vhd
+analyze -f VHDL -lib WORK ../V1/FF.vhd
+analyze -f VHDL -lib WORK ../V1/REG11B.vhd
+analyze -f VHDL -lib WORK ../V1/FIR_UNF.vhd
+analyze -f VHDL -lib WORK ../V1/jSeries.vhd
+analyze -f VHDL -lib WORK ../V1/addMult.vhd
+analyze -f VHDL -lib WORK ../V1/clk_gen.vhd
+analyze -f VHDL -lib WORK ../V1/data_maker.vhd
+analyze -f VHDL -lib WORK ../V1/data_sink.vhd
+elaborate FIR_UNF -arch struct -lib WORK
+create_clock -name MY_CLK -period 3.65 clk
+set_dont_touch_network MY_CLK
+set_clock_uncertainty 0.07 [get_clocks MY_CLK]
+set_input_delay 0.5 -max -clock MY_CLK [remove_from_collection [all_inputs] clk]
+set_output_delay 0.5 -max -clock MY_CLK[all_outputs]
+set OLOAD [load_of NangateOpenCellLibrary/BUF_X4/A]
+set_load $OLOAD [all_outputs]
+compile
+report_timing > reportTiming.txt
+report_area > reportArea.txt
+ungroup -all -flatten
+change_names -hierarchy -rules verilog
+write_sdf ../netlist/FIR_UNF.sdf
+write -f verilog -hierarchy -output ../netlist/FIR_UNF.v
+write_sdc ../netlist/FIR_UNF.sdc
+
