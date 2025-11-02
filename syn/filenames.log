@@ -270,3 +270,11 @@
 /eda/synopsys/2021-22/RHELx86/SYN_2021.06-SP4/auxx/gui/dv/dv_path_cat_view.tcl
 /eda/synopsys/2021-22/RHELx86/SYN_2021.06-SP4/auxx/gui/common/table/table.tcl
 /eda/synopsys/2021-22/RHELx86/SYN_2021.06-SP4/auxx/gui/common/table/table_internal.tcl
+/home/isa30_2025_2026/labISA/syn/script_power.scr
+/eda/dk/nangate45/synopsys/NangateOpenCellLibrary_typical_ecsm.db
+/eda/synopsys/2021-22/RHELx86/SYN_2021.06-SP4/libraries/syn/dw_foundation.sldb
+/eda/synopsys/2021-22/RHELx86/SYN_2021.06-SP4/libraries/syn/gtech.db
+/eda/synopsys/2021-22/RHELx86/SYN_2021.06-SP4/libraries/syn/standard.sldb
+/home/isa30_2025_2026/labISA/netlist/myfir.v
+/home/isa30_2025_2026/labISA/netlist/myfir.v
+/home/isa30_2025_2026/labISA/saif/myfir_syn.saif

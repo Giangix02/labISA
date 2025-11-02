@@ -1,0 +1,37 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : myfir
+Version: S-2021.06-SP4
+Date   : Thu Oct 30 17:41:18 2025
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: DataRegOut/Dout_reg[10]
+              (rising edge-triggered flip-flop)
+  Endpoint: DOUT[10] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  myfir              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  DataRegOut/Dout_reg[10]/CK (DFFR_X1)                    0.00       0.00 r
+  DataRegOut/Dout_reg[10]/Q (DFFR_X1)                     0.12       0.12 r
+  DataRegOut/Dout[10] (REG11B_12)                         0.00       0.12 r
+  DOUT[10] (out)                                          0.02       0.14 r
+  data arrival time                                                  0.14
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running dc_shell Version S-2021.06-SP4 for linux64 -- Nov 23, 2021
-#@ # Date:   Sat Oct 25 22:27:30 2025
+#@ # Date:   Thu Oct 30 17:43:03 2025
 #@ # Run by: isa30_2025_2026@isaserver
 #@ 
 
@@ -44405,5 +44405,15 @@ gui_start
 #@ # -- End source /eda/synopsys/2021-22/RHELx86/SYN_2021.06-SP4/auxx/tcllib/lib/iwidgets4.1/watch.itk
 
 gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {LeafCells}
-pwd
-cd work
+source script_power.scr
+#@ # -- Starting source script_power.scr
+
+#@ read_verilog -netlist ../netlist/myfir.v
+#@ current_design myfir
+#@ read_saif -input ../saif/myfir_syn.saif -instance tb_fir/UUT -unit ns -scale 1
+#@ create_clock -name MY_CLK -period 7.6 clk
+#@ report_power > reportPower.txt
+#@ 
+#@ # -- End source script_power.scr
+
+git push

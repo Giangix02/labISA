@@ -8,7 +8,7 @@ Report : power
         -analysis_effort low
 Design : myfir
 Version: S-2021.06-SP4
-Date   : Thu Oct 23 10:25:11 2025
+Date   : Thu Oct 30 16:24:22 2025
 ****************************************
 
 
@@ -34,12 +34,12 @@ Power-specific unit information :
     Leakage Power Units = 1nW
 
 
-  Cell Internal Power  = 679.4406 uW   (74%)
-  Net Switching Power  = 237.1914 uW   (26%)
+  Cell Internal Power  = 499.5592 uW   (64%)
+  Net Switching Power  = 279.4729 uW   (36%)
                          ---------
-Total Dynamic Power    = 916.6320 uW  (100%)
+Total Dynamic Power    = 779.0321 uW  (100%)
 
-Cell Leakage Power     = 153.6624 uW
+Cell Leakage Power     = 141.0981 uW
 
 
                  Internal         Switching           Leakage            Total
@@ -48,10 +48,10 @@ Power Group      Power            Power               Power              Power  
 io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
-clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
-register         478.2848           39.8050        2.1132e+04          539.2215  (  50.38%)
+clock_network     59.3296           42.4723        1.3586e+03          103.1605  (  11.21%)
+register         225.3731           42.6173        2.1142e+04          289.1326  (  31.42%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational    201.1561          197.3863        1.3253e+05          531.0729  (  49.62%)
+combinational    214.8565          194.3831        1.1860e+05          527.8369  (  57.37%)
 --------------------------------------------------------------------------------------------------
-Total            679.4409 uW       237.1913 uW     1.5366e+05 nW     1.0703e+03 uW
+Total            499.5592 uW       279.4727 uW     1.4110e+05 nW       920.1300 uW
 1

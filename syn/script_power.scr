@@ -1,0 +1,6 @@
+read_verilog -netlist ../netlist/myfir.v
+current_design myfir
+read_saif -input ../saif/myfir_syn.saif -instance tb_fir/UUT -unit ns -scale 1
+create_clock -name MY_CLK -period 7.6 clk
+report_power > reportPower.txt
+

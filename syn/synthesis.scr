@@ -10,7 +10,7 @@ set power_preserve_rtl_hier_names true
 elaborate myfir -arch STRUCTURAL -lib WORK
 uniquify
 link
-create_clock -name CLK -period 7.6 CLK
+create_clock -name CLK -period 3.8 CLK
 set_dont_touch_network CLK
 set_clock_uncertainty 0.07 [get_clocks CLK]
 set_input_delay 0.5 -max -clock CLK [remove_from_collection [all_inputs] CLK]
@@ -18,9 +18,9 @@ set_output_delay 0.5 -max -clock CLK [all_outputs]
 set OLOAD [load_of NangateOpenCellLibrary/BUF_X4/A]
 set $OLOAD [all_outputs]
 compile -gate_clock
-report_timing > ./reportsGateClock/myfirTiming7.6.txt
-report_area > ./reportsGateClock/myfirArea7.6.txt
-report_power > ./reportsGateClock/myfirPower7.6.txt
+report_timing > ./reportsGateClock/myfirTiming3.8.txt
+report_area > ./reportsGateClock/myfirArea3.8.txt
+report_power > ./reportsGateClock/myfirPower3.8.txt
 ungroup -all -flatten
 change_names -hierarchy -rules verilog
 write_sdf ../netlist/myfir.sdf
