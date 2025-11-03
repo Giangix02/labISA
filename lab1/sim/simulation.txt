@@ -8,8 +8,9 @@ vcom /home/isa30_2025_2026/labISA/lab1/myfir/FF.vhd
 vcom /home/isa30_2025_2026/labISA/lab1/myfir/Mult.vhd
 vcom /home/isa30_2025_2026/labISA/lab1/myfir/myfir.vhd
 vcom /home/isa30_2025_2026/labISA/lab1/myfir/REG11B.vhd
-vlog /home/isa30_2025_2026/labISA/lab1/myfir/tb_fir.sv
-vlog -work ../innovus/myfir.v
+vlog -work ./work ../innovus/myfir.v
+vlog -sv -work ./work /home/isa30_2025_2026/labISA/lab1/myfir/tb_fir.sv
 
 vsim -L /eda/dk/nangate45/verilog/qsim2020.4 work.tb_fir
-vsim -L /eda/dk/nangate45/verilog/qsim2020.4 -sdfmax /tb_fir/UUT=../innovus/myfir.sdf work..tb_fir
+vsim -L /eda/dk/nangate45/verilog/qsim2020.4 -sdfmax /tb_fir/UUT=../innovus/myfir.sdf work.tb_fir
+
