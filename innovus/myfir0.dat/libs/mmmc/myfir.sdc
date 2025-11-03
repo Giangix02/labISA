@@ -1,1 +1,0 @@
-/home/isa30_2025_2026/labISA/netlist/myfir.sdc
