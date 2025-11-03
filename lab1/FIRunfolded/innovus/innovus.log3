@@ -1,0 +1,80 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v20.11-s130_1, built Wed Aug 5 15:53:11 PDT 2020
+Options:	
+Date:		Mon Nov  3 15:05:28 2025
+Host:		isaserver (x86_64 w/Linux 3.10.0-1160.81.1.el7.x86_64) (6cores*6cpus*QEMU Virtual CPU version 2.5+ 16384KB)
+OS:		CentOS Linux release 7.9.2009 (Core)
+
+License:
+		invs	Innovus Implementation System	20.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (64 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> win
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+my_rc
+Loading view definition file from /home/isa30_2025_2026/labISA/lab1/FIRunfolded/innovus/FIR_UNF.dat/viewDefinition.tcl
+*** End library_loading (cpu=0.04min, real=0.05min, mem=11.0M, fe_cpu=0.73min, fe_real=1.73min, fe_mem=780.8M) ***
+*** Netlist is unique.
+Loading preference file /home/isa30_2025_2026/labISA/lab1/FIRunfolded/innovus/FIR_UNF.dat/gui.pref.tcl ...
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+Loading place ...
+'set_default_switching_activity' finished successfully.
+my_delay
+**WARN: (IMPESI-3505):	setDelayCalMode -eng_copyNetPropToNewNet true (default=false) will be obsoleted along with its sgs2set equivalent.  This parameter will continue to be supported in the current release, but will be removed in the next major release of the software.
+**WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.11-s130_1. They will be removed in the next release. 
+timing_enable_default_delay_arc
+<CMD> zoomBox 4.88500 -13.87200 180.04800 169.18750
+<CMD> zoomBox 27.29600 -12.97650 153.85200 119.28500
+<CMD> zoomBox 49.81150 -11.95850 127.53300 69.26700
+<CMD> zoomBox 59.75500 -11.42850 115.90950 47.25750
+<CMD> zoomBox 63.63850 -11.22150 111.37000 38.66200
+<CMD> zoomBox 89.26500 30.93500 89.16700 27.41400
+<CMD> zoomBox 86.86500 26.30400 91.52850 31.17750
+<CMD> zoomBox 85.94700 24.74350 92.40200 31.48950
+<CMD> zoomBox 84.67700 22.58450 93.61100 31.92150
+<CMD> pan -5.82150 -59.78550
+<CMD> zoomBox 73.89700 19.49000 91.01200 37.37650
+<CMD> zoomBox 69.16700 11.49050 97.03650 40.61650
+<CMD> zoomBox 64.47250 3.55000 103.04650 43.86300
+<CMD> zoomBox 61.48750 -1.49950 106.86850 45.92750
+<CMD> zoomBox 53.84350 -14.42900 116.65500 51.21400
+<CMD> zoomBox 43.36300 -32.86900 130.29950 57.98700
+<CMD> pan -34.38250 -48.08450
+<CMD> zoomBox 18.02250 19.45350 71.41300 75.25100
+<CMD> zoomBox 22.86350 23.55600 68.24550 70.98400
+<CMD> zoomBox 32.51600 32.31100 60.38700 61.43850
+<CMD> zoomBox 36.77950 36.17750 56.91650 57.22250
+<CMD> zoomBox 42.95350 41.77750 51.88950 51.11650
+<CMD> zoomBox 45.30700 43.91250 49.97250 48.78850
+<CMD> zoomBox 43.70250 42.46450 51.30000 50.40450
+<CMD> zoomBox 42.96850 41.79950 51.90700 51.14100
+<CMD> zoomBox 39.90650 39.08300 54.46200 54.29450
+<CMD> zoomBox 34.88400 34.60400 58.58500 59.37350
+<CMD> zoomBox 26.70550 27.31000 65.29900 67.64350
+<CMD> zoomBox 18.56450 20.05000 71.98150 75.87500
+<CMD> zoomBox 0.13200 3.61200 87.11250 94.51400
+<CMD> zoomBox -18.62650 -13.98200 101.76250 111.83450
+<CMD> pan 28.86400 20.43350
+
+--------------------------------------------------------------------------------
+Exiting Innovus on Mon Nov  3 15:08:28 2025
+  Total CPU time:     0:01:00
+  Total real time:    0:03:06
+  Peak memory (main): 895.75MB
+
+
+*** Memory Usage v#2 (Current mem = 1142.613M, initial mem = 272.289M) ***
+*** Message Summary: 3 warning(s), 0 error(s)
+
+--- Ending "Innovus" (totcpu=0:00:55.9, real=0:03:00, mem=1142.6M) ---

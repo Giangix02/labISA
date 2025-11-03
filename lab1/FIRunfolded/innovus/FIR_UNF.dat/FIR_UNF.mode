@@ -11,26 +11,19 @@ catch { setOptMode -autoHoldViews { MyAnView} }
 catch { setOptMode -autoSetupViews { MyAnView} }
 catch { setOptMode -autoTDGRSetupViews { MyAnView} }
 catch { setOptMode -autoViewHoldTargetSlack 0 }
-catch { setOptMode -deleteInst true }
 catch { setOptMode -drcMargin 0 }
 catch { setOptMode -fixCap true }
 catch { setOptMode -fixDrc true }
 catch { setOptMode -fixFanoutLoad false }
 catch { setOptMode -fixTran true }
 catch { setOptMode -optimizeFF true }
-catch { setOptMode -preserveAllSequential false }
 catch { setOptMode -setupTargetSlack 0 }
-catch { setExtractRCMode  -engine postRoute -total_c_th 0 -relative_c_th 1 -coupling_c_th 0.1 -minNetTermNrToBeInMem 50 }
-catch {setNanoRouteMode -quiet -drouteAntennaFactor 1.000000}
+catch { setExtractRCMode  -engine preRoute -total_c_th 0 -relative_c_th 1 -coupling_c_th 0.1 }
 catch {setNanoRouteMode -quiet -droutePostRouteSpreadWire "1"}
-catch {setNanoRouteMode -quiet -drouteStartIteration 0}
 catch {setNanoRouteMode -quiet -extractThirdPartyCompatible false}
 catch {setNanoRouteMode -quiet -grouteExpTdStdDelay 10.100000}
 catch {setNanoRouteMode -quiet -grouteExpTdUseTifTimingEngineForImportDesign false}
-catch {setNanoRouteMode -quiet -routeExpDirtyAreaEco false}
-catch {setNanoRouteMode -quiet -routeExpSignatureEco false}
 catch {setNanoRouteMode -quiet -routeWithSiDriven false}
-catch {setNanoRouteMode -quiet -routeWithSiPostRouteFix false}
 catch {setNanoRouteMode -quiet -routeWithTimingDriven false}
 catch {setNanoRouteMode -quiet -timingEngine ""}
 
@@ -59,7 +52,6 @@ catch { setDelayCalMode -enable_high_fanout true }
 catch { setDelayCalMode -eng_copyNetPropToNewNet true }
 catch { setDelayCalMode -engine aae }
 catch { setDelayCalMode -ignoreNetLoad false }
-catch { setDelayCalMode -SIAware true }
 catch { setAddRingMode -avoid_short false }
 catch { setAddRingMode -extend_over_row false }
 catch { setAddRingMode -ignore_rows false }
@@ -71,13 +63,9 @@ catch { setAddRingMode -skip_via_on_wire_shape noshape }
 catch { setAddRingMode -stacked_via_bottom_layer metal1 }
 catch { setAddRingMode -stacked_via_top_layer metal10 }
 catch { setAddRingMode -via_using_exact_crossover_size true }
-catch { setHierMode -disableArt false }
-catch { setHierMode -reportPostRouteArtTiming false }
-catch { setHierMode -trialRouteHonorReadOnly false }
 catch { setImportMode -discardFloatingVNets false }
 catch { setImportMode -keepEmptyModule true }
 catch { setSIMode -separate_delta_delay_on_data true }
-catch { setSIMode -si_reselection slack }
 catch { setRouteMode -earlyGlobalHonorMsvRouteConstraint false }
 catch { setRouteMode -earlyGlobalRoutePartitionPinGuide true }
 catch { setEndCapMode -boundary_tap false }
