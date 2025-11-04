@@ -1,0 +1,4 @@
+innovus:
+source /eda/scripts/init_cadence_2020-21
+questa:
+source /eda/scripts/init_questa_core_prime

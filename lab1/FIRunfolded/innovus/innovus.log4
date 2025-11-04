@@ -3177,3 +3177,4 @@ Completed snapshot creation (cpu = 0:0:2, real = 0:0:7, mem = 1499.43M, memory i
 Saving snapshot for fplan view to ss_Snapshot_Routed.fplan.gif
 Saving snapshot for amoeba view to ss_Snapshot_Routed.amoeba.gif
 Saving snapshot for place view to ss_Snapshot_Routed.place.gif
+<CMD> win off

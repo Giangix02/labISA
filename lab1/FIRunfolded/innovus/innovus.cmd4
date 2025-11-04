@@ -140,3 +140,4 @@ setDrawView place
 win
 dumpToGIF ./ss_Snapshot_Routed.place.gif
 checkPlace checkplace.ss.rpt
+win off

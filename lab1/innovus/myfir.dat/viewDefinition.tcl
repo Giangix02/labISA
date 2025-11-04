@@ -23,4 +23,3 @@ create_constraint_mode -name SDC_layout\
     [list ${::IMEX::libVar}/mmmc/myfir.sdc]
 create_analysis_view -name MyAnView -constraint_mode SDC_layout -delay_corner my_delay
 set_analysis_view -setup [list MyAnView] -hold [list MyAnView]
-catch {set_interactive_constraint_mode [list SDC_layout] } 
