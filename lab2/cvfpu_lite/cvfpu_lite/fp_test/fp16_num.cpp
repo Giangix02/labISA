@@ -37,4 +37,5 @@ int main(int argc, char **argv)
   std::cout << "ff16_c = " << flexfloat_as_double << ff16_c << flexfloat_as_bits << " (" << ff16_c << ")" << std::endl;
 
   return RET_OK;
+
 }
