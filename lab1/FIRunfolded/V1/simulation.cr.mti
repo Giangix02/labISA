@@ -67,6 +67,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity FF
 -- Compiling architecture beh of FF
 
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/FIR_UNF.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab1\FIRunfolded\V1\FIR_UNF.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity FIR_UNF
+-- Compiling architecture struct of FIR_UNF
+
 } {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/tb_fir.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab1/FIRunfolded/V1/tb_fir.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module tb_fir

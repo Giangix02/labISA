@@ -43,8 +43,8 @@ architecture beh of data_gen16 is
     ('1' & conv_std_logic_vector(127+4, 8) & conv_std_logic_vector(9, 4) & conv_std_logic_vector(0, 7-4)), -- -25
     ('0' & conv_std_logic_vector(127+9, 8) & conv_std_logic_vector(3, 2) & conv_std_logic_vector(0, 7-2)),  --896
     ('1' & conv_std_logic_vector(127+7, 8) & conv_std_logic_vector(0, 7)),  -- -128
-    ('0' & conv_std_logic_vector(127+2, 8) & conv_std_logic_vector(3, 2) & conv_std_logic_vector(0, 7-2))  --7 
-    ('0' & conv_std_logic_vector(127+6, 8) & conv_std_logic_vector(3, 2) & conv_std_logic_vector(0, 7-2)),  --112                                                                           -- 
+    ('0' & conv_std_logic_vector(127+2, 8) & conv_std_logic_vector(3, 2) & conv_std_logic_vector(0, 7-2)),  --7 
+    ('0' & conv_std_logic_vector(127+6, 8) & conv_std_logic_vector(3, 2) & conv_std_logic_vector(0, 7-2))  --112                                                                           -- 
     );  
   
   signal cnt : integer := 0;
