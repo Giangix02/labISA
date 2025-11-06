@@ -33,7 +33,7 @@ end data_maker;
 
 architecture beh of data_maker is
 
-  constant tco : time := 10 ns;
+  constant tco : time := 1 ns;
   constant N_CYC_END_SIM : integer := 11;
   constant LFSR_INIT : integer := 1365;  
 
@@ -60,7 +60,12 @@ begin  -- beh
   --A2 <= conv_std_logic_vector(115, NBIT);
 
   process (CLK, RST_n)
+<<<<<<< HEAD
     file fp_in : text open READ_MODE is "C:\Users\Giulia\OneDrive - Politecnico di Torino\Desktop\politennico\ISA\labISA\lab1\samples.txt";
+=======
+    file fp_in : text open READ_MODE is "/home/isa30_2025_2026/labISA/lab1/samples.txt";
+
+>>>>>>> 279dd1d0bd672b797745e36669298d69c7282b01
     variable line_in : line;
     variable x : integer;
   begin  -- process

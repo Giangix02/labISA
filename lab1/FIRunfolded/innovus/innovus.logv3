@@ -1,0 +1,97 @@
+[11/03 15:05:28      0s] 
+[11/03 15:05:28      0s] Cadence Innovus(TM) Implementation System.
+[11/03 15:05:28      0s] Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+[11/03 15:05:28      0s] 
+[11/03 15:05:28      0s] Version:	v20.11-s130_1, built Wed Aug 5 15:53:11 PDT 2020
+[11/03 15:05:28      0s] Options:	
+[11/03 15:05:28      0s] Date:		Mon Nov  3 15:05:28 2025
+[11/03 15:05:28      0s] Host:		isaserver (x86_64 w/Linux 3.10.0-1160.81.1.el7.x86_64) (6cores*6cpus*QEMU Virtual CPU version 2.5+ 16384KB)
+[11/03 15:05:28      0s] OS:		CentOS Linux release 7.9.2009 (Core)
+[11/03 15:05:28      0s] 
+[11/03 15:05:28      0s] License:
+[11/03 15:05:28      0s] 		invs	Innovus Implementation System	20.1	checkout succeeded
+[11/03 15:05:28      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[11/03 15:06:43     35s] @(#)CDS: Innovus v20.11-s130_1 (64bit) 08/05/2020 15:53 (Linux 2.6.32-431.11.2.el6.x86_64)
+[11/03 15:06:43     35s] @(#)CDS: NanoRoute 20.11-s130_1 NR200802-2257/20_11-UB (database version 18.20.512) {superthreading v2.9}
+[11/03 15:06:43     35s] @(#)CDS: AAE 20.11-s008 (64bit) 08/05/2020 (Linux 2.6.32-431.11.2.el6.x86_64)
+[11/03 15:06:43     35s] @(#)CDS: CTE 20.11-s059_1 () Aug  2 2020 05:46:30 ( )
+[11/03 15:06:43     35s] @(#)CDS: SYNTECH 20.11-s028_1 () Aug  1 2020 06:14:27 ( )
+[11/03 15:06:43     35s] @(#)CDS: CPE v20.11-s013
+[11/03 15:06:43     35s] @(#)CDS: IQuantus/TQuantus 19.1.3-s260 (64bit) Thu May 28 10:57:28 PDT 2020 (Linux 2.6.32-431.11.2.el6.x86_64)
+[11/03 15:06:43     35s] @(#)CDS: OA 22.60-s011 Tue Jun 16 12:27:00 2020
+[11/03 15:06:43     35s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[11/03 15:06:43     35s] @(#)CDS: RCDB 11.15.0
+[11/03 15:06:43     35s] @(#)CDS: STYLUS 20.10-p011_1 (06/03/2020 04:47 PDT)
+[11/03 15:06:43     35s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_20169_isaserver_isa30_2025_2026_B2pMkO.
+
+[11/03 15:06:43     35s] Change the soft stacksize limit to 0.2%RAM (64 mbytes). Set global soft_stack_size_limit to change the value.
+[11/03 15:06:48     38s] 
+[11/03 15:06:48     38s] **INFO:  MMMC transition support version v31-84 
+[11/03 15:06:48     38s] 
+[11/03 15:06:48     38s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[11/03 15:06:48     38s] <CMD> suppressMessage ENCEXT-2799
+[11/03 15:06:48     38s] <CMD> win
+[11/03 15:07:06     39s] <CMD> encMessage warning 0
+[11/03 15:07:06     39s] Suppress "**WARN ..." messages.
+[11/03 15:07:06     39s] <CMD> encMessage debug 0
+[11/03 15:07:06     39s] <CMD> encMessage info 0
+[11/03 15:07:09     41s] Loading view definition file from /home/isa30_2025_2026/labISA/lab1/FIRunfolded/innovus/FIR_UNF.dat/viewDefinition.tcl
+[11/03 15:07:12     43s] *** End library_loading (cpu=0.04min, real=0.05min, mem=11.0M, fe_cpu=0.73min, fe_real=1.73min, fe_mem=780.8M) ***
+[11/03 15:07:13     44s] *** Netlist is unique.
+[11/03 15:07:15     45s] Loading preference file /home/isa30_2025_2026/labISA/lab1/FIRunfolded/innovus/FIR_UNF.dat/gui.pref.tcl ...
+[11/03 15:07:15     45s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[11/03 15:07:24     46s] Loading place ...
+[11/03 15:07:40     49s] {RT my_rc 0 10 10 {4 1} {7 0} {9 0} 3}
+[11/03 15:07:43     50s] **WARN: (IMPESI-3505):	setDelayCalMode -eng_copyNetPropToNewNet true (default=false) will be obsoleted along with its sgs2set equivalent.  This parameter will continue to be supported in the current release, but will be removed in the next major release of the software.
+[11/03 15:07:44     50s] **WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.11-s130_1. They will be removed in the next release. 
+[11/03 15:07:44     50s] timing_enable_default_delay_arc
+[11/03 15:07:48     51s] <CMD> zoomBox 4.88500 -13.87200 180.04800 169.18750
+[11/03 15:07:48     51s] <CMD> zoomBox 27.29600 -12.97650 153.85200 119.28500
+[11/03 15:07:49     51s] <CMD> zoomBox 49.81150 -11.95850 127.53300 69.26700
+[11/03 15:07:49     51s] <CMD> zoomBox 59.75500 -11.42850 115.90950 47.25750
+[11/03 15:07:50     51s] <CMD> zoomBox 63.63850 -11.22150 111.37000 38.66200
+[11/03 15:07:50     51s] <CMD> zoomBox 89.26500 30.93500 89.16700 27.41400
+[11/03 15:07:51     51s] <CMD> zoomBox 86.86500 26.30400 91.52850 31.17750
+[11/03 15:07:52     51s] <CMD> zoomBox 85.94700 24.74350 92.40200 31.48950
+[11/03 15:07:52     51s] <CMD> zoomBox 84.67700 22.58450 93.61100 31.92150
+[11/03 15:07:54     52s] <CMD> pan -5.82150 -59.78550
+[11/03 15:07:54     52s] <CMD> zoomBox 73.89700 19.49000 91.01200 37.37650
+[11/03 15:07:54     52s] <CMD> zoomBox 69.16700 11.49050 97.03650 40.61650
+[11/03 15:07:55     52s] <CMD> zoomBox 64.47250 3.55000 103.04650 43.86300
+[11/03 15:07:55     52s] <CMD> zoomBox 61.48750 -1.49950 106.86850 45.92750
+[11/03 15:07:55     52s] <CMD> zoomBox 53.84350 -14.42900 116.65500 51.21400
+[11/03 15:07:56     52s] <CMD> zoomBox 43.36300 -32.86900 130.29950 57.98700
+[11/03 15:07:59     52s] <CMD> pan -34.38250 -48.08450
+[11/03 15:07:59     52s] <CMD> zoomBox 18.02250 19.45350 71.41300 75.25100
+[11/03 15:08:00     53s] <CMD> zoomBox 22.86350 23.55600 68.24550 70.98400
+[11/03 15:08:01     53s] <CMD> zoomBox 32.51600 32.31100 60.38700 61.43850
+[11/03 15:08:01     53s] <CMD> zoomBox 36.77950 36.17750 56.91650 57.22250
+[11/03 15:08:02     53s] <CMD> zoomBox 42.95350 41.77750 51.88950 51.11650
+[11/03 15:08:02     53s] <CMD> zoomBox 45.30700 43.91250 49.97250 48.78850
+[11/03 15:08:04     53s] <CMD> zoomBox 43.70250 42.46450 51.30000 50.40450
+[11/03 15:08:04     53s] <CMD> zoomBox 42.96850 41.79950 51.90700 51.14100
+[11/03 15:08:05     53s] <CMD> zoomBox 39.90650 39.08300 54.46200 54.29450
+[11/03 15:08:05     53s] <CMD> zoomBox 34.88400 34.60400 58.58500 59.37350
+[11/03 15:08:05     53s] <CMD> zoomBox 26.70550 27.31000 65.29900 67.64350
+[11/03 15:08:06     53s] <CMD> zoomBox 18.56450 20.05000 71.98150 75.87500
+[11/03 15:08:06     53s] <CMD> zoomBox 0.13200 3.61200 87.11250 94.51400
+[11/03 15:08:07     53s] <CMD> zoomBox -18.62650 -13.98200 101.76250 111.83450
+[11/03 15:08:10     54s] <CMD> pan 28.86400 20.43350
+[11/03 15:08:28     55s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Mon Nov  3 15:08:28 2025
+  Total CPU time:     0:01:00
+  Total real time:    0:03:06
+  Peak memory (main): 895.75MB
+
+[11/03 15:08:28     55s] 
+[11/03 15:08:28     55s] *** Memory Usage v#2 (Current mem = 1142.613M, initial mem = 272.289M) ***
+[11/03 15:08:28     55s] 
+[11/03 15:08:28     55s] *** Summary of all messages that are not suppressed in this session:
+[11/03 15:08:28     55s] Severity  ID               Count  Summary                                  
+[11/03 15:08:28     55s] WARNING   IMPESI-3505          1  setDelayCalMode -eng_%s (default=%s) wil...
+[11/03 15:08:28     55s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[11/03 15:08:28     55s] WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+[11/03 15:08:28     55s] *** Message Summary: 3 warning(s), 0 error(s)
+[11/03 15:08:28     55s] 
+[11/03 15:08:28     55s] --- Ending "Innovus" (totcpu=0:00:55.9, real=0:03:00, mem=1142.6M) ---

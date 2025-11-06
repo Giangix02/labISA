@@ -19,18 +19,13 @@ end data_sink;
 
 architecture beh of data_sink is
 
-begin  -- beh
+begin  --beh
 
   process (CLK, RST_n)
-<<<<<<< HEAD
     file res_fp : text open WRITE_MODE is "/home/isa30_2025_2026/labISA/lab1/results_vhdG.txt";
     variable line_out : line;
     file fp_in : text open READ_MODE is "/home/isa30_2025_2026/labISA/lab1/resultsc.txt";
-=======
-    file res_fp : text open WRITE_MODE is "C:\Users\Giulia\OneDrive - Politecnico di Torino\Desktop\politennico\ISA\labISA\lab1\results_vhdG.txt";
-    variable line_out : line;
-    file fp_in : text open READ_MODE is "C:\Users\Giulia\OneDrive - Politecnico di Torino\Desktop\politennico\ISA\labISA\lab1\resultsc.txt";
->>>>>>> daa52a48989dbade6cc7bb8ca272be45a7b997f9
+    
     variable line_in : line;    
     variable x : integer;
     variable cnt : integer := 0;
