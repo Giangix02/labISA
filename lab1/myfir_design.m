@@ -20,13 +20,14 @@ bq=bi/2^(nb-1); %% convert back coefficients as nb-bit real values
 [h2, w2]=freqz(bq); %% get the transfer function of the quantized filter
 
 %% show the transfer functions
-plot(w1/pi, 20*log10(abs(h1))); 
+plot(w1/pi, 20*log10(abs(h1)), 'k', 'LineWidth', 1.5); 
 hold on;
-plot(w2/pi, 20*log10(abs(h2)),'r--');
+plot(w2/pi, 20*log10(abs(h2)),'m--', 'LineWidth', 1.5);
 grid on;
 legend("Non quantized","Quantized")
 xlabel('Normalized frequency');
 ylabel('dB');
+lgd.FontSize = 20;
 
 
 

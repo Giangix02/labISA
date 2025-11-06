@@ -11,14 +11,17 @@ end
 % Legge il contenuto del file
 % (readmatrix è la scelta moderna e automatica per file numerici)
 yC = readmatrix(filename);
-TotalHarmonicDistortio = thd(yC)
+TotalHarmonicDistortio = thd(yC);
 yTOT = [yC';yq;yC'-yq];
 
 % FinalError = mean((yC'-yq)./2);
 FinalError = rmse(yC',yq);
-plot(yC')
-hold on
-plot(yq)
+plot(yC', 'k', 'LineWidth', 1.5);
+hold on;
+plot(yq, 'm--', 'LineWidth', 1.5);
+legend("Matlab","C");
+lgd.FontSize = 12;
+grid on;
 
 % per il confronto va benissimo il plot prodotto da questo codice, magari
 % si può aggiungere una qualche metrica della differenza massima tra i 2
