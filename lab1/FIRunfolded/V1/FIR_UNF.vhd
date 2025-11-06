@@ -43,45 +43,41 @@ ARCHITECTURE struct of FIR_UNF is
 	BEGIN
 
 	REGC0: REG11B PORT MAP(clk,VIN,RSTn,C0,C0_out);
-	REGC1: REG11B PORT MAP(clk,VIN,RSTn,C1,C1_out);
-	REGC2: REG11B PORT MAP(clk,VIN,RSTn,C2,C2_out);
-	REGC3: REG11B PORT MAP(clk,VIN,RSTn,C3,C3_out);
-	REGC4: REG11B PORT MAP(clk,VIN,RSTn,C4,C4_out);
-	REGC5: REG11B PORT MAP(clk,VIN,RSTn,C5,C5_out);
-	REGC6: REG11B PORT MAP(clk,VIN,RSTn,C6,C6_out);
-	REGC7: REG11B PORT MAP(clk,VIN,RSTn,C7,C7_out);
-	REGC8: REG11B PORT MAP(clk,VIN,RSTn,C8,C8_out);
-	REGC9: REG11B PORT MAP(clk,VIN,RSTn,C9,C9_out);
-	REGC10: REG11B PORT MAP(clk,VIN,RSTn,C10,C10_out);
+	REGC1: REG11B PORT MAP(clk,ff_vin_out,RSTn,C1,C1_out);
+	REGC2: REG11B PORT MAP(clk,ff_vin_out,RSTn,C2,C2_out);
+	REGC3: REG11B PORT MAP(clk,ff_vin_out,RSTn,C3,C3_out);
+	REGC4: REG11B PORT MAP(clk,ff_vin_out,RSTn,C4,C4_out);
+	REGC5: REG11B PORT MAP(clk,ff_vin_out,RSTn,C5,C5_out);
+	REGC6: REG11B PORT MAP(clk,ff_vin_out,RSTn,C6,C6_out);
+	REGC7: REG11B PORT MAP(clk,ff_vin_out,RSTn,C7,C7_out);
+	REGC8: REG11B PORT MAP(clk,ff_vin_out,RSTn,C8,C8_out);
+	REGC9: REG11B PORT MAP(clk,ff_vin_out,RSTn,C9,C9_out);
+	REGC10: REG11B PORT MAP(clk,ff_vin_out,RSTn,C10,C10_out);
 
-	i0_R0: REG11B PORT MAP(clk,VIN,RSTn,DIN3k_out, i0_R0_out);
-	i0_R1: REG11B PORT MAP(clk,VIN,RSTn,i0_R0_out, i0_R1_out);
-	i0_R2: REG11B PORT MAP(clk,VIN,RSTn,i0_R1_out, i0_R2_out);
+	i0_R0: REG11B PORT MAP(clk,ff_vin_out,RSTn,DIN3k_out, i0_R0_out);
+	i0_R1: REG11B PORT MAP(clk,ff_vin_out,RSTn,i0_R0_out, i0_R1_out);
+	i0_R2: REG11B PORT MAP(clk,ff_vin_out,RSTn,i0_R1_out, i0_R2_out);
 
 
-	i1_R0: REG11B PORT MAP(clk,VIN,RSTn,DIN3k1_out, i1_R0_out);
-	i1_R1: REG11B PORT MAP(clk,VIN,RSTn,i1_R0_out, i1_R1_out);
-	i1_R2: REG11B PORT MAP(clk,VIN,RSTn,i1_R1_out, i1_R2_out);
+	i1_R0: REG11B PORT MAP(clk,ff_vin_out,RSTn,DIN3k1_out, i1_R0_out);
+	i1_R1: REG11B PORT MAP(clk,ff_vin_out,RSTn,i1_R0_out, i1_R1_out);
+	i1_R2: REG11B PORT MAP(clk,ff_vin_out,RSTn,i1_R1_out, i1_R2_out);
 
-	i2_R0: REG11B PORT MAP(clk,VIN,RSTn,DIN3k2_out, i2_R0_out);
-	i2_R1: REG11B PORT MAP(clk,VIN,RSTn,i2_R0_out, i2_R1_out);
-	i2_R2: REG11B PORT MAP(clk,VIN,RSTn,i2_R1_out, i2_R2_out);
-	i2_R3: REG11B PORT MAP(clk,VIN,RSTn,i2_R2_out, i2_R3_out);
+	i2_R0: REG11B PORT MAP(clk,ff_vin_out,RSTn,DIN3k2_out, i2_R0_out);
+	i2_R1: REG11B PORT MAP(clk,ff_vin_out,RSTn,i2_R0_out, i2_R1_out);
+	i2_R2: REG11B PORT MAP(clk,ff_vin_out,RSTn,i2_R1_out, i2_R2_out);
+	i2_R3: REG11B PORT MAP(clk,ff_vin_out,RSTn,i2_R2_out, i2_R3_out);
 
 	DIN3k_REG: REG11B port map(clk,VIN,RSTn,DIN3k,DIN3k_out);
 	DIN3k1_REG: REG11B port map(clk,VIN,RSTn,DIN3k1,DIN3k1_out);
 	DIN3k2_REG: REG11B port map(clk,VIN,RSTn,DIN3k2,DIN3k2_out);
 
-	DOUT3k_REG: REG11B port map(clk,VIN,RSTn,J0_OUT,DOUT3k);
-	DOUT3k1_REG: REG11B port map(clk,VIN,RSTn,J1_OUT,DOUT3k1);
-	DOUT3k2_REG: REG11B port map(clk,VIN,RSTn,J2_OUT,DOUT3k2);
+	DOUT3k_REG: REG11B port map(clk,ff_vin_out,RSTn,J0_OUT,DOUT3k);
+	DOUT3k1_REG: REG11B port map(clk,ff_vin_out,RSTn,J1_OUT,DOUT3k1);
+	DOUT3k2_REG: REG11B port map(clk,ff_vin_out,RSTn,J2_OUT,DOUT3k2);
 
-	--FF_VIN: FF port map(VIN,clk,'1',RSTn,ff_vin_out);
-
-        --this FF has been removed because due to how data_sink is made, VIN signal wouldn't have been synchronized
-	--with how this FIR_UNF was designed.
-
-	FF_VOUT: FF port map(VIN,clk,'1',RSTn,VOUT);
+	FF_VIN: FF port map(VIN,clk,'1',RSTn,ff_vin_out);
+	FF_VOUT: FF port map(ff_vin_out,clk,'1',RSTn,VOUT);
 
 
 	j0: jSeries port map(DIN3K_out, i2_R0_out, i1_R0_out, i0_R0_out, i2_R1_out, i1_R1_out, i0_R1_out, i2_R2_out, i1_R2_out, i0_R2_out, i2_R3_out, 
