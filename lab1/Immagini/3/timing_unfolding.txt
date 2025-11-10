@@ -1,0 +1,19 @@
+{signal: [
+  {name: 'clk', wave: 'p..............'},
+  {name: 'rst', wave: '01...........0.'},
+  {name: 'VIN', wave: '01..........0..'},
+  {name: 'REG_VIN_out', wave: '0.1..........0.'},
+  {name: 'VOUT', wave: '0..1..........0'},
+  {name: 'DIN3k', wave: 'x===========x..', data: ['DIN0', 'DIN3', 'DIN6', 'DIN9', 'DIN12', 'DIN15', 'DIN18', 'DIN21', 'DIN24', 'DIN27', 'DIN30']},
+  {name: 'DIN3k1', wave: 'x===========x..', data: ['DIN1', 'DIN4', 'DIN7', 'DIN10', 'DIN13', 'DIN16', 'DIN19', 'DIN22', 'DIN25', 'DIN28', 'DIN31']},
+  {name: 'DIN3k2', wave: 'x===========x..', data: ['DIN2', 'DIN5', 'DIN8', 'DIN11', 'DIN14', 'DIN17', 'DIN20', 'DIN23', 'DIN26', 'DIN29', 'DIN32']},
+  {name: 'DIN3k_REG_out', wave: '===============', data: ['"00...00"','"00...00"','DIN0', 'DIN3', 'DIN6', 'DIN9', 'DIN12', 'DIN15', 'DIN18', 'DIN21', 'DIN24', 'DIN27', 'DIN30', '"00..00"', '"00..00"']},
+  {name: 'R0_i0_out', wave: '===============', data: ['"00...00"', '"00...00"', '"00...00"','DIN0', 'DIN3', 'DIN6', 'DIN9', 'DIN12', 'DIN15', 'DIN18', 'DIN21', 'DIN24', 'DIN27', '"00..00"', '"00..00"']},
+  {name: 'R1_i0_out', wave: '===============', data: ['"00...00"', '"00...00"', '"00...00"', '"00...00"','DIN0', 'DIN3', 'DIN6', 'DIN9', 'DIN12', 'DIN15', 'DIN18', 'DIN21', 'DIN24',  '"00...00"', '"00..00"']},
+  {name: 'R2_i0_out', wave: '===============', data: ['"00...00"', '"00...00"', '"00...00"', '"00...00"','"00...00"','DIN0', 'DIN3', 'DIN6', 'DIN9', 'DIN12', 'DIN15', 'DIN18', 'DIN21', '"00...00"', '"00..00"']},
+  {name: 'DOUT3k_REG_in', wave: '===============', data: ['"00...00"','"00...00"','DOUT0', 'DOUT1', 'DOUT2', 'DOUT3', 'DOUT4', 'DOUT5', 'DOUT6', 'DOUT7', 'DOUT8', 'DOUT9', 'DOUT10', '"00..00"', '"00..00"']},
+  {name : 'DOUT3k', wave: 'x..===========x', data: ['DOUT0', 'DOUT1', 'DOUT2', 'DOUT3', 'DOUT4', 'DOUT5', 'DOUT6', 'DOUT7', 'DOUT8', 'DOUT9', 'DOUT10']}
+  
+],
+  config: { hscale: 2 }
+  }
