@@ -1,0 +1,3 @@
+lab 2.2
+1) synthesis with compile
+min period -> 4.5 ns
