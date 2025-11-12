@@ -1,3 +1,11 @@
 lab 2.2
 1) synthesis with compile
 min period -> 4.5 ns
+2) synthesis with compile + optimize_registers
+min period -> 4 ns
+3) synthesis with compile_ultra
+min period -> 4.3 ns
+4) synthesis with csa
+min period -> 2.5 ns
+5) synthesis with pparch
+min period -> 2.5 ns
