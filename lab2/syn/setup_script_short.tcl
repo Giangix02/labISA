@@ -8,6 +8,6 @@ set_output_delay 0.5 -max -clock MY_CLK [all_outputs]
 set OLOAD [load_of NangateOpenCellLibrary/BUF_X4/A]
 set_load $OLOAD [all_outputs]
 ungroup -all -flatten
-set_implementation DW02_mult/pparch [find cell *mult*]
+set_implementation DW02_mult/csa [find cell *mult*]
 compile
-report_timing
+report_resources > resources_csa_2.2.4.txt
