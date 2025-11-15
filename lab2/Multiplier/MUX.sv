@@ -1,10 +1,10 @@
-module MUX
+module MUX3
 (
     input logic[10:0] A ,
     input logic[10:0] B ,
     input logic[10:0] C ,
     input logic[1:0] s ,
-    output logic[10:9] Q
+    output logic[10:0] Q
 ) ;
 always_comb begin
     if s == 2'b00
