@@ -5,8 +5,8 @@ input logic D ,
 input logic RSTn ,
 output logic Q
 ) ;
-always @ ( posedge clk )
-if RSTn 0
+always @ ( posedge CLK )
+if (RSTn == 0)
     q <=  0;
 else
     q <= d ;

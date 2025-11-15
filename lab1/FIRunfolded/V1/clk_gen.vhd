@@ -12,7 +12,11 @@ end clk_gen;
 
 architecture beh of clk_gen is
 
+<<<<<<< Updated upstream
   constant Ts : time := 100 ns;
+=======
+  constant Ts : time := 7.6 ns;
+>>>>>>> Stashed changes
   
   signal CLK_i : std_logic := '1';
   

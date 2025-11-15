@@ -6,11 +6,11 @@ module MUX3
     output logic [10:0] Q
 ) ;
 always_comb begin
-    if s == 2'b00
+    if (s == 2'b00)
         Q = A;
-    else if s == 2'b01
+    else if (s == 2'b01)
         Q = B;
-    else if s == 2'b10
+    else if (s == 2'b10)
         Q = C;
     else
         Q = C;

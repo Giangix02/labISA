@@ -1,4 +1,4 @@
-module tb_fpnew_top_rtl ();
+module tb_fpnew_top ();
 
 //   parameter fpnew_pkg::fpu_features_t       Features       = fpnew_pkg::RV32F;
    parameter fpnew_pkg::fpu_features_t       Features       = fpnew_pkg::RVBF16;  
@@ -82,8 +82,7 @@ module tb_fpnew_top_rtl ();
 		 .in_valid_i,
 		 .in_ready_o,
 		 .flush_i,
-		 .result_o,
-		 .status_o,
+		 .result_o
 		 .tag_o,
 		 .out_valid_o,
 		 .out_ready_i,

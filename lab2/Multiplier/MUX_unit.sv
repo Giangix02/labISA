@@ -6,7 +6,7 @@ module MUX_unit
     output logic Q
 ) ;
 always_comb begin
-    if s == 0
+    if (s == 0)
         Q = A;
     else
         Q = B;

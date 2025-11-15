@@ -1,4 +1,3 @@
-%%source /eda/scripts/init_questa_core_prime
 vlog -sv ../Multiplier/FA.sv
 vlog -sv ../Multiplier/HA.sv
 vlog -sv ../Multiplier/MUX2.sv

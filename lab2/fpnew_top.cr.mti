@@ -1,0 +1,125 @@
+/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_fmt_slice.sv {2 {vlog -work work -vopt -sv -stats=none /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_fmt_slice.sv
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module fpnew_opgroup_fmt_slice
+-- Importing package fpnew_pkg
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_fmt_slice.sv(32): (vlog-13314) Defaulting port 'operands_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_fmt_slice.sv(97): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_fmt_slice.sv(97): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_fmt_slice.sv(98): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+
+Top level modules:
+	fpnew_opgroup_fmt_slice
+
+} {} {}} /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/tb/clk_gen.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/tb/clk_gen.vhd
+QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity clk_gen
+-- Compiling architecture beh of clk_gen
+
+} {} {}} /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/rr_arb_tree.sv {1 {vlog -work work -vopt -sv -stats=none /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/rr_arb_tree.sv
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module rr_arb_tree
+
+Top level modules:
+	rr_arb_tree
+
+} {} {}} /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_pkg.sv {1 {vlog -work work -vopt -sv -stats=none /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_pkg.sv
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling package fpnew_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/lzc.sv {2 {vlog -work work -vopt -sv -stats=none /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/lzc.sv
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module lzc
+-- Importing package cf_math_pkg
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/lzc.sv(66): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/lzc.sv(66): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/lzc.sv(67): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+
+Top level modules:
+	lzc
+
+} {} {}} /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/tb/data_gen16.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/tb/data_gen16.vhd
+QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity data_gen16
+-- Compiling architecture beh of data_gen16
+
+} {} {}} /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/cf_math_pkg.sv {1 {vlog -work work -vopt -sv -stats=none /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/cf_math_pkg.sv
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling package cf_math_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_fma.sv {2 {vlog -work work -vopt -sv -stats=none /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_fma.sv
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module fpnew_fma
+-- Importing package fpnew_pkg
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_fma.sv(31): (vlog-13314) Defaulting port 'operands_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	fpnew_fma
+
+} {} {}} /home/isa30_2025_2026/labISA/lab2/syn/netlist/fpnew_top.v {1 {vlog -work work -vopt -stats=none /home/isa30_2025_2026/labISA/lab2/syn/netlist/fpnew_top.v
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module fpnew_top
+
+Top level modules:
+	fpnew_top
+
+} {} {}} /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv {2 {vlog -work work -vopt -sv -stats=none /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module fpnew_classifier
+-- Importing package fpnew_pkg
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(22): (vlog-13314) Defaulting port 'operands_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(54): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(55): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(56): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(57): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(58): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(59): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(60): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(61): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(62): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(64): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(65): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(66): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(67): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(68): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(69): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(70): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(71): (vlog-2583) [SVCHK] - Extra checking for conflicts with always_comb and always_latch variables is done at vopt time.
+
+Top level modules:
+	fpnew_classifier
+
+} {} {}} /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_block.sv {2 {vlog -work work -vopt -sv -stats=none /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_block.sv
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module fpnew_opgroup_block
+-- Importing package fpnew_pkg
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_block.sv(34): (vlog-13314) Defaulting port 'operands_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_block.sv(35): (vlog-13314) Defaulting port 'is_boxed_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	fpnew_opgroup_block
+
+} {} {}} /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_rounding.sv {1 {vlog -work work -vopt -sv -stats=none /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_rounding.sv
+QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module fpnew_rounding
+-- Importing package fpnew_pkg
+
+Top level modules:
+	fpnew_rounding
+
+} {} {}}
