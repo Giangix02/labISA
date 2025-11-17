@@ -1,1 +1,131 @@
+{C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/cf_math_pkg.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/cf_math_pkg.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling package cf_math_pkg
 
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_fma.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_fma.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fpnew_fma
+-- Importing package fpnew_pkg
+
+Top level modules:
+	fpnew_fma
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv} {2 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fpnew_classifier
+-- Importing package fpnew_pkg
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(54): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(55): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(56): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(57): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(58): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(59): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(60): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(61): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(62): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(64): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(65): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(66): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(67): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(68): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(69): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(70): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv(71): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+Top level modules:
+	fpnew_classifier
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_rounding.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_rounding.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fpnew_rounding
+-- Importing package fpnew_pkg
+
+Top level modules:
+	fpnew_rounding
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_block.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_block.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fpnew_opgroup_block
+-- Importing package fpnew_pkg
+
+Top level modules:
+	fpnew_opgroup_block
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/tb/tb_fpnew_top_rtl.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/tb/tb_fpnew_top_rtl.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_fpnew_top
+-- Importing package fpnew_pkg
+
+Top level modules:
+	tb_fpnew_top
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_fmt_slice.sv} {2 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_fmt_slice.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fpnew_opgroup_fmt_slice
+-- Importing package fpnew_pkg
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_fmt_slice.sv(97): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_fmt_slice.sv(97): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_fmt_slice.sv(98): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+Top level modules:
+	fpnew_opgroup_fmt_slice
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_top.sv} {2 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_top.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fpnew_top
+-- Importing package fpnew_pkg
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_top.sv(105): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_top.sv(105): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_top.sv(106): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+Top level modules:
+	fpnew_top
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/tb/clk_gen.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/tb/clk_gen.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity clk_gen
+-- Compiling architecture beh of clk_gen
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/rr_arb_tree.sv} {2 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/rr_arb_tree.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module rr_arb_tree
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/rr_arb_tree.sv(174): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/rr_arb_tree.sv(181): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/rr_arb_tree.sv(152): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+
+Top level modules:
+	rr_arb_tree
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/lzc.sv} {2 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/lzc.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lzc
+-- Importing package cf_math_pkg
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/lzc.sv(66): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/lzc.sv(66): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/lzc.sv(67): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+Top level modules:
+	lzc
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_pkg.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_pkg.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling package fpnew_pkg
+
+Top level modules:
+	--none--
+
+} {} {}}

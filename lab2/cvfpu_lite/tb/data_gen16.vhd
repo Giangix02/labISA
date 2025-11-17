@@ -45,7 +45,20 @@ architecture beh of data_gen16 is
     ('1' & conv_std_logic_vector(127+7, 8) & conv_std_logic_vector(0, 7)),  -- -128
     ('0' & conv_std_logic_vector(127+2, 8) & conv_std_logic_vector(3, 2) & conv_std_logic_vector(0, 7-2)),  --7 
     ('0' & conv_std_logic_vector(127+6, 8) & conv_std_logic_vector(3, 2) & conv_std_logic_vector(0, 7-2))  --112                                                                           -- 
-    );  
+    );
+
+  constant ctvalC : tval_t := (
+    ("1100010111000100"),  -- -6272 
+    ("0100010000011100"),  -- 624 
+    ("0100011010000000"),  -- 16384 
+    ("1100011111000100"),  -- -100352 
+    ("1100010001000100"),  -- -784 
+    ("0100010100101111"),  -- 2800 
+    ("1100100101000100"),  -- -802816 
+    ("0100010001100000"),  -- -896 
+    ("1100001100101111"),  -- -175 
+    ("1100011001100000"));  -- -14336  
+     
   
   signal cnt : integer := 0;
   signal sEnd_sim : std_logic;
@@ -68,6 +81,7 @@ begin  -- architecture beh
         cnt <= cnt + 1 after tco;
         D0 <= ctvalA(cnt) after tco;
         D1 <= ctvalB(cnt) after tco;
+	D2 <= ctvalC(cnt) after tco;
         VOUT <= '1' after tco;
         sEnd_sim <= '0' after tco;          
       else

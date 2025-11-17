@@ -1,0 +1,1 @@
+-il moltiplicatore in uscita da il valore ritardato di 2 colpi di clock

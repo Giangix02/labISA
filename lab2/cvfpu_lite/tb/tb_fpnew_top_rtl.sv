@@ -87,7 +87,9 @@ module tb_fpnew_top ();
 		 .tag_o,
 		 .out_valid_o,
 		 .out_ready_i,
-		 .busy_o);		 
+		 .busy_o);		
+
+                  
    
 endmodule
    

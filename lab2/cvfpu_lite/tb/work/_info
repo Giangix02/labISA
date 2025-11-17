@@ -10,7 +10,7 @@ cModel Technology
 dC:/intelFPGA/18.1
 Xcf_math_pkg
 Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 !s110 1762452627
+Z1 !s110 1763393230
 !i10b 1
 !s100 QcAWVUd3>H`Jc[58jH[FO1
 IVYYoXGfGYj[hcTi6;9S1[0
@@ -25,131 +25,131 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1762452627.000000
+!s108 1763393229.000000
 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/cf_math_pkg.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/cf_math_pkg.sv|
 !i113 1
-Z6 o-work work -sv
-Z7 tCvgOpt 0
+Z5 o-work work -sv
+Z6 tCvgOpt 0
 Eclk_gen
 R3
-Z8 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z9 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z10 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z11 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z8 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R2
-Z12 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/tb/clk_gen.vhd
-Z13 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/tb/clk_gen.vhd
+Z11 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/tb/clk_gen.vhd
+Z12 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/tb/clk_gen.vhd
 l0
 L6
 V4bc`7UdH`BlHk=^=TDQ9H2
 !s100 JA8Ue1n4KCD]`nb]FQfQ[2
-Z14 OV;C;10.5b;63
+Z13 OV;C;10.5b;63
 32
-Z15 !s110 1762452628
+R1
 !i10b 1
-Z16 !s108 1762452628.000000
-Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/tb/clk_gen.vhd|
-Z18 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/tb/clk_gen.vhd|
+Z14 !s108 1763393230.000000
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/tb/clk_gen.vhd|
+Z16 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/tb/clk_gen.vhd|
 !i113 1
-Z19 o-work work -2002 -explicit
-Z20 tExplicit 1 CvgOpt 0
+Z17 o-work work -2002 -explicit
+Z18 tExplicit 1 CvgOpt 0
 Abeh
+R7
 R8
 R9
 R10
-R11
 DEx4 work 7 clk_gen 0 22 4bc`7UdH`BlHk=^=TDQ9H2
 l20
 L13
 VCo>]>?2Z99;X<1fXGlGlG3
 !s100 8aA_N51Ib_9C[Km31laZ20
-R14
+R13
 32
-R15
+R1
 !i10b 1
+R14
+R15
 R16
+!i113 1
 R17
 R18
-!i113 1
-R19
-R20
 Edata_gen16
-Z21 w1762451804
+Z19 w1763393330
+R7
 R8
 R9
 R10
-R11
 R2
-Z22 8C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab2\cvfpu_lite\tb\data_gen16.vhd
-Z23 FC:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab2\cvfpu_lite\tb\data_gen16.vhd
+Z20 8C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab2\cvfpu_lite\tb\data_gen16.vhd
+Z21 FC:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab2\cvfpu_lite\tb\data_gen16.vhd
 l0
 L6
 V3^z9TZPce7:1^?J>=ob>[3
 !s100 <4h_0T4270TOFIKia`D^81
-R14
+R13
 32
-R15
+Z22 !s110 1763393335
 !i10b 1
-R16
+Z23 !s108 1763393335.000000
 Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab2\cvfpu_lite\tb\data_gen16.vhd|
 Z25 !s107 C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab2\cvfpu_lite\tb\data_gen16.vhd|
 !i113 1
-R19
-R20
+R17
+R18
 Abeh
+R7
 R8
 R9
 R10
-R11
-DEx4 work 10 data_gen16 0 22 3^z9TZPce7:1^?J>=ob>[3
-l55
+Z26 DEx4 work 10 data_gen16 0 22 3^z9TZPce7:1^?J>=ob>[3
+l68
 L17
-V=_0Qz^cA8>`3l2;aQVS5I0
-!s100 3hW`?]@0n80D`FTWg@?0d2
-R14
+VzL?Mf3KHRAB]>=0>MoGR<1
+!s100 9FYgWWhR=]^dF=ODDQW_43
+R13
 32
-R15
+R22
 !i10b 1
-R16
+R23
 R24
 R25
 !i113 1
-R19
-R20
+R17
+R18
 vfpnew_classifier
 R0
-Z26 DXx4 work 9 fpnew_pkg 0 22 7ckQi8>]nga`<>QD:zADO2
-R15
+Z27 DXx4 work 9 fpnew_pkg 0 22 7ckQi8>]nga`<>QD:zADO2
+R1
 !i10b 1
 !s100 MJ[dm?C@JH]8?F]@FdVLE0
 ImQf6fEe?o?cgFQim<JWV<3
-Z27 VDg1SIo80bB@j0V0VzS_@n1
+Z28 VDg1SIo80bB@j0V0VzS_@n1
 !s105 fpnew_classifier_sv_unit
 S1
 R2
 R3
 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv
 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv
-Z28 L0 16
+Z29 L0 16
 R4
 r1
 !s85 0
 31
-R16
+R14
 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv|
 !i113 1
+R5
 R6
-R7
 vfpnew_fma
 R0
-R26
-R15
+R27
+R1
 !i10b 1
 !s100 W5KbcUR0N8ODjT7:D4COb3
 IZWb3CoLoH7EcL7S8DKaQ71
-R27
+R28
 !s105 fpnew_fma_sv_unit
 S1
 R2
@@ -161,65 +161,65 @@ R4
 r1
 !s85 0
 31
-R16
+R14
 !s107 C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab2\cvfpu_lite\src\registers.svh|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_fma.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_fma.sv|
 !i113 1
+R5
 R6
-R7
 vfpnew_opgroup_block
 R0
-R26
-R15
+R27
+R1
 !i10b 1
 !s100 4Z6?i;KRLY92D91ML9iCV2
 IehhaNIYA^J5=[OzS71_AC1
-R27
+R28
 !s105 fpnew_opgroup_block_sv_unit
 S1
 R2
 R3
 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_block.sv
 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_block.sv
-R28
+R29
 R4
 r1
 !s85 0
 31
-R16
+R14
 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_block.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_block.sv|
 !i113 1
+R5
 R6
-R7
 vfpnew_opgroup_fmt_slice
 R0
-R26
-R15
+R27
+R1
 !i10b 1
 !s100 j8G<^_jh[f?eTVj5:iLHS2
 Io5NzXjVl^Y2BkW3^c<??d0
-R27
+R28
 !s105 fpnew_opgroup_fmt_slice_sv_unit
 S1
 R2
 R3
 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_fmt_slice.sv
 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_fmt_slice.sv
-Z29 L0 17
+Z30 L0 17
 R4
 r1
 !s85 0
 31
-R16
+R14
 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_fmt_slice.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_fmt_slice.sv|
 !i113 1
+R5
 R6
-R7
 Xfpnew_pkg
 R0
-R15
+R1
 !i10b 1
 !s100 U<D[RBeNmU[mSbLMOc]T[3
 I7ckQi8>]nga`<>QD:zADO2
@@ -229,67 +229,67 @@ R2
 w1727185452
 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_pkg.sv
 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_pkg.sv
-R29
+R30
 R4
 r1
 !s85 0
 31
-R16
+R14
 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_pkg.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_pkg.sv|
 !i113 1
+R5
 R6
-R7
 vfpnew_rounding
 R0
-R26
-R15
+R27
+R1
 !i10b 1
 !s100 P7RXOgfZnO8Xz53g8OfiR3
 I844YAAgRfC0HACaoaYoSS2
-R27
+R28
 !s105 fpnew_rounding_sv_unit
 S1
 R2
 R3
 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_rounding.sv
 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_rounding.sv
-R28
+R29
 R4
 r1
 !s85 0
 31
-R16
+R14
 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_rounding.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_rounding.sv|
 !i113 1
+R5
 R6
-R7
 vfpnew_top
 R0
-R26
-R15
+R27
+R1
 !i10b 1
 !s100 5fM2PZnRAni;`9X7dV6Q:2
 IcbLS[55?_mGeRCi7JeX892
-R27
+R28
 !s105 fpnew_top_sv_unit
 S1
 R2
 w1727185462
 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_top.sv
 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_top.sv
-R29
+R30
 R4
 r1
 !s85 0
 31
-R16
+R14
 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_top.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_top.sv|
 !i113 1
+R5
 R6
-R7
 vlzc
 R0
 DXx4 work 11 cf_math_pkg 0 22 VYYoXGfGYj[hcTi6;9S1[0
@@ -297,7 +297,7 @@ R1
 !i10b 1
 !s100 ;N^J@dd4l]d@[_Dz`Dc5K2
 IYbfUTLHoOog1XkT]I^<j30
-R27
+R28
 !s105 lzc_sv_unit
 S1
 R2
@@ -309,19 +309,19 @@ R4
 r1
 !s85 0
 31
-R5
+R14
 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/lzc.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/lzc.sv|
 !i113 1
+R5
 R6
-R7
 vrr_arb_tree
 R0
-R15
+R1
 !i10b 1
 !s100 _5MLagKZBzY9]7z68en4h2
 IW1Q0JmIJ35hfca>8P5O_;1
-R27
+R28
 !s105 rr_arb_tree_sv_unit
 S1
 R2
@@ -333,24 +333,24 @@ R4
 r1
 !s85 0
 31
-R16
+R14
 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/rr_arb_tree.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/rr_arb_tree.sv|
 !i113 1
+R5
 R6
-R7
 vtb_fpnew_top
 R0
-R26
-R15
-!i10b 1
-!s100 [XQhgXOzl2OQNOXmab>Qm3
-IoT;iiC`=a`Dg1l]8[3>]11
 R27
+!s110 1763393231
+!i10b 1
+!s100 J6RBH;N_zXFGWICBB4lSk3
+I0;X^MQZ^hk4zTQX54kYbo2
+R28
 !s105 tb_fpnew_top_rtl_sv_unit
 S1
 R2
-w1727186538
+w1762453467
 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/tb/tb_fpnew_top_rtl.sv
 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/tb/tb_fpnew_top_rtl.sv
 L0 1
@@ -358,9 +358,9 @@ R4
 r1
 !s85 0
 31
-R16
+!s108 1763393231.000000
 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/tb/tb_fpnew_top_rtl.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/tb/tb_fpnew_top_rtl.sv|
 !i113 1
+R5
 R6
-R7
