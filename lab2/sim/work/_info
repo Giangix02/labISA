@@ -87,6 +87,32 @@ r1
 R5
 R6
 n@h@a
+vMantissaMultiplier
+R1
+!s110 1763395158
+!i10b 1
+!s100 2dEkl3bD7CoC60;@Qe`Eo2
+R2
+IKC^3?K4Q4dODPd7;92X<e2
+S1
+R0
+w1763395154
+8../Multiplier/MantissaMultiplier.sv
+F../Multiplier/MantissaMultiplier.sv
+!i122 17
+L0 1 35
+R3
+R4
+r1
+!s85 0
+31
+!s108 1763395157.000000
+!s107 ../Multiplier/MantissaMultiplier.sv|
+!s90 -sv|../Multiplier/MantissaMultiplier.sv|
+!i113 0
+R5
+R6
+n@mantissa@multiplier
 vMUX2
 R1
 Z7 !s110 1763210685

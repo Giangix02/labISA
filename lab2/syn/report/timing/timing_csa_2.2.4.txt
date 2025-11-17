@@ -7,16 +7,16 @@ Report : timing
         -max_paths 1
 Design : fpnew_top
 Version: S-2021.06-SP4
-Date   : Mon Nov 17 16:40:19 2025
+Date   : Mon Nov 17 17:02:05 2025
 ****************************************
 
 Operating Conditions: typical   Library: NangateOpenCellLibrary
 Wire Load Model Mode: top
 
-  Startpoint: MY_CLK_r_REG98_S1
+  Startpoint: MY_CLK_r_REG142_S2
               (rising edge-triggered flip-flop clocked by MY_CLK)
-  Endpoint: MY_CLK_r_REG5_S2
-            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: status_o[NX]
+            (output port clocked by MY_CLK)
   Path Group: MY_CLK
   Path Type: max
 
@@ -24,103 +24,63 @@ Wire Load Model Mode: top
   ------------------------------------------------
   fpnew_top          5K_hvratio_1_1        NangateOpenCellLibrary
 
-  Point                                                   Incr       Path
-  --------------------------------------------------------------------------
-  clock MY_CLK (rise edge)                                0.00       0.00
-  clock network delay (ideal)                             0.00       0.00
-  MY_CLK_r_REG98_S1/CK (DFFR_X1)                          0.00       0.00 r
-  MY_CLK_r_REG98_S1/Q (DFFR_X1)                           0.09       0.09 f
-  U880/ZN (OR4_X1)                                        0.13       0.22 f
-  U1234/ZN (NOR4_X1)                                      0.14       0.36 r
-  U1233/ZN (NOR3_X1)                                      0.03       0.39 f
-  sub_287_DP_OP_356_9228_1/I4 (fpnew_top_sub_287_DP_OP_356_9228_0)
-                                                          0.00       0.39 f
-  sub_287_DP_OP_356_9228_1/U28/ZN (XNOR2_X1)              0.07       0.46 f
-  sub_287_DP_OP_356_9228_1/U11/CO (FA_X1)                 0.09       0.55 f
-  sub_287_DP_OP_356_9228_1/U10/CO (FA_X1)                 0.09       0.64 f
-  sub_287_DP_OP_356_9228_1/U9/CO (FA_X1)                  0.09       0.73 f
-  sub_287_DP_OP_356_9228_1/U8/S (FA_X1)                   0.13       0.86 r
-  sub_287_DP_OP_356_9228_1/O12[3] (fpnew_top_sub_287_DP_OP_356_9228_0)
-                                                          0.00       0.86 r
-  U1054/ZN (NAND2_X1)                                     0.04       0.90 f
-  U778/ZN (INV_X1)                                        0.03       0.93 r
-  add_285_DP_OP_358_5495_2/I3[3] (fpnew_top_add_285_DP_OP_358_5495_0)
-                                                          0.00       0.93 r
-  add_285_DP_OP_358_5495_2/U44/ZN (INV_X1)                0.02       0.95 f
-  add_285_DP_OP_358_5495_2/U16/CO (FA_X1)                 0.10       1.05 f
-  add_285_DP_OP_358_5495_2/U15/CO (FA_X1)                 0.09       1.14 f
-  add_285_DP_OP_358_5495_2/U14/CO (FA_X1)                 0.09       1.24 f
-  add_285_DP_OP_358_5495_2/U13/CO (FA_X1)                 0.09       1.33 f
-  add_285_DP_OP_358_5495_2/U12/CO (FA_X1)                 0.09       1.42 f
-  add_285_DP_OP_358_5495_2/U11/S (FA_X1)                  0.12       1.53 f
-  add_285_DP_OP_358_5495_2/O11[8] (fpnew_top_add_285_DP_OP_358_5495_0)
-                                                          0.00       1.53 f
-  U1545/ZN (NOR4_X1)                                      0.10       1.63 r
-  U1544/ZN (NAND2_X1)                                     0.04       1.67 f
-  U1543/ZN (OAI21_X1)                                     0.09       1.76 r
-  U1540/ZN (NAND2_X1)                                     0.04       1.80 f
-  U887/ZN (NOR2_X1)                                       0.12       1.92 r
-  U767/ZN (INV_X1)                                        0.05       1.98 f
-  U1520/ZN (AOI221_X1)                                    0.09       2.07 r
-  U1515/ZN (NAND2_X1)                                     0.05       2.12 f
-  U1514/ZN (OAI22_X1)                                     0.08       2.19 r
-  U754/ZN (INV_X1)                                        0.03       2.23 f
-  U1231/ZN (NAND4_X1)                                     0.04       2.27 r
-  U1230/ZN (NOR4_X1)                                      0.03       2.29 f
-  U1229/ZN (OAI22_X1)                                     0.04       2.34 r
-  U1228/ZN (AOI221_X1)                                    0.03       2.37 f
-  U750/ZN (AND2_X1)                                       0.05       2.42 f
-  mult_325_DP_OP_357_7442_3/I4 (fpnew_top_mult_325_DP_OP_357_7442_0)
-                                                          0.00       2.42 f
-  mult_325_DP_OP_357_7442_3/U85/CO (HA_X1)                0.06       2.48 f
-  mult_325_DP_OP_357_7442_3/U84/CO (HA_X1)                0.05       2.53 f
-  mult_325_DP_OP_357_7442_3/U83/CO (FA_X1)                0.09       2.62 f
-  mult_325_DP_OP_357_7442_3/U82/CO (FA_X1)                0.09       2.71 f
-  mult_325_DP_OP_357_7442_3/U81/CO (FA_X1)                0.11       2.82 f
-  mult_325_DP_OP_357_7442_3/U80/CO (FA_X1)                0.11       2.92 f
-  mult_325_DP_OP_357_7442_3/U79/CO (FA_X1)                0.10       3.02 f
-  mult_325_DP_OP_357_7442_3/U78/CO (FA_X1)                0.09       3.11 f
-  mult_325_DP_OP_357_7442_3/U77/CO (FA_X1)                0.09       3.20 f
-  mult_325_DP_OP_357_7442_3/U76/CO (FA_X1)                0.09       3.30 f
-  mult_325_DP_OP_357_7442_3/U75/CO (FA_X1)                0.09       3.39 f
-  mult_325_DP_OP_357_7442_3/U74/CO (FA_X1)                0.09       3.48 f
-  mult_325_DP_OP_357_7442_3/U73/CO (FA_X1)                0.09       3.57 f
-  mult_325_DP_OP_357_7442_3/U72/CO (FA_X1)                0.09       3.66 f
-  mult_325_DP_OP_357_7442_3/U71/CO (FA_X1)                0.09       3.75 f
-  mult_325_DP_OP_357_7442_3/U70/CO (FA_X1)                0.09       3.84 f
-  mult_325_DP_OP_357_7442_3/U69/CO (FA_X1)                0.09       3.93 f
-  mult_325_DP_OP_357_7442_3/U68/CO (FA_X1)                0.09       4.02 f
-  mult_325_DP_OP_357_7442_3/U67/CO (HA_X1)                0.06       4.08 f
-  mult_325_DP_OP_357_7442_3/U66/CO (HA_X1)                0.05       4.13 f
-  mult_325_DP_OP_357_7442_3/U65/CO (HA_X1)                0.05       4.18 f
-  mult_325_DP_OP_357_7442_3/U64/CO (HA_X1)                0.05       4.23 f
-  mult_325_DP_OP_357_7442_3/U63/CO (HA_X1)                0.05       4.28 f
-  mult_325_DP_OP_357_7442_3/U62/CO (HA_X1)                0.05       4.34 f
-  mult_325_DP_OP_357_7442_3/U61/CO (HA_X1)                0.05       4.39 f
-  mult_325_DP_OP_357_7442_3/U60/CO (HA_X1)                0.05       4.44 f
-  mult_325_DP_OP_357_7442_3/U59/CO (HA_X1)                0.05       4.49 f
-  mult_325_DP_OP_357_7442_3/U58/CO (HA_X1)                0.05       4.54 f
-  mult_325_DP_OP_357_7442_3/O3[28] (fpnew_top_mult_325_DP_OP_357_7442_0)
-                                                          0.00       4.54 f
-  U886/ZN (NOR3_X1)                                       0.14       4.69 r
-  U746/Z (CLKBUF_X1)                                      0.19       4.88 r
-  U1134/ZN (AOI22_X1)                                     0.05       4.93 f
-  U1133/ZN (OAI21_X1)                                     0.04       4.97 r
-  U1608/ZN (INV_X1)                                       0.02       4.99 f
-  MY_CLK_r_REG5_S2/D (DFFS_X1)                            0.01       5.00 f
-  data arrival time                                                  5.00
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock MY_CLK (rise edge)                 0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  MY_CLK_r_REG142_S2/CK (DFFR_X1)          0.00       0.00 r
+  MY_CLK_r_REG142_S2/Q (DFFR_X1)           0.09       0.09 f
+  U945/ZN (OR2_X1)                         0.06       0.14 f
+  U944/ZN (OR2_X1)                         0.06       0.21 f
+  U970/ZN (XNOR2_X1)                       0.06       0.27 f
+  U1632/ZN (NAND4_X1)                      0.04       0.31 r
+  U1146/ZN (NAND2_X1)                      0.03       0.34 f
+  U1633/ZN (NAND2_X1)                      0.03       0.37 r
+  U1682/ZN (NAND2_X1)                      0.03       0.41 f
+  U1684/ZN (OAI221_X1)                     0.09       0.50 r
+  U848/ZN (INV_X1)                         0.03       0.53 f
+  U921/ZN (AND2_X2)                        0.05       0.57 f
+  U788/Z (BUF_X1)                          0.06       0.63 f
+  U1732/ZN (AOI22_X1)                      0.05       0.68 r
+  U1733/ZN (OAI221_X1)                     0.05       0.74 f
+  U1734/ZN (INV_X1)                        0.05       0.78 r
+  U1736/ZN (AOI22_X1)                      0.03       0.81 f
+  U1737/ZN (OAI211_X1)                     0.04       0.86 r
+  U880/ZN (OR2_X1)                         0.04       0.90 r
+  U850/ZN (AND3_X1)                        0.06       0.96 r
+  U961/ZN (NAND3_X1)                       0.05       1.01 f
+  U876/Z (CLKBUF_X1)                       0.05       1.05 f
+  U1851/ZN (OAI21_X1)                      0.05       1.11 r
+  U1136/ZN (AND3_X1)                       0.06       1.16 r
+  U1144/ZN (NAND2_X1)                      0.02       1.19 f
+  U1852/ZN (OAI22_X1)                      0.05       1.24 r
+  U980/ZN (AOI221_X1)                      0.03       1.27 f
+  U801/ZN (NOR3_X1)                        0.07       1.34 r
+  U1853/ZN (INV_X1)                        0.04       1.38 f
+  U1889/ZN (OAI211_X1)                     0.05       1.44 r
+  U812/ZN (AND4_X1)                        0.07       1.51 r
+  U807/ZN (AND3_X1)                        0.05       1.56 r
+  U954/ZN (AND2_X1)                        0.04       1.60 r
+  U739/ZN (AND4_X2)                        0.06       1.66 r
+  U1070/ZN (XNOR2_X1)                      0.06       1.72 r
+  U1921/ZN (NAND4_X1)                      0.04       1.76 f
+  U1922/ZN (OAI21_X1)                      0.04       1.80 r
+  U1923/ZN (NAND2_X1)                      0.03       1.83 f
+  U852/Z (BUF_X1)                          0.04       1.87 f
+  U975/ZN (NAND2_X1)                       0.03       1.91 r
+  status_o[NX] (out)                       0.02       1.93 r
+  data arrival time                                   1.93
 
-  clock MY_CLK (rise edge)                               10.00      10.00
-  clock network delay (ideal)                             0.00      10.00
-  clock uncertainty                                      -0.07       9.93
-  MY_CLK_r_REG5_S2/CK (DFFS_X1)                           0.00       9.93 r
-  library setup time                                     -0.04       9.89
-  data required time                                                 9.89
-  --------------------------------------------------------------------------
-  data required time                                                 9.89
-  data arrival time                                                 -5.00
-  --------------------------------------------------------------------------
-  slack (MET)                                                        4.89
+  clock MY_CLK (rise edge)                 2.50       2.50
+  clock network delay (ideal)              0.00       2.50
+  clock uncertainty                       -0.07       2.43
+  output external delay                   -0.50       1.93
+  data required time                                  1.93
+  -----------------------------------------------------------
+  data required time                                  1.93
+  data arrival time                                  -1.93
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
 
 
 1

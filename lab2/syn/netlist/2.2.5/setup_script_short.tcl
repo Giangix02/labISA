@@ -11,8 +11,6 @@ ungroup -all -flatten
 set_implementation DW02_mult/pparch [find cell *mult*]
 compile
 optimize_registers
-ungroup -all -flatten
-change_names -hierarchy -rules verilog
-write_sdf ./netlist/2.2.5/fpnew_top.sdf
-write -f verilog -hierarchy -output ./netlist/2.2.5/fpnew_top.v
-write_sdc ./netlist/2.2.5/fpnew_top.sdc
+report_timing > timing_pparch_2.2.5.txt
+report_area > area_pparch_2.2.5.txt
+report_resources > resources_pparch_2.2.5.txt

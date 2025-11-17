@@ -3,7 +3,7 @@
 Report : resources
 Design : fpnew_top
 Version: S-2021.06-SP4
-Date   : Mon Nov 17 16:40:19 2025
+Date   : Mon Nov 17 17:02:05 2025
 ****************************************
 
 Resource Sharing Report for design fpnew_top in file ./codes/fpnew_top.sv
@@ -12,190 +12,54 @@ Resource Sharing Report for design fpnew_top in file ./codes/fpnew_top.sv
 |          |              |            | Contained     |                      |
 | Resource | Module       | Parameters | Resources     | Contained Operations |
 ===============================================================================
-| r717     | add_285_DP_OP_358_5495 |  |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_285 |
-| r719     | sub_287_DP_OP_356_9228 |  |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_287 |
-| r721     | sub_287_DP_OP_356_9228 |  |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_287_2 |
-| r723     | sub_287_DP_OP_356_9228 |  |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_287_3 |
-| r725     | sub_287_DP_OP_356_9228 |  |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_287 |
-| r727     | add_285_DP_OP_358_5495 |  |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_293 |
-| r729     | DW_cmp       | width=10   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/gt_295 |
-| r731     | DW_cmp       | width=10   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/lte_302 |
-| r733     | DW_cmp       | width=10   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/lte_305 |
-| r735     | add_285_DP_OP_358_5495 |  |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_306 |
-| r737     | mult_325_DP_OP_357_7442 |  |              | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/mult_325 |
-| r739     | DW_rightsh   | A_width=36 |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/srl_349 |
+| r426     | DW01_cmp2    | width=3    |               | gen_operation_groups[0].i_opgroup_block/i_arbiter/gt_208_G4 |
+|               |                      |
+|          |              |            |               | gen_operation_groups[0].i_opgroup_block/i_arbiter/lte_209_G4 |
+| r427     | DW01_cmp2    | width=3    |               | gen_operation_groups[1].i_opgroup_block/i_arbiter/gt_208_G4 |
+|               |                      |
+|          |              |            |               | gen_operation_groups[1].i_opgroup_block/i_arbiter/lte_209_G4 |
+| r428     | DW01_cmp2    | width=3    |               | gen_operation_groups[2].i_opgroup_block/i_arbiter/gt_208_G4 |
+|               |                      |
+|          |              |            |               | gen_operation_groups[2].i_opgroup_block/i_arbiter/lte_209_G4 |
+| r429     | DW01_cmp2    | width=3    |               | gen_operation_groups[3].i_opgroup_block/i_arbiter/gt_208_G4 |
+|               |                      |
+|          |              |            |               | gen_operation_groups[3].i_opgroup_block/i_arbiter/lte_209_G4 |
+| r430     | DW01_cmp2    | width=2    |               | i_arbiter/gt_208_G4  |
+|          |              |            |               | i_arbiter/lte_209_G4 |
+| r460     | DW01_add     | width=10   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_285 |
+| r468     | DW01_sub     | width=10   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_293 |
+| r470     | DW_cmp       | width=10   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/gt_295 |
+| r472     | DW_cmp       | width=10   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/lte_302 |
+| r474     | DW_cmp       | width=10   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/lte_305 |
+| r476     | DW01_sub     | width=5    |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_306 |
+| r478     | DW02_mult    | A_width=8  |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/mult_325 |
+|
+|          |              | B_width=8  |               |                      |
+| r480     | DW_rightsh   | A_width=36 |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/srl_349 |
 |
 |          |              | SH_width=5 |               |                      |
-| r741     | mult_325_DP_OP_357_7442 |  |              | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_368 |
-| r743     | mult_325_DP_OP_357_7442 |  |              | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_368_2 |
-| r745     | mult_325_DP_OP_357_7442 |  |              | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_372 |
-| r747     | DW_cmp       | width=10   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/lte_510 |
-| r749     | DW_cmp       | width=10   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/lte_510_2 |
-| r751     | add_512_DP_OP_360_3595 |  |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_512 |
-| r753     | add_512_DP_OP_360_3595 |  |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_512 |
-| r755     | add_512_DP_OP_360_3595 |  |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/gte_512 |
-| r757     | DW01_add     | width=5    |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_514 |
-| r759     | add_515_DP_OP_359_8663 |  |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_515 |
-| r761     | add_515_DP_OP_359_8663 |  |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_515 |
-| r763     | DW01_add     | width=5    |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_519 |
-| r765     | DW_leftsh    | A_width=29 |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sll_530 |
+| r482     | DW01_add     | width=29   |               | add_1_root_gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_368_2 |
+| r484     | DW01_sub     | width=28   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_372 |
+| r486     | DW_cmp       | width=10   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/lte_510 |
+| r488     | DW_cmp       | width=10   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/lte_510_2 |
+| r494     | DW_cmp       | width=12   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/gte_512 |
+| r496     | DW01_add     | width=5    |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_514 |
+| r502     | DW01_add     | width=5    |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_519 |
+| r504     | DW_leftsh    | A_width=29 |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sll_530 |
 |
 |          |              | SH_width=5 |               |                      |
-| r767     | DW_cmp       | width=10   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/gt_547 |
-| r769     | DW01_inc     | width=10   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_542 |
-| r771     | DW01_dec     | width=10   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_549 |
-| r773     | DW_cmp       | width=10   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/gte_576 |
-| r775     | DW01_add     | width=15   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/i_fpnew_rounding/add_63 |
-| r777     | DW_cmp       | width=3    |               | gen_operation_groups[0].i_opgroup_block/i_arbiter/gt_208_G4 |
-| r779     | DW_cmp       | width=3    |               | gen_operation_groups[0].i_opgroup_block/i_arbiter/lte_209_G4 |
-| r781     | DW_cmp       | width=3    |               | gen_operation_groups[1].i_opgroup_block/i_arbiter/gt_208_G4 |
-| r783     | DW_cmp       | width=3    |               | gen_operation_groups[1].i_opgroup_block/i_arbiter/lte_209_G4 |
-| r785     | DW_cmp       | width=3    |               | gen_operation_groups[2].i_opgroup_block/i_arbiter/gt_208_G4 |
-| r787     | DW_cmp       | width=3    |               | gen_operation_groups[2].i_opgroup_block/i_arbiter/lte_209_G4 |
-| r789     | DW_cmp       | width=3    |               | gen_operation_groups[3].i_opgroup_block/i_arbiter/gt_208_G4 |
-| r791     | DW_cmp       | width=3    |               | gen_operation_groups[3].i_opgroup_block/i_arbiter/lte_209_G4 |
-| r793     | DW_cmp       | width=2    |               | i_arbiter/gt_208_G4  |
-| r795     | DW_cmp       | width=2    |               | i_arbiter/lte_209_G4 |
-===============================================================================
-
-Datapath Report for design fpnew_top in file ./codes/fpnew_top.sv 
-
-RTL-datapath Connections for add_512_DP_OP_360_3595-str
-====================================================================
-|                      |                      |            | Bus   |
-| RTL Wire             | Datapath Port        | Direction  | Width |
-====================================================================
-| gen_operation_groups | I1                   | input      | 10    |
-| gen_operation_groups | I2                   | input      | 6     |
-| gen_operation_groups | O21                  | output     | 1     |
-====================================================================
-
-
-Datapath Blocks in add_512_DP_OP_360_3595-str
-===============================================================================
-|            | Out   |                           | Contained      | Operation |
-| Port       | Width | Datapath Block            | Operation_Line | Type      |
-===============================================================================
-| Fanout_22  | 12    | I1 - I2 + 1               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_512 |
-|            |       |                           |                | SIGNED    |
-|            |       |                           | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_512 |
-|            |       |                           |                | SIGNED    |
-| O21        | 1     | Fanout_22 >= 0            | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/gte_512 |
-|            |       |                           |                | SIGNED    |
-===============================================================================
-
-Datapath Report for design fpnew_top in file ./codes/fpnew_top.sv 
-
-RTL-datapath Connections for add_515_DP_OP_359_8663-str
-====================================================================
-|                      |                      |            | Bus   |
-| RTL Wire             | Datapath Port        | Direction  | Width |
-====================================================================
-| gen_operation_groups | I1                   | input      | 10    |
-| gen_operation_groups | I2                   | input      | 6     |
-| gen_operation_groups | O19                  | output     | 10    |
-====================================================================
-
-
-Datapath Blocks in add_515_DP_OP_359_8663-str
-===============================================================================
-|            | Out   |                           | Contained      | Operation |
-| Port       | Width | Datapath Block            | Operation_Line | Type      |
-===============================================================================
-| O19        | 10    | I1 - I2 + 1               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_515 |
-|            |       |                           |                | SIGNED    |
-|            |       |                           | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_515 |
-|            |       |                           |                | SIGNED    |
-===============================================================================
-
-Datapath Report for design fpnew_top in file ./codes/fpnew_top.sv 
-
-RTL-datapath Connections for add_285_DP_OP_358_5495-str
-====================================================================
-|                      |                      |            | Bus   |
-| RTL Wire             | Datapath Port        | Direction  | Width |
-====================================================================
-| gen_operation_groups | I1                   | input      | 9     |
-| gen_operation_groups | I2                   | input      | 2     |
-| gen_operation_groups | I3                   | input      | 10    |
-| gen_operation_groups | O17                  | output     | 10    |
-| gen_operation_groups | O11                  | output     | 10    |
-| gen_operation_groups | O5                   | output     | 5     |
-====================================================================
-
-
-Datapath Blocks in add_285_DP_OP_358_5495-str
-===============================================================================
-|            | Out   |                           | Contained      | Operation |
-| Port       | Width | Datapath Block            | Operation_Line | Type      |
-===============================================================================
-| O17        | 10    | I1 + I2                   | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_285 |
-|            |       |                           |                | SIGNED    |
-| O11        | 10    | O17 - I3                  | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_293 |
-|            |       |                           |                | SIGNED    |
-| O5         | 5     | 11 - O11[4:0]             | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_306 |
-|            |       |                           |                | SIGNED    |
-===============================================================================
-
-Datapath Report for design fpnew_top in file ./codes/fpnew_top.sv 
-
-RTL-datapath Connections for mult_325_DP_OP_357_7442-str
-====================================================================
-|                      |                      |            | Bus   |
-| RTL Wire             | Datapath Port        | Direction  | Width |
-====================================================================
-| gen_operation_groups | I1                   | input      | 8     |
-| gen_operation_groups | I2                   | input      | 8     |
-| gen_operation_groups | I3                   | input      | 28    |
-| gen_operation_groups | I4                   | input      | 1     |
-| gen_operation_groups | O3                   | output     | 29    |
-| gen_operation_groups | O2                   | output     | 28    |
-====================================================================
-
-
-Datapath Blocks in mult_325_DP_OP_357_7442-str
-===============================================================================
-|            | Out   |                           | Contained      | Operation |
-| Port       | Width | Datapath Block            | Operation_Line | Type      |
-===============================================================================
-| Fanout_16  | 16    | I1 * I2                   | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/mult_325 |
-|            |       |                           |                | UNSIGNED  |
-| O3         | 29    | Fanout_16 * 4 + I3 + I4   | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_368_2 |
-|            |       |                           |                | UNSIGNED  |
-|            |       |                           | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_368 |
-|            |       |                           |                | UNSIGNED  |
-| O2         | 28    | 0 - O3[27:0]              | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_372 |
-|            |       |                           |                | UNSIGNED  |
-===============================================================================
-
-Datapath Report for design fpnew_top in file ./codes/fpnew_top.sv 
-
-RTL-datapath Connections for sub_287_DP_OP_356_9228-str
-====================================================================
-|                      |                      |            | Bus   |
-| RTL Wire             | Datapath Port        | Direction  | Width |
-====================================================================
-| gen_operation_groups | I1                   | input      | 8     |
-| gen_operation_groups | I2                   | input      | 1     |
-| gen_operation_groups | I3                   | input      | 8     |
-| gen_operation_groups | I4                   | input      | 1     |
-| gen_operation_groups | O12                  | output     | 10    |
-====================================================================
-
-
-Datapath Blocks in sub_287_DP_OP_356_9228-str
-===============================================================================
-|            | Out   |                           | Contained      | Operation |
-| Port       | Width | Datapath Block            | Operation_Line | Type      |
-===============================================================================
-| O12        | 10    | I1 + I2 + I3 + I4 - 127   | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_287 |
-|            |       |                           |                | UNSIGNED  |
-|            |       |                           | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_287_3 |
-|            |       |                           |                | UNSIGNED  |
-|            |       |                           | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_287_2 |
-|            |       |                           |                | UNSIGNED  |
-|            |       |                           | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_287 |
-|            |       |                           |                | UNSIGNED  |
+| r506     | DW_cmp       | width=10   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/gt_547 |
+| r508     | DW01_inc     | width=10   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_542 |
+| r510     | DW01_dec     | width=10   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_549 |
+| r512     | DW_cmp       | width=10   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/gte_576 |
+| r514     | DW01_add     | width=15   |               | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/i_fpnew_rounding/add_63 |
+| r1242    | DW01_add     | width=10   |               | add_1_root_add_1_root_gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_287 |
+| r1244    | DW01_sub     | width=10   |               | sub_2_root_add_1_root_gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_287 |
+| r1246    | DW01_add     | width=10   |               | add_0_root_add_1_root_gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_287 |
+| r1966    | DW01_sub     | width=11   |               | sub_1_root_gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_512 |
+| r1968    | DW01_inc     | width=12   |               | add_0_root_gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_512 |
+| r2688    | DW01_sub     | width=10   |               | sub_1_root_gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_515 |
+| r2690    | DW01_inc     | width=10   |               | add_0_root_gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_515 |
 ===============================================================================
 
 
@@ -204,19 +68,20 @@ Implementation Report
 |                    |                  | Current            | Set            |
 | Cell               | Module           | Implementation     | Implementation |
 ===============================================================================
+| add_1_root_add_1_root_gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_287 |
+|                    | DW01_add         | pparch (area,speed)                 |
+| gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_372 |
+|                    | DW01_sub         | pparch (speed)     |                |
+| add_1_root_gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_368_2 |
+|                    | DW01_add         | pparch (speed)     |                |
+| gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/sub_293 |
+|                    | DW01_sub         | pparch (area,speed)                 |
+| add_0_root_gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_515 |
+|                    | DW01_inc         | rpl                |                |
+| gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/mult_325 |
+|                    | DW02_mult        | csa                | csa            |
 | gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_542 |
-|                    | DW01_inc         | apparch (area)     |                |
-| sub_287_DP_OP_356_9228_1              |                    |                |
-|                    | sub_287_DP_OP_356_9228 | str (area)   |                |
-| add_285_DP_OP_358_5495_2              |                    |                |
-|                    | add_285_DP_OP_358_5495 | str (area)   |                |
-| mult_325_DP_OP_357_7442_3             |                    |                |
-|                    | mult_325_DP_OP_357_7442 | str (area)  |                |
-|                    |                  | mult_arch: and     |                |
-| add_512_DP_OP_360_3595_4              |                    |                |
-|                    | add_512_DP_OP_360_3595 | str (area)   |                |
-| add_515_DP_OP_359_8663_5              |                    |                |
-|                    | add_515_DP_OP_359_8663 | str (area)   |                |
+|                    | DW01_inc         | rpl                |                |
 ===============================================================================
 
 1
