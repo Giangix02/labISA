@@ -7,9 +7,9 @@ set_input_delay 0.5 -max -clock MY_CLK [remove_from_collection [all_inputs] MY_C
 set_output_delay 0.5 -max -clock MY_CLK [all_outputs]
 set OLOAD [load_of NangateOpenCellLibrary/BUF_X4/A]
 set_load $OLOAD [all_outputs]
-compile
+compile_ultra
 ungroup -all -flatten
 change_names -hierarchy -rules verilog
-write_sdf ./netlist/2.2.1/fpnew_top.sdf
-write -f verilog -hierarchy -output ./netlist/2.2.1/fpnew_top.v
-write_sdc ./netlist/2.2.1/fpnew_top.sdc
+write_sdf ./netlist/2.2.3/fpnew_top.sdf
+write -f verilog -hierarchy -output ./netlist/2.2.3/fpnew_top.v
+write_sdc ./netlist/2.2.3/fpnew_top.sdc
