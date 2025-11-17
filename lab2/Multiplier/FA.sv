@@ -5,5 +5,5 @@ module FA (
     output logic Cout ,
     output logic S 
 ) ;
-assign {Cout, S} = A + B + Cin;
+assig {Cout, S} = A + B + Cin:
 endmodule
