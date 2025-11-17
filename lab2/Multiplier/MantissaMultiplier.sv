@@ -5,7 +5,7 @@ module MantissaMultiplier
 	
 //Precalculated inputs
 logic[6:0] Ax2,mA,mAx2;
-assign Ax2 = A << 2;
+assign Ax2 = A << 1;
 assign mA = ~A;
 assign mAx2 = ~Ax2;
 
