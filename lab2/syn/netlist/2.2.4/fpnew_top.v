@@ -1,7 +1,7 @@
 /////////////////////////////////////////////////////////////
-// Created by: Synopsys DC Expert(TM) in wire load mode
+// Created by: Synopsys DC Ultra(TM) in wire load mode
 // Version   : S-2021.06-SP4
-// Date      : Mon Nov 17 15:42:13 2025
+// Date      : Mon Nov 17 16:33:51 2025
 /////////////////////////////////////////////////////////////
 
 
@@ -22,6 +22,7 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
   output in_ready_o, tag_o, out_valid_o, busy_o, status_o_NV_, status_o_DZ_,
          status_o_OF_, status_o_UF_, status_o_NX_;
   wire   N31, N32, N119,
+         gen_operation_groups_0__i_opgroup_block_fmt_out_valid_4_,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N353,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N352,
@@ -47,7 +48,6 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N313,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N312,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N311,
-         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N310,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N309,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N308,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N307,
@@ -119,21 +119,8 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_info_b_is_normal_,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_info_a_is_normal_,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_round_up,
-         n548, n549, n550, n551, n552, n553, n554, n555, n556, n571, n572,
-         n573, n574, n576, n577, n578, n579, n580, n581, n582, n583, n584,
-         n616, n617, n618, n619, n620, n621, n622, n623, n624, n625, n650,
-         n651, n652, n653, n654, n655, n656, n657, n658, n659, n660, n661,
-         n662, n663, n664, n665, n666, n667, n668, n669, n670, n671, n672,
-         n673, n674, n675, n676, n677, n678, n679, n680, n681, n682, n683,
-         n684, n685, n686, n687, n688, n689, n690, n691, n692, n693, n694,
-         n695, n696, n697, n698, n699, n700, n701, n702, n703, n704, n705,
-         n706, n712, n713, n714, n716, n717, n718, n719, n720, n721, n722,
-         n723, n724, n725, n726, n727, n728, n729, n730, n731, n733, n780,
-         n781, n782, n783, n784, n785, n786, n787, n788, n789, n790, n791,
-         n792, n793, n794, n795, n796, n797, n798, n799, n800, n801, n802,
-         n803, n804, n805, n806, n807, n808, n809, n810, n811, n812, n813,
-         n814, n815, n816, n817, n818, n819, n820, n821, n822, n823, n824,
-         n825, n826, n827, n828, n829, n830,
+         n574, n584, n803, n804, n805, n806, n807, n808, n809, n810, n811,
+         n812,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N116,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N115,
          dp_cluster_1_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_leading_zero_count_3_,
@@ -179,7 +166,6 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_1_,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_A_5_,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_549_A_0_,
-         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_306_carry_4_,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_285_B_0_,
          add_0_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_A_0_,
          add_0_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_A_1_,
@@ -190,87 +176,99 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
          add_0_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_A_6_,
          add_0_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_A_7_,
          add_0_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_A_8_,
-         n832, n833, n834, n835, n836, n837, n838, n839, n840, n841, n842,
-         n843, n844, n845, n846, n847, n848, n849, n850, n851, n852, n853,
-         n854, n855, n856, n857, n858, n859, n860, n863, n864, n865, n866,
-         n867, n868, n869, n870, n871, n872, n873, n874, n875, n876, n877,
-         n878, n879, n880, n881, n882, n883, n884, n885, n886, n887, n888,
-         n889, n890, n891, n892, n893, n894, n895, n896, n897, n898, n899,
-         n900, n901, n902, n903, n904, n905, n906, n907, n908, n909, n910,
-         n911, n912, n913, n914, n915, n916, n917, n918, n919, n920, n921,
-         n922, n923, n924, n925, n926, n927, n928, n929, n930, n931, n932,
-         n933, n934, n935, n936, n937, n938, n939, n940, n941, n942, n943,
-         n944, n945, n946, n947, n948, n949, n950, n951, n952, n953, n954,
-         n955, n956, n957, n958, n959, n960, n961, n962, n963, n964, n965,
-         n966, n967, n968, n969, n970, n971, n972, n973, n974, n975, n976,
-         n977, n978, n979, n980, n981, n982, n983, n984, n985, n986, n987,
-         n988, n989, n990, n991, n992, n993, n994, n995, n996, n997, n998,
-         n999, n1000, n1001, n1002, n1003, n1004, n1005, n1006, n1007, n1008,
-         n1009, n1010, n1011, n1012, n1013, n1014, n1015, n1016, n1017, n1018,
-         n1019, n1020, n1021, n1022, n1023, n1024, n1025, n1026, n1027, n1028,
-         n1029, n1030, n1031, n1032, n1033, n1034, n1035, n1036, n1037, n1038,
-         n1039, n1040, n1041, n1042, n1043, n1044, n1045, n1046, n1047, n1048,
-         n1049, n1050, n1051, n1052, n1053, n1054, n1055, n1056, n1057, n1058,
-         n1059, n1060, n1061, n1062, n1063, n1064, n1065, n1066, n1067, n1068,
-         n1069, n1070, n1071, n1072, n1073, n1074, n1075, n1076, n1077, n1078,
-         n1079, n1080, n1081, n1082, n1083, n1084, n1085, n1086, n1087, n1088,
-         n1089, n1090, n1091, n1092, n1093, n1094, n1095, n1096, n1097, n1098,
-         n1099, n1100, n1101, n1102, n1103, n1104, n1105, n1106, n1107, n1108,
-         n1109, n1110, n1111, n1112, n1113, n1114, n1115, n1116, n1117, n1118,
-         n1119, n1120, n1121, n1122, n1123, n1124, n1125, n1126, n1127, n1128,
-         n1129, n1130, n1131, n1132, n1133, n1134, n1135, n1136, n1137, n1138,
-         n1139, n1140, n1141, n1142, n1143, n1144, n1145, n1146, n1147, n1148,
-         n1149, n1150, n1151, n1152, n1153, n1154, n1155, n1156, n1157, n1158,
-         n1159, n1160, n1161, n1162, n1163, n1164, n1165, n1166, n1167, n1168,
-         n1169, n1170, n1171, n1172, n1173, n1174, n1175, n1176, n1177, n1178,
-         n1179, n1180, n1181, n1182, n1183, n1184, n1185, n1186, n1187, n1188,
-         n1189, n1190, n1191, n1192, n1193, n1194, n1195, n1196, n1197, n1198,
-         n1199, n1200, n1201, n1202, n1203, n1204, n1205, n1206, n1207, n1208,
-         n1209, n1210, n1211, n1212, n1213, n1214, n1215, n1216, n1217, n1218,
-         n1219, n1220, n1221, n1222, n1223, n1224, n1225, n1226, n1227, n1228,
-         n1229, n1230, n1231, n1232, n1233, n1234, n1235, n1236, n1237, n1238,
-         n1239, n1240, n1241, n1242, n1243, n1244, n1245, n1246, n1247, n1248,
-         n1249, n1250, n1251, n1252, n1253, n1254, n1255, n1256, n1257, n1258,
-         n1259, n1260, n1261, n1262, n1263, n1264, n1265, n1266, n1267, n1268,
-         n1269, n1270, n1271, n1272, n1273, n1274, n1275, n1276, n1277, n1278,
-         n1279, n1280, n1281, n1282, n1283, n1284, n1285, n1286, n1287, n1288,
-         n1289, n1290, n1291, n1292, n1293, n1294, n1295, n1296, n1297, n1298,
-         n1299, n1300, n1301, n1302, n1303, n1304, n1305, n1306, n1307, n1308,
-         n1309, n1310, n1311, n1312, n1313, n1314, n1315, n1316, n1317, n1318,
-         n1319, n1320, n1321, n1322, n1323, n1324, n1325, n1326, n1327, n1328,
-         n1329, n1330, n1331, n1332, n1333, n1334, n1335, n1336, n1337, n1338,
-         n1339, n1340, n1341, n1342, n1343, n1344, n1345, n1346, n1347, n1348,
-         n1349, n1350, n1351, n1352, n1353, n1354, n1355, n1356, n1357, n1358,
-         n1359, n1360, n1361, n1362, n1363, n1364, n1365, n1366, n1367, n1368,
-         n1369, n1370, n1371, n1372, n1373, n1374, n1375, n1376, n1377, n1378,
-         n1379, n1380, n1381, n1382, n1383, n1384, n1385, n1386, n1387, n1388,
-         n1389, n1390, n1391, n1392, n1393, n1394, n1395, n1396, n1397, n1398,
-         n1399, n1400, n1401, n1402, n1403, n1404, n1405, n1406, n1407, n1408,
-         n1409, n1410, n1411, n1412, n1413, n1414, n1415, n1416, n1417, n1418,
-         n1419, n1420, n1421, n1422, n1423, n1424, n1425, n1426, n1427, n1428,
-         n1429, n1430, n1431, n1432, n1433, n1434, n1435, n1436, n1437, n1438,
-         n1439, n1440, n1441, n1442, n1443, n1444, n1445, n1446, n1447, n1448,
-         n1449, n1450, n1451, n1452, n1453, n1454, n1455, n1456, n1457, n1458,
-         n1459, n1460, n1461, n1462, n1463, n1464, n1465, n1466, n1467, n1468,
-         n1469, n1470, n1471, n1472, n1473, n1474, n1475, n1476, n1477, n1478,
-         n1479, n1480, n1481, n1482, n1483, n1484, n1485, n1486, n1487, n1488,
-         n1489, n1490, n1491, n1492, n1493, n1494, n1495, n1496, n1497, n1498,
-         n1499, n1500, n1501, n1502, n1503, n1504, n1505, n1506, n1507, n1508,
-         n1509, n1510, n1511, n1512, n1513, n1514, n1515, n1516, n1517, n1518,
-         n1519, n1520, n1521, n1522, n1523, n1524, n1525, n1526, n1527, n1528,
-         n1529, n1530, n1531, n1532, n1533, n1534, n1535, n1536, n1537, n1538,
-         n1539, n1540, n1541, n1542, n1543, n1544, n1545, n1546, n1547, n1548,
-         n1549, n1550, n1551, n1552, n1553, n1554, n1555, n1556, n1557, n1558,
-         n1559, n1560, n1561, n1562, n1563, n1564, n1565, n1566, n1567, n1568,
-         n1569, n1570, n1571, n1572, n1573, n1574, n1575, n1576, n1577, n1578,
-         n1579, n1580, n1581, n1582, n1583, n1584, n1585, n1586, n1587, n1588,
-         n1589, n1590, n1591, n1592, n1593, n1594, n1595, n1596, n1597, n1598,
-         n1599, n1600, n1601, n1602, n1603, n1604, n1605, n1606, n1607, n1608,
-         n1609, n1610, n1611, n1612, n1613, n1614, n1615, n1616, n1617, n1618,
-         n1619, n1620, n1622, n1623, n1624, n1625, n1626, n1627, n1628, n1629,
-         n1630, n1631, n1632, n1633, n1634, n1635, n1636, n1637, n1638, n1639,
-         n1640, n1641, n1642, n1643, n1644, n1645, n1646, n1647, n1648, n1649,
-         n1650, n1651, n1652, n1653, n1654, n1655, n1656, n1657, n1658,
+         n847, n861, n862, n863, n865, n868, n872, n874, n876, n878, n884,
+         n885, n889, n891, n892, n894, n896, n898, n917, n918, n919, n920,
+         n921, n922, n923, n924, n925, n926, n927, n928, n929, n930, n931,
+         n932, n933, n934, n935, n936, n937, n938, n939, n940, n941, n942,
+         n943, n944, n945, n946, n947, n948, n949, n950, n951, n952, n953,
+         n954, n955, n956, n957, n958, n959, n960, n961, n962, n963, n964,
+         n965, n966, n967, n968, n969, n973, n974, n975, n977, n978, n979,
+         n980, n981, n982, n983, n984, n985, n986, n987, n988, n989, n990,
+         n994, n995, n996, n997, n998, n999, n1000, n1001, n1002, n1003, n1004,
+         n1005, n1006, n1007, n1008, n1009, n1010, n1011, n1012, n1013, n1014,
+         n1015, n1016, n1017, n1018, n1019, n1020, n1021, n1022, n1023, n1024,
+         n1025, n1026, n1027, n1028, n1029, n1030, n1031, n1032, n1033, n1034,
+         n1035, n1036, n1037, n1038, n1039, n1040, n1041, n1042, n1043, n1044,
+         n1045, n1046, n1047, n1048, n1049, n1050, n1051, n1052, n1053, n1054,
+         n1055, n1056, n1057, n1058, n1059, n1060, n1061, n1062, n1063, n1064,
+         n1065, n1066, n1067, n1068, n1069, n1070, n1071, n1072, n1073, n1074,
+         n1075, n1076, n1077, n1078, n1079, n1080, n1081, n1082, n1083, n1084,
+         n1085, n1086, n1087, n1088, n1089, n1090, n1091, n1092, n1093, n1094,
+         n1095, n1096, n1097, n1098, n1099, n1100, n1101, n1102, n1103, n1104,
+         n1105, n1106, n1107, n1108, n1109, n1110, n1111, n1112, n1113, n1114,
+         n1115, n1116, n1117, n1118, n1119, n1120, n1121, n1122, n1123, n1124,
+         n1125, n1126, n1127, n1128, n1129, n1130, n1131, n1132, n1133, n1134,
+         n1135, n1136, n1137, n1138, n1139, n1140, n1141, n1142, n1143, n1144,
+         n1146, n1147, n1148, n1149, n1150, n1151, n1152, n1153, n1154, n1155,
+         n1156, n1157, n1158, n1159, n1160, n1161, n1162, n1163, n1164, n1165,
+         n1166, n1167, n1168, n1169, n1170, n1171, n1172, n1173, n1174, n1175,
+         n1176, n1177, n1178, n1179, n1180, n1181, n1182, n1183, n1184, n1185,
+         n1186, n1187, n1188, n1189, n1190, n1191, n1192, n1193, n1194, n1195,
+         n1196, n1197, n1198, n1199, n1200, n1201, n1202, n1203, n1204, n1205,
+         n1206, n1207, n1208, n1209, n1210, n1211, n1212, n1213, n1214, n1215,
+         n1216, n1217, n1218, n1219, n1220, n1221, n1222, n1223, n1224, n1225,
+         n1226, n1227, n1228, n1229, n1230, n1231, n1232, n1233, n1234, n1235,
+         n1236, n1237, n1238, n1239, n1240, n1241, n1242, n1243, n1244, n1245,
+         n1246, n1247, n1248, n1249, n1250, n1251, n1252, n1253, n1254, n1255,
+         n1256, n1257, n1258, n1259, n1260, n1261, n1262, n1263, n1264, n1265,
+         n1266, n1267, n1268, n1269, n1270, n1271, n1272, n1273, n1274, n1275,
+         n1276, n1277, n1278, n1279, n1280, n1281, n1282, n1283, n1284, n1285,
+         n1286, n1287, n1288, n1289, n1290, n1291, n1292, n1293, n1294, n1295,
+         n1296, n1297, n1298, n1299, n1300, n1301, n1302, n1303, n1304, n1305,
+         n1306, n1307, n1308, n1309, n1310, n1311, n1312, n1313, n1314, n1315,
+         n1316, n1317, n1318, n1319, n1320, n1321, n1322, n1323, n1324, n1325,
+         n1326, n1327, n1328, n1329, n1330, n1331, n1332, n1333, n1334, n1335,
+         n1336, n1337, n1338, n1339, n1340, n1341, n1342, n1343, n1344, n1345,
+         n1346, n1347, n1348, n1349, n1350, n1351, n1352, n1353, n1354, n1355,
+         n1356, n1357, n1358, n1359, n1360, n1361, n1362, n1363, n1364, n1365,
+         n1366, n1367, n1368, n1369, n1370, n1371, n1372, n1373, n1374, n1375,
+         n1376, n1377, n1378, n1379, n1380, n1381, n1382, n1383, n1384, n1385,
+         n1386, n1387, n1388, n1389, n1390, n1391, n1392, n1393, n1394, n1395,
+         n1396, n1397, n1398, n1399, n1400, n1401, n1402, n1403, n1404, n1405,
+         n1406, n1407, n1408, n1409, n1410, n1411, n1412, n1413, n1414, n1415,
+         n1416, n1417, n1418, n1419, n1420, n1421, n1422, n1423, n1424, n1425,
+         n1426, n1427, n1428, n1429, n1430, n1431, n1432, n1433, n1434, n1435,
+         n1436, n1437, n1438, n1439, n1440, n1441, n1442, n1443, n1444, n1445,
+         n1446, n1447, n1448, n1449, n1450, n1451, n1452, n1453, n1454, n1455,
+         n1456, n1457, n1458, n1459, n1460, n1461, n1462, n1463, n1464, n1465,
+         n1466, n1467, n1468, n1469, n1470, n1471, n1472, n1473, n1474, n1475,
+         n1476, n1477, n1478, n1479, n1480, n1481, n1482, n1483, n1484, n1485,
+         n1486, n1487, n1488, n1489, n1490, n1491, n1492, n1493, n1494, n1495,
+         n1496, n1497, n1498, n1499, n1500, n1501, n1502, n1503, n1504, n1505,
+         n1506, n1507, n1508, n1509, n1510, n1511, n1512, n1513, n1514, n1515,
+         n1516, n1517, n1518, n1519, n1520, n1521, n1522, n1523, n1524, n1525,
+         n1526, n1527, n1528, n1529, n1530, n1531, n1532, n1533, n1534, n1535,
+         n1536, n1537, n1538, n1539, n1540, n1541, n1542, n1550, n1551, n1552,
+         n1553, n1554, n1555, n1556, n1557, n1558, n1559, n1560, n1561, n1562,
+         n1563, n1564, n1565, n1566, n1567, n1568, n1569, n1570, n1571, n1572,
+         n1573, n1574, n1575, n1576, n1577, n1578, n1579, n1580, n1581, n1582,
+         n1583, n1584, n1585, n1586, n1587, n1588, n1589, n1590, n1591, n1592,
+         n1593, n1594, n1595, n1596, n1597, n1598, n1599, n1600, n1601, n1602,
+         n1603, n1604, n1605, n1606, n1607, n1608, n1609, n1610, n1611, n1612,
+         n1613, n1614, n1625, n1627, n1629, n1631, n1633, n1635, n1637, n1639,
+         n1641, n1643, n1645, n1646, n1647, n1648, n1649, n1650, n1651, n1652,
+         n1653, n1654, n1655, n1656, n1657, n1658, n1659, n1806, n1807, n1808,
+         n1809, n1810, n1811, n1812, n1813, n1814, n1815, n1816, n1817, n1818,
+         n1819, n1820, n1821, n1822, n1823, n1824, n1825, n1826, n1827, n1828,
+         n1829, n1830, n1831, n1832, n1833, n1834, n1835, n1836, n1837, n1838,
+         n1839, n1840, n1841, n1842, n1843, n1844, n1845, n1846, n1847, n1848,
+         n1849, n1850, n1851, n1852, n1853, n1854, n1855, n1856, n1857, n1858,
+         n1859, n1860, n1861, n1862, n1863, n1864, n1865, n1866, n1867, n1868,
+         n1869, n1870, n1871, n1872, n1873, n1874, n1875, n1876, n1877, n1878,
+         n1879, n1880, n1881, n1882, n1883, n1884, n1885, n1886, n1887, n1888,
+         n1889, n1890, n1891, n1892, n1893, n1894, n1895, n1896, n1897, n1898,
+         n1899, n1900, n1901, n1902, n1903, n1904, n1905, n1906, n1907, n1908,
+         n1909, n1910, n1911, n1912, n1913, n1914, n1915, n1916, n1917, n1918,
+         n1920, n1921, n1922, n1923, n1924, n1925, n1926, n1927, n1928, n1929,
+         n1930, n1931, n1932, n1933, n1934, n1935, n1936, n1937, n1938, n1939,
+         n1940, n1941, n1942, n1943, n1944, n1945, n1946, n1948, n1951, n1952,
+         n1953, n1954, n1955, n1956, n1957, n1958, n1959, n1960, n1961, n1962,
+         n1963, n1964, n1965, n1966, n1967, n1968, n1969, n1970, n1971, n1972,
+         n1973, n1974, n1975, n1976, n1977, n1978, n1979, n1980, n1981, n1982,
+         n1983, n1984, n1985, n1986, n1987, n1988, n1989, n1990, n1991, n1992,
+         n1993, n1994, n1995, n1996, n1997, n1998, n1999, n2000, n2001, n2002,
+         n2003, n2004, n2005, n2006, n2007, n2008, n2009, n2010, n2011, n2012,
+         n2013, n2014, n2015, n2016, n2017, n2018, n2019, n2020, n2021, n2022,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n81,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n80,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n79,
@@ -299,14 +297,13 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n56,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n55,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n54,
-         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n31,
-         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n29,
-         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n28,
-         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n27,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n26,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n25,
+         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n24,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n23,
+         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n22,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n21,
+         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n20,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n19,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n18,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n17,
@@ -324,16 +321,17 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n5,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n4,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n3,
+         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n2,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n1,
-         add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n22,
-         add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n20,
-         add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n19,
-         add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n18,
-         add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n17,
-         add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n16,
-         add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n15,
-         add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n14,
+         add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n23,
          add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n13,
+         add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n12,
+         add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n11,
+         add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n10,
+         add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n8,
+         add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n7,
+         add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n6,
+         add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n3,
          add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n2,
          add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n1,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n45,
@@ -356,6 +354,7 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n28,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n27,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n26,
+         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n25,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n24,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n23,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n22,
@@ -363,9 +362,8 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n20,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n19,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n18,
-         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n17,
-         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n16,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n15,
+         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n14,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n13,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n12,
          gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n11,
@@ -627,187 +625,6 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
 ;
   assign status_o_DZ_ = 1'b0;
 
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_spec_res_q_reg_1__exponent__7_ ( 
-        .D(n583), .CK(clk_i), .RN(n910), .Q(n1550) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_spec_res_q_reg_1__exponent__6_ ( 
-        .D(n582), .CK(clk_i), .RN(n910), .Q(n1551) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_spec_res_q_reg_1__exponent__5_ ( 
-        .D(n581), .CK(clk_i), .RN(n910), .QN(n990) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_spec_res_q_reg_1__exponent__4_ ( 
-        .D(n580), .CK(clk_i), .RN(n910), .QN(n991) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_spec_res_q_reg_1__exponent__3_ ( 
-        .D(n579), .CK(clk_i), .RN(n910), .QN(n992) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_spec_res_q_reg_1__exponent__2_ ( 
-        .D(n578), .CK(clk_i), .RN(n910), .QN(n969) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_spec_res_q_reg_1__exponent__1_ ( 
-        .D(n577), .CK(clk_i), .RN(n910), .QN(n970) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_spec_res_q_reg_1__exponent__0_ ( 
-        .D(n576), .CK(clk_i), .RN(n910), .QN(n971) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_is_boxed_q_reg_1__2_ ( 
-        .D(n573), .CK(clk_i), .RN(n909), .Q(n1549), .QN(n856) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_is_boxed_q_reg_1__0_ ( 
-        .D(n572), .CK(clk_i), .RN(n909), .Q(n1604), .QN(n852) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_is_boxed_q_reg_1__1_ ( 
-        .D(n571), .CK(clk_i), .RN(n909), .Q(n1588), .QN(n851) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_tag_q_reg_1_ ( 
-        .D(n701), .CK(clk_i), .RN(n909), .Q(n1553) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_tag_q_reg_1_ ( 
-        .D(n703), .CK(clk_i), .RN(n909), .Q(n1554) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_op_mod_q_reg_1_ ( 
-        .D(n702), .CK(clk_i), .RN(n909), .Q(n1610) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_op_q_reg_1__1_ ( 
-        .D(n829), .CK(clk_i), .RN(n909), .Q(n1608), .QN(n849) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_op_q_reg_1__0_ ( 
-        .D(n830), .CK(clk_i), .RN(n909), .Q(n1612) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_rnd_mode_q_reg_1__1_ ( 
-        .D(n699), .CK(clk_i), .RN(n909), .Q(n1555) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_rnd_mode_q_reg_1__1_ ( 
-        .D(n704), .CK(clk_i), .RN(n909), .Q(n1556) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_rnd_mode_q_reg_1__0_ ( 
-        .D(n700), .CK(clk_i), .RN(n909), .Q(n1557) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_rnd_mode_q_reg_1__0_ ( 
-        .D(n705), .CK(clk_i), .RN(n909), .Q(n1558), .QN(n846) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_rnd_mode_q_reg_1__2_ ( 
-        .D(n698), .CK(clk_i), .RN(n908), .Q(n1559) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_rnd_mode_q_reg_1__2_ ( 
-        .D(n706), .CK(clk_i), .RN(n908), .Q(n1605), .QN(n860) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__2__14_ ( 
-        .D(n651), .CK(clk_i), .RN(n908), .Q(n1583), .QN(n854) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__2__13_ ( 
-        .D(n652), .CK(clk_i), .RN(n908), .Q(n1582), .QN(n842) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__2__12_ ( 
-        .D(n653), .CK(clk_i), .RN(n908), .Q(n1581), .QN(n838) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__2__11_ ( 
-        .D(n654), .CK(clk_i), .RN(n908), .Q(n1580), .QN(n833) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__2__10_ ( 
-        .D(n655), .CK(clk_i), .RN(n908), .Q(n1587), .QN(n855) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__2__9_ ( 
-        .D(n656), .CK(clk_i), .RN(n908), .Q(n1586), .QN(n843) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__2__8_ ( 
-        .D(n657), .CK(clk_i), .RN(n908), .Q(n1585), .QN(n839) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__2__7_ ( 
-        .D(n658), .CK(clk_i), .RN(n908), .Q(n1584), .QN(n834) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__2__6_ ( 
-        .D(n659), .CK(clk_i), .RN(n908), .Q(n1563), .QN(n859) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__2__5_ ( 
-        .D(n660), .CK(clk_i), .RN(n908), .Q(n1564) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__2__4_ ( 
-        .D(n661), .CK(clk_i), .RN(n907), .Q(n1565) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__2__3_ ( 
-        .D(n662), .CK(clk_i), .RN(n907), .Q(n1566) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__2__2_ ( 
-        .D(n663), .CK(clk_i), .RN(n907), .Q(n1567) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__2__1_ ( 
-        .D(n664), .CK(clk_i), .RN(n907), .Q(n1568) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__2__0_ ( 
-        .D(n665), .CK(clk_i), .RN(n907), .Q(n1569) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__1__15_ ( 
-        .D(n666), .CK(clk_i), .RN(n907), .Q(n1552) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__1__14_ ( 
-        .D(n667), .CK(clk_i), .RN(n907), .Q(n1644) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__1__13_ ( 
-        .D(n668), .CK(clk_i), .RN(n907), .Q(n1645) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__1__12_ ( 
-        .D(n669), .CK(clk_i), .RN(n907), .Q(n1646) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__1__11_ ( 
-        .D(n670), .CK(clk_i), .RN(n907), .Q(n1647) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__1__10_ ( 
-        .D(n671), .CK(clk_i), .RN(n907), .Q(n1648) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__1__9_ ( 
-        .D(n672), .CK(clk_i), .RN(n907), .Q(n1649) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__1__8_ ( 
-        .D(n673), .CK(clk_i), .RN(n906), .Q(n1650) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__1__7_ ( 
-        .D(n674), .CK(clk_i), .RN(n906), .Q(n1651) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__1__6_ ( 
-        .D(n675), .CK(clk_i), .RN(n906), .Q(n1652) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__1__5_ ( 
-        .D(n676), .CK(clk_i), .RN(n906), .Q(n1653) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__1__4_ ( 
-        .D(n677), .CK(clk_i), .RN(n906), .Q(n1654) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__1__3_ ( 
-        .D(n678), .CK(clk_i), .RN(n906), .Q(n1655) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__1__2_ ( 
-        .D(n679), .CK(clk_i), .RN(n906), .Q(n1656) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__1__1_ ( 
-        .D(n680), .CK(clk_i), .RN(n906), .Q(n1657) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__1__0_ ( 
-        .D(n681), .CK(clk_i), .RN(n906), .Q(n1658) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__0__15_ ( 
-        .D(n682), .CK(clk_i), .RN(n906), .Q(n1611) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__0__14_ ( 
-        .D(n683), .CK(clk_i), .RN(n906), .Q(n1600), .QN(n858) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__0__13_ ( 
-        .D(n684), .CK(clk_i), .RN(n906), .Q(n1601), .QN(n845) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__0__12_ ( 
-        .D(n685), .CK(clk_i), .RN(n905), .Q(n1602), .QN(n840) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__0__11_ ( 
-        .D(n686), .CK(clk_i), .RN(n905), .Q(n1603), .QN(n835) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__0__10_ ( 
-        .D(n687), .CK(clk_i), .RN(n905), .Q(n1596), .QN(n857) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__0__9_ ( 
-        .D(n688), .CK(clk_i), .RN(n905), .Q(n1597), .QN(n844) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__0__8_ ( 
-        .D(n689), .CK(clk_i), .RN(n905), .Q(n1598), .QN(n837) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__0__7_ ( 
-        .D(n690), .CK(clk_i), .RN(n905), .Q(n1599), .QN(n832) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__0__6_ ( 
-        .D(n691), .CK(clk_i), .RN(n905), .Q(n1595), .QN(n836) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__0__5_ ( 
-        .D(n692), .CK(clk_i), .RN(n905), .Q(n1590) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__0__4_ ( 
-        .D(n693), .CK(clk_i), .RN(n905), .Q(n1591) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__0__3_ ( 
-        .D(n694), .CK(clk_i), .RN(n905), .Q(n1589) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__0__2_ ( 
-        .D(n695), .CK(clk_i), .RN(n905), .Q(n1594), .QN(n853) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__0__1_ ( 
-        .D(n696), .CK(clk_i), .RN(n905), .Q(n1593), .QN(n841) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__0__0_ ( 
-        .D(n697), .CK(clk_i), .RN(n904), .Q(n1592) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_reg_1__6_ ( 
-        .D(n821), .CK(clk_i), .RN(n904), .Q(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__6_) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_reg_1__5_ ( 
-        .D(n822), .CK(clk_i), .RN(n904), .Q(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__5_) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_reg_1__4_ ( 
-        .D(n823), .CK(clk_i), .RN(n904), .Q(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__4_) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_reg_1__3_ ( 
-        .D(n824), .CK(clk_i), .RN(n904), .Q(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__3_) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_reg_1__2_ ( 
-        .D(n825), .CK(clk_i), .RN(n904), .Q(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__2_) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_reg_1__9_ ( 
-        .D(n818), .CK(clk_i), .RN(n904), .Q(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__9_) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_reg_1__8_ ( 
-        .D(n819), .CK(clk_i), .RN(n904), .Q(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__8_) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_reg_1__7_ ( 
-        .D(n820), .CK(clk_i), .RN(n904), .Q(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__7_) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_reg_1__1_ ( 
-        .D(n826), .CK(clk_i), .RN(n904), .Q(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__1_), .QN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N310) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sticky_q_reg_1_ ( 
-        .D(n625), .CK(clk_i), .RN(n902), .Q(n1607) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_reg_1__0_ ( 
-        .D(n827), .CK(clk_i), .RN(n901), .Q(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N309) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_res_is_spec_q_reg_1_ ( 
-        .D(n828), .CK(clk_i), .RN(n901), .Q(n1562) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_operands_q_reg_1__2__15_ ( 
-        .D(n650), .CK(clk_i), .RN(n901), .Q(n1609) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_spec_res_q_reg_1__mantissa__6_ ( 
-        .D(n781), .CK(clk_i), .RN(n901), .Q(n1560) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_eff_sub_q_reg_1_ ( 
-        .D(n802), .CK(clk_i), .RN(n901), .Q(n1561) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_final_sign_q_reg_1_ ( 
-        .D(n1622), .CK(clk_i), .RN(n899), .Q(n1606), .QN(n975) );
   FA_X1 add_0_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_U1_1 ( 
         .A(
         add_0_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_A_1_), .B(
@@ -816,550 +633,350 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
         add_0_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_carry[2]), .S(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N136) );
   FA_X1 sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_U2_1 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__1_), .B(n917), .CI(
+        .A(n1904), .B(n919), .CI(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[1]), .CO(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[2]), .S(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N259) );
   FA_X1 sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_U2_2 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__2_), .B(n915), .CI(
+        .A(n1903), .B(n917), .CI(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[2]), .CO(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[3]), .S(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N260) );
   FA_X1 sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_U2_3 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__3_), .B(n1239), .CI(
+        .A(n1902), .B(n1240), .CI(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[3]), .CO(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[4]), .S(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N261) );
   FA_X1 sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_U2_4 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__4_), .B(n1224), .CI(
+        .A(n1901), .B(n1225), .CI(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[4]), .CO(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[5]), .S(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N262) );
   FA_X1 sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_U2_1 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__1_), .B(n917), .CI(
+        .A(n1904), .B(n919), .CI(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[1]), .CO(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[2]), .S(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N290) );
   FA_X1 sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_U2_2 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__2_), .B(n915), .CI(
+        .A(n1903), .B(n917), .CI(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[2]), .CO(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[3]), .S(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N291) );
   FA_X1 sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_U2_3 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__3_), .B(n1239), .CI(
+        .A(n1902), .B(n1240), .CI(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[3]), .CO(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[4]), .S(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N292) );
   FA_X1 sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_U2_4 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__4_), .B(n1224), .CI(
+        .A(n1901), .B(n1225), .CI(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[4]), .CO(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[5]), .S(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N293) );
-  SDFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inp_pipe_valid_q_reg_1_ ( 
-        .D(n1643), .SI(1'b0), .SE(n584), .CK(clk_i), .RN(rst_ni), .Q(n1613), 
-        .QN(n1144) );
-  SDFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_valid_q_reg_1_ ( 
-        .D(n1643), .SI(1'b0), .SE(n574), .CK(clk_i), .RN(rst_ni), .Q(
-        out_valid_o), .QN(n733) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_spec_res_q_reg_1__sign_ ( 
-        .D(n780), .CK(clk_i), .RN(rst_ni), .Q(n1112), .QN(n1542) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_spec_stat_q_reg_1__NV_ ( 
-        .D(n801), .CK(clk_i), .RN(n901), .Q(n1078), .QN(n1543) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_diff_q_reg_1__0_ ( 
-        .D(n1641), .CK(clk_i), .RN(n904), .Q(n1033) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_diff_q_reg_1__1_ ( 
-        .D(n1639), .CK(clk_i), .RN(n903), .Q(n1032) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_diff_q_reg_1__2_ ( 
-        .D(n1637), .CK(clk_i), .RN(n903), .Q(n1030), .QN(n1619) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_diff_q_reg_1__3_ ( 
-        .D(n1635), .CK(clk_i), .RN(n903), .Q(n1029), .QN(n1620) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_diff_q_reg_1__4_ ( 
-        .D(n1633), .CK(clk_i), .RN(n903), .Q(n1028) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_diff_q_reg_1__5_ ( 
-        .D(n1631), .CK(clk_i), .RN(n903), .Q(n1027), .QN(n1615) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_diff_q_reg_1__6_ ( 
-        .D(n1629), .CK(clk_i), .RN(n903), .Q(n1026), .QN(n1616) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_diff_q_reg_1__7_ ( 
-        .D(n1627), .CK(clk_i), .RN(n903), .Q(n1025), .QN(n1617) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_diff_q_reg_1__8_ ( 
-        .D(n1625), .CK(clk_i), .RN(n903), .Q(n1024), .QN(n1618) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_diff_q_reg_1__9_ ( 
-        .D(n1623), .CK(clk_i), .RN(n902), .QN(n1614) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_tent_exp_q_reg_1__9_ ( 
-        .D(n803), .CK(clk_i), .RN(n903), .QN(n1570) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_add_shamt_q_reg_1__0_ ( 
-        .D(n817), .CK(clk_i), .RN(n902), .QN(n1544) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_tent_exp_q_reg_1__4_ ( 
-        .D(n808), .CK(clk_i), .RN(n902), .QN(n1575) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_tent_exp_q_reg_1__8_ ( 
-        .D(n804), .CK(clk_i), .RN(n903), .QN(n1571) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_tent_exp_q_reg_1__7_ ( 
-        .D(n805), .CK(clk_i), .RN(n903), .QN(n1572) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_tent_exp_q_reg_1__6_ ( 
-        .D(n806), .CK(clk_i), .RN(n903), .QN(n1573) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_tent_exp_q_reg_1__5_ ( 
-        .D(n807), .CK(clk_i), .RN(n902), .QN(n1574) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_tent_exp_q_reg_1__3_ ( 
-        .D(n809), .CK(clk_i), .RN(n902), .QN(n1576) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_tent_exp_q_reg_1__2_ ( 
-        .D(n810), .CK(clk_i), .RN(n902), .QN(n1577) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_tent_exp_q_reg_1__1_ ( 
-        .D(n811), .CK(clk_i), .RN(n902), .QN(n1578) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_tent_exp_q_reg_1__0_ ( 
-        .D(n812), .CK(clk_i), .RN(n901), .QN(n1579) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_add_shamt_q_reg_1__3_ ( 
-        .D(n814), .CK(clk_i), .RN(n902), .QN(n1547) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_add_shamt_q_reg_1__1_ ( 
-        .D(n816), .CK(clk_i), .RN(n902), .QN(n1545) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_add_shamt_q_reg_1__2_ ( 
-        .D(n815), .CK(clk_i), .RN(n902), .QN(n1546) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_add_shamt_q_reg_1__4_ ( 
-        .D(n813), .CK(clk_i), .RN(n902), .QN(n1548) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__3_ ( 
-        .D(n797), .CK(clk_i), .RN(n899), .Q(n1377), .QN(n716) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__2_ ( 
-        .D(n798), .CK(clk_i), .RN(n899), .Q(n1230), .QN(n714) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__1_ ( 
-        .D(n799), .CK(clk_i), .RN(n899), .Q(n1350), .QN(n713) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__0_ ( 
-        .D(n800), .CK(clk_i), .RN(n899), .Q(n1351), .QN(n712) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__21_ ( 
-        .D(n618), .CK(clk_i), .RN(n900), .Q(n1287), .QN(n550) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__20_ ( 
-        .D(n617), .CK(clk_i), .RN(n900), .Q(n1363), .QN(n549) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__19_ ( 
-        .D(n616), .CK(clk_i), .RN(n900), .Q(n1212), .QN(n548) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__26_ ( 
-        .D(n623), .CK(clk_i), .RN(n901), .Q(n1167), .QN(n555) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__25_ ( 
-        .D(n622), .CK(clk_i), .RN(n901), .Q(n1179), .QN(n554) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__24_ ( 
-        .D(n621), .CK(clk_i), .RN(n901), .Q(n1365), .QN(n553) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__23_ ( 
-        .D(n620), .CK(clk_i), .RN(n901), .Q(n1165), .QN(n552) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__22_ ( 
-        .D(n619), .CK(clk_i), .RN(n900), .Q(n1178), .QN(n551) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__18_ ( 
-        .D(n782), .CK(clk_i), .RN(n900), .Q(n1234), .QN(n731) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__17_ ( 
-        .D(n783), .CK(clk_i), .RN(n900), .Q(n1242), .QN(n730) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__16_ ( 
-        .D(n784), .CK(clk_i), .RN(n900), .Q(n1379), .QN(n729) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__15_ ( 
-        .D(n785), .CK(clk_i), .RN(n900), .Q(n1368), .QN(n728) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__14_ ( 
-        .D(n786), .CK(clk_i), .RN(n900), .Q(n1244), .QN(n727) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__13_ ( 
-        .D(n787), .CK(clk_i), .RN(n900), .Q(n1313), .QN(n726) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__12_ ( 
-        .D(n788), .CK(clk_i), .RN(n900), .Q(n1243), .QN(n725) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__11_ ( 
-        .D(n789), .CK(clk_i), .RN(n900), .Q(n1372), .QN(n724) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__10_ ( 
-        .D(n790), .CK(clk_i), .RN(n899), .Q(n1238), .QN(n723) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__9_ ( 
-        .D(n791), .CK(clk_i), .RN(n899), .Q(n1240), .QN(n722) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__8_ ( 
-        .D(n792), .CK(clk_i), .RN(n899), .Q(n1371), .QN(n721) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__7_ ( 
-        .D(n793), .CK(clk_i), .RN(n899), .Q(n1375), .QN(n720) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__6_ ( 
-        .D(n794), .CK(clk_i), .RN(n899), .Q(n1232), .QN(n719) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__5_ ( 
-        .D(n795), .CK(clk_i), .RN(n899), .Q(n1233), .QN(n718) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__4_ ( 
-        .D(n796), .CK(clk_i), .RN(n899), .Q(n1374), .QN(n717) );
-  DFFR_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_sum_q_reg_1__27_ ( 
-        .D(n624), .CK(clk_i), .RN(n901), .Q(n1366), .QN(n556) );
-  OR4_X1 U729 ( .A1(op_i[2]), .A2(op_i[3]), .A3(n1141), .A4(n1145), .ZN(n847)
+  OAI21_X1 U729 ( .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N156), .B2(n1506), .A(n1507), .ZN(n1049) );
+  OR4_X1 U730 ( .A1(op_i[2]), .A2(op_i[3]), .A3(n1142), .A4(n1146), .ZN(n847)
          );
-  XNOR2_X1 U730 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N268), .B(n922), .ZN(n848) );
-  NOR2_X1 U731 ( .A1(
-        add_0_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_A_8_), .A2(
-        add_0_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_carry[8]), .ZN(n850) );
-  INV_X1 U734 ( .A(n875), .ZN(n864) );
-  BUF_X1 U735 ( .A(n1020), .Z(n871) );
-  BUF_X1 U736 ( .A(n877), .Z(n875) );
-  BUF_X1 U737 ( .A(n1034), .Z(n883) );
-  BUF_X1 U738 ( .A(n877), .Z(n874) );
-  BUF_X1 U739 ( .A(n1161), .Z(n888) );
-  BUF_X1 U740 ( .A(n1162), .Z(n892) );
-  BUF_X1 U741 ( .A(n1166), .Z(n898) );
-  BUF_X1 U742 ( .A(n1031), .Z(n877) );
-  BUF_X1 U743 ( .A(rst_ni), .Z(n914) );
-  BUF_X1 U744 ( .A(rst_ni), .Z(n913) );
-  BUF_X1 U745 ( .A(rst_ni), .Z(n912) );
-  BUF_X1 U746 ( .A(rst_ni), .Z(n911) );
-  NOR2_X1 U747 ( .A1(n1046), .A2(n1442), .ZN(n1421) );
-  INV_X1 U748 ( .A(n1062), .ZN(n1051) );
-  INV_X1 U749 ( .A(n894), .ZN(n893) );
-  INV_X1 U750 ( .A(n864), .ZN(n863) );
-  NOR2_X1 U751 ( .A1(n1063), .A2(n873), .ZN(n1050) );
+  INV_X1 U734 ( .A(n876), .ZN(n865) );
+  CLKBUF_X1 U735 ( .A(n1021), .Z(n872) );
+  CLKBUF_X1 U736 ( .A(n878), .Z(n876) );
+  CLKBUF_X1 U737 ( .A(n1035), .Z(n884) );
+  CLKBUF_X1 U742 ( .A(n1032), .Z(n878) );
+  NOR2_X1 U747 ( .A1(n1047), .A2(n1443), .ZN(n1422) );
+  INV_X1 U748 ( .A(n1063), .ZN(n1052) );
+  INV_X1 U749 ( .A(n896), .ZN(n894) );
+  NOR2_X1 U751 ( .A1(n1064), .A2(n874), .ZN(n1051) );
   INV_X1 U752 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[0]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N152) );
-  BUF_X1 U753 ( .A(n871), .Z(n870) );
-  BUF_X1 U754 ( .A(n871), .Z(n869) );
-  BUF_X1 U755 ( .A(n871), .Z(n868) );
   NAND2_X1 U756 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N153), .A2(n1513), .ZN(n1042) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N153), .A2(n1514), .ZN(n1043) );
   INV_X1 U757 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[1]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N153) );
   OAI21_X2 U758 ( .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N154), .B2(n1505), .A(n1506), .ZN(n1044) );
-  BUF_X1 U759 ( .A(n1019), .Z(n867) );
-  OAI21_X1 U760 ( .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N156), .B2(n1505), .A(n1506), .ZN(n1048) );
-  INV_X1 U761 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[4]), .ZN(n925) );
-  BUF_X1 U762 ( .A(n1019), .Z(n866) );
-  BUF_X1 U763 ( .A(n1019), .Z(n865) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N154), .B2(n1506), .A(n1507), .ZN(n1045) );
+  CLKBUF_X1 U759 ( .A(n1020), .Z(n868) );
+  XOR2_X1 U760 ( .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[4]), .B(n861), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N156) );
+  NOR2_X1 U761 ( .A1(n926), .A2(n925), .ZN(n861) );
   INV_X1 U764 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[3]), .ZN(n924) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[3]), .ZN(n926) );
   INV_X1 U765 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N154), .ZN(n923) );
-  INV_X1 U766 ( .A(n874), .ZN(n873) );
-  INV_X1 U767 ( .A(n874), .ZN(n872) );
-  BUF_X1 U768 ( .A(n883), .Z(n880) );
-  BUF_X1 U769 ( .A(n883), .Z(n881) );
-  BUF_X1 U770 ( .A(n883), .Z(n882) );
-  BUF_X1 U771 ( .A(n884), .Z(n879) );
-  BUF_X1 U772 ( .A(n884), .Z(n878) );
-  OAI21_X1 U773 ( .B1(n953), .B2(n952), .A(n951), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N154), .ZN(n925) );
+  INV_X1 U766 ( .A(n878), .ZN(n874) );
+  OAI21_X1 U773 ( .B1(n954), .B2(n953), .A(n952), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round) );
-  INV_X1 U774 ( .A(n1164), .ZN(n894) );
+  INV_X1 U774 ( .A(n1165), .ZN(n896) );
   INV_X1 U775 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N116), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N115) );
-  BUF_X1 U776 ( .A(n898), .Z(n897) );
-  BUF_X1 U777 ( .A(n898), .Z(n895) );
-  BUF_X1 U778 ( .A(n888), .Z(n886) );
-  BUF_X1 U779 ( .A(n892), .Z(n889) );
-  BUF_X1 U780 ( .A(n898), .Z(n896) );
-  BUF_X1 U781 ( .A(n888), .Z(n887) );
-  BUF_X1 U782 ( .A(n888), .Z(n885) );
-  BUF_X1 U783 ( .A(n892), .Z(n890) );
-  INV_X1 U784 ( .A(n926), .ZN(n935) );
-  INV_X1 U785 ( .A(n932), .ZN(n947) );
-  INV_X1 U786 ( .A(n929), .ZN(n941) );
-  INV_X1 U787 ( .A(n928), .ZN(n939) );
-  INV_X1 U788 ( .A(n927), .ZN(n937) );
-  INV_X1 U789 ( .A(n931), .ZN(n945) );
-  INV_X1 U790 ( .A(n930), .ZN(n943) );
-  AND2_X1 U791 ( .A1(n1394), .A2(n1335), .ZN(n1159) );
-  BUF_X1 U792 ( .A(n892), .Z(n891) );
-  BUF_X1 U793 ( .A(n1034), .Z(n884) );
-  BUF_X1 U794 ( .A(n877), .Z(n876) );
-  NOR2_X2 U795 ( .A1(n1408), .A2(n1409), .ZN(n1015) );
-  NAND3_X1 U796 ( .A1(n1147), .A2(n1146), .A3(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N329), .ZN(n1000) );
-  INV_X1 U797 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N284), .ZN(n916) );
+  INV_X1 U784 ( .A(n927), .ZN(n936) );
+  INV_X1 U785 ( .A(n933), .ZN(n948) );
+  INV_X1 U786 ( .A(n930), .ZN(n942) );
+  INV_X1 U787 ( .A(n929), .ZN(n940) );
+  INV_X1 U788 ( .A(n928), .ZN(n938) );
+  INV_X1 U789 ( .A(n932), .ZN(n946) );
+  INV_X1 U790 ( .A(n931), .ZN(n944) );
+  AND2_X1 U791 ( .A1(n1395), .A2(n1336), .ZN(n1160) );
+  CLKBUF_X1 U793 ( .A(n1035), .Z(n885) );
+  XNOR2_X1 U795 ( .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N268), .B(n924), .ZN(n862) );
+  NOR2_X2 U796 ( .A1(n1409), .A2(n1410), .ZN(n1016) );
+  NAND3_X1 U797 ( .A1(n1148), .A2(n1147), .A3(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N329), .ZN(n1001) );
   INV_X1 U798 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_2_), .ZN(n936) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N284), .ZN(n918) );
   INV_X1 U799 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_3_), .ZN(n938) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_2_), .ZN(n937) );
   INV_X1 U800 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_5_), .ZN(n942) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_3_), .ZN(n939) );
   INV_X1 U801 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_6_), .ZN(n944) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_5_), .ZN(n943) );
   INV_X1 U802 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_4_), .ZN(n940) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_6_), .ZN(n945) );
   INV_X1 U803 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_1_), .ZN(n934) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_4_), .ZN(n941) );
   INV_X1 U804 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_7_), .ZN(n946) );
-  AND2_X1 U805 ( .A1(n1394), .A2(n1396), .ZN(n1155) );
-  INV_X1 U806 ( .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_1_), .ZN(n935) );
+  INV_X1 U805 ( .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_7_), .ZN(n947) );
+  NOR2_X1 U806 ( .A1(
+        add_0_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_A_8_), .A2(
+        add_0_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_carry[8]), .ZN(n863) );
+  AND2_X1 U807 ( .A1(n1395), .A2(n1397), .ZN(n1156) );
+  INV_X1 U808 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_549_A_0_), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N344) );
-  BUF_X1 U807 ( .A(n914), .Z(n899) );
-  BUF_X1 U808 ( .A(n914), .Z(n900) );
-  BUF_X1 U809 ( .A(n914), .Z(n901) );
-  BUF_X1 U810 ( .A(n913), .Z(n902) );
-  BUF_X1 U811 ( .A(n913), .Z(n903) );
-  BUF_X1 U812 ( .A(n913), .Z(n904) );
-  BUF_X1 U813 ( .A(n912), .Z(n905) );
-  BUF_X1 U814 ( .A(n912), .Z(n906) );
-  BUF_X1 U815 ( .A(n912), .Z(n907) );
-  BUF_X1 U816 ( .A(n911), .Z(n908) );
-  BUF_X1 U817 ( .A(n911), .Z(n909) );
-  BUF_X1 U818 ( .A(n911), .Z(n910) );
-  INV_X1 U819 ( .A(
-        dp_cluster_1_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_leading_zero_count_1_), .ZN(n917) );
-  INV_X1 U820 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_leading_zero_count[2]), .ZN(n915) );
-  NAND3_X1 U821 ( .A1(n1413), .A2(n1414), .A3(n1614), .ZN(n1013) );
-  NOR2_X1 U822 ( .A1(n733), .A2(n1562), .ZN(n966) );
-  NAND2_X1 U823 ( .A1(n1562), .A2(out_valid_o), .ZN(n967) );
-  OAI221_X4 U824 ( .B1(n1390), .B2(n1151), .C1(n1152), .C2(n1340), .A(n1391), 
-        .ZN(n1003) );
-  NOR2_X2 U825 ( .A1(n849), .A2(n1223), .ZN(n1118) );
-  XNOR2_X2 U826 ( .A(n1021), .B(n1114), .ZN(n1116) );
-  XOR2_X1 U827 ( .A(
+  INV_X1 U821 ( .A(
+        dp_cluster_1_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_leading_zero_count_1_), .ZN(n919) );
+  INV_X1 U822 ( .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_leading_zero_count[2]), .ZN(n917) );
+  NAND3_X1 U823 ( .A1(n1414), .A2(n1415), .A3(n1931), .ZN(n1014) );
+  NOR2_X1 U824 ( .A1(n2004), .A2(n1906), .ZN(n967) );
+  NAND2_X1 U825 ( .A1(n1906), .A2(out_valid_o), .ZN(n968) );
+  OAI221_X4 U826 ( .B1(n1391), .B2(n1152), .C1(n1153), .C2(n1341), .A(n1392), 
+        .ZN(n1004) );
+  NOR2_X2 U827 ( .A1(n1961), .A2(n1224), .ZN(n1119) );
+  XNOR2_X2 U828 ( .A(n1022), .B(n1115), .ZN(n1117) );
+  XOR2_X1 U829 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[7]), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[14]), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[14]) );
-  AND2_X1 U828 ( .A1(
+  AND2_X1 U830 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[6]), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[13]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[14]) );
-  XOR2_X1 U829 ( .A(
+  XOR2_X1 U831 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[6]), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[13]), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[13]) );
-  AND2_X1 U830 ( .A1(
+  AND2_X1 U832 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[5]), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[12]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[13]) );
-  XOR2_X1 U831 ( .A(
+  XOR2_X1 U833 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[5]), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[12]), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[12]) );
-  AND2_X1 U832 ( .A1(
+  AND2_X1 U834 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[4]), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[11]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[12]) );
-  XOR2_X1 U833 ( .A(
+  XOR2_X1 U835 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[4]), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[11]), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[11]) );
-  AND2_X1 U834 ( .A1(
+  AND2_X1 U836 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[3]), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[10]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[11]) );
-  XOR2_X1 U835 ( .A(
+  XOR2_X1 U837 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[3]), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[10]), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[10]) );
-  AND2_X1 U836 ( .A1(
+  AND2_X1 U838 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[2]), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[9]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[10]) );
-  XOR2_X1 U837 ( .A(
+  XOR2_X1 U839 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[2]), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[9]), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[9]) );
-  AND2_X1 U838 ( .A1(
+  AND2_X1 U840 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[1]), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[8]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[9]) );
-  XOR2_X1 U839 ( .A(
+  XOR2_X1 U841 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[1]), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[8]), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[8]) );
-  AND2_X1 U840 ( .A1(
+  AND2_X1 U842 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[0]), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[7]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[8]) );
-  XOR2_X1 U841 ( .A(
+  XOR2_X1 U843 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[0]), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[7]), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[7]) );
-  AND2_X1 U842 ( .A1(
+  AND2_X1 U844 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[6]), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[6]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[7]) );
-  XOR2_X1 U843 ( .A(
+  XOR2_X1 U845 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[6]), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[6]), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[6]) );
-  AND2_X1 U844 ( .A1(
+  AND2_X1 U846 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_A_5_), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[5]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[6]) );
-  XOR2_X1 U845 ( .A(
+  XOR2_X1 U847 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_A_5_), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[5]), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[5]) );
-  AND2_X1 U846 ( .A1(
+  AND2_X1 U848 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[4]), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[4]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[5]) );
-  XOR2_X1 U847 ( .A(
+  XOR2_X1 U849 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[4]), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[4]), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[4]) );
-  AND2_X1 U848 ( .A1(
+  AND2_X1 U850 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[3]), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[3]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[4]) );
-  XOR2_X1 U849 ( .A(
+  XOR2_X1 U851 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[3]), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[3]), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[3]) );
-  AND2_X1 U850 ( .A1(
+  AND2_X1 U852 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[2]), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[2]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[3]) );
-  XOR2_X1 U851 ( .A(
+  XOR2_X1 U853 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[2]), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[2]), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[2]) );
-  AND2_X1 U852 ( .A1(
+  AND2_X1 U854 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[1]), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[1]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[2]) );
-  XOR2_X1 U853 ( .A(
+  XOR2_X1 U855 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[1]), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[1]), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[1]) );
-  AND2_X1 U854 ( .A1(
+  AND2_X1 U856 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_round_up), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[0]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_carry[1]) );
-  XOR2_X1 U855 ( .A(
+  XOR2_X1 U857 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_round_up), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[0]), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[0]) );
-  XNOR2_X1 U856 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__9_), .B(
+  XNOR2_X1 U858 ( .A(n1896), .B(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[9]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N298) );
-  OR2_X1 U857 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__8_), .A2(
+  OR2_X1 U859 ( .A1(n1897), .A2(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[8]), .ZN(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[9]) );
-  XNOR2_X1 U858 ( .A(
-        sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[8]), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__8_), .ZN(
+  XNOR2_X1 U860 ( .A(
+        sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[8]), .B(n1897), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N297) );
-  OR2_X1 U859 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__7_), .A2(
+  OR2_X1 U861 ( .A1(n1898), .A2(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[7]), .ZN(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[8]) );
-  XNOR2_X1 U860 ( .A(
-        sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[7]), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__7_), .ZN(
+  XNOR2_X1 U862 ( .A(
+        sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[7]), .B(n1898), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N296) );
-  OR2_X1 U861 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__6_), .A2(
+  OR2_X1 U863 ( .A1(n1899), .A2(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[6]), .ZN(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[7]) );
-  XNOR2_X1 U862 ( .A(
-        sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[6]), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__6_), .ZN(
+  XNOR2_X1 U864 ( .A(
+        sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[6]), .B(n1899), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N295) );
-  OR2_X1 U863 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__5_), .A2(
+  OR2_X1 U865 ( .A1(n1900), .A2(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[5]), .ZN(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[6]) );
-  XNOR2_X1 U864 ( .A(
-        sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[5]), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__5_), .ZN(
+  XNOR2_X1 U866 ( .A(
+        sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[5]), .B(n1900), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N294) );
-  XOR2_X1 U865 ( .A(
+  XOR2_X1 U867 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_leading_zero_count[4]), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_514_carry[4]), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N288) );
-  XOR2_X1 U866 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__4_), .B(
+  XOR2_X1 U868 ( .A(n1901), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_519_carry[4]), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N313) );
-  OR2_X1 U867 ( .A1(
+  OR2_X1 U869 ( .A1(
         dp_cluster_1_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_leading_zero_count_3_), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_514_carry[3]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_514_carry[4]) );
-  XNOR2_X1 U868 ( .A(
+  XNOR2_X1 U870 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_514_carry[3]), .B(
         dp_cluster_1_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_leading_zero_count_3_), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N287) );
-  OR2_X1 U869 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__3_), .A2(
+  OR2_X1 U871 ( .A1(n1902), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_519_carry[3]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_519_carry[4]) );
-  XNOR2_X1 U870 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_519_carry[3]), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__3_), .ZN(
+  XNOR2_X1 U872 ( .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_519_carry[3]), .B(n1902), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N312) );
-  AND2_X1 U871 ( .A1(
+  AND2_X1 U873 ( .A1(
         dp_cluster_1_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_leading_zero_count_1_), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_leading_zero_count[2]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_514_carry[3]) );
-  XOR2_X1 U872 ( .A(
+  XOR2_X1 U874 ( .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_leading_zero_count[2]), .B(
         dp_cluster_1_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_leading_zero_count_1_), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N286) );
-  AND2_X1 U873 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__1_), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__2_), .ZN(
+  AND2_X1 U875 ( .A1(n1904), .A2(n1903), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_519_carry[3]) );
-  XOR2_X1 U874 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__2_), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__1_), .Z(
+  XOR2_X1 U876 ( .A(n1903), .B(n1904), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N311) );
-  XNOR2_X1 U875 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__9_), .B(
+  XNOR2_X1 U877 ( .A(n1896), .B(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[10]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N268) );
-  OR2_X1 U876 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__9_), .A2(
+  OR2_X1 U878 ( .A1(n1896), .A2(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[9]), .ZN(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[10]) );
-  XNOR2_X1 U877 ( .A(
-        sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[9]), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__9_), .ZN(
+  XNOR2_X1 U879 ( .A(
+        sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[9]), .B(n1896), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N267) );
-  OR2_X1 U878 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__8_), .A2(
+  OR2_X1 U880 ( .A1(n1897), .A2(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[8]), .ZN(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[9]) );
-  XNOR2_X1 U879 ( .A(
-        sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[8]), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__8_), .ZN(
+  XNOR2_X1 U881 ( .A(
+        sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[8]), .B(n1897), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N266) );
-  OR2_X1 U880 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__7_), .A2(
+  OR2_X1 U882 ( .A1(n1898), .A2(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[7]), .ZN(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[8]) );
-  XNOR2_X1 U881 ( .A(
-        sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[7]), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__7_), .ZN(
+  XNOR2_X1 U883 ( .A(
+        sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[7]), .B(n1898), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N265) );
-  OR2_X1 U882 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__6_), .A2(
+  OR2_X1 U884 ( .A1(n1899), .A2(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[6]), .ZN(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[7]) );
-  XNOR2_X1 U883 ( .A(
-        sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[6]), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__6_), .ZN(
+  XNOR2_X1 U885 ( .A(
+        sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[6]), .B(n1899), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N264) );
-  OR2_X1 U884 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__5_), .A2(
+  OR2_X1 U886 ( .A1(n1900), .A2(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[5]), .ZN(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[6]) );
-  XNOR2_X1 U885 ( .A(
-        sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[5]), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__5_), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N263) );
-  OR2_X1 U886 ( .A1(n916), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N309), .ZN(
-        sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[1]) );
   XNOR2_X1 U887 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N309), .B(n916), .ZN(
+        sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[5]), .B(n1900), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N263) );
+  OR2_X1 U888 ( .A1(n918), .A2(n1905), .ZN(
+        sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_512_carry[1]) );
+  XNOR2_X1 U889 ( .A(n1905), .B(n918), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N258) );
-  OR2_X1 U888 ( .A1(n916), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N309), .ZN(
+  OR2_X1 U890 ( .A1(n918), .A2(n1905), .ZN(
         sub_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_515_carry[1]) );
-  XNOR2_X1 U889 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N309), .B(n916), .ZN(
+  XNOR2_X1 U891 ( .A(n1905), .B(n918), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N289) );
-  XOR2_X1 U890 ( .A(n925), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_306_carry_4_), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N156) );
-  OR2_X1 U891 ( .A1(n924), .A2(n923), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_306_carry_4_) );
-  XNOR2_X1 U892 ( .A(n923), .B(n924), .ZN(
+  XNOR2_X1 U892 ( .A(n925), .B(n926), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N155) );
   AND2_X1 U893 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_285_carry[7]), .A2(
@@ -1488,1345 +1105,1609 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
   NAND3_X1 U924 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N268), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N258), .A3(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N259), .ZN(n921) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N259), .ZN(n923) );
   NAND3_X1 U925 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N261), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N260), .A3(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N262), .ZN(n920) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N262), .ZN(n922) );
   NAND3_X1 U926 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N264), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N263), .A3(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N265), .ZN(n919) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N265), .ZN(n921) );
   NAND2_X1 U927 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N267), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N266), .ZN(n918) );
-  NOR4_X1 U928 ( .A1(n921), .A2(n920), .A3(n919), .A4(n918), .ZN(n922) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N266), .ZN(n920) );
+  NOR4_X1 U928 ( .A1(n923), .A2(n922), .A3(n921), .A4(n920), .ZN(n924) );
   NOR2_X1 U929 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_1_), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_549_A_0_), .ZN(n926) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_549_A_0_), .ZN(n927) );
   OAI21_X1 U930 ( .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N344), .B2(n934), .A(n935), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N344), .B2(n935), .A(n936), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N345) );
-  NOR2_X1 U931 ( .A1(n935), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_2_), .ZN(n927) );
-  OAI21_X1 U932 ( .B1(n926), .B2(n936), .A(n937), .ZN(
+  NOR2_X1 U931 ( .A1(n936), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_2_), .ZN(n928) );
+  OAI21_X1 U932 ( .B1(n927), .B2(n937), .A(n938), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N346) );
-  NOR2_X1 U933 ( .A1(n937), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_3_), .ZN(n928) );
-  OAI21_X1 U934 ( .B1(n927), .B2(n938), .A(n939), .ZN(
+  NOR2_X1 U933 ( .A1(n938), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_3_), .ZN(n929) );
+  OAI21_X1 U934 ( .B1(n928), .B2(n939), .A(n940), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N347) );
-  NOR2_X1 U935 ( .A1(n939), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_4_), .ZN(n929) );
-  OAI21_X1 U936 ( .B1(n928), .B2(n940), .A(n941), .ZN(
+  NOR2_X1 U935 ( .A1(n940), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_4_), .ZN(n930) );
+  OAI21_X1 U936 ( .B1(n929), .B2(n941), .A(n942), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N348) );
-  NOR2_X1 U937 ( .A1(n941), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_5_), .ZN(n930) );
-  OAI21_X1 U938 ( .B1(n929), .B2(n942), .A(n943), .ZN(
+  NOR2_X1 U937 ( .A1(n942), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_5_), .ZN(n931) );
+  OAI21_X1 U938 ( .B1(n930), .B2(n943), .A(n944), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N349) );
-  NOR2_X1 U939 ( .A1(n943), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_6_), .ZN(n931) );
-  OAI21_X1 U940 ( .B1(n930), .B2(n944), .A(n945), .ZN(
+  NOR2_X1 U939 ( .A1(n944), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_6_), .ZN(n932) );
+  OAI21_X1 U940 ( .B1(n931), .B2(n945), .A(n946), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N350) );
-  NOR2_X1 U941 ( .A1(n945), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_7_), .ZN(n932) );
-  OAI21_X1 U942 ( .B1(n931), .B2(n946), .A(n947), .ZN(
+  NOR2_X1 U941 ( .A1(n946), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_7_), .ZN(n933) );
+  OAI21_X1 U942 ( .B1(n932), .B2(n947), .A(n948), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N351) );
   XOR2_X1 U943 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_8_), .B(n932), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_8_), .B(n933), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N352) );
   NOR2_X1 U944 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_8_), .A2(n947), .ZN(n933) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_8_), .A2(n948), .ZN(n934) );
   XOR2_X1 U945 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_9_), .B(n933), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_9_), .B(n934), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N353) );
   NOR3_X1 U946 ( .A1(n847), .A2(N32), .A3(N31), .ZN(N119) );
   NOR4_X1 U947 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_4_), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_3_), .A3(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_2_), .A4(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_1_), .ZN(n949) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_1_), .ZN(n950) );
   NOR4_X1 U948 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_8_), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_7_), .A3(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_6_), .A4(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_5_), .ZN(n948) );
-  AOI21_X1 U949 ( .B1(n949), .B2(n948), .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_5_), .ZN(n949) );
+  AOI21_X1 U949 ( .B1(n950), .B2(n949), .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_9_), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N329) );
   AND2_X1 U950 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_3_), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_2_), .ZN(n950) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_2_), .ZN(n951) );
   NAND4_X1 U951 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_0_), .A2(n1004), .A3(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_1_), .A4(n950), .ZN(n953) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_0_), .A2(n1005), .A3(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_1_), .A4(n951), .ZN(n954) );
   NAND4_X1 U952 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_7_), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_6_), .A3(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_5_), .A4(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_4_), .ZN(n952) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_4_), .ZN(n953) );
   NAND2_X1 U953 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_8_), .A2(n1004), .ZN(n951) );
-  AND2_X1 U954 ( .A1(out_valid_o), .A2(n1554), .ZN(tag_o) );
-  NOR4_X1 U955 ( .A1(n954), .A2(n955), .A3(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_8_), .A2(n1005), .ZN(n952) );
+  AND2_X1 U954 ( .A1(out_valid_o), .A2(n1869), .ZN(tag_o) );
+  NOR4_X1 U955 ( .A1(n955), .A2(n956), .A3(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[14]), .A4(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[13]), .ZN(status_o_UF_) );
-  NAND3_X1 U956 ( .A1(n956), .A2(n957), .A3(n958), .ZN(n955) );
-  NAND4_X1 U957 ( .A1(status_o_NX_), .A2(n959), .A3(n960), .A4(n961), .ZN(n954) );
-  NAND2_X1 U958 ( .A1(n962), .A2(n963), .ZN(status_o_NX_) );
-  OAI21_X1 U959 ( .B1(n964), .B2(n965), .A(n966), .ZN(n963) );
-  NOR2_X1 U960 ( .A1(n1543), .A2(n967), .ZN(status_o_NV_) );
-  OAI22_X1 U961 ( .A1(n968), .A2(n957), .B1(n967), .B2(n969), .ZN(result_o[9])
-         );
+  NAND3_X1 U956 ( .A1(n957), .A2(n958), .A3(n959), .ZN(n956) );
+  NAND4_X1 U957 ( .A1(status_o_NX_), .A2(n960), .A3(n961), .A4(n962), .ZN(n955) );
+  NAND2_X1 U958 ( .A1(n963), .A2(n964), .ZN(status_o_NX_) );
+  OAI21_X1 U959 ( .B1(n965), .B2(n966), .A(n967), .ZN(n964) );
+  NOR2_X1 U960 ( .A1(n2008), .A2(n968), .ZN(status_o_NV_) );
+  OAI22_X1 U961 ( .A1(n969), .A2(n958), .B1(n968), .B2(n1928), .ZN(result_o[9]) );
   INV_X1 U962 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[9]), .ZN(n957) );
-  OAI22_X1 U963 ( .A1(n968), .A2(n956), .B1(n967), .B2(n970), .ZN(result_o[8])
-         );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[9]), .ZN(n958) );
+  OAI22_X1 U963 ( .A1(n969), .A2(n957), .B1(n968), .B2(n1927), .ZN(result_o[8]) );
   INV_X1 U964 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[8]), .ZN(n956) );
-  OAI22_X1 U965 ( .A1(n968), .A2(n958), .B1(n967), .B2(n971), .ZN(result_o[7])
-         );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[8]), .ZN(n957) );
+  OAI22_X1 U965 ( .A1(n969), .A2(n959), .B1(n968), .B2(n1930), .ZN(result_o[7]) );
   INV_X1 U966 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[7]), .ZN(n958) );
-  INV_X1 U967 ( .A(n972), .ZN(result_o[6]) );
-  AOI22_X1 U968 ( .A1(n966), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[6]), .B1(n973), .B2(n1560), .ZN(n972) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[7]), .ZN(n959) );
+  INV_X1 U967 ( .A(n973), .ZN(result_o[6]) );
+  AOI22_X1 U968 ( .A1(n967), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[6]), .B1(n974), .B2(n1874), .ZN(n973) );
   AND2_X1 U969 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[5]), .A2(n966), .ZN(result_o[5]) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[5]), .A2(n967), .ZN(result_o[5]) );
   AND2_X1 U970 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[4]), .A2(n966), .ZN(result_o[4]) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[4]), .A2(n967), .ZN(result_o[4]) );
   AND2_X1 U971 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[3]), .A2(n966), .ZN(result_o[3]) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[3]), .A2(n967), .ZN(result_o[3]) );
   AND2_X1 U972 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[2]), .A2(n966), .ZN(result_o[2]) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[2]), .A2(n967), .ZN(result_o[2]) );
   AND2_X1 U973 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[1]), .A2(n966), .ZN(result_o[1]) );
-  OAI22_X1 U974 ( .A1(n1542), .A2(n967), .B1(n968), .B2(n974), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[1]), .A2(n967), .ZN(result_o[1]) );
+  OAI22_X1 U974 ( .A1(n2014), .A2(n968), .B1(n969), .B2(n975), .ZN(
         result_o[15]) );
-  MUX2_X1 U975 ( .A(n975), .B(n976), .S(n977), .Z(n974) );
-  NOR3_X1 U976 ( .A1(n978), .A2(n979), .A3(n980), .ZN(n977) );
-  NAND4_X1 U977 ( .A1(n981), .A2(n982), .A3(n1561), .A4(n983), .ZN(n980) );
+  MUX2_X1 U975 ( .A(n2011), .B(n977), .S(n978), .Z(n975) );
+  NOR3_X1 U976 ( .A1(n979), .A2(n980), .A3(n981), .ZN(n978) );
+  NAND4_X1 U977 ( .A1(n982), .A2(n983), .A3(n1895), .A4(n984), .ZN(n981) );
   OR4_X1 U978 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[1]), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[2]), .A3(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[3]), .A4(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[4]), .ZN(n979) );
-  NAND4_X1 U979 ( .A1(n984), .A2(n985), .A3(n986), .A4(n987), .ZN(n978) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[4]), .ZN(n980) );
+  NAND4_X1 U979 ( .A1(n985), .A2(n986), .A3(n987), .A4(n988), .ZN(n979) );
   NOR4_X1 U980 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_2_), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_1_), .A3(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_0_), .A4(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[6]), .ZN(n987) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[6]), .ZN(n988) );
   NOR3_X1 U981 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_5_), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_A_5_), .A3(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_6_), .ZN(n986) );
-  NAND3_X1 U982 ( .A1(n860), .A2(n846), .A3(n1556), .ZN(n976) );
-  INV_X1 U983 ( .A(n988), .ZN(result_o[14]) );
-  AOI22_X1 U984 ( .A1(n966), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[14]), .B1(n973), .B2(n1550), .ZN(n988) );
-  INV_X1 U985 ( .A(n989), .ZN(result_o[13]) );
-  AOI22_X1 U986 ( .A1(n966), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[13]), .B1(n973), .B2(n1551), .ZN(n989) );
-  INV_X1 U987 ( .A(n967), .ZN(n973) );
-  OAI22_X1 U988 ( .A1(n968), .A2(n961), .B1(n967), .B2(n990), .ZN(result_o[12]) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_6_), .ZN(n987) );
+  NAND3_X1 U982 ( .A1(n1996), .A2(n1997), .A3(n1870), .ZN(n977) );
+  INV_X1 U983 ( .A(n989), .ZN(result_o[14]) );
+  AOI22_X1 U984 ( .A1(n967), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[14]), .B1(n974), .B2(n1924), .ZN(n989) );
+  INV_X1 U985 ( .A(n990), .ZN(result_o[13]) );
+  AOI22_X1 U986 ( .A1(n967), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[13]), .B1(n974), .B2(n1923), .ZN(n990) );
+  INV_X1 U987 ( .A(n968), .ZN(n974) );
+  OAI22_X1 U988 ( .A1(n969), .A2(n962), .B1(n968), .B2(n1925), .ZN(
+        result_o[12]) );
   INV_X1 U989 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[12]), .ZN(n961) );
-  OAI22_X1 U990 ( .A1(n968), .A2(n960), .B1(n967), .B2(n991), .ZN(result_o[11]) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[12]), .ZN(n962) );
+  OAI22_X1 U990 ( .A1(n969), .A2(n961), .B1(n968), .B2(n1926), .ZN(
+        result_o[11]) );
   INV_X1 U991 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[11]), .ZN(n960) );
-  OAI22_X1 U992 ( .A1(n968), .A2(n959), .B1(n967), .B2(n992), .ZN(result_o[10]) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[11]), .ZN(n961) );
+  OAI22_X1 U992 ( .A1(n969), .A2(n960), .B1(n968), .B2(n1929), .ZN(
+        result_o[10]) );
   INV_X1 U993 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[10]), .ZN(n959) );
-  INV_X1 U994 ( .A(n966), .ZN(n968) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[10]), .ZN(n960) );
+  INV_X1 U994 ( .A(n967), .ZN(n969) );
   AND2_X1 U995 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[0]), .A2(n966), .ZN(result_o[0]) );
-  INV_X1 U996 ( .A(n962), .ZN(status_o_OF_) );
-  NAND2_X1 U997 ( .A1(n966), .A2(n993), .ZN(n962) );
-  OAI21_X1 U998 ( .B1(n994), .B2(n995), .A(n996), .ZN(n993) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[0]), .A2(n967), .ZN(result_o[0]) );
+  INV_X1 U996 ( .A(n963), .ZN(status_o_OF_) );
+  NAND2_X1 U997 ( .A1(n967), .A2(n994), .ZN(n963) );
+  OAI21_X1 U998 ( .B1(n995), .B2(n996), .A(n997), .ZN(n994) );
   NAND4_X1 U999 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[9]), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[8]), .A3(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[7]), .A4(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[14]), .ZN(n995) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[14]), .ZN(n996) );
   NAND4_X1 U1000 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[13]), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[12]), .A3(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[11]), .A4(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[10]), .ZN(n994) );
-  OAI221_X1 U1001 ( .B1(n997), .B2(n998), .C1(n999), .C2(n1000), .A(n1001), 
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_rounded_abs[10]), .ZN(n995) );
+  OAI221_X1 U1001 ( .B1(n998), .B2(n999), .C1(n1000), .C2(n1001), .A(n1002), 
         .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_add_63_A_5_) );
-  AOI21_X1 U1002 ( .B1(n1002), .B2(n1003), .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .ZN(n1001) );
+  AOI21_X1 U1002 ( .B1(n1003), .B2(n1004), .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .ZN(n1002) );
   AOI222_X1 U1003 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N342), .A2(n1003), .B1(n1005), .B2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N342), .A2(n1004), .B1(n1006), .B2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_9_), .C1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N353), .C2(n1006), .ZN(n1004) );
-  INV_X1 U1004 ( .A(n1007), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N353), .C2(n1007), .ZN(n1005) );
+  INV_X1 U1004 ( .A(n1008), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_8_) );
   AOI222_X1 U1005 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N341), .A2(n1003), .B1(n1005), .B2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N341), .A2(n1004), .B1(n1006), .B2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_8_), .C1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N352), .C2(n1006), .ZN(n1007) );
-  INV_X1 U1006 ( .A(n1008), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N352), .C2(n1007), .ZN(n1008) );
+  INV_X1 U1006 ( .A(n1009), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_6_) );
-  INV_X1 U1007 ( .A(n1009), .ZN(
+  INV_X1 U1007 ( .A(n1010), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_5_) );
-  INV_X1 U1008 ( .A(n985), .ZN(
+  INV_X1 U1008 ( .A(n986), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_4_) );
-  INV_X1 U1009 ( .A(n984), .ZN(
+  INV_X1 U1009 ( .A(n985), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_3_) );
-  INV_X1 U1010 ( .A(n1010), .ZN(
+  INV_X1 U1010 ( .A(n1011), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_2_) );
-  INV_X1 U1011 ( .A(n1011), .ZN(
+  INV_X1 U1011 ( .A(n1012), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_1_) );
-  INV_X1 U1012 ( .A(n1012), .ZN(
+  INV_X1 U1012 ( .A(n1013), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_0_) );
-  OAI21_X1 U1013 ( .B1(n1570), .B2(n1013), .A(n1014), .ZN(
+  OAI21_X1 U1013 ( .B1(n1932), .B2(n1014), .A(n1015), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_9_) );
   NAND2_X1 U1014 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N308), .A2(n1015), .ZN(n1014) );
-  OAI21_X1 U1015 ( .B1(n1571), .B2(n1013), .A(n1016), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N308), .A2(n1016), .ZN(n1015) );
+  OAI21_X1 U1015 ( .B1(n1934), .B2(n1014), .A(n1017), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_8_) );
   NAND2_X1 U1016 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N307), .A2(n1015), .ZN(n1016) );
-  INV_X1 U1017 ( .A(n1017), .ZN(n1622) );
-  AOI21_X1 U1018 ( .B1(n873), .B2(n1606), .A(n1018), .ZN(n1017) );
-  MUX2_X1 U1019 ( .A(n867), .B(n870), .S(n1021), .Z(n1018) );
-  INV_X1 U1020 ( .A(n1022), .ZN(n1623) );
-  MUX2_X1 U1021 ( .A(n1023), .B(n1614), .S(n864), .Z(n1022) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N307), .A2(n1016), .ZN(n1017) );
+  INV_X1 U1017 ( .A(n1018), .ZN(n1607) );
+  AOI21_X1 U1018 ( .B1(n874), .B2(n1948), .A(n1019), .ZN(n1018) );
+  MUX2_X1 U1019 ( .A(n868), .B(n1021), .S(n1022), .Z(n1019) );
+  MUX2_X1 U1021 ( .A(n1024), .B(n1931), .S(n865), .Z(n1023) );
   MUX2_X1 U1022 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[8]), .B(n1024), .S(n864), .Z(n1625) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[8]), .B(n1917), .S(n865), .Z(n1025) );
   MUX2_X1 U1023 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[7]), .B(n1025), .S(n864), .Z(n1627) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[7]), .B(n1916), .S(n865), .Z(n1026) );
   MUX2_X1 U1024 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[6]), .B(n1026), .S(n864), .Z(n1629) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[6]), .B(n1915), .S(n865), .Z(n1027) );
   MUX2_X1 U1025 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[5]), .B(n1027), .S(n864), .Z(n1631) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[5]), .B(n1914), .S(n865), .Z(n1028) );
   MUX2_X1 U1026 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[4]), .B(n1028), .S(n864), .Z(n1633) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[4]), .B(n1913), .S(n865), .Z(n1029) );
   MUX2_X1 U1027 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[3]), .B(n1029), .S(n864), .Z(n1635) );
-  MUX2_X1 U1028 ( .A(n1030), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N154), .S(n863), .Z(n1637) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[3]), .B(n1912), .S(n865), .Z(n1030) );
+  MUX2_X1 U1028 ( .A(n1911), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N154), .S(n876), .Z(n1031) );
   MUX2_X1 U1029 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[1]), .B(n1032), .S(n864), .Z(n1639) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[1]), .B(n1910), .S(n865), .Z(n1033) );
   MUX2_X1 U1030 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[0]), .B(n1033), .S(n864), .Z(n1641) );
-  INV_X1 U1031 ( .A(flush_i), .ZN(n1643) );
-  MUX2_X1 U1032 ( .A(op_i[0]), .B(n1612), .S(n878), .Z(n830) );
-  MUX2_X1 U1033 ( .A(op_i[1]), .B(n1608), .S(n878), .Z(n829) );
-  MUX2_X1 U1034 ( .A(n1035), .B(n1562), .S(n864), .Z(n828) );
-  NAND2_X1 U1035 ( .A1(n1036), .A2(n1037), .ZN(n1035) );
-  MUX2_X1 U1036 ( .A(n1642), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N309), .S(n864), .Z(n827) );
-  MUX2_X1 U1037 ( .A(n1640), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__1_), .S(n864), .Z(n826) );
-  MUX2_X1 U1038 ( .A(n1638), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__2_), .S(n872), .Z(n825) );
-  MUX2_X1 U1039 ( .A(n1636), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__3_), .S(n872), .Z(n824) );
-  MUX2_X1 U1040 ( .A(n1634), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__4_), .S(n872), .Z(n823) );
-  MUX2_X1 U1041 ( .A(n1632), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__5_), .S(n872), .Z(n822) );
-  MUX2_X1 U1042 ( .A(n1630), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__6_), .S(n872), .Z(n821) );
-  MUX2_X1 U1043 ( .A(n1628), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__7_), .S(n872), .Z(n820) );
-  MUX2_X1 U1044 ( .A(n1626), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__8_), .S(n872), .Z(n819) );
-  MUX2_X1 U1045 ( .A(n1624), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__9_), .S(n872), .Z(n818) );
-  INV_X1 U1046 ( .A(n1038), .ZN(n1624) );
-  INV_X1 U1047 ( .A(n1039), .ZN(n817) );
-  MUX2_X1 U1048 ( .A(n1040), .B(n1544), .S(n872), .Z(n1039) );
-  INV_X1 U1049 ( .A(n1041), .ZN(n816) );
-  MUX2_X1 U1050 ( .A(n1042), .B(n1545), .S(n872), .Z(n1041) );
-  INV_X1 U1051 ( .A(n1043), .ZN(n815) );
-  MUX2_X1 U1052 ( .A(n1044), .B(n1546), .S(n872), .Z(n1043) );
-  INV_X1 U1053 ( .A(n1045), .ZN(n814) );
-  MUX2_X1 U1054 ( .A(n1046), .B(n1547), .S(n872), .Z(n1045) );
-  INV_X1 U1055 ( .A(n1047), .ZN(n813) );
-  MUX2_X1 U1056 ( .A(n1048), .B(n1548), .S(n872), .Z(n1047) );
-  OAI21_X1 U1057 ( .B1(n1579), .B2(n863), .A(n1049), .ZN(n812) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[0]), .B(n1909), .S(n865), .Z(n1034) );
+  MUX2_X1 U1032 ( .A(op_i[0]), .B(n1908), .S(n1035), .Z(n1613) );
+  MUX2_X1 U1033 ( .A(op_i[1]), .B(n1907), .S(n1035), .Z(n1609) );
+  MUX2_X1 U1034 ( .A(n1036), .B(n1906), .S(n865), .Z(n1563) );
+  NAND2_X1 U1035 ( .A1(n1037), .A2(n1038), .ZN(n1036) );
+  MUX2_X1 U1036 ( .A(n1643), .B(n1905), .S(n865), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N309) );
+  MUX2_X1 U1037 ( .A(n1641), .B(n1904), .S(n865), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__1_) );
+  MUX2_X1 U1038 ( .A(n1639), .B(n1903), .S(n865), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__2_) );
+  MUX2_X1 U1039 ( .A(n1637), .B(n1902), .S(n874), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__3_) );
+  MUX2_X1 U1040 ( .A(n1635), .B(n1901), .S(n865), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__4_) );
+  MUX2_X1 U1041 ( .A(n1633), .B(n1900), .S(n874), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__5_) );
+  MUX2_X1 U1042 ( .A(n1631), .B(n1899), .S(n865), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__6_) );
+  MUX2_X1 U1043 ( .A(n1629), .B(n1898), .S(n874), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__7_) );
+  MUX2_X1 U1044 ( .A(n1627), .B(n1897), .S(n865), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__8_) );
+  MUX2_X1 U1045 ( .A(n1625), .B(n1896), .S(n874), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__9_) );
+  INV_X1 U1046 ( .A(n1039), .ZN(n1625) );
+  MUX2_X1 U1048 ( .A(n1041), .B(n1942), .S(n874), .Z(n1040) );
+  MUX2_X1 U1050 ( .A(n1043), .B(n1944), .S(n865), .Z(n1042) );
+  MUX2_X1 U1052 ( .A(n1045), .B(n1946), .S(n865), .Z(n1044) );
+  MUX2_X1 U1054 ( .A(n1047), .B(n1943), .S(n874), .Z(n1046) );
+  MUX2_X1 U1056 ( .A(n1049), .B(n1945), .S(n874), .Z(n1048) );
+  OAI21_X1 U1057 ( .B1(n1941), .B2(n876), .A(n1050), .ZN(n812) );
   AOI22_X1 U1058 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_addend[0]), .A2(n1050), .B1(n1051), .B2(n1642), .ZN(n1049) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_addend[0]), .A2(n1051), .B1(n1052), .B2(n1643), .ZN(n1050) );
   OR2_X1 U1059 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N135), .A2(n1052), .ZN(n1642) );
-  OAI21_X1 U1060 ( .B1(n1578), .B2(n863), .A(n1053), .ZN(n811) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N135), .A2(n1053), .ZN(n1643) );
+  OAI21_X1 U1060 ( .B1(n1940), .B2(n876), .A(n1054), .ZN(n811) );
   AOI22_X1 U1061 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_addend[1]), .A2(n1050), .B1(n1051), .B2(n1640), .ZN(n1053) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_addend[1]), .A2(n1051), .B1(n1052), .B2(n1641), .ZN(n1054) );
   OR2_X1 U1062 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N136), .A2(n1052), .ZN(n1640) );
-  OAI21_X1 U1063 ( .B1(n1577), .B2(n863), .A(n1054), .ZN(n810) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N136), .A2(n1053), .ZN(n1641) );
+  OAI21_X1 U1063 ( .B1(n1939), .B2(n876), .A(n1055), .ZN(n810) );
   AOI22_X1 U1064 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_addend[2]), .A2(n1050), .B1(n1051), .B2(n1638), .ZN(n1054) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_addend[2]), .A2(n1051), .B1(n1052), .B2(n1639), .ZN(n1055) );
   AND2_X1 U1065 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N137), .A2(n1055), .ZN(n1638) );
-  OAI21_X1 U1066 ( .B1(n1576), .B2(n863), .A(n1056), .ZN(n809) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N137), .A2(n1056), .ZN(n1639) );
+  OAI21_X1 U1066 ( .B1(n1938), .B2(n876), .A(n1057), .ZN(n809) );
   AOI22_X1 U1067 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_addend[3]), .A2(n1050), .B1(n1051), .B2(n1636), .ZN(n1056) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_addend[3]), .A2(n1051), .B1(n1052), .B2(n1637), .ZN(n1057) );
   AND2_X1 U1068 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N138), .A2(n1055), .ZN(n1636) );
-  OAI21_X1 U1069 ( .B1(n1575), .B2(n874), .A(n1057), .ZN(n808) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N138), .A2(n1056), .ZN(n1637) );
+  OAI21_X1 U1069 ( .B1(n1933), .B2(n878), .A(n1058), .ZN(n808) );
   AOI22_X1 U1070 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_addend[4]), .A2(n1050), .B1(n1051), .B2(n1634), .ZN(n1057) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_addend[4]), .A2(n1051), .B1(n1052), .B2(n1635), .ZN(n1058) );
   AND2_X1 U1071 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N139), .A2(n1055), .ZN(n1634) );
-  OAI21_X1 U1072 ( .B1(n1574), .B2(n863), .A(n1058), .ZN(n807) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N139), .A2(n1056), .ZN(n1635) );
+  OAI21_X1 U1072 ( .B1(n1937), .B2(n876), .A(n1059), .ZN(n807) );
   AOI22_X1 U1073 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_addend[5]), .A2(n1050), .B1(n1051), .B2(n1632), .ZN(n1058) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_addend[5]), .A2(n1051), .B1(n1052), .B2(n1633), .ZN(n1059) );
   AND2_X1 U1074 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N140), .A2(n1055), .ZN(n1632) );
-  OAI21_X1 U1075 ( .B1(n1573), .B2(n863), .A(n1059), .ZN(n806) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N140), .A2(n1056), .ZN(n1633) );
+  OAI21_X1 U1075 ( .B1(n1936), .B2(n876), .A(n1060), .ZN(n806) );
   AOI22_X1 U1076 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_addend[6]), .A2(n1050), .B1(n1051), .B2(n1630), .ZN(n1059) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_addend[6]), .A2(n1051), .B1(n1052), .B2(n1631), .ZN(n1060) );
   AND2_X1 U1077 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N141), .A2(n1055), .ZN(n1630) );
-  INV_X1 U1078 ( .A(n1052), .ZN(n1055) );
-  OAI21_X1 U1079 ( .B1(n1572), .B2(n863), .A(n1060), .ZN(n805) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N141), .A2(n1056), .ZN(n1631) );
+  INV_X1 U1078 ( .A(n1053), .ZN(n1056) );
+  OAI21_X1 U1079 ( .B1(n1935), .B2(n876), .A(n1061), .ZN(n805) );
   AOI22_X1 U1080 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_addend[7]), .A2(n1050), .B1(n1051), .B2(n1628), .ZN(n1060) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_addend[7]), .A2(n1051), .B1(n1052), .B2(n1629), .ZN(n1061) );
   OR2_X1 U1081 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N142), .A2(n1052), .ZN(n1628) );
-  OAI21_X1 U1082 ( .B1(n1571), .B2(n863), .A(n1061), .ZN(n804) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N142), .A2(n1053), .ZN(n1629) );
+  OAI21_X1 U1082 ( .B1(n1934), .B2(n876), .A(n1062), .ZN(n804) );
   AOI22_X1 U1083 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_addend[8]), .A2(n1050), .B1(n1051), .B2(n1626), .ZN(n1061) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_addend[8]), .A2(n1051), .B1(n1052), .B2(n1627), .ZN(n1062) );
   OR2_X1 U1084 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N143), .A2(n1052), .ZN(n1626) );
-  OAI22_X1 U1085 ( .A1(n1570), .A2(n863), .B1(n1038), .B2(n1062), .ZN(n803) );
-  NAND2_X1 U1086 ( .A1(n863), .A2(n1063), .ZN(n1062) );
-  OAI21_X1 U1087 ( .B1(n1064), .B2(n1065), .A(n1023), .ZN(n1063) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N143), .A2(n1053), .ZN(n1627) );
+  OAI22_X1 U1085 ( .A1(n1932), .A2(n876), .B1(n1039), .B2(n1063), .ZN(n803) );
+  NAND2_X1 U1086 ( .A1(n876), .A2(n1064), .ZN(n1063) );
+  OAI21_X1 U1087 ( .B1(n1065), .B2(n1066), .A(n1024), .ZN(n1064) );
   INV_X1 U1088 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[9]), .ZN(n1023) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[9]), .ZN(n1024) );
   OR4_X1 U1089 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[0]), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[1]), .A3(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N154), .A4(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[3]), .ZN(n1065) );
-  NAND4_X1 U1090 ( .A1(n1066), .A2(n1067), .A3(n1068), .A4(n1069), .ZN(n1064)
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[3]), .ZN(n1066) );
+  NAND4_X1 U1090 ( .A1(n1067), .A2(n1068), .A3(n1069), .A4(n1070), .ZN(n1065)
          );
   NOR2_X1 U1091 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[5]), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[4]), .ZN(n1069) );
-  NOR2_X1 U1092 ( .A1(n850), .A2(n1052), .ZN(n1038) );
-  OAI21_X1 U1093 ( .B1(n1070), .B2(n1071), .A(n1072), .ZN(n1052) );
-  NAND3_X1 U1094 ( .A1(n1073), .A2(n1074), .A3(n1588), .ZN(n1072) );
-  INV_X1 U1095 ( .A(n1075), .ZN(n1073) );
-  MUX2_X1 U1096 ( .A(n1076), .B(n1561), .S(n872), .Z(n802) );
-  MUX2_X1 U1097 ( .A(n1077), .B(n1078), .S(n872), .Z(n801) );
-  NAND4_X1 U1098 ( .A1(n1079), .A2(n1080), .A3(n1081), .A4(n1082), .ZN(n1077)
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[4]), .ZN(n1070) );
+  NOR2_X1 U1092 ( .A1(n863), .A2(n1053), .ZN(n1039) );
+  OAI21_X1 U1093 ( .B1(n1071), .B2(n1072), .A(n1073), .ZN(n1053) );
+  NAND3_X1 U1094 ( .A1(n1074), .A2(n1075), .A3(n1920), .ZN(n1073) );
+  INV_X1 U1095 ( .A(n1076), .ZN(n1074) );
+  MUX2_X1 U1096 ( .A(n1077), .B(n1895), .S(n874), .Z(n1562) );
+  MUX2_X1 U1097 ( .A(n1078), .B(n1894), .S(n874), .Z(n1079) );
+  NAND4_X1 U1098 ( .A1(n1080), .A2(n1081), .A3(n1082), .A4(n1083), .ZN(n1078)
          );
-  AOI21_X1 U1099 ( .B1(n1083), .B2(n1084), .A(n1085), .ZN(n1082) );
-  NOR4_X1 U1100 ( .A1(n1652), .A2(n1074), .A3(n851), .A4(n1086), .ZN(n1085) );
-  INV_X1 U1101 ( .A(n1037), .ZN(n1084) );
-  NAND4_X1 U1102 ( .A1(n1549), .A2(n1087), .A3(n1088), .A4(n859), .ZN(n1081)
+  AOI21_X1 U1099 ( .B1(n1084), .B2(n1085), .A(n1086), .ZN(n1083) );
+  NOR4_X1 U1100 ( .A1(n1841), .A2(n1075), .A3(n2003), .A4(n1087), .ZN(n1086)
          );
-  NAND4_X1 U1103 ( .A1(n1604), .A2(n1089), .A3(n1090), .A4(n836), .ZN(n1079)
+  INV_X1 U1101 ( .A(n1038), .ZN(n1085) );
+  NAND4_X1 U1102 ( .A1(n1922), .A2(n1088), .A3(n1089), .A4(n1967), .ZN(n1082)
          );
-  OAI21_X1 U1104 ( .B1(n712), .B2(n876), .A(n1091), .ZN(n800) );
+  NAND4_X1 U1103 ( .A1(n1921), .A2(n1090), .A3(n1091), .A4(n2000), .ZN(n1080)
+         );
+  OAI21_X1 U1104 ( .B1(n1962), .B2(n876), .A(n1092), .ZN(n1352) );
   AOI22_X1 U1105 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N219), .A2(n867), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N219), .B2(n870), .ZN(n1091) );
-  OAI21_X1 U1106 ( .B1(n713), .B2(n874), .A(n1092), .ZN(n799) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N219), .A2(n868), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N219), .B2(n872), .ZN(n1092) );
+  OAI21_X1 U1106 ( .B1(n2005), .B2(n878), .A(n1093), .ZN(n1351) );
   AOI22_X1 U1107 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[1]), .A2(n867), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N220), .B2(n870), .ZN(n1092) );
-  OAI21_X1 U1108 ( .B1(n714), .B2(n874), .A(n1093), .ZN(n798) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[1]), .A2(n868), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N220), .B2(n872), .ZN(n1093) );
+  OAI21_X1 U1108 ( .B1(n1963), .B2(n878), .A(n1094), .ZN(n1231) );
   AOI22_X1 U1109 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[2]), .A2(n867), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N221), .B2(n870), .ZN(n1093) );
-  OAI21_X1 U1110 ( .B1(n716), .B2(n874), .A(n1094), .ZN(n797) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[2]), .A2(n868), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N221), .B2(n872), .ZN(n1094) );
+  OAI21_X1 U1110 ( .B1(n2009), .B2(n878), .A(n1095), .ZN(n1378) );
   AOI22_X1 U1111 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[3]), .A2(n867), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N222), .B2(n870), .ZN(n1094) );
-  OAI21_X1 U1112 ( .B1(n717), .B2(n876), .A(n1095), .ZN(n796) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[3]), .A2(n868), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N222), .B2(n872), .ZN(n1095) );
+  OAI21_X1 U1112 ( .B1(n1973), .B2(n876), .A(n1096), .ZN(n1375) );
   AOI22_X1 U1113 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[4]), .A2(n866), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N223), .B2(n869), .ZN(n1095) );
-  OAI21_X1 U1114 ( .B1(n718), .B2(n876), .A(n1096), .ZN(n795) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[4]), .A2(n1020), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N223), .B2(n872), .ZN(n1096) );
+  OAI21_X1 U1114 ( .B1(n1976), .B2(n876), .A(n1097), .ZN(n1234) );
   AOI22_X1 U1115 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[5]), .A2(n866), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N224), .B2(n869), .ZN(n1096) );
-  OAI21_X1 U1116 ( .B1(n719), .B2(n876), .A(n1097), .ZN(n794) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[5]), .A2(n1020), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N224), .B2(n872), .ZN(n1097) );
+  OAI21_X1 U1116 ( .B1(n1978), .B2(n876), .A(n1098), .ZN(n1233) );
   AOI22_X1 U1117 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[6]), .A2(n866), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N225), .B2(n869), .ZN(n1097) );
-  OAI21_X1 U1118 ( .B1(n720), .B2(n876), .A(n1098), .ZN(n793) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[6]), .A2(n1020), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N225), .B2(n1021), .ZN(n1098) );
+  OAI21_X1 U1118 ( .B1(n1980), .B2(n876), .A(n1099), .ZN(n1376) );
   AOI22_X1 U1119 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[7]), .A2(n866), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N226), .B2(n869), .ZN(n1098) );
-  OAI21_X1 U1120 ( .B1(n721), .B2(n876), .A(n1099), .ZN(n792) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[7]), .A2(n1020), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N226), .B2(n1021), .ZN(n1099) );
+  OAI21_X1 U1120 ( .B1(n1981), .B2(n876), .A(n1100), .ZN(n1372) );
   AOI22_X1 U1121 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[8]), .A2(n866), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N227), .B2(n869), .ZN(n1099) );
-  OAI21_X1 U1122 ( .B1(n722), .B2(n876), .A(n1100), .ZN(n791) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[8]), .A2(n1020), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N227), .B2(n872), .ZN(n1100) );
+  OAI21_X1 U1122 ( .B1(n1983), .B2(n876), .A(n1101), .ZN(n1241) );
   AOI22_X1 U1123 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[9]), .A2(n866), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N228), .B2(n869), .ZN(n1100) );
-  OAI21_X1 U1124 ( .B1(n723), .B2(n876), .A(n1101), .ZN(n790) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[9]), .A2(n1020), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N228), .B2(n872), .ZN(n1101) );
+  OAI21_X1 U1124 ( .B1(n1984), .B2(n876), .A(n1102), .ZN(n1239) );
   AOI22_X1 U1125 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[10]), .A2(n866), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N229), .B2(n869), .ZN(n1101) );
-  OAI21_X1 U1126 ( .B1(n724), .B2(n876), .A(n1102), .ZN(n789) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[10]), .A2(n1020), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N229), .B2(n872), .ZN(n1102) );
+  OAI21_X1 U1126 ( .B1(n1990), .B2(n876), .A(n1103), .ZN(n1373) );
   AOI22_X1 U1127 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[11]), .A2(n866), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N230), .B2(n869), .ZN(n1102) );
-  OAI21_X1 U1128 ( .B1(n725), .B2(n876), .A(n1103), .ZN(n788) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[11]), .A2(n1020), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N230), .B2(n872), .ZN(n1103) );
+  OAI21_X1 U1128 ( .B1(n2006), .B2(n1032), .A(n1104), .ZN(n1244) );
   AOI22_X1 U1129 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[12]), .A2(n866), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N231), .B2(n869), .ZN(n1103) );
-  OAI21_X1 U1130 ( .B1(n726), .B2(n876), .A(n1104), .ZN(n787) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[12]), .A2(n1020), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N231), .B2(n872), .ZN(n1104) );
+  OAI21_X1 U1130 ( .B1(n1991), .B2(n1032), .A(n1105), .ZN(n1314) );
   AOI22_X1 U1131 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[13]), .A2(n866), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N232), .B2(n869), .ZN(n1104) );
-  OAI21_X1 U1132 ( .B1(n727), .B2(n876), .A(n1105), .ZN(n786) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[13]), .A2(n1020), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N232), .B2(n872), .ZN(n1105) );
+  OAI21_X1 U1132 ( .B1(n1992), .B2(n1032), .A(n1106), .ZN(n1245) );
   AOI22_X1 U1133 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[14]), .A2(n866), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N233), .B2(n869), .ZN(n1105) );
-  OAI21_X1 U1134 ( .B1(n728), .B2(n876), .A(n1106), .ZN(n785) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[14]), .A2(n1020), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N233), .B2(n872), .ZN(n1106) );
+  OAI21_X1 U1134 ( .B1(n2002), .B2(n1032), .A(n1107), .ZN(n1369) );
   AOI22_X1 U1135 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[15]), .A2(n866), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N234), .B2(n869), .ZN(n1106) );
-  OAI21_X1 U1136 ( .B1(n729), .B2(n876), .A(n1107), .ZN(n784) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[15]), .A2(n1020), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N234), .B2(n872), .ZN(n1107) );
+  OAI21_X1 U1136 ( .B1(n1993), .B2(n1032), .A(n1108), .ZN(n1380) );
   AOI22_X1 U1137 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[16]), .A2(n865), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N235), .B2(n868), .ZN(n1107) );
-  OAI21_X1 U1138 ( .B1(n730), .B2(n876), .A(n1108), .ZN(n783) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[16]), .A2(n868), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N235), .B2(n872), .ZN(n1108) );
+  OAI21_X1 U1138 ( .B1(n1994), .B2(n1032), .A(n1109), .ZN(n1243) );
   AOI22_X1 U1139 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[17]), .A2(n865), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N236), .B2(n868), .ZN(n1108) );
-  OAI21_X1 U1140 ( .B1(n731), .B2(n876), .A(n1109), .ZN(n782) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[17]), .A2(n868), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N236), .B2(n872), .ZN(n1109) );
+  OAI21_X1 U1140 ( .B1(n1988), .B2(n1032), .A(n1110), .ZN(n1235) );
   AOI22_X1 U1141 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[18]), .A2(n865), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N237), .B2(n868), .ZN(n1109) );
-  MUX2_X1 U1142 ( .A(n1110), .B(n1560), .S(n872), .Z(n781) );
-  OR2_X1 U1143 ( .A1(n1037), .A2(n1083), .ZN(n1110) );
-  MUX2_X1 U1144 ( .A(n1111), .B(n1112), .S(n872), .Z(n780) );
-  NOR3_X1 U1145 ( .A1(n1037), .A2(n1083), .A3(n1113), .ZN(n1111) );
-  MUX2_X1 U1146 ( .A(n1114), .B(n1021), .S(n1115), .Z(n1113) );
-  NOR4_X1 U1147 ( .A1(n1116), .A2(n1117), .A3(n1118), .A4(n1119), .ZN(n1083)
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[18]), .A2(n868), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N237), .B2(n872), .ZN(n1110) );
+  MUX2_X1 U1142 ( .A(n1111), .B(n1874), .S(n874), .Z(n1561) );
+  OR2_X1 U1143 ( .A1(n1038), .A2(n1084), .ZN(n1111) );
+  MUX2_X1 U1144 ( .A(n1112), .B(n1873), .S(n865), .Z(n1113) );
+  NOR3_X1 U1145 ( .A1(n1038), .A2(n1084), .A3(n1114), .ZN(n1112) );
+  MUX2_X1 U1146 ( .A(n1115), .B(n1022), .S(n1116), .Z(n1114) );
+  NOR4_X1 U1147 ( .A1(n1117), .A2(n1118), .A3(n1119), .A4(n1120), .ZN(n1084)
          );
-  NAND2_X1 U1148 ( .A1(n1036), .A2(n1120), .ZN(n1037) );
-  OAI21_X1 U1149 ( .B1(n1118), .B2(n1117), .A(n1119), .ZN(n1120) );
-  INV_X1 U1150 ( .A(n1115), .ZN(n1119) );
-  OAI21_X1 U1151 ( .B1(n1070), .B2(n1121), .A(n1086), .ZN(n1115) );
-  INV_X1 U1152 ( .A(n1122), .ZN(n1036) );
-  OAI211_X1 U1153 ( .C1(n1074), .C2(n1086), .A(n1588), .B(n1123), .ZN(n1122)
+  NAND2_X1 U1148 ( .A1(n1037), .A2(n1121), .ZN(n1038) );
+  OAI21_X1 U1149 ( .B1(n1119), .B2(n1118), .A(n1120), .ZN(n1121) );
+  INV_X1 U1150 ( .A(n1116), .ZN(n1120) );
+  OAI21_X1 U1151 ( .B1(n1071), .B2(n1122), .A(n1087), .ZN(n1116) );
+  INV_X1 U1152 ( .A(n1123), .ZN(n1037) );
+  OAI211_X1 U1153 ( .C1(n1075), .C2(n1087), .A(n1920), .B(n1124), .ZN(n1123)
          );
-  AOI221_X1 U1154 ( .B1(n1087), .B2(n1088), .C1(n1089), .C2(n1090), .A(n1124), 
-        .ZN(n1123) );
-  INV_X1 U1155 ( .A(n1080), .ZN(n1124) );
-  NAND4_X1 U1156 ( .A1(n1125), .A2(n1588), .A3(n1074), .A4(n1126), .ZN(n1080)
+  AOI221_X1 U1154 ( .B1(n1088), .B2(n1089), .C1(n1090), .C2(n1091), .A(n1125), 
+        .ZN(n1124) );
+  INV_X1 U1155 ( .A(n1081), .ZN(n1125) );
+  NAND4_X1 U1156 ( .A1(n1126), .A2(n1920), .A3(n1075), .A4(n1127), .ZN(n1081)
          );
-  OAI22_X1 U1157 ( .A1(n1075), .A2(n1121), .B1(n1071), .B2(n1086), .ZN(n1126)
+  OAI22_X1 U1157 ( .A1(n1076), .A2(n1122), .B1(n1072), .B2(n1087), .ZN(n1127)
          );
-  INV_X1 U1158 ( .A(n1070), .ZN(n1125) );
-  NAND3_X1 U1159 ( .A1(n1127), .A2(n1090), .A3(n1604), .ZN(n1070) );
-  OAI21_X1 U1160 ( .B1(n1127), .B2(n1121), .A(n1604), .ZN(n1089) );
-  OAI21_X1 U1161 ( .B1(n1128), .B2(n1117), .A(n1549), .ZN(n1087) );
-  NOR4_X1 U1162 ( .A1(n1129), .A2(n1569), .A3(n1567), .A4(n1568), .ZN(n1128)
+  INV_X1 U1158 ( .A(n1071), .ZN(n1126) );
+  NAND3_X1 U1159 ( .A1(n1128), .A2(n1091), .A3(n1921), .ZN(n1071) );
+  OAI21_X1 U1160 ( .B1(n1128), .B2(n1122), .A(n1921), .ZN(n1090) );
+  OAI21_X1 U1161 ( .B1(n1129), .B2(n1118), .A(n1922), .ZN(n1088) );
+  NOR4_X1 U1162 ( .A1(n1130), .A2(n1831), .A3(n1829), .A4(n1830), .ZN(n1129)
          );
-  OR4_X1 U1163 ( .A1(n1566), .A2(n1565), .A3(n1564), .A4(n1563), .ZN(n1129) );
-  MUX2_X1 U1164 ( .A(n1559), .B(n1605), .S(n872), .Z(n706) );
-  MUX2_X1 U1165 ( .A(n1557), .B(n1558), .S(n872), .Z(n705) );
-  MUX2_X1 U1166 ( .A(n1555), .B(n1556), .S(n872), .Z(n704) );
-  MUX2_X1 U1167 ( .A(n1553), .B(n1554), .S(n872), .Z(n703) );
-  MUX2_X1 U1168 ( .A(op_mod_i), .B(n1610), .S(n878), .Z(n702) );
-  MUX2_X1 U1169 ( .A(tag_i), .B(n1553), .S(n878), .Z(n701) );
-  MUX2_X1 U1170 ( .A(rnd_mode_i[0]), .B(n1557), .S(n878), .Z(n700) );
-  MUX2_X1 U1171 ( .A(rnd_mode_i[1]), .B(n1555), .S(n878), .Z(n699) );
-  MUX2_X1 U1172 ( .A(rnd_mode_i[2]), .B(n1559), .S(n878), .Z(n698) );
-  MUX2_X1 U1173 ( .A(operands_i[0]), .B(n1592), .S(n878), .Z(n697) );
-  MUX2_X1 U1174 ( .A(operands_i[1]), .B(n1593), .S(n878), .Z(n696) );
-  MUX2_X1 U1175 ( .A(operands_i[2]), .B(n1594), .S(n878), .Z(n695) );
-  MUX2_X1 U1176 ( .A(operands_i[3]), .B(n1589), .S(n878), .Z(n694) );
-  MUX2_X1 U1177 ( .A(operands_i[4]), .B(n1591), .S(n878), .Z(n693) );
-  MUX2_X1 U1178 ( .A(operands_i[5]), .B(n1590), .S(n879), .Z(n692) );
-  MUX2_X1 U1179 ( .A(operands_i[6]), .B(n1595), .S(n879), .Z(n691) );
-  MUX2_X1 U1180 ( .A(operands_i[7]), .B(n1599), .S(n879), .Z(n690) );
-  MUX2_X1 U1181 ( .A(operands_i[8]), .B(n1598), .S(n879), .Z(n689) );
-  MUX2_X1 U1182 ( .A(operands_i[9]), .B(n1597), .S(n879), .Z(n688) );
-  MUX2_X1 U1183 ( .A(operands_i[10]), .B(n1596), .S(n879), .Z(n687) );
-  MUX2_X1 U1184 ( .A(operands_i[11]), .B(n1603), .S(n879), .Z(n686) );
-  MUX2_X1 U1185 ( .A(operands_i[12]), .B(n1602), .S(n879), .Z(n685) );
-  MUX2_X1 U1186 ( .A(operands_i[13]), .B(n1601), .S(n879), .Z(n684) );
-  MUX2_X1 U1187 ( .A(operands_i[14]), .B(n1600), .S(n879), .Z(n683) );
-  MUX2_X1 U1188 ( .A(operands_i[15]), .B(n1611), .S(n879), .Z(n682) );
-  MUX2_X1 U1189 ( .A(operands_i[16]), .B(n1658), .S(n879), .Z(n681) );
-  MUX2_X1 U1190 ( .A(operands_i[17]), .B(n1657), .S(n880), .Z(n680) );
-  MUX2_X1 U1191 ( .A(operands_i[18]), .B(n1656), .S(n880), .Z(n679) );
-  MUX2_X1 U1192 ( .A(operands_i[19]), .B(n1655), .S(n880), .Z(n678) );
-  MUX2_X1 U1193 ( .A(operands_i[20]), .B(n1654), .S(n880), .Z(n677) );
-  MUX2_X1 U1194 ( .A(operands_i[21]), .B(n1653), .S(n880), .Z(n676) );
-  MUX2_X1 U1195 ( .A(operands_i[22]), .B(n1652), .S(n880), .Z(n675) );
-  MUX2_X1 U1196 ( .A(operands_i[23]), .B(n1651), .S(n880), .Z(n674) );
-  MUX2_X1 U1197 ( .A(operands_i[24]), .B(n1650), .S(n880), .Z(n673) );
-  MUX2_X1 U1198 ( .A(operands_i[25]), .B(n1649), .S(n880), .Z(n672) );
-  MUX2_X1 U1199 ( .A(operands_i[26]), .B(n1648), .S(n880), .Z(n671) );
-  MUX2_X1 U1200 ( .A(operands_i[27]), .B(n1647), .S(n880), .Z(n670) );
-  MUX2_X1 U1201 ( .A(operands_i[28]), .B(n1646), .S(n880), .Z(n669) );
-  MUX2_X1 U1202 ( .A(operands_i[29]), .B(n1645), .S(n881), .Z(n668) );
-  MUX2_X1 U1203 ( .A(operands_i[30]), .B(n1644), .S(n881), .Z(n667) );
-  MUX2_X1 U1204 ( .A(operands_i[31]), .B(n1552), .S(n881), .Z(n666) );
-  MUX2_X1 U1205 ( .A(operands_i[32]), .B(n1569), .S(n881), .Z(n665) );
-  MUX2_X1 U1206 ( .A(operands_i[33]), .B(n1568), .S(n881), .Z(n664) );
-  MUX2_X1 U1207 ( .A(operands_i[34]), .B(n1567), .S(n881), .Z(n663) );
-  MUX2_X1 U1208 ( .A(operands_i[35]), .B(n1566), .S(n881), .Z(n662) );
-  MUX2_X1 U1209 ( .A(operands_i[36]), .B(n1565), .S(n881), .Z(n661) );
-  MUX2_X1 U1210 ( .A(operands_i[37]), .B(n1564), .S(n881), .Z(n660) );
-  MUX2_X1 U1211 ( .A(operands_i[38]), .B(n1563), .S(n881), .Z(n659) );
-  MUX2_X1 U1212 ( .A(operands_i[39]), .B(n1584), .S(n881), .Z(n658) );
-  MUX2_X1 U1213 ( .A(operands_i[40]), .B(n1585), .S(n881), .Z(n657) );
-  MUX2_X1 U1214 ( .A(operands_i[41]), .B(n1586), .S(n882), .Z(n656) );
-  MUX2_X1 U1215 ( .A(operands_i[42]), .B(n1587), .S(n882), .Z(n655) );
-  MUX2_X1 U1216 ( .A(operands_i[43]), .B(n1580), .S(n882), .Z(n654) );
-  MUX2_X1 U1217 ( .A(operands_i[44]), .B(n1581), .S(n882), .Z(n653) );
-  MUX2_X1 U1218 ( .A(operands_i[45]), .B(n1582), .S(n882), .Z(n652) );
-  MUX2_X1 U1219 ( .A(operands_i[46]), .B(n1583), .S(n882), .Z(n651) );
-  MUX2_X1 U1220 ( .A(operands_i[47]), .B(n1609), .S(n882), .Z(n650) );
-  MUX2_X1 U1221 ( .A(n1130), .B(n1607), .S(n872), .Z(n625) );
-  OAI21_X1 U1222 ( .B1(n556), .B2(n876), .A(n1131), .ZN(n624) );
+  OR4_X1 U1163 ( .A1(n1828), .A2(n1827), .A3(n1826), .A4(n1825), .ZN(n1130) );
+  MUX2_X1 U1164 ( .A(n1864), .B(n1872), .S(n874), .Z(n1606) );
+  MUX2_X1 U1165 ( .A(n1866), .B(n1871), .S(n874), .Z(n1559) );
+  MUX2_X1 U1166 ( .A(n1865), .B(n1870), .S(n874), .Z(n1557) );
+  MUX2_X1 U1167 ( .A(n1867), .B(n1869), .S(n874), .Z(n1555) );
+  MUX2_X1 U1168 ( .A(op_mod_i), .B(n1868), .S(n1035), .Z(n1611) );
+  MUX2_X1 U1169 ( .A(tag_i), .B(n1867), .S(n1035), .Z(n1554) );
+  MUX2_X1 U1170 ( .A(rnd_mode_i[0]), .B(n1866), .S(n1035), .Z(n1558) );
+  MUX2_X1 U1171 ( .A(rnd_mode_i[1]), .B(n1865), .S(n1035), .Z(n1556) );
+  MUX2_X1 U1172 ( .A(rnd_mode_i[2]), .B(n1864), .S(n1035), .Z(n1560) );
+  MUX2_X1 U1173 ( .A(operands_i[0]), .B(n1863), .S(n1035), .Z(n1593) );
+  MUX2_X1 U1174 ( .A(operands_i[1]), .B(n1862), .S(n885), .Z(n1594) );
+  MUX2_X1 U1175 ( .A(operands_i[2]), .B(n1861), .S(n1035), .Z(n1595) );
+  MUX2_X1 U1176 ( .A(operands_i[3]), .B(n1860), .S(n885), .Z(n1590) );
+  MUX2_X1 U1177 ( .A(operands_i[4]), .B(n1859), .S(n1035), .Z(n1592) );
+  MUX2_X1 U1178 ( .A(operands_i[5]), .B(n1858), .S(n885), .Z(n1591) );
+  MUX2_X1 U1179 ( .A(operands_i[6]), .B(n1857), .S(n885), .Z(n1596) );
+  MUX2_X1 U1180 ( .A(operands_i[7]), .B(n1856), .S(n885), .Z(n1600) );
+  MUX2_X1 U1181 ( .A(operands_i[8]), .B(n1855), .S(n885), .Z(n1599) );
+  MUX2_X1 U1182 ( .A(operands_i[9]), .B(n1854), .S(n885), .Z(n1598) );
+  MUX2_X1 U1183 ( .A(operands_i[10]), .B(n1853), .S(n885), .Z(n1597) );
+  MUX2_X1 U1184 ( .A(operands_i[11]), .B(n1852), .S(n885), .Z(n1604) );
+  MUX2_X1 U1185 ( .A(operands_i[12]), .B(n1851), .S(n885), .Z(n1603) );
+  MUX2_X1 U1186 ( .A(operands_i[13]), .B(n1850), .S(n885), .Z(n1602) );
+  MUX2_X1 U1187 ( .A(operands_i[14]), .B(n1849), .S(n885), .Z(n1601) );
+  MUX2_X1 U1188 ( .A(operands_i[15]), .B(n1848), .S(n885), .Z(n1612) );
+  MUX2_X1 U1189 ( .A(operands_i[16]), .B(n1847), .S(n885), .Z(n1659) );
+  MUX2_X1 U1190 ( .A(operands_i[17]), .B(n1846), .S(n884), .Z(n1658) );
+  MUX2_X1 U1191 ( .A(operands_i[18]), .B(n1845), .S(n884), .Z(n1657) );
+  MUX2_X1 U1192 ( .A(operands_i[19]), .B(n1844), .S(n884), .Z(n1656) );
+  MUX2_X1 U1193 ( .A(operands_i[20]), .B(n1843), .S(n884), .Z(n1655) );
+  MUX2_X1 U1194 ( .A(operands_i[21]), .B(n1842), .S(n884), .Z(n1654) );
+  MUX2_X1 U1195 ( .A(operands_i[22]), .B(n1841), .S(n884), .Z(n1653) );
+  MUX2_X1 U1196 ( .A(operands_i[23]), .B(n1840), .S(n884), .Z(n1652) );
+  MUX2_X1 U1197 ( .A(operands_i[24]), .B(n1839), .S(n884), .Z(n1651) );
+  MUX2_X1 U1198 ( .A(operands_i[25]), .B(n1838), .S(n884), .Z(n1650) );
+  MUX2_X1 U1199 ( .A(operands_i[26]), .B(n1837), .S(n884), .Z(n1649) );
+  MUX2_X1 U1200 ( .A(operands_i[27]), .B(n1836), .S(n884), .Z(n1648) );
+  MUX2_X1 U1201 ( .A(operands_i[28]), .B(n1835), .S(n884), .Z(n1647) );
+  MUX2_X1 U1202 ( .A(operands_i[29]), .B(n1834), .S(n884), .Z(n1646) );
+  MUX2_X1 U1203 ( .A(operands_i[30]), .B(n1833), .S(n885), .Z(n1645) );
+  MUX2_X1 U1204 ( .A(operands_i[31]), .B(n1832), .S(n884), .Z(n1553) );
+  MUX2_X1 U1205 ( .A(operands_i[32]), .B(n1831), .S(n885), .Z(n1570) );
+  MUX2_X1 U1206 ( .A(operands_i[33]), .B(n1830), .S(n884), .Z(n1569) );
+  MUX2_X1 U1207 ( .A(operands_i[34]), .B(n1829), .S(n885), .Z(n1568) );
+  MUX2_X1 U1208 ( .A(operands_i[35]), .B(n1828), .S(n884), .Z(n1567) );
+  MUX2_X1 U1209 ( .A(operands_i[36]), .B(n1827), .S(n1035), .Z(n1566) );
+  MUX2_X1 U1210 ( .A(operands_i[37]), .B(n1826), .S(n1035), .Z(n1565) );
+  MUX2_X1 U1211 ( .A(operands_i[38]), .B(n1825), .S(n1035), .Z(n1564) );
+  MUX2_X1 U1212 ( .A(operands_i[39]), .B(n1824), .S(n1035), .Z(n1585) );
+  MUX2_X1 U1213 ( .A(operands_i[40]), .B(n1823), .S(n884), .Z(n1586) );
+  MUX2_X1 U1214 ( .A(operands_i[41]), .B(n1822), .S(n1035), .Z(n1587) );
+  MUX2_X1 U1215 ( .A(operands_i[42]), .B(n1821), .S(n1035), .Z(n1588) );
+  MUX2_X1 U1216 ( .A(operands_i[43]), .B(n1820), .S(n1035), .Z(n1581) );
+  MUX2_X1 U1217 ( .A(operands_i[44]), .B(n1819), .S(n885), .Z(n1582) );
+  MUX2_X1 U1218 ( .A(operands_i[45]), .B(n1818), .S(n1035), .Z(n1583) );
+  MUX2_X1 U1219 ( .A(operands_i[46]), .B(n1817), .S(n1035), .Z(n1584) );
+  MUX2_X1 U1220 ( .A(operands_i[47]), .B(n1816), .S(n885), .Z(n1610) );
+  MUX2_X1 U1221 ( .A(n1131), .B(n1815), .S(n874), .Z(n1608) );
+  OAI21_X1 U1222 ( .B1(n2015), .B2(n1032), .A(n1132), .ZN(n1367) );
   AOI22_X1 U1223 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[27]), .A2(n865), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N246), .B2(n868), .ZN(n1131) );
-  OAI21_X1 U1224 ( .B1(n555), .B2(n876), .A(n1132), .ZN(n623) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[27]), .A2(n1020), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N246), .B2(n872), .ZN(n1132) );
+  OAI21_X1 U1224 ( .B1(n2016), .B2(n1032), .A(n1133), .ZN(n1168) );
   AOI22_X1 U1225 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[26]), .A2(n865), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N245), .B2(n868), .ZN(n1132) );
-  OAI21_X1 U1226 ( .B1(n554), .B2(n876), .A(n1133), .ZN(n622) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[26]), .A2(n1020), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N245), .B2(n872), .ZN(n1133) );
+  OAI21_X1 U1226 ( .B1(n1964), .B2(n1032), .A(n1134), .ZN(n1180) );
   AOI22_X1 U1227 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[25]), .A2(n865), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N244), .B2(n868), .ZN(n1133) );
-  OAI21_X1 U1228 ( .B1(n553), .B2(n876), .A(n1134), .ZN(n621) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[25]), .A2(n1020), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N244), .B2(n872), .ZN(n1134) );
+  OAI21_X1 U1228 ( .B1(n2017), .B2(n1032), .A(n1135), .ZN(n1366) );
   AOI22_X1 U1229 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[24]), .A2(n865), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N243), .B2(n868), .ZN(n1134) );
-  OAI21_X1 U1230 ( .B1(n552), .B2(n876), .A(n1135), .ZN(n620) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[24]), .A2(n1020), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N243), .B2(n872), .ZN(n1135) );
+  OAI21_X1 U1230 ( .B1(n2018), .B2(n1032), .A(n1136), .ZN(n1166) );
   AOI22_X1 U1231 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[23]), .A2(n865), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N242), .B2(n868), .ZN(n1135) );
-  OAI21_X1 U1232 ( .B1(n551), .B2(n876), .A(n1136), .ZN(n619) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[23]), .A2(n1020), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N242), .B2(n872), .ZN(n1136) );
+  OAI21_X1 U1232 ( .B1(n2019), .B2(n876), .A(n1137), .ZN(n1179) );
   AOI22_X1 U1233 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[22]), .A2(n865), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N241), .B2(n868), .ZN(n1136) );
-  OAI21_X1 U1234 ( .B1(n550), .B2(n876), .A(n1137), .ZN(n618) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[22]), .A2(n1020), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N241), .B2(n1021), .ZN(n1137) );
+  OAI21_X1 U1234 ( .B1(n2020), .B2(n878), .A(n1138), .ZN(n1288) );
   AOI22_X1 U1235 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[21]), .A2(n865), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N240), .B2(n868), .ZN(n1137) );
-  OAI21_X1 U1236 ( .B1(n549), .B2(n876), .A(n1138), .ZN(n617) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[21]), .A2(n1020), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N240), .B2(n1021), .ZN(n1138) );
+  OAI21_X1 U1236 ( .B1(n2021), .B2(n878), .A(n1139), .ZN(n1364) );
   AOI22_X1 U1237 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[20]), .A2(n865), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N239), .B2(n868), .ZN(n1138) );
-  OAI21_X1 U1238 ( .B1(n548), .B2(n876), .A(n1139), .ZN(n616) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[20]), .A2(n1020), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N239), .B2(n1021), .ZN(n1139) );
+  OAI21_X1 U1238 ( .B1(n2022), .B2(n878), .A(n1140), .ZN(n1213) );
   AOI22_X1 U1239 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[19]), .A2(n865), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N238), .B2(n868), .ZN(n1139) );
-  NOR3_X1 U1240 ( .A1(n1116), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[28]), .A3(n873), .ZN(n1020) );
-  INV_X1 U1241 ( .A(n1140), .ZN(n1019) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[19]), .A2(n1020), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N238), .B2(n1021), .ZN(n1140) );
+  NOR3_X1 U1240 ( .A1(n1117), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[28]), .A3(n874), .ZN(n1021) );
+  INV_X1 U1241 ( .A(n1141), .ZN(n1020) );
   OAI21_X1 U1242 ( .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[28]), .B2(n1116), .A(n863), .ZN(n1140) );
-  NOR2_X1 U1243 ( .A1(n1141), .A2(n1142), .ZN(n584) );
-  OR2_X1 U1244 ( .A1(n1550), .A2(n876), .ZN(n583) );
-  OR2_X1 U1245 ( .A1(n1551), .A2(n876), .ZN(n582) );
-  NAND2_X1 U1246 ( .A1(n990), .A2(n873), .ZN(n581) );
-  NAND2_X1 U1247 ( .A1(n991), .A2(n873), .ZN(n580) );
-  NAND2_X1 U1248 ( .A1(n992), .A2(n873), .ZN(n579) );
-  NAND2_X1 U1249 ( .A1(n969), .A2(n873), .ZN(n578) );
-  NAND2_X1 U1250 ( .A1(n970), .A2(n873), .ZN(n577) );
-  NAND2_X1 U1251 ( .A1(n971), .A2(n873), .ZN(n576) );
-  NOR2_X1 U1252 ( .A1(n863), .A2(n1143), .ZN(n574) );
-  NOR2_X1 U1253 ( .A1(n1144), .A2(n1143), .ZN(n1031) );
-  NAND2_X1 U1254 ( .A1(n856), .A2(n882), .ZN(n573) );
-  NAND2_X1 U1255 ( .A1(n852), .A2(n882), .ZN(n572) );
-  NAND2_X1 U1256 ( .A1(n851), .A2(n882), .ZN(n571) );
-  INV_X1 U1257 ( .A(n1142), .ZN(n1034) );
-  NOR3_X1 U1258 ( .A1(dst_fmt_i[0]), .A2(dst_fmt_i[1]), .A3(n847), .ZN(n1142)
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[28]), .B2(n1117), .A(n876), .ZN(n1141) );
+  NOR2_X1 U1243 ( .A1(n1142), .A2(n1143), .ZN(n584) );
+  OR2_X1 U1244 ( .A1(n1924), .A2(n876), .ZN(n1551) );
+  OR2_X1 U1245 ( .A1(n1923), .A2(n876), .ZN(n1552) );
+  NOR2_X1 U1252 ( .A1(n876), .A2(n1144), .ZN(n574) );
+  NOR2_X1 U1253 ( .A1(n2010), .A2(n1144), .ZN(n1032) );
+  NAND2_X1 U1254 ( .A1(n2007), .A2(n1035), .ZN(n1550) );
+  NAND2_X1 U1255 ( .A1(n2012), .A2(n1035), .ZN(n1605) );
+  NAND2_X1 U1256 ( .A1(n2003), .A2(n1035), .ZN(n1589) );
+  INV_X1 U1257 ( .A(n1143), .ZN(n1035) );
+  NOR3_X1 U1258 ( .A1(dst_fmt_i[0]), .A2(dst_fmt_i[1]), .A3(n847), .ZN(n1143)
          );
-  NAND2_X1 U1259 ( .A1(dst_fmt_i[2]), .A2(in_valid_i), .ZN(n1145) );
-  AND2_X1 U1260 ( .A1(n1613), .A2(n1143), .ZN(n1141) );
-  NOR2_X1 U1261 ( .A1(n733), .A2(out_ready_i), .ZN(n1143) );
+  NAND2_X1 U1259 ( .A1(dst_fmt_i[2]), .A2(in_valid_i), .ZN(n1146) );
+  AND2_X1 U1260 ( .A1(n1918), .A2(n1144), .ZN(n1142) );
+  NOR2_X1 U1261 ( .A1(n2004), .A2(out_ready_i), .ZN(n1144) );
   AND2_X1 U1262 ( .A1(N119), .A2(in_valid_i), .ZN(in_ready_o) );
-  OAI221_X1 U1263 ( .B1(n998), .B2(n1000), .C1(n1146), .C2(n1147), .A(n1148), 
+  OAI221_X1 U1263 ( .B1(n999), .B2(n1001), .C1(n1147), .C2(n1148), .A(n1149), 
         .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[6]) );
-  AOI21_X1 U1264 ( .B1(n1002), .B2(n1149), .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .ZN(n1148) );
-  OAI221_X1 U1265 ( .B1(n1150), .B2(n1151), .C1(n1152), .C2(n1153), .A(n1154), 
-        .ZN(n1002) );
-  AOI222_X1 U1266 ( .A1(n1155), .A2(n1156), .B1(n1157), .B2(n1158), .C1(n1159), 
-        .C2(n1160), .ZN(n1154) );
-  OAI221_X1 U1267 ( .B1(n553), .B2(n886), .C1(n554), .C2(n889), .A(n1163), 
-        .ZN(n1158) );
-  AOI22_X1 U1268 ( .A1(n893), .A2(n1165), .B1(n896), .B2(n1167), .ZN(n1163) );
-  INV_X1 U1269 ( .A(n1168), .ZN(n998) );
-  OAI221_X1 U1270 ( .B1(n997), .B2(n999), .C1(n1169), .C2(n1000), .A(n1170), 
+  AOI21_X1 U1264 ( .B1(n1003), .B2(n1150), .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .ZN(n1149) );
+  OAI221_X1 U1265 ( .B1(n1151), .B2(n1152), .C1(n1153), .C2(n1154), .A(n1155), 
+        .ZN(n1003) );
+  AOI222_X1 U1266 ( .A1(n1156), .A2(n1157), .B1(n1158), .B2(n1159), .C1(n1160), 
+        .C2(n1161), .ZN(n1155) );
+  OAI221_X1 U1267 ( .B1(n2017), .B2(n1162), .C1(n1964), .C2(n1163), .A(n1164), 
+        .ZN(n1159) );
+  AOI22_X1 U1268 ( .A1(n894), .A2(n1810), .B1(n898), .B2(n1813), .ZN(n1164) );
+  INV_X1 U1269 ( .A(n1169), .ZN(n999) );
+  OAI221_X1 U1270 ( .B1(n998), .B2(n1000), .C1(n1170), .C2(n1001), .A(n1171), 
         .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[4]) );
-  AOI21_X1 U1271 ( .B1(n1168), .B2(n1003), .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .ZN(n1170) );
-  OAI221_X1 U1272 ( .B1(n1171), .B2(n1151), .C1(n1152), .C2(n1172), .A(n1173), 
-        .ZN(n1168) );
-  AOI222_X1 U1273 ( .A1(n1155), .A2(n1174), .B1(n1157), .B2(n1175), .C1(n1159), 
-        .C2(n1176), .ZN(n1173) );
-  OAI221_X1 U1274 ( .B1(n552), .B2(n885), .C1(n553), .C2(n891), .A(n1177), 
-        .ZN(n1175) );
-  AOI22_X1 U1275 ( .A1(n893), .A2(n1178), .B1(n895), .B2(n1179), .ZN(n1177) );
-  INV_X1 U1276 ( .A(n1180), .ZN(n1171) );
-  INV_X1 U1277 ( .A(n1181), .ZN(n999) );
-  OAI221_X1 U1278 ( .B1(n997), .B2(n1169), .C1(n1182), .C2(n1000), .A(n1183), 
+  AOI21_X1 U1271 ( .B1(n1169), .B2(n1004), .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .ZN(n1171) );
+  OAI221_X1 U1272 ( .B1(n1172), .B2(n1152), .C1(n1153), .C2(n1173), .A(n1174), 
+        .ZN(n1169) );
+  AOI222_X1 U1273 ( .A1(n1156), .A2(n1175), .B1(n1158), .B2(n1176), .C1(n1160), 
+        .C2(n1177), .ZN(n1174) );
+  OAI221_X1 U1274 ( .B1(n2018), .B2(n1162), .C1(n2017), .C2(n892), .A(n1178), 
+        .ZN(n1176) );
+  AOI22_X1 U1275 ( .A1(n894), .A2(n1809), .B1(n1167), .B2(n1812), .ZN(n1178)
+         );
+  INV_X1 U1276 ( .A(n1181), .ZN(n1172) );
+  INV_X1 U1277 ( .A(n1182), .ZN(n1000) );
+  OAI221_X1 U1278 ( .B1(n998), .B2(n1170), .C1(n1183), .C2(n1001), .A(n1184), 
         .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[3]) );
-  AOI21_X1 U1279 ( .B1(n1181), .B2(n1003), .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .ZN(n1183) );
-  OAI221_X1 U1280 ( .B1(n1184), .B2(n1185), .C1(n1152), .C2(n1186), .A(n1187), 
-        .ZN(n1181) );
-  AOI222_X1 U1281 ( .A1(n1188), .A2(n1189), .B1(n1159), .B2(n1190), .C1(n1155), 
-        .C2(n1191), .ZN(n1187) );
-  INV_X1 U1282 ( .A(n1192), .ZN(n1184) );
-  INV_X1 U1283 ( .A(n1193), .ZN(n1169) );
-  OAI221_X1 U1284 ( .B1(n997), .B2(n1182), .C1(n1194), .C2(n1000), .A(n1195), 
+  AOI21_X1 U1279 ( .B1(n1182), .B2(n1004), .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .ZN(n1184) );
+  OAI221_X1 U1280 ( .B1(n1185), .B2(n1186), .C1(n1153), .C2(n1187), .A(n1188), 
+        .ZN(n1182) );
+  AOI222_X1 U1281 ( .A1(n1189), .A2(n1190), .B1(n1160), .B2(n1191), .C1(n1156), 
+        .C2(n1192), .ZN(n1188) );
+  INV_X1 U1282 ( .A(n1193), .ZN(n1185) );
+  INV_X1 U1283 ( .A(n1194), .ZN(n1170) );
+  OAI221_X1 U1284 ( .B1(n998), .B2(n1183), .C1(n1195), .C2(n1001), .A(n1196), 
         .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[2]) );
-  AOI21_X1 U1285 ( .B1(n1193), .B2(n1003), .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .ZN(n1195) );
-  OAI221_X1 U1286 ( .B1(n1196), .B2(n1185), .C1(n1152), .C2(n1197), .A(n1198), 
-        .ZN(n1193) );
-  AOI222_X1 U1287 ( .A1(n1188), .A2(n1199), .B1(n1159), .B2(n1200), .C1(n1155), 
-        .C2(n1201), .ZN(n1198) );
-  INV_X1 U1288 ( .A(n1202), .ZN(n1196) );
-  INV_X1 U1289 ( .A(n1203), .ZN(n1182) );
-  OAI221_X1 U1290 ( .B1(n997), .B2(n1194), .C1(n1204), .C2(n1000), .A(n1205), 
+  AOI21_X1 U1285 ( .B1(n1194), .B2(n1004), .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .ZN(n1196) );
+  OAI221_X1 U1286 ( .B1(n1197), .B2(n1186), .C1(n1153), .C2(n1198), .A(n1199), 
+        .ZN(n1194) );
+  AOI222_X1 U1287 ( .A1(n1189), .A2(n1200), .B1(n1160), .B2(n1201), .C1(n1156), 
+        .C2(n1202), .ZN(n1199) );
+  INV_X1 U1288 ( .A(n1203), .ZN(n1197) );
+  INV_X1 U1289 ( .A(n1204), .ZN(n1183) );
+  OAI221_X1 U1290 ( .B1(n998), .B2(n1195), .C1(n1205), .C2(n1001), .A(n1206), 
         .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[1]) );
-  AOI21_X1 U1291 ( .B1(n1203), .B2(n1003), .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .ZN(n1205) );
-  OAI221_X1 U1292 ( .B1(n1206), .B2(n1185), .C1(n1152), .C2(n1207), .A(n1208), 
-        .ZN(n1203) );
-  AOI222_X1 U1293 ( .A1(n1188), .A2(n1156), .B1(n1159), .B2(n1209), .C1(n1155), 
-        .C2(n1210), .ZN(n1208) );
-  INV_X1 U1294 ( .A(n1160), .ZN(n1206) );
-  OAI221_X1 U1295 ( .B1(n549), .B2(n885), .C1(n550), .C2(n891), .A(n1211), 
-        .ZN(n1160) );
-  AOI22_X1 U1296 ( .A1(n1164), .A2(n1212), .B1(n895), .B2(n1178), .ZN(n1211)
+  AOI21_X1 U1291 ( .B1(n1204), .B2(n1004), .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .ZN(n1206) );
+  OAI221_X1 U1292 ( .B1(n1207), .B2(n1186), .C1(n1153), .C2(n1208), .A(n1209), 
+        .ZN(n1204) );
+  AOI222_X1 U1293 ( .A1(n1189), .A2(n1157), .B1(n1160), .B2(n1210), .C1(n1156), 
+        .C2(n1211), .ZN(n1209) );
+  INV_X1 U1294 ( .A(n1161), .ZN(n1207) );
+  OAI221_X1 U1295 ( .B1(n2021), .B2(n1162), .C1(n2020), .C2(n892), .A(n1212), 
+        .ZN(n1161) );
+  AOI22_X1 U1296 ( .A1(n1165), .A2(n1806), .B1(n1167), .B2(n1809), .ZN(n1212)
          );
-  INV_X1 U1297 ( .A(n1213), .ZN(n1194) );
-  INV_X1 U1298 ( .A(n983), .ZN(
+  INV_X1 U1297 ( .A(n1214), .ZN(n1195) );
+  INV_X1 U1298 ( .A(n984), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[7]) );
   NOR2_X1 U1299 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_7_), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .ZN(n983) );
-  INV_X1 U1300 ( .A(n1214), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .ZN(n984) );
+  INV_X1 U1300 ( .A(n1215), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gte_576_A_7_) );
   AOI222_X1 U1301 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N340), .A2(n1003), .B1(n1005), .B2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N340), .A2(n1004), .B1(n1006), .B2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_7_), .C1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N351), .C2(n1006), .ZN(n1214) );
-  OAI21_X1 U1302 ( .B1(n1572), .B2(n1013), .A(n1215), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N351), .C2(n1007), .ZN(n1215) );
+  OAI21_X1 U1302 ( .B1(n1935), .B2(n1014), .A(n1216), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_7_) );
   NAND2_X1 U1303 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N306), .A2(n1015), .ZN(n1215) );
-  NAND2_X1 U1304 ( .A1(n1008), .A2(n996), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N306), .A2(n1016), .ZN(n1216) );
+  NAND2_X1 U1304 ( .A1(n1009), .A2(n997), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[6]) );
   AOI222_X1 U1305 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N339), .A2(n1003), .B1(n1005), .B2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N339), .A2(n1004), .B1(n1006), .B2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_6_), .C1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N350), .C2(n1006), .ZN(n1008) );
-  OAI21_X1 U1306 ( .B1(n1573), .B2(n1013), .A(n1216), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N350), .C2(n1007), .ZN(n1009) );
+  OAI21_X1 U1306 ( .B1(n1936), .B2(n1014), .A(n1217), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_6_) );
   NAND2_X1 U1307 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N305), .A2(n1015), .ZN(n1216) );
-  NAND2_X1 U1308 ( .A1(n1009), .A2(n996), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N305), .A2(n1016), .ZN(n1217) );
+  NAND2_X1 U1308 ( .A1(n1010), .A2(n997), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[5]) );
   AOI222_X1 U1309 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N338), .A2(n1003), .B1(n1005), .B2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N338), .A2(n1004), .B1(n1006), .B2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_5_), .C1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N349), .C2(n1006), .ZN(n1009) );
-  OAI21_X1 U1310 ( .B1(n1574), .B2(n1013), .A(n1217), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N349), .C2(n1007), .ZN(n1010) );
+  OAI21_X1 U1310 ( .B1(n1937), .B2(n1014), .A(n1218), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_5_) );
   NAND2_X1 U1311 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N304), .A2(n1015), .ZN(n1217) );
-  NAND2_X1 U1312 ( .A1(n985), .A2(n996), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N304), .A2(n1016), .ZN(n1218) );
+  NAND2_X1 U1312 ( .A1(n986), .A2(n997), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[4]) );
   AOI222_X1 U1313 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N337), .A2(n1003), .B1(n1005), .B2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N337), .A2(n1004), .B1(n1006), .B2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_4_), .C1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N348), .C2(n1006), .ZN(n985) );
-  OAI21_X1 U1314 ( .B1(n1575), .B2(n1013), .A(n1218), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N348), .C2(n1007), .ZN(n986) );
+  OAI21_X1 U1314 ( .B1(n1933), .B2(n1014), .A(n1219), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_4_) );
   NAND2_X1 U1315 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N303), .A2(n1015), .ZN(n1218) );
-  NAND2_X1 U1316 ( .A1(n984), .A2(n996), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N303), .A2(n1016), .ZN(n1219) );
+  NAND2_X1 U1316 ( .A1(n985), .A2(n997), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[3]) );
   AOI222_X1 U1317 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N336), .A2(n1003), .B1(n1005), .B2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N336), .A2(n1004), .B1(n1006), .B2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_3_), .C1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N347), .C2(n1006), .ZN(n984) );
-  OAI21_X1 U1318 ( .B1(n1576), .B2(n1013), .A(n1219), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N347), .C2(n1007), .ZN(n985) );
+  OAI21_X1 U1318 ( .B1(n1938), .B2(n1014), .A(n1220), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_3_) );
   NAND2_X1 U1319 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N302), .A2(n1015), .ZN(n1219) );
-  NAND2_X1 U1320 ( .A1(n1010), .A2(n996), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N302), .A2(n1016), .ZN(n1220) );
+  NAND2_X1 U1320 ( .A1(n1011), .A2(n997), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[2]) );
   AOI222_X1 U1321 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N335), .A2(n1003), .B1(n1005), .B2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N335), .A2(n1004), .B1(n1006), .B2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_2_), .C1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N346), .C2(n1006), .ZN(n1010) );
-  OAI21_X1 U1322 ( .B1(n1577), .B2(n1013), .A(n1220), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N346), .C2(n1007), .ZN(n1011) );
+  OAI21_X1 U1322 ( .B1(n1939), .B2(n1014), .A(n1221), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_2_) );
   NAND2_X1 U1323 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N301), .A2(n1015), .ZN(n1220) );
-  NAND2_X1 U1324 ( .A1(n1011), .A2(n996), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N301), .A2(n1016), .ZN(n1221) );
+  NAND2_X1 U1324 ( .A1(n1012), .A2(n997), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[1]) );
   INV_X1 U1325 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .ZN(n996) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .ZN(n997) );
   AOI222_X1 U1326 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N334), .A2(n1003), .B1(n1005), .B2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N334), .A2(n1004), .B1(n1006), .B2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_1_), .C1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N345), .C2(n1006), .ZN(n1011) );
-  OAI21_X1 U1327 ( .B1(n1578), .B2(n1013), .A(n1221), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N345), .C2(n1007), .ZN(n1012) );
+  OAI21_X1 U1327 ( .B1(n1940), .B2(n1014), .A(n1222), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_gt_547_A_1_) );
   NAND2_X1 U1328 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N300), .A2(n1015), .ZN(n1221) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N300), .A2(n1016), .ZN(n1222) );
   NOR2_X1 U1329 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .A2(n1012), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .A2(n1013), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_exponent[0]) );
   AOI222_X1 U1330 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N333), .A2(n1003), .B1(n1005), .B2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N333), .A2(n1004), .B1(n1006), .B2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_549_A_0_), .C1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N344), .C2(n1006), .ZN(n1012) );
-  INV_X1 U1331 ( .A(n1000), .ZN(n1006) );
-  OAI21_X1 U1332 ( .B1(n1579), .B2(n1013), .A(n1222), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N344), .C2(n1007), .ZN(n1013) );
+  INV_X1 U1331 ( .A(n1001), .ZN(n1007) );
+  OAI21_X1 U1332 ( .B1(n1941), .B2(n1014), .A(n1223), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_549_A_0_) );
   NAND2_X1 U1333 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N299), .A2(n1015), .ZN(n1222) );
-  NOR2_X1 U1334 ( .A1(n1118), .A2(n854), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N299), .A2(n1016), .ZN(n1223) );
+  NOR2_X1 U1334 ( .A1(n1119), .A2(n1965), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_c[7]) );
-  NOR2_X1 U1335 ( .A1(n1118), .A2(n842), .ZN(
+  NOR2_X1 U1335 ( .A1(n1119), .A2(n1977), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_c[6]) );
-  NOR2_X1 U1336 ( .A1(n1118), .A2(n838), .ZN(
+  NOR2_X1 U1336 ( .A1(n1119), .A2(n1966), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_c[5]) );
-  NOR2_X1 U1337 ( .A1(n1118), .A2(n833), .ZN(
+  NOR2_X1 U1337 ( .A1(n1119), .A2(n1975), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_c[4]) );
-  NOR2_X1 U1338 ( .A1(n1118), .A2(n855), .ZN(
+  NOR2_X1 U1338 ( .A1(n1119), .A2(n1968), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_c[3]) );
-  NOR2_X1 U1339 ( .A1(n1118), .A2(n843), .ZN(
+  NOR2_X1 U1339 ( .A1(n1119), .A2(n1974), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_c[2]) );
-  NOR2_X1 U1340 ( .A1(n1118), .A2(n839), .ZN(
+  NOR2_X1 U1340 ( .A1(n1119), .A2(n1970), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_c[1]) );
-  NOR2_X1 U1341 ( .A1(n1118), .A2(n834), .ZN(
+  NOR2_X1 U1341 ( .A1(n1119), .A2(n1969), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_c[0]) );
-  NOR2_X1 U1342 ( .A1(n1223), .A2(n836), .ZN(
+  NOR2_X1 U1342 ( .A1(n1224), .A2(n2000), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[6]) );
-  AND2_X1 U1343 ( .A1(n1090), .A2(n1590), .ZN(
+  AND2_X1 U1343 ( .A1(n1091), .A2(n1858), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[5]) );
-  AND2_X1 U1344 ( .A1(n1090), .A2(n1591), .ZN(
+  AND2_X1 U1344 ( .A1(n1091), .A2(n1859), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[4]) );
-  AND2_X1 U1345 ( .A1(n1090), .A2(n1589), .ZN(
+  AND2_X1 U1345 ( .A1(n1091), .A2(n1860), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[3]) );
-  NOR2_X1 U1346 ( .A1(n1223), .A2(n853), .ZN(
+  NOR2_X1 U1346 ( .A1(n1224), .A2(n1987), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[2]) );
-  NOR2_X1 U1347 ( .A1(n1223), .A2(n841), .ZN(
+  NOR2_X1 U1347 ( .A1(n1224), .A2(n1998), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[1]) );
-  AND2_X1 U1348 ( .A1(n1090), .A2(n1592), .ZN(
+  AND2_X1 U1348 ( .A1(n1091), .A2(n1863), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[0]) );
-  NOR2_X1 U1349 ( .A1(n1223), .A2(n858), .ZN(
+  NOR2_X1 U1349 ( .A1(n1224), .A2(n1959), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[14]) );
-  NAND2_X1 U1350 ( .A1(n845), .A2(n1090), .ZN(
+  NAND2_X1 U1350 ( .A1(n1957), .A2(n1091), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[13]) );
-  NAND2_X1 U1351 ( .A1(n840), .A2(n1090), .ZN(
+  NAND2_X1 U1351 ( .A1(n1956), .A2(n1091), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[12]) );
-  NAND2_X1 U1352 ( .A1(n835), .A2(n1090), .ZN(
+  NAND2_X1 U1352 ( .A1(n1955), .A2(n1091), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[11]) );
-  NAND2_X1 U1353 ( .A1(n857), .A2(n1090), .ZN(
+  NAND2_X1 U1353 ( .A1(n1954), .A2(n1091), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[10]) );
-  NAND2_X1 U1354 ( .A1(n844), .A2(n1090), .ZN(
+  NAND2_X1 U1354 ( .A1(n1985), .A2(n1091), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[9]) );
-  NAND2_X1 U1355 ( .A1(n837), .A2(n1090), .ZN(
+  NAND2_X1 U1355 ( .A1(n2001), .A2(n1091), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[8]) );
-  NAND2_X1 U1356 ( .A1(n832), .A2(n1090), .ZN(
+  NAND2_X1 U1356 ( .A1(n1986), .A2(n1091), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[7]) );
-  INV_X1 U1357 ( .A(n1224), .ZN(
+  INV_X1 U1357 ( .A(n1225), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_leading_zero_count[4]) );
-  NAND2_X1 U1358 ( .A1(n1225), .A2(n1226), .ZN(
+  NAND2_X1 U1358 ( .A1(n1226), .A2(n1227), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_leading_zero_count[2]) );
-  OR3_X1 U1359 ( .A1(n1227), .A2(n1228), .A3(n1229), .ZN(
+  OR3_X1 U1359 ( .A1(n1228), .A2(n1229), .A3(n1230), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N284) );
-  OAI33_X1 U1360 ( .A1(n1224), .A2(n713), .A3(n1230), .B1(n1225), .B2(n1231), 
-        .B3(n1232), .ZN(n1229) );
-  NOR2_X1 U1361 ( .A1(n717), .A2(n1233), .ZN(n1231) );
-  OAI33_X1 U1362 ( .A1(n1234), .A2(n1235), .A3(n1236), .B1(n1237), .B2(n1238), 
-        .B3(n1239), .ZN(n1228) );
-  OAI21_X1 U1363 ( .B1(n721), .B2(n1240), .A(n1241), .ZN(n1237) );
-  NOR2_X1 U1364 ( .A1(n729), .A2(n1242), .ZN(n1236) );
-  AOI211_X1 U1365 ( .C1(n726), .C2(n1243), .A(n1226), .B(n1244), .ZN(n1227) );
-  NOR2_X1 U1366 ( .A1(n1116), .A2(n1130), .ZN(
+  OAI33_X1 U1360 ( .A1(n1225), .A2(n2005), .A3(n1891), .B1(n1226), .B2(n1232), 
+        .B3(n1887), .ZN(n1230) );
+  NOR2_X1 U1361 ( .A1(n1973), .A2(n1888), .ZN(n1232) );
+  OAI33_X1 U1362 ( .A1(n1875), .A2(n1236), .A3(n1237), .B1(n1238), .B2(n1883), 
+        .B3(n1240), .ZN(n1229) );
+  OAI21_X1 U1363 ( .B1(n1981), .B2(n1884), .A(n1242), .ZN(n1238) );
+  NOR2_X1 U1364 ( .A1(n1993), .A2(n1876), .ZN(n1237) );
+  AOI211_X1 U1365 ( .C1(n1991), .C2(n1881), .A(n1227), .B(n1879), .ZN(n1228)
+         );
+  NOR2_X1 U1366 ( .A1(n1117), .A2(n1131), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inject_carry_in) );
-  OAI21_X1 U1367 ( .B1(n1245), .B2(n1048), .A(n1246), .ZN(n1130) );
-  OAI211_X1 U1368 ( .C1(n1247), .C2(n1248), .A(n1249), .B(n1250), .ZN(n1246)
+  OAI21_X1 U1367 ( .B1(n1246), .B2(n1049), .A(n1247), .ZN(n1131) );
+  OAI211_X1 U1368 ( .C1(n1248), .C2(n1249), .A(n1250), .B(n1251), .ZN(n1247)
          );
-  NAND2_X1 U1369 ( .A1(n1251), .A2(n1252), .ZN(n1248) );
-  AOI21_X1 U1370 ( .B1(n1253), .B2(n1254), .A(n1255), .ZN(n1245) );
-  OR4_X1 U1371 ( .A1(n1256), .A2(n1257), .A3(n1258), .A4(n1259), .ZN(n1254) );
-  OR4_X1 U1372 ( .A1(n1260), .A2(n1261), .A3(n1262), .A4(n1263), .ZN(n1259) );
-  NOR3_X1 U1373 ( .A1(n851), .A2(n1074), .A3(n1075), .ZN(
+  NAND2_X1 U1369 ( .A1(n1252), .A2(n1253), .ZN(n1249) );
+  AOI21_X1 U1370 ( .B1(n1254), .B2(n1255), .A(n1256), .ZN(n1246) );
+  OR4_X1 U1371 ( .A1(n1257), .A2(n1258), .A3(n1259), .A4(n1260), .ZN(n1255) );
+  OR4_X1 U1372 ( .A1(n1261), .A2(n1262), .A3(n1263), .A4(n1264), .ZN(n1260) );
+  NOR3_X1 U1373 ( .A1(n2003), .A2(n1075), .A3(n1076), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_info_b_is_subnormal_) );
-  NOR4_X1 U1374 ( .A1(n1653), .A2(n1654), .A3(n1652), .A4(n1264), .ZN(n1074)
+  NOR4_X1 U1374 ( .A1(n1842), .A2(n1843), .A3(n1841), .A4(n1265), .ZN(n1075)
          );
-  OR4_X1 U1375 ( .A1(n1658), .A2(n1656), .A3(n1657), .A4(n1655), .ZN(n1264) );
-  AND3_X1 U1376 ( .A1(n1588), .A2(n1075), .A3(n1086), .ZN(
+  OR4_X1 U1375 ( .A1(n1847), .A2(n1845), .A3(n1846), .A4(n1844), .ZN(n1265) );
+  AND3_X1 U1376 ( .A1(n1920), .A2(n1076), .A3(n1087), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_info_b_is_normal_) );
-  NAND2_X1 U1377 ( .A1(n1265), .A2(n1266), .ZN(n1086) );
-  AND4_X1 U1378 ( .A1(n1647), .A2(n1646), .A3(n1645), .A4(n1644), .ZN(n1266)
+  NAND2_X1 U1377 ( .A1(n1266), .A2(n1267), .ZN(n1087) );
+  AND4_X1 U1378 ( .A1(n1836), .A2(n1835), .A3(n1834), .A4(n1833), .ZN(n1267)
          );
-  AND4_X1 U1379 ( .A1(n1651), .A2(n1650), .A3(n1649), .A4(n1648), .ZN(n1265)
+  AND4_X1 U1379 ( .A1(n1840), .A2(n1839), .A3(n1838), .A4(n1837), .ZN(n1266)
          );
-  NAND2_X1 U1380 ( .A1(n1267), .A2(n1268), .ZN(n1075) );
-  NOR4_X1 U1381 ( .A1(n1648), .A2(n1649), .A3(n1650), .A4(n1651), .ZN(n1268)
+  NAND2_X1 U1380 ( .A1(n1268), .A2(n1269), .ZN(n1076) );
+  NOR4_X1 U1381 ( .A1(n1837), .A2(n1838), .A3(n1839), .A4(n1840), .ZN(n1269)
          );
-  NOR4_X1 U1382 ( .A1(n1644), .A2(n1645), .A3(n1646), .A4(n1647), .ZN(n1267)
+  NOR4_X1 U1382 ( .A1(n1833), .A2(n1834), .A3(n1835), .A4(n1836), .ZN(n1268)
          );
-  NOR4_X1 U1383 ( .A1(n1127), .A2(n1223), .A3(n852), .A4(n1071), .ZN(
+  NOR4_X1 U1383 ( .A1(n1128), .A2(n1224), .A3(n2012), .A4(n1072), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N116) );
-  AND4_X1 U1384 ( .A1(n853), .A2(n841), .A3(n836), .A4(n1269), .ZN(n1127) );
-  NOR4_X1 U1385 ( .A1(n1589), .A2(n1590), .A3(n1591), .A4(n1592), .ZN(n1269)
+  AND4_X1 U1384 ( .A1(n1987), .A2(n1998), .A3(n2000), .A4(n1270), .ZN(n1128)
          );
-  NAND2_X1 U1386 ( .A1(n1090), .A2(n1270), .ZN(
+  NOR4_X1 U1385 ( .A1(n1860), .A2(n1858), .A3(n1859), .A4(n1863), .ZN(n1270)
+         );
+  NAND2_X1 U1386 ( .A1(n1091), .A2(n1271), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_info_a_is_normal_) );
-  NAND3_X1 U1387 ( .A1(n1121), .A2(n1071), .A3(n1604), .ZN(n1270) );
-  NAND2_X1 U1388 ( .A1(n1271), .A2(n1272), .ZN(n1071) );
-  NOR4_X1 U1389 ( .A1(n1596), .A2(n1597), .A3(n1598), .A4(n1599), .ZN(n1272)
+  NAND3_X1 U1387 ( .A1(n1122), .A2(n1072), .A3(n1921), .ZN(n1271) );
+  NAND2_X1 U1388 ( .A1(n1272), .A2(n1273), .ZN(n1072) );
+  NOR4_X1 U1389 ( .A1(n1853), .A2(n1854), .A3(n1855), .A4(n1856), .ZN(n1273)
          );
-  NOR4_X1 U1390 ( .A1(n1600), .A2(n1601), .A3(n1602), .A4(n1603), .ZN(n1271)
+  NOR4_X1 U1390 ( .A1(n1849), .A2(n1850), .A3(n1851), .A4(n1852), .ZN(n1272)
          );
-  NAND2_X1 U1391 ( .A1(n1273), .A2(n1274), .ZN(n1121) );
-  NOR4_X1 U1392 ( .A1(n835), .A2(n840), .A3(n845), .A4(n858), .ZN(n1274) );
-  NOR4_X1 U1393 ( .A1(n832), .A2(n837), .A3(n844), .A4(n857), .ZN(n1273) );
-  INV_X1 U1394 ( .A(n1223), .ZN(n1090) );
-  OAI21_X1 U1395 ( .B1(n1275), .B2(n860), .A(n1276), .ZN(
+  NAND2_X1 U1391 ( .A1(n1274), .A2(n1275), .ZN(n1122) );
+  NOR4_X1 U1392 ( .A1(n1955), .A2(n1956), .A3(n1957), .A4(n1959), .ZN(n1275)
+         );
+  NOR4_X1 U1393 ( .A1(n1986), .A2(n2001), .A3(n1985), .A4(n1954), .ZN(n1274)
+         );
+  INV_X1 U1394 ( .A(n1224), .ZN(n1091) );
+  OAI21_X1 U1395 ( .B1(n1276), .B2(n1996), .A(n1277), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_i_fpnew_rounding_round_up) );
-  MUX2_X1 U1396 ( .A(n1277), .B(n1278), .S(n1556), .Z(n1276) );
-  OAI21_X1 U1397 ( .B1(n964), .B2(n965), .A(n1279), .ZN(n1278) );
-  XNOR2_X1 U1398 ( .A(n846), .B(n1606), .ZN(n1279) );
-  OR3_X1 U1399 ( .A1(n982), .A2(n1558), .A3(n981), .ZN(n1277) );
-  NOR2_X1 U1400 ( .A1(n964), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[0]), .ZN(n981) );
-  OAI221_X1 U1401 ( .B1(n997), .B2(n1204), .C1(n1280), .C2(n1000), .A(n1281), 
+  MUX2_X1 U1396 ( .A(n1278), .B(n1279), .S(n1870), .Z(n1277) );
+  OAI21_X1 U1397 ( .B1(n965), .B2(n966), .A(n1280), .ZN(n1279) );
+  XNOR2_X1 U1398 ( .A(n1997), .B(n1948), .ZN(n1280) );
+  OR3_X1 U1399 ( .A1(n983), .A2(n1871), .A3(n982), .ZN(n1278) );
+  NOR2_X1 U1400 ( .A1(n965), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[0]), .ZN(n982) );
+  OAI221_X1 U1401 ( .B1(n998), .B2(n1205), .C1(n1281), .C2(n1001), .A(n1282), 
         .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_pre_round_mantissa[0]) );
-  AOI21_X1 U1402 ( .B1(n1213), .B2(n1003), .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .ZN(n1281) );
-  OAI221_X1 U1403 ( .B1(n1282), .B2(n1185), .C1(n1152), .C2(n1283), .A(n1284), 
-        .ZN(n1213) );
-  AOI222_X1 U1404 ( .A1(n1188), .A2(n1174), .B1(n1159), .B2(n1180), .C1(n1155), 
-        .C2(n1285), .ZN(n1284) );
-  INV_X1 U1405 ( .A(n1176), .ZN(n1282) );
-  OAI221_X1 U1406 ( .B1(n548), .B2(n885), .C1(n549), .C2(n890), .A(n1286), 
-        .ZN(n1176) );
-  AOI22_X1 U1407 ( .A1(n1164), .A2(n1234), .B1(n895), .B2(n1287), .ZN(n1286)
+  AOI21_X1 U1402 ( .B1(n1214), .B2(n1004), .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .ZN(n1282) );
+  OAI221_X1 U1403 ( .B1(n1283), .B2(n1186), .C1(n1153), .C2(n1284), .A(n1285), 
+        .ZN(n1214) );
+  AOI222_X1 U1404 ( .A1(n1189), .A2(n1175), .B1(n1160), .B2(n1181), .C1(n1156), 
+        .C2(n1286), .ZN(n1285) );
+  INV_X1 U1405 ( .A(n1177), .ZN(n1283) );
+  OAI221_X1 U1406 ( .B1(n2022), .B2(n1162), .C1(n2021), .C2(n891), .A(n1287), 
+        .ZN(n1177) );
+  AOI22_X1 U1407 ( .A1(n1165), .A2(n1875), .B1(n1167), .B2(n1808), .ZN(n1287)
          );
-  INV_X1 U1408 ( .A(n1288), .ZN(n1280) );
-  INV_X1 U1409 ( .A(n1149), .ZN(n997) );
-  NAND2_X1 U1410 ( .A1(n1289), .A2(n1290), .ZN(n964) );
-  NOR4_X1 U1411 ( .A1(n1291), .A2(n1292), .A3(n1607), .A4(n1293), .ZN(n1290)
+  INV_X1 U1408 ( .A(n1289), .ZN(n1281) );
+  INV_X1 U1409 ( .A(n1150), .ZN(n998) );
+  NAND2_X1 U1410 ( .A1(n1290), .A2(n1291), .ZN(n965) );
+  NOR4_X1 U1411 ( .A1(n1292), .A2(n1293), .A3(n1815), .A4(n1294), .ZN(n1291)
          );
-  NOR3_X1 U1412 ( .A1(n1294), .A2(n1295), .A3(n1296), .ZN(n1293) );
-  NOR4_X1 U1413 ( .A1(n1297), .A2(n1174), .A3(n1156), .A4(n1199), .ZN(n1295)
+  NOR3_X1 U1412 ( .A1(n1295), .A2(n1296), .A3(n1297), .ZN(n1294) );
+  NOR4_X1 U1413 ( .A1(n1298), .A2(n1175), .A3(n1157), .A4(n1200), .ZN(n1296)
          );
-  NAND3_X1 U1414 ( .A1(n1298), .A2(n1299), .A3(n1300), .ZN(n1294) );
-  OR4_X1 U1415 ( .A1(n1210), .A2(n1285), .A3(n1201), .A4(n1301), .ZN(n1300) );
-  NAND4_X1 U1416 ( .A1(n1302), .A2(n1303), .A3(n1304), .A4(n1305), .ZN(n1299)
+  NAND3_X1 U1414 ( .A1(n1299), .A2(n1300), .A3(n1301), .ZN(n1295) );
+  OR4_X1 U1415 ( .A1(n1211), .A2(n1286), .A3(n1202), .A4(n1302), .ZN(n1301) );
+  NAND4_X1 U1416 ( .A1(n1303), .A2(n1304), .A3(n1305), .A4(n1306), .ZN(n1300)
          );
-  INV_X1 U1417 ( .A(n1306), .ZN(n1303) );
-  OR4_X1 U1418 ( .A1(n1307), .A2(n1308), .A3(n1309), .A4(n1310), .ZN(n1298) );
-  INV_X1 U1419 ( .A(n1311), .ZN(n1292) );
-  OAI21_X1 U1420 ( .B1(n1174), .B2(n1191), .A(n1159), .ZN(n1311) );
-  OAI221_X1 U1421 ( .B1(n724), .B2(n885), .C1(n725), .C2(n890), .A(n1312), 
-        .ZN(n1174) );
-  AOI22_X1 U1422 ( .A1(n1164), .A2(n1238), .B1(n895), .B2(n1313), .ZN(n1312)
+  INV_X1 U1417 ( .A(n1307), .ZN(n1304) );
+  OR4_X1 U1418 ( .A1(n1308), .A2(n1309), .A3(n1310), .A4(n1311), .ZN(n1299) );
+  INV_X1 U1419 ( .A(n1312), .ZN(n1293) );
+  OAI21_X1 U1420 ( .B1(n1175), .B2(n1192), .A(n1160), .ZN(n1312) );
+  OAI221_X1 U1421 ( .B1(n1990), .B2(n1162), .C1(n2006), .C2(n891), .A(n1313), 
+        .ZN(n1175) );
+  AOI22_X1 U1422 ( .A1(n1165), .A2(n1883), .B1(n1167), .B2(n1880), .ZN(n1313)
          );
-  OAI211_X1 U1423 ( .C1(n1314), .C2(n1185), .A(n1315), .B(n1316), .ZN(n1291)
+  OAI211_X1 U1423 ( .C1(n1315), .C2(n1186), .A(n1316), .B(n1317), .ZN(n1292)
          );
-  OAI21_X1 U1424 ( .B1(n1317), .B2(n1308), .A(n1155), .ZN(n1316) );
-  OAI21_X1 U1425 ( .B1(n1318), .B2(n1285), .A(n1188), .ZN(n1315) );
-  NOR4_X1 U1426 ( .A1(n1306), .A2(n1319), .A3(n1180), .A4(n1189), .ZN(n1314)
+  OAI21_X1 U1424 ( .B1(n1318), .B2(n1309), .A(n1156), .ZN(n1317) );
+  OAI21_X1 U1425 ( .B1(n1319), .B2(n1286), .A(n1189), .ZN(n1316) );
+  NOR4_X1 U1426 ( .A1(n1307), .A2(n1320), .A3(n1181), .A4(n1190), .ZN(n1315)
          );
-  OAI221_X1 U1427 ( .B1(n728), .B2(n885), .C1(n729), .C2(n890), .A(n1320), 
-        .ZN(n1180) );
-  AOI22_X1 U1428 ( .A1(n1164), .A2(n1244), .B1(n895), .B2(n1242), .ZN(n1320)
+  OAI221_X1 U1427 ( .B1(n2002), .B2(n1162), .C1(n1993), .C2(n891), .A(n1321), 
+        .ZN(n1181) );
+  AOI22_X1 U1428 ( .A1(n1165), .A2(n1879), .B1(n1167), .B2(n1876), .ZN(n1321)
          );
-  NAND2_X1 U1429 ( .A1(n1305), .A2(n1321), .ZN(n1319) );
-  INV_X1 U1430 ( .A(n1322), .ZN(n1305) );
-  AOI221_X1 U1431 ( .B1(n1323), .B2(n1324), .C1(n1325), .C2(n1149), .A(n1326), 
-        .ZN(n1289) );
-  OAI221_X1 U1432 ( .B1(n1327), .B2(n1296), .C1(n1328), .C2(n1321), .A(n1329), 
-        .ZN(n1326) );
-  OAI21_X1 U1433 ( .B1(n1288), .B2(n1325), .A(n1003), .ZN(n1329) );
-  INV_X1 U1434 ( .A(n1330), .ZN(n1328) );
-  NOR4_X1 U1435 ( .A1(n1331), .A2(n1332), .A3(n1333), .A4(n1334), .ZN(n1327)
+  NAND2_X1 U1429 ( .A1(n1306), .A2(n1322), .ZN(n1320) );
+  INV_X1 U1430 ( .A(n1323), .ZN(n1306) );
+  AOI221_X1 U1431 ( .B1(n1324), .B2(n1325), .C1(n1326), .C2(n1150), .A(n1327), 
+        .ZN(n1290) );
+  OAI221_X1 U1432 ( .B1(n1328), .B2(n1297), .C1(n1329), .C2(n1322), .A(n1330), 
+        .ZN(n1327) );
+  OAI21_X1 U1433 ( .B1(n1289), .B2(n1326), .A(n1004), .ZN(n1330) );
+  INV_X1 U1434 ( .A(n1331), .ZN(n1329) );
+  NOR4_X1 U1435 ( .A1(n1332), .A2(n1333), .A3(n1334), .A4(n1335), .ZN(n1328)
          );
-  INV_X1 U1436 ( .A(n1153), .ZN(n1333) );
-  OAI221_X1 U1437 ( .B1(n1335), .B2(n1322), .C1(n1336), .C2(n1307), .A(n1337), 
-        .ZN(n1153) );
-  AOI21_X1 U1438 ( .B1(n1338), .B2(n1324), .A(n1302), .ZN(n1337) );
-  NAND3_X1 U1439 ( .A1(n1339), .A2(n1340), .A3(n1197), .ZN(n1332) );
-  NAND2_X1 U1440 ( .A1(n1341), .A2(n1335), .ZN(n1197) );
-  MUX2_X1 U1441 ( .A(n1309), .B(n1306), .S(n1342), .Z(n1341) );
-  NAND4_X1 U1442 ( .A1(n1172), .A2(n1186), .A3(n1207), .A4(n1283), .ZN(n1331)
+  INV_X1 U1436 ( .A(n1154), .ZN(n1334) );
+  OAI221_X1 U1437 ( .B1(n1336), .B2(n1323), .C1(n1337), .C2(n1308), .A(n1338), 
+        .ZN(n1154) );
+  AOI21_X1 U1438 ( .B1(n1339), .B2(n1325), .A(n1303), .ZN(n1338) );
+  NAND3_X1 U1439 ( .A1(n1340), .A2(n1341), .A3(n1198), .ZN(n1333) );
+  NAND2_X1 U1440 ( .A1(n1342), .A2(n1336), .ZN(n1198) );
+  MUX2_X1 U1441 ( .A(n1310), .B(n1307), .S(n1343), .Z(n1342) );
+  NAND4_X1 U1442 ( .A1(n1173), .A2(n1187), .A3(n1208), .A4(n1284), .ZN(n1332)
          );
-  AOI22_X1 U1443 ( .A1(n1308), .A2(n1324), .B1(n1343), .B2(n1323), .ZN(n1283)
+  AOI22_X1 U1443 ( .A1(n1309), .A2(n1325), .B1(n1344), .B2(n1324), .ZN(n1284)
          );
-  AOI22_X1 U1444 ( .A1(n1307), .A2(n1324), .B1(n1343), .B2(n1322), .ZN(n1207)
+  AOI22_X1 U1444 ( .A1(n1308), .A2(n1325), .B1(n1344), .B2(n1323), .ZN(n1208)
          );
-  AOI222_X1 U1445 ( .A1(n1317), .A2(n1343), .B1(n1344), .B2(n1345), .C1(n1318), 
-        .C2(n1324), .ZN(n1186) );
-  AOI222_X1 U1446 ( .A1(n1308), .A2(n1343), .B1(n1344), .B2(n1323), .C1(n1285), 
-        .C2(n1324), .ZN(n1172) );
-  OAI221_X1 U1447 ( .B1(n720), .B2(n885), .C1(n721), .C2(n890), .A(n1346), 
-        .ZN(n1285) );
-  AOI22_X1 U1448 ( .A1(n1164), .A2(n1232), .B1(n895), .B2(n1240), .ZN(n1346)
+  AOI222_X1 U1445 ( .A1(n1318), .A2(n1344), .B1(n1345), .B2(n1346), .C1(n1319), 
+        .C2(n1325), .ZN(n1187) );
+  AOI222_X1 U1446 ( .A1(n1309), .A2(n1344), .B1(n1345), .B2(n1324), .C1(n1286), 
+        .C2(n1325), .ZN(n1173) );
+  OAI221_X1 U1447 ( .B1(n1980), .B2(n1162), .C1(n1981), .C2(n891), .A(n1347), 
+        .ZN(n1286) );
+  AOI22_X1 U1448 ( .A1(n1165), .A2(n1887), .B1(n898), .B2(n1884), .ZN(n1347)
          );
-  OAI221_X1 U1449 ( .B1(n716), .B2(n885), .C1(n717), .C2(n890), .A(n1347), 
-        .ZN(n1308) );
-  AOI22_X1 U1450 ( .A1(n1164), .A2(n1230), .B1(n895), .B2(n1233), .ZN(n1347)
-         );
-  INV_X1 U1451 ( .A(n1304), .ZN(n1323) );
-  NAND2_X1 U1452 ( .A1(n1348), .A2(n1349), .ZN(n1304) );
-  MUX2_X1 U1453 ( .A(n1350), .B(n1351), .S(n1352), .Z(n1348) );
-  INV_X1 U1454 ( .A(n965), .ZN(n982) );
-  NOR3_X1 U1455 ( .A1(n965), .A2(n1556), .A3(n1558), .ZN(n1275) );
-  OAI221_X1 U1456 ( .B1(n1146), .B2(n1204), .C1(n1353), .C2(n1000), .A(n1354), 
-        .ZN(n965) );
-  AOI21_X1 U1457 ( .B1(n1288), .B2(n1149), .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .ZN(n1354) );
-  OAI21_X1 U1458 ( .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N329), .B2(n1003), .A(n1355), .ZN(n1149) );
-  INV_X1 U1459 ( .A(n1005), .ZN(n1355) );
-  NOR2_X1 U1460 ( .A1(n1003), .A2(n1147), .ZN(n1005) );
-  OAI221_X1 U1461 ( .B1(n1356), .B2(n1151), .C1(n1357), .C2(n1185), .A(n1358), 
-        .ZN(n1288) );
-  AOI222_X1 U1462 ( .A1(n1155), .A2(n1309), .B1(n1330), .B2(n1306), .C1(n1159), 
-        .C2(n1199), .ZN(n1358) );
-  INV_X1 U1463 ( .A(n1359), .ZN(n1147) );
-  OAI221_X1 U1464 ( .B1(n1357), .B2(n1151), .C1(n1152), .C2(n1339), .A(n1360), 
-        .ZN(n1359) );
-  AOI222_X1 U1465 ( .A1(n1155), .A2(n1199), .B1(n1157), .B2(n1361), .C1(n1159), 
-        .C2(n1202), .ZN(n1360) );
-  OAI221_X1 U1466 ( .B1(n550), .B2(n885), .C1(n551), .C2(n890), .A(n1362), 
-        .ZN(n1202) );
-  AOI22_X1 U1467 ( .A1(n1164), .A2(n1363), .B1(n895), .B2(n1165), .ZN(n1362)
-         );
-  OAI221_X1 U1468 ( .B1(n554), .B2(n885), .C1(n555), .C2(n890), .A(n1364), 
-        .ZN(n1361) );
-  AOI22_X1 U1469 ( .A1(n1164), .A2(n1365), .B1(n895), .B2(n1366), .ZN(n1364)
-         );
-  OAI221_X1 U1470 ( .B1(n726), .B2(n885), .C1(n727), .C2(n890), .A(n1367), 
-        .ZN(n1199) );
-  AOI22_X1 U1471 ( .A1(n1164), .A2(n1243), .B1(n896), .B2(n1368), .ZN(n1367)
-         );
-  OAI221_X1 U1472 ( .B1(n1335), .B2(n1306), .C1(n1336), .C2(n1309), .A(n1369), 
-        .ZN(n1339) );
-  AOI21_X1 U1473 ( .B1(n1356), .B2(n1324), .A(n1302), .ZN(n1369) );
-  NOR2_X1 U1474 ( .A1(n1336), .A2(n1335), .ZN(n1302) );
-  INV_X1 U1475 ( .A(n1201), .ZN(n1356) );
-  OAI221_X1 U1476 ( .B1(n722), .B2(n886), .C1(n723), .C2(n890), .A(n1370), 
-        .ZN(n1201) );
-  AOI22_X1 U1477 ( .A1(n893), .A2(n1371), .B1(n896), .B2(n1372), .ZN(n1370) );
-  OAI221_X1 U1478 ( .B1(n718), .B2(n886), .C1(n719), .C2(n890), .A(n1373), 
+  OAI221_X1 U1449 ( .B1(n2009), .B2(n1162), .C1(n1973), .C2(n891), .A(n1348), 
         .ZN(n1309) );
-  AOI22_X1 U1479 ( .A1(n893), .A2(n1374), .B1(n896), .B2(n1375), .ZN(n1373) );
-  OAI221_X1 U1480 ( .B1(n713), .B2(n886), .C1(n714), .C2(n890), .A(n1376), 
-        .ZN(n1306) );
-  AOI22_X1 U1481 ( .A1(n893), .A2(n1351), .B1(n896), .B2(n1377), .ZN(n1376) );
-  INV_X1 U1482 ( .A(n1200), .ZN(n1357) );
-  OAI221_X1 U1483 ( .B1(n730), .B2(n886), .C1(n731), .C2(n889), .A(n1378), 
+  AOI22_X1 U1450 ( .A1(n1165), .A2(n1891), .B1(n1167), .B2(n1888), .ZN(n1348)
+         );
+  INV_X1 U1451 ( .A(n1305), .ZN(n1324) );
+  NAND2_X1 U1452 ( .A1(n1349), .A2(n1350), .ZN(n1305) );
+  MUX2_X1 U1453 ( .A(n1892), .B(n1893), .S(n1353), .Z(n1349) );
+  INV_X1 U1454 ( .A(n966), .ZN(n983) );
+  NOR3_X1 U1455 ( .A1(n966), .A2(n1870), .A3(n1871), .ZN(n1276) );
+  OAI221_X1 U1456 ( .B1(n1147), .B2(n1205), .C1(n1354), .C2(n1001), .A(n1355), 
+        .ZN(n966) );
+  AOI21_X1 U1457 ( .B1(n1289), .B2(n1150), .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_of_before_round), .ZN(n1355) );
+  OAI21_X1 U1458 ( .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N329), .B2(n1004), .A(n1356), .ZN(n1150) );
+  INV_X1 U1459 ( .A(n1006), .ZN(n1356) );
+  NOR2_X1 U1460 ( .A1(n1004), .A2(n1148), .ZN(n1006) );
+  OAI221_X1 U1461 ( .B1(n1357), .B2(n1152), .C1(n1358), .C2(n1186), .A(n1359), 
+        .ZN(n1289) );
+  AOI222_X1 U1462 ( .A1(n1156), .A2(n1310), .B1(n1331), .B2(n1307), .C1(n1160), 
+        .C2(n1200), .ZN(n1359) );
+  INV_X1 U1463 ( .A(n1360), .ZN(n1148) );
+  OAI221_X1 U1464 ( .B1(n1358), .B2(n1152), .C1(n1153), .C2(n1340), .A(n1361), 
+        .ZN(n1360) );
+  AOI222_X1 U1465 ( .A1(n1156), .A2(n1200), .B1(n1158), .B2(n1362), .C1(n1160), 
+        .C2(n1203), .ZN(n1361) );
+  OAI221_X1 U1466 ( .B1(n2020), .B2(n1162), .C1(n2019), .C2(n891), .A(n1363), 
+        .ZN(n1203) );
+  AOI22_X1 U1467 ( .A1(n1165), .A2(n1807), .B1(n898), .B2(n1810), .ZN(n1363)
+         );
+  OAI221_X1 U1468 ( .B1(n1964), .B2(n1162), .C1(n2016), .C2(n891), .A(n1365), 
+        .ZN(n1362) );
+  AOI22_X1 U1469 ( .A1(n1165), .A2(n1811), .B1(n898), .B2(n1814), .ZN(n1365)
+         );
+  OAI221_X1 U1470 ( .B1(n1991), .B2(n1162), .C1(n1992), .C2(n891), .A(n1368), 
         .ZN(n1200) );
-  AOI22_X1 U1484 ( .A1(n893), .A2(n1379), .B1(n896), .B2(n1212), .ZN(n1378) );
-  INV_X1 U1485 ( .A(n1325), .ZN(n1353) );
-  OAI221_X1 U1486 ( .B1(n1338), .B2(n1151), .C1(n1150), .C2(n1185), .A(n1380), 
-        .ZN(n1325) );
-  AOI222_X1 U1487 ( .A1(n1155), .A2(n1307), .B1(n1322), .B2(n1330), .C1(n1159), 
-        .C2(n1156), .ZN(n1380) );
-  OAI221_X1 U1488 ( .B1(n725), .B2(n886), .C1(n726), .C2(n889), .A(n1381), 
-        .ZN(n1156) );
-  AOI22_X1 U1489 ( .A1(n893), .A2(n1372), .B1(n896), .B2(n1244), .ZN(n1381) );
-  NOR2_X1 U1490 ( .A1(n1297), .A2(n1152), .ZN(n1330) );
-  AOI211_X1 U1491 ( .C1(n714), .C2(n895), .A(n1164), .B(n1382), .ZN(n1322) );
-  OAI22_X1 U1492 ( .A1(n1351), .A2(n1349), .B1(n1350), .B2(n1383), .ZN(n1382)
+  AOI22_X1 U1471 ( .A1(n1165), .A2(n1881), .B1(n898), .B2(n1878), .ZN(n1368)
          );
-  OAI221_X1 U1493 ( .B1(n717), .B2(n886), .C1(n718), .C2(n889), .A(n1384), 
+  OAI221_X1 U1472 ( .B1(n1336), .B2(n1307), .C1(n1337), .C2(n1310), .A(n1370), 
+        .ZN(n1340) );
+  AOI21_X1 U1473 ( .B1(n1357), .B2(n1325), .A(n1303), .ZN(n1370) );
+  NOR2_X1 U1474 ( .A1(n1337), .A2(n1336), .ZN(n1303) );
+  INV_X1 U1475 ( .A(n1202), .ZN(n1357) );
+  OAI221_X1 U1476 ( .B1(n1983), .B2(n1162), .C1(n1984), .C2(n891), .A(n1371), 
+        .ZN(n1202) );
+  AOI22_X1 U1477 ( .A1(n894), .A2(n1885), .B1(n898), .B2(n1882), .ZN(n1371) );
+  OAI221_X1 U1478 ( .B1(n1976), .B2(n1162), .C1(n1978), .C2(n891), .A(n1374), 
+        .ZN(n1310) );
+  AOI22_X1 U1479 ( .A1(n894), .A2(n1889), .B1(n898), .B2(n1886), .ZN(n1374) );
+  OAI221_X1 U1480 ( .B1(n2005), .B2(n1162), .C1(n1963), .C2(n891), .A(n1377), 
         .ZN(n1307) );
-  AOI22_X1 U1494 ( .A1(n893), .A2(n1377), .B1(n896), .B2(n1232), .ZN(n1384) );
-  INV_X1 U1495 ( .A(n1157), .ZN(n1185) );
-  INV_X1 U1496 ( .A(n1209), .ZN(n1150) );
-  OAI221_X1 U1497 ( .B1(n729), .B2(n886), .C1(n730), .C2(n889), .A(n1385), 
-        .ZN(n1209) );
-  AOI22_X1 U1498 ( .A1(n893), .A2(n1368), .B1(n896), .B2(n1234), .ZN(n1385) );
-  INV_X1 U1499 ( .A(n1210), .ZN(n1338) );
-  OAI221_X1 U1500 ( .B1(n721), .B2(n886), .C1(n722), .C2(n889), .A(n1386), 
+  AOI22_X1 U1481 ( .A1(n894), .A2(n1893), .B1(n898), .B2(n1890), .ZN(n1377) );
+  INV_X1 U1482 ( .A(n1201), .ZN(n1358) );
+  OAI221_X1 U1483 ( .B1(n1994), .B2(n1162), .C1(n1988), .C2(n1163), .A(n1379), 
+        .ZN(n1201) );
+  AOI22_X1 U1484 ( .A1(n894), .A2(n1877), .B1(n898), .B2(n1806), .ZN(n1379) );
+  INV_X1 U1485 ( .A(n1326), .ZN(n1354) );
+  OAI221_X1 U1486 ( .B1(n1339), .B2(n1152), .C1(n1151), .C2(n1186), .A(n1381), 
+        .ZN(n1326) );
+  AOI222_X1 U1487 ( .A1(n1156), .A2(n1308), .B1(n1323), .B2(n1331), .C1(n1160), 
+        .C2(n1157), .ZN(n1381) );
+  OAI221_X1 U1488 ( .B1(n2006), .B2(n1162), .C1(n1991), .C2(n1163), .A(n1382), 
+        .ZN(n1157) );
+  AOI22_X1 U1489 ( .A1(n894), .A2(n1882), .B1(n898), .B2(n1879), .ZN(n1382) );
+  NOR2_X1 U1490 ( .A1(n1298), .A2(n1153), .ZN(n1331) );
+  AOI211_X1 U1491 ( .C1(n1963), .C2(n1167), .A(n1165), .B(n1383), .ZN(n1323)
+         );
+  OAI22_X1 U1492 ( .A1(n1893), .A2(n1350), .B1(n1892), .B2(n1384), .ZN(n1383)
+         );
+  OAI221_X1 U1493 ( .B1(n1973), .B2(n1162), .C1(n1976), .C2(n1163), .A(n1385), 
+        .ZN(n1308) );
+  AOI22_X1 U1494 ( .A1(n894), .A2(n1890), .B1(n898), .B2(n1887), .ZN(n1385) );
+  INV_X1 U1495 ( .A(n1158), .ZN(n1186) );
+  INV_X1 U1496 ( .A(n1210), .ZN(n1151) );
+  OAI221_X1 U1497 ( .B1(n1993), .B2(n1162), .C1(n1994), .C2(n1163), .A(n1386), 
         .ZN(n1210) );
-  AOI22_X1 U1501 ( .A1(n893), .A2(n1375), .B1(n896), .B2(n1238), .ZN(n1386) );
-  AOI221_X1 U1502 ( .B1(n1191), .B2(n1188), .C1(n1190), .C2(n1157), .A(n1387), 
-        .ZN(n1204) );
-  INV_X1 U1503 ( .A(n1388), .ZN(n1387) );
-  AOI221_X1 U1504 ( .B1(n1155), .B2(n1318), .C1(n1159), .C2(n1189), .A(n1389), 
-        .ZN(n1388) );
-  AND3_X1 U1505 ( .A1(n1334), .A2(n1296), .A3(n1335), .ZN(n1389) );
-  INV_X1 U1506 ( .A(n1003), .ZN(n1146) );
-  AOI222_X1 U1507 ( .A1(n1155), .A2(n1189), .B1(n1157), .B2(n1392), .C1(n1159), 
-        .C2(n1192), .ZN(n1391) );
-  OAI221_X1 U1508 ( .B1(n551), .B2(n886), .C1(n552), .C2(n889), .A(n1393), 
-        .ZN(n1192) );
-  AOI22_X1 U1509 ( .A1(n893), .A2(n1287), .B1(n896), .B2(n1365), .ZN(n1393) );
-  OAI222_X1 U1510 ( .A1(n556), .A2(n889), .B1(n555), .B2(n885), .C1(n554), 
-        .C2(n894), .ZN(n1392) );
-  NOR2_X1 U1511 ( .A1(n1297), .A2(n1296), .ZN(n1157) );
-  OAI221_X1 U1512 ( .B1(n727), .B2(n886), .C1(n728), .C2(n889), .A(n1395), 
-        .ZN(n1189) );
-  AOI22_X1 U1513 ( .A1(n893), .A2(n1313), .B1(n896), .B2(n1379), .ZN(n1395) );
-  NOR2_X1 U1514 ( .A1(n1296), .A2(n1336), .ZN(n1394) );
-  OAI222_X1 U1515 ( .A1(n1297), .A2(n1191), .B1(n1318), .B2(n1301), .C1(n1335), 
-        .C2(n1334), .ZN(n1340) );
-  MUX2_X1 U1516 ( .A(n1317), .B(n1345), .S(n1342), .Z(n1334) );
-  INV_X1 U1517 ( .A(n1321), .ZN(n1345) );
-  NAND2_X1 U1518 ( .A1(n895), .A2(n1351), .ZN(n1321) );
-  OAI221_X1 U1519 ( .B1(n714), .B2(n886), .C1(n716), .C2(n889), .A(n1397), 
-        .ZN(n1317) );
-  AOI22_X1 U1520 ( .A1(n893), .A2(n1350), .B1(n897), .B2(n1374), .ZN(n1397) );
-  INV_X1 U1521 ( .A(n1343), .ZN(n1301) );
-  NOR2_X1 U1522 ( .A1(n1396), .A2(n1336), .ZN(n1343) );
-  INV_X1 U1523 ( .A(n1342), .ZN(n1336) );
-  OAI221_X1 U1524 ( .B1(n719), .B2(n887), .C1(n720), .C2(n889), .A(n1398), 
-        .ZN(n1318) );
-  AOI22_X1 U1525 ( .A1(n893), .A2(n1233), .B1(n897), .B2(n1371), .ZN(n1398) );
-  OAI221_X1 U1526 ( .B1(n723), .B2(n887), .C1(n724), .C2(n889), .A(n1399), 
-        .ZN(n1191) );
-  AOI22_X1 U1527 ( .A1(n893), .A2(n1240), .B1(n897), .B2(n1243), .ZN(n1399) );
-  INV_X1 U1528 ( .A(n1324), .ZN(n1297) );
-  NOR2_X1 U1529 ( .A1(n1396), .A2(n1342), .ZN(n1324) );
-  INV_X1 U1530 ( .A(n1296), .ZN(n1152) );
-  INV_X1 U1531 ( .A(n1188), .ZN(n1151) );
-  NOR2_X1 U1532 ( .A1(n1310), .A2(n1296), .ZN(n1188) );
-  OAI21_X1 U1533 ( .B1(n1548), .B2(n1013), .A(n1400), .ZN(n1296) );
-  AOI22_X1 U1534 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N313), .A2(n1401), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N288), .B2(n1015), .ZN(n1400) );
-  INV_X1 U1535 ( .A(n1344), .ZN(n1310) );
-  NOR2_X1 U1536 ( .A1(n1342), .A2(n1335), .ZN(n1344) );
-  INV_X1 U1537 ( .A(n1396), .ZN(n1335) );
-  OAI21_X1 U1538 ( .B1(n1547), .B2(n1013), .A(n1402), .ZN(n1396) );
-  AOI22_X1 U1539 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N312), .A2(n1401), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N287), .B2(n1015), .ZN(n1402) );
-  OAI21_X1 U1540 ( .B1(n1546), .B2(n1013), .A(n1403), .ZN(n1342) );
-  AOI22_X1 U1541 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N311), .A2(n1401), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N286), .B2(n1015), .ZN(n1403) );
-  INV_X1 U1542 ( .A(n1190), .ZN(n1390) );
-  OAI221_X1 U1543 ( .B1(n731), .B2(n885), .C1(n548), .C2(n890), .A(n1404), 
+  AOI22_X1 U1498 ( .A1(n894), .A2(n1878), .B1(n898), .B2(n1875), .ZN(n1386) );
+  INV_X1 U1499 ( .A(n1211), .ZN(n1339) );
+  OAI221_X1 U1500 ( .B1(n1981), .B2(n1162), .C1(n1983), .C2(n1163), .A(n1387), 
+        .ZN(n1211) );
+  AOI22_X1 U1501 ( .A1(n894), .A2(n1886), .B1(n898), .B2(n1883), .ZN(n1387) );
+  AOI221_X1 U1502 ( .B1(n1192), .B2(n1189), .C1(n1191), .C2(n1158), .A(n1388), 
+        .ZN(n1205) );
+  INV_X1 U1503 ( .A(n1389), .ZN(n1388) );
+  AOI221_X1 U1504 ( .B1(n1156), .B2(n1319), .C1(n1160), .C2(n1190), .A(n1390), 
+        .ZN(n1389) );
+  AND3_X1 U1505 ( .A1(n1335), .A2(n1297), .A3(n1336), .ZN(n1390) );
+  INV_X1 U1506 ( .A(n1004), .ZN(n1147) );
+  AOI222_X1 U1507 ( .A1(n1156), .A2(n1190), .B1(n1158), .B2(n1393), .C1(n1160), 
+        .C2(n1193), .ZN(n1392) );
+  OAI221_X1 U1508 ( .B1(n2019), .B2(n889), .C1(n2018), .C2(n1163), .A(n1394), 
+        .ZN(n1193) );
+  AOI22_X1 U1509 ( .A1(n894), .A2(n1808), .B1(n898), .B2(n1811), .ZN(n1394) );
+  OAI222_X1 U1510 ( .A1(n2015), .A2(n1163), .B1(n2016), .B2(n1162), .C1(n1964), 
+        .C2(n896), .ZN(n1393) );
+  NOR2_X1 U1511 ( .A1(n1298), .A2(n1297), .ZN(n1158) );
+  OAI221_X1 U1512 ( .B1(n1992), .B2(n889), .C1(n2002), .C2(n892), .A(n1396), 
         .ZN(n1190) );
-  AOI22_X1 U1544 ( .A1(n1164), .A2(n1242), .B1(n895), .B2(n1363), .ZN(n1404)
+  AOI22_X1 U1513 ( .A1(n894), .A2(n1880), .B1(n898), .B2(n1877), .ZN(n1396) );
+  NOR2_X1 U1514 ( .A1(n1297), .A2(n1337), .ZN(n1395) );
+  OAI222_X1 U1515 ( .A1(n1298), .A2(n1192), .B1(n1319), .B2(n1302), .C1(n1336), 
+        .C2(n1335), .ZN(n1341) );
+  MUX2_X1 U1516 ( .A(n1318), .B(n1346), .S(n1343), .Z(n1335) );
+  INV_X1 U1517 ( .A(n1322), .ZN(n1346) );
+  NAND2_X1 U1518 ( .A1(n898), .A2(n1893), .ZN(n1322) );
+  OAI221_X1 U1519 ( .B1(n1963), .B2(n1162), .C1(n2009), .C2(n1163), .A(n1398), 
+        .ZN(n1318) );
+  AOI22_X1 U1520 ( .A1(n894), .A2(n1892), .B1(n1167), .B2(n1889), .ZN(n1398)
          );
-  NOR2_X1 U1545 ( .A1(n1405), .A2(n1352), .ZN(n1166) );
-  NOR2_X1 U1546 ( .A1(n1349), .A2(n1383), .ZN(n1164) );
-  NAND2_X1 U1547 ( .A1(n1349), .A2(n1352), .ZN(n1162) );
-  INV_X1 U1548 ( .A(n1405), .ZN(n1349) );
-  NAND2_X1 U1549 ( .A1(n1383), .A2(n1405), .ZN(n1161) );
-  OAI21_X1 U1550 ( .B1(n1545), .B2(n1013), .A(n1406), .ZN(n1405) );
-  AOI22_X1 U1551 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N310), .A2(n1401), .B1(n917), .B2(n1015), .ZN(n1406) );
-  INV_X1 U1552 ( .A(n1352), .ZN(n1383) );
-  OAI21_X1 U1553 ( .B1(n1544), .B2(n1013), .A(n1407), .ZN(n1352) );
-  AOI22_X1 U1554 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N309), .A2(n1401), .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N284), .B2(n1015), .ZN(n1407) );
-  INV_X1 U1555 ( .A(n1013), .ZN(n1409) );
-  AND2_X1 U1556 ( .A1(n1408), .A2(n1013), .ZN(n1401) );
-  OAI21_X1 U1557 ( .B1(n1410), .B2(n1411), .A(n848), .ZN(n1408) );
-  INV_X1 U1558 ( .A(n1412), .ZN(n1411) );
-  NAND4_X1 U1559 ( .A1(n1619), .A2(n1620), .A3(n1415), .A4(n1416), .ZN(n1414)
+  INV_X1 U1521 ( .A(n1344), .ZN(n1302) );
+  NOR2_X1 U1522 ( .A1(n1397), .A2(n1337), .ZN(n1344) );
+  INV_X1 U1523 ( .A(n1343), .ZN(n1337) );
+  OAI221_X1 U1524 ( .B1(n1978), .B2(n1162), .C1(n1980), .C2(n1163), .A(n1399), 
+        .ZN(n1319) );
+  AOI22_X1 U1525 ( .A1(n894), .A2(n1888), .B1(n1167), .B2(n1885), .ZN(n1399)
          );
-  NOR4_X1 U1560 ( .A1(n1024), .A2(n1025), .A3(n1026), .A4(n1027), .ZN(n1416)
+  OAI221_X1 U1526 ( .B1(n1984), .B2(n1162), .C1(n1990), .C2(n1163), .A(n1400), 
+        .ZN(n1192) );
+  AOI22_X1 U1527 ( .A1(n894), .A2(n1884), .B1(n1167), .B2(n1881), .ZN(n1400)
          );
-  NOR3_X1 U1561 ( .A1(n1028), .A2(n1032), .A3(n1033), .ZN(n1415) );
-  NAND4_X1 U1562 ( .A1(n1618), .A2(n1619), .A3(n1417), .A4(n1418), .ZN(n1413)
+  INV_X1 U1528 ( .A(n1325), .ZN(n1298) );
+  NOR2_X1 U1529 ( .A1(n1397), .A2(n1343), .ZN(n1325) );
+  INV_X1 U1530 ( .A(n1297), .ZN(n1153) );
+  INV_X1 U1531 ( .A(n1189), .ZN(n1152) );
+  NOR2_X1 U1532 ( .A1(n1311), .A2(n1297), .ZN(n1189) );
+  OAI21_X1 U1533 ( .B1(n1945), .B2(n1014), .A(n1401), .ZN(n1297) );
+  AOI22_X1 U1534 ( .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N313), .A2(n1402), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N288), .B2(n1016), .ZN(n1401) );
+  INV_X1 U1535 ( .A(n1345), .ZN(n1311) );
+  NOR2_X1 U1536 ( .A1(n1343), .A2(n1336), .ZN(n1345) );
+  INV_X1 U1537 ( .A(n1397), .ZN(n1336) );
+  OAI21_X1 U1538 ( .B1(n1943), .B2(n1014), .A(n1403), .ZN(n1397) );
+  AOI22_X1 U1539 ( .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N312), .A2(n1402), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N287), .B2(n1016), .ZN(n1403) );
+  OAI21_X1 U1540 ( .B1(n1946), .B2(n1014), .A(n1404), .ZN(n1343) );
+  AOI22_X1 U1541 ( .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N311), .A2(n1402), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N286), .B2(n1016), .ZN(n1404) );
+  INV_X1 U1542 ( .A(n1191), .ZN(n1391) );
+  OAI221_X1 U1543 ( .B1(n1988), .B2(n1162), .C1(n2022), .C2(n891), .A(n1405), 
+        .ZN(n1191) );
+  AOI22_X1 U1544 ( .A1(n1165), .A2(n1876), .B1(n898), .B2(n1807), .ZN(n1405)
          );
-  AND4_X1 U1563 ( .A1(n1617), .A2(n1616), .A3(n1615), .A4(n1561), .ZN(n1418)
+  NOR2_X1 U1545 ( .A1(n1406), .A2(n1353), .ZN(n1167) );
+  NOR2_X1 U1546 ( .A1(n1350), .A2(n1384), .ZN(n1165) );
+  NAND2_X1 U1547 ( .A1(n1350), .A2(n1353), .ZN(n1163) );
+  INV_X1 U1548 ( .A(n1406), .ZN(n1350) );
+  NAND2_X1 U1549 ( .A1(n1384), .A2(n1406), .ZN(n1162) );
+  OAI21_X1 U1550 ( .B1(n1944), .B2(n1014), .A(n1407), .ZN(n1406) );
+  AOI22_X1 U1551 ( .A1(n2013), .A2(n1402), .B1(n919), .B2(n1016), .ZN(n1407)
          );
-  AOI211_X1 U1564 ( .C1(n1032), .C2(n1033), .A(n1029), .B(n1028), .ZN(n1417)
+  INV_X1 U1552 ( .A(n1353), .ZN(n1384) );
+  OAI21_X1 U1553 ( .B1(n1942), .B2(n1014), .A(n1408), .ZN(n1353) );
+  AOI22_X1 U1554 ( .A1(n1905), .A2(n1402), .B1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N284), .B2(n1016), .ZN(n1408) );
+  INV_X1 U1555 ( .A(n1014), .ZN(n1410) );
+  AND2_X1 U1556 ( .A1(n1409), .A2(n1014), .ZN(n1402) );
+  OAI21_X1 U1557 ( .B1(n1411), .B2(n1412), .A(n862), .ZN(n1409) );
+  INV_X1 U1558 ( .A(n1413), .ZN(n1412) );
+  NAND4_X1 U1559 ( .A1(n1958), .A2(n1953), .A3(n1416), .A4(n1417), .ZN(n1415)
          );
-  XNOR2_X1 U1565 ( .A(n1419), .B(n1076), .ZN(
+  NOR4_X1 U1560 ( .A1(n1917), .A2(n1916), .A3(n1915), .A4(n1914), .ZN(n1417)
+         );
+  NOR3_X1 U1561 ( .A1(n1913), .A2(n1910), .A3(n1909), .ZN(n1416) );
+  NAND4_X1 U1562 ( .A1(n1989), .A2(n1958), .A3(n1418), .A4(n1419), .ZN(n1414)
+         );
+  AND4_X1 U1563 ( .A1(n1995), .A2(n1999), .A3(n1952), .A4(n1895), .ZN(n1419)
+         );
+  AOI211_X1 U1564 ( .C1(n1910), .C2(n1909), .A(n1912), .B(n1913), .ZN(n1418)
+         );
+  XNOR2_X1 U1565 ( .A(n1420), .B(n1077), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[9]) );
-  AOI22_X1 U1566 ( .A1(n1420), .A2(n1250), .B1(n1421), .B2(n1261), .ZN(n1419)
+  AOI22_X1 U1566 ( .A1(n1421), .A2(n1251), .B1(n1422), .B2(n1262), .ZN(n1420)
          );
-  XNOR2_X1 U1567 ( .A(n1116), .B(n1422), .ZN(
+  XNOR2_X1 U1567 ( .A(n1117), .B(n1423), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[8]) );
-  NOR3_X1 U1568 ( .A1(n1423), .A2(n1424), .A3(n1425), .ZN(n1422) );
-  MUX2_X1 U1569 ( .A(n1426), .B(n1427), .S(n1048), .Z(n1423) );
-  NAND2_X1 U1570 ( .A1(n1428), .A2(n1044), .ZN(n1426) );
-  XNOR2_X1 U1571 ( .A(n1429), .B(n1076), .ZN(
+  NOR3_X1 U1568 ( .A1(n1424), .A2(n1425), .A3(n1426), .ZN(n1423) );
+  MUX2_X1 U1569 ( .A(n1427), .B(n1428), .S(n1049), .Z(n1424) );
+  NAND2_X1 U1570 ( .A1(n1429), .A2(n1045), .ZN(n1427) );
+  XNOR2_X1 U1571 ( .A(n1430), .B(n1077), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[7]) );
-  AOI22_X1 U1572 ( .A1(n1250), .A2(n1260), .B1(n1247), .B2(n1430), .ZN(n1429)
+  AOI22_X1 U1572 ( .A1(n1251), .A2(n1261), .B1(n1248), .B2(n1431), .ZN(n1430)
          );
-  XNOR2_X1 U1573 ( .A(n1431), .B(n1076), .ZN(
+  XNOR2_X1 U1573 ( .A(n1432), .B(n1077), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[6]) );
-  AOI22_X1 U1574 ( .A1(n1432), .A2(n1430), .B1(n1262), .B2(n1250), .ZN(n1431)
+  AOI22_X1 U1574 ( .A1(n1433), .A2(n1431), .B1(n1263), .B2(n1251), .ZN(n1432)
          );
-  XNOR2_X1 U1575 ( .A(n1433), .B(n1076), .ZN(
+  XNOR2_X1 U1575 ( .A(n1434), .B(n1077), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[5]) );
-  AOI22_X1 U1576 ( .A1(n1434), .A2(n1430), .B1(n1257), .B2(n1250), .ZN(n1433)
+  AOI22_X1 U1576 ( .A1(n1435), .A2(n1431), .B1(n1258), .B2(n1251), .ZN(n1434)
          );
-  AND2_X1 U1577 ( .A1(n1421), .A2(n1249), .ZN(n1430) );
-  XNOR2_X1 U1578 ( .A(n1116), .B(n1435), .ZN(
+  AND2_X1 U1577 ( .A1(n1422), .A2(n1250), .ZN(n1431) );
+  XNOR2_X1 U1578 ( .A(n1117), .B(n1436), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[4]) );
-  NOR2_X1 U1579 ( .A1(n1048), .A2(n1436), .ZN(n1435) );
-  XNOR2_X1 U1580 ( .A(n1437), .B(n1076), .ZN(
+  NOR2_X1 U1579 ( .A1(n1049), .A2(n1437), .ZN(n1436) );
+  XNOR2_X1 U1580 ( .A(n1438), .B(n1077), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[3]) );
-  AOI21_X1 U1581 ( .B1(n1256), .B2(n1250), .A(n1438), .ZN(n1437) );
-  NOR3_X1 U1582 ( .A1(n1439), .A2(n1046), .A3(n1048), .ZN(n1438) );
-  XNOR2_X1 U1583 ( .A(n1440), .B(n1076), .ZN(
+  AOI21_X1 U1581 ( .B1(n1257), .B2(n1251), .A(n1439), .ZN(n1438) );
+  NOR3_X1 U1582 ( .A1(n1440), .A2(n1047), .A3(n1049), .ZN(n1439) );
+  XNOR2_X1 U1583 ( .A(n1441), .B(n1077), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[2]) );
-  AOI21_X1 U1584 ( .B1(n1263), .B2(n1250), .A(n1441), .ZN(n1440) );
-  AND3_X1 U1585 ( .A1(n1425), .A2(n1442), .A3(n1443), .ZN(n1441) );
-  XNOR2_X1 U1586 ( .A(n1116), .B(n1444), .ZN(
+  AOI21_X1 U1584 ( .B1(n1264), .B2(n1251), .A(n1442), .ZN(n1441) );
+  AND3_X1 U1585 ( .A1(n1426), .A2(n1443), .A3(n1444), .ZN(n1442) );
+  XNOR2_X1 U1586 ( .A(n1117), .B(n1445), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[27]) );
-  NOR2_X1 U1587 ( .A1(n1439), .A2(n1445), .ZN(n1444) );
-  INV_X1 U1588 ( .A(n1446), .ZN(n1439) );
-  OAI221_X1 U1589 ( .B1(n1447), .B2(n1448), .C1(n1443), .C2(n1116), .A(n1449), 
+  NOR2_X1 U1587 ( .A1(n1440), .A2(n1446), .ZN(n1445) );
+  INV_X1 U1588 ( .A(n1447), .ZN(n1440) );
+  OAI221_X1 U1589 ( .B1(n1448), .B2(n1449), .C1(n1444), .C2(n1117), .A(n1450), 
         .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[26]) );
-  OAI221_X1 U1590 ( .B1(n1450), .B2(n1448), .C1(n1451), .C2(n1116), .A(n1449), 
+  OAI221_X1 U1590 ( .B1(n1451), .B2(n1449), .C1(n1452), .C2(n1117), .A(n1450), 
         .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[25]) );
-  NAND2_X1 U1591 ( .A1(n1452), .A2(n1449), .ZN(
+  NAND2_X1 U1591 ( .A1(n1453), .A2(n1450), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[24]) );
-  AOI21_X1 U1592 ( .B1(n1076), .B2(n1249), .A(n1453), .ZN(n1449) );
-  INV_X1 U1593 ( .A(n1454), .ZN(n1453) );
-  MUX2_X1 U1594 ( .A(n1455), .B(n1116), .S(n1456), .Z(n1452) );
-  OR2_X1 U1595 ( .A1(n1448), .A2(n1249), .ZN(n1455) );
-  NAND2_X1 U1596 ( .A1(n1457), .A2(n1454), .ZN(
+  AOI21_X1 U1592 ( .B1(n1077), .B2(n1250), .A(n1454), .ZN(n1450) );
+  INV_X1 U1593 ( .A(n1455), .ZN(n1454) );
+  MUX2_X1 U1594 ( .A(n1456), .B(n1117), .S(n1457), .Z(n1453) );
+  OR2_X1 U1595 ( .A1(n1449), .A2(n1250), .ZN(n1456) );
+  NAND2_X1 U1596 ( .A1(n1458), .A2(n1455), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[23]) );
-  MUX2_X1 U1597 ( .A(n1116), .B(n1448), .S(n1260), .Z(n1457) );
-  NAND2_X1 U1598 ( .A1(n1458), .A2(n1454), .ZN(
+  MUX2_X1 U1597 ( .A(n1117), .B(n1449), .S(n1261), .Z(n1458) );
+  NAND2_X1 U1598 ( .A1(n1459), .A2(n1455), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[22]) );
-  MUX2_X1 U1599 ( .A(n1116), .B(n1448), .S(n1262), .Z(n1458) );
-  NAND2_X1 U1600 ( .A1(n1459), .A2(n1454), .ZN(
+  MUX2_X1 U1599 ( .A(n1117), .B(n1449), .S(n1263), .Z(n1459) );
+  NAND2_X1 U1600 ( .A1(n1460), .A2(n1455), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[21]) );
-  NAND2_X1 U1601 ( .A1(n1076), .A2(n1445), .ZN(n1454) );
-  MUX2_X1 U1602 ( .A(n1116), .B(n1448), .S(n1257), .Z(n1459) );
-  NAND2_X1 U1603 ( .A1(n1424), .A2(n1116), .ZN(n1448) );
-  NAND2_X1 U1604 ( .A1(n1460), .A2(n1461), .ZN(
+  NAND2_X1 U1601 ( .A1(n1077), .A2(n1446), .ZN(n1455) );
+  MUX2_X1 U1602 ( .A(n1117), .B(n1449), .S(n1258), .Z(n1460) );
+  NAND2_X1 U1603 ( .A1(n1425), .A2(n1117), .ZN(n1449) );
+  NAND2_X1 U1604 ( .A1(n1461), .A2(n1462), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[20]) );
-  MUX2_X1 U1605 ( .A(n1462), .B(n1116), .S(n1436), .Z(n1460) );
-  NAND2_X1 U1606 ( .A1(n1463), .A2(n1046), .ZN(n1436) );
-  XNOR2_X1 U1607 ( .A(n1464), .B(n1076), .ZN(
+  MUX2_X1 U1605 ( .A(n1463), .B(n1117), .S(n1437), .Z(n1461) );
+  NAND2_X1 U1606 ( .A1(n1464), .A2(n1047), .ZN(n1437) );
+  XNOR2_X1 U1607 ( .A(n1465), .B(n1077), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[1]) );
-  AOI22_X1 U1608 ( .A1(n1465), .A2(n1425), .B1(n1261), .B2(n1250), .ZN(n1464)
+  AOI22_X1 U1608 ( .A1(n1466), .A2(n1426), .B1(n1262), .B2(n1251), .ZN(n1465)
          );
-  NOR2_X1 U1609 ( .A1(n1048), .A2(n1466), .ZN(n1465) );
-  XNOR2_X1 U1610 ( .A(n1467), .B(n1076), .ZN(
+  NOR2_X1 U1609 ( .A1(n1049), .A2(n1467), .ZN(n1466) );
+  XNOR2_X1 U1610 ( .A(n1468), .B(n1077), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[19]) );
-  AOI22_X1 U1611 ( .A1(n1446), .A2(n1421), .B1(n1424), .B2(n1256), .ZN(n1467)
+  AOI22_X1 U1611 ( .A1(n1447), .A2(n1422), .B1(n1425), .B2(n1257), .ZN(n1468)
          );
-  XNOR2_X1 U1612 ( .A(n1468), .B(n1076), .ZN(
+  XNOR2_X1 U1612 ( .A(n1469), .B(n1077), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[18]) );
-  AOI22_X1 U1613 ( .A1(n1469), .A2(n1421), .B1(n1424), .B2(n1263), .ZN(n1468)
+  AOI22_X1 U1613 ( .A1(n1470), .A2(n1422), .B1(n1425), .B2(n1264), .ZN(n1469)
          );
-  XNOR2_X1 U1614 ( .A(n1470), .B(n1076), .ZN(
+  XNOR2_X1 U1614 ( .A(n1471), .B(n1077), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[17]) );
-  AOI22_X1 U1615 ( .A1(n1421), .A2(n1420), .B1(n1424), .B2(n1261), .ZN(n1470)
+  AOI22_X1 U1615 ( .A1(n1422), .A2(n1421), .B1(n1425), .B2(n1262), .ZN(n1471)
          );
-  MUX2_X1 U1616 ( .A(n1471), .B(n1434), .S(n1044), .Z(n1261) );
-  INV_X1 U1617 ( .A(n1450), .ZN(n1420) );
-  NAND2_X1 U1618 ( .A1(n1451), .A2(n1044), .ZN(n1450) );
-  NAND2_X1 U1619 ( .A1(n1472), .A2(n1461), .ZN(
+  MUX2_X1 U1616 ( .A(n1472), .B(n1435), .S(n1045), .Z(n1262) );
+  INV_X1 U1617 ( .A(n1451), .ZN(n1421) );
+  NAND2_X1 U1618 ( .A1(n1452), .A2(n1045), .ZN(n1451) );
+  NAND2_X1 U1619 ( .A1(n1473), .A2(n1462), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[16]) );
-  MUX2_X1 U1620 ( .A(n1462), .B(n1116), .S(n1473), .Z(n1472) );
-  XNOR2_X1 U1621 ( .A(n1474), .B(n1076), .ZN(
+  MUX2_X1 U1620 ( .A(n1463), .B(n1117), .S(n1474), .Z(n1473) );
+  XNOR2_X1 U1621 ( .A(n1475), .B(n1077), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[15]) );
-  AOI22_X1 U1622 ( .A1(n1421), .A2(n1260), .B1(n1247), .B2(n1475), .ZN(n1474)
+  AOI22_X1 U1622 ( .A1(n1422), .A2(n1261), .B1(n1248), .B2(n1476), .ZN(n1475)
          );
-  AND2_X1 U1623 ( .A1(n1476), .A2(n1477), .ZN(n1260) );
-  OAI21_X1 U1624 ( .B1(n1478), .B2(n1479), .A(n1249), .ZN(n1477) );
-  MUX2_X1 U1625 ( .A(n1480), .B(n1481), .S(n1042), .Z(n1476) );
-  NAND2_X1 U1626 ( .A1(n1482), .A2(n1044), .ZN(n1481) );
-  XNOR2_X1 U1627 ( .A(n1483), .B(n1076), .ZN(
+  AND2_X1 U1623 ( .A1(n1477), .A2(n1478), .ZN(n1261) );
+  OAI21_X1 U1624 ( .B1(n1479), .B2(n1480), .A(n1250), .ZN(n1478) );
+  MUX2_X1 U1625 ( .A(n1481), .B(n1482), .S(n1043), .Z(n1477) );
+  NAND2_X1 U1626 ( .A1(n1483), .A2(n1045), .ZN(n1482) );
+  XNOR2_X1 U1627 ( .A(n1484), .B(n1077), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[14]) );
-  AOI22_X1 U1628 ( .A1(n1475), .A2(n1432), .B1(n1262), .B2(n1421), .ZN(n1483)
+  AOI22_X1 U1628 ( .A1(n1476), .A2(n1433), .B1(n1263), .B2(n1422), .ZN(n1484)
          );
-  MUX2_X1 U1629 ( .A(n1443), .B(n1484), .S(n1044), .Z(n1262) );
-  XNOR2_X1 U1630 ( .A(n1485), .B(n1076), .ZN(
+  MUX2_X1 U1629 ( .A(n1444), .B(n1485), .S(n1045), .Z(n1263) );
+  XNOR2_X1 U1630 ( .A(n1486), .B(n1077), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[13]) );
-  AOI22_X1 U1631 ( .A1(n1475), .A2(n1434), .B1(n1257), .B2(n1421), .ZN(n1485)
+  AOI22_X1 U1631 ( .A1(n1476), .A2(n1435), .B1(n1258), .B2(n1422), .ZN(n1486)
          );
-  MUX2_X1 U1632 ( .A(n1451), .B(n1471), .S(n1044), .Z(n1257) );
-  MUX2_X1 U1633 ( .A(n1486), .B(n1487), .S(n1042), .Z(n1471) );
-  INV_X1 U1634 ( .A(n1466), .ZN(n1451) );
-  MUX2_X1 U1635 ( .A(n1479), .B(n1488), .S(n1042), .Z(n1466) );
-  INV_X1 U1636 ( .A(n1252), .ZN(n1434) );
-  NAND2_X1 U1637 ( .A1(n1489), .A2(n1478), .ZN(n1252) );
-  NOR2_X1 U1638 ( .A1(n1445), .A2(n1044), .ZN(n1475) );
-  INV_X1 U1639 ( .A(n1424), .ZN(n1445) );
-  NOR2_X1 U1640 ( .A1(n1442), .A2(n1253), .ZN(n1424) );
-  NAND2_X1 U1641 ( .A1(n1490), .A2(n1461), .ZN(
+  MUX2_X1 U1632 ( .A(n1452), .B(n1472), .S(n1045), .Z(n1258) );
+  MUX2_X1 U1633 ( .A(n1487), .B(n1488), .S(n1043), .Z(n1472) );
+  INV_X1 U1634 ( .A(n1467), .ZN(n1452) );
+  MUX2_X1 U1635 ( .A(n1480), .B(n1489), .S(n1043), .Z(n1467) );
+  INV_X1 U1636 ( .A(n1253), .ZN(n1435) );
+  NAND2_X1 U1637 ( .A1(n1490), .A2(n1479), .ZN(n1253) );
+  NOR2_X1 U1638 ( .A1(n1446), .A2(n1045), .ZN(n1476) );
+  INV_X1 U1639 ( .A(n1425), .ZN(n1446) );
+  NOR2_X1 U1640 ( .A1(n1443), .A2(n1254), .ZN(n1425) );
+  NAND2_X1 U1641 ( .A1(n1491), .A2(n1462), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[12]) );
-  NAND2_X1 U1642 ( .A1(n1442), .A2(n1076), .ZN(n1461) );
-  MUX2_X1 U1643 ( .A(n1116), .B(n1462), .S(n1255), .Z(n1490) );
-  AND2_X1 U1644 ( .A1(n1463), .A2(n1253), .ZN(n1255) );
-  MUX2_X1 U1645 ( .A(n1428), .B(n1258), .S(n1044), .Z(n1463) );
-  INV_X1 U1646 ( .A(n1427), .ZN(n1258) );
-  NAND2_X1 U1647 ( .A1(n1116), .A2(n1048), .ZN(n1462) );
-  XNOR2_X1 U1648 ( .A(n1491), .B(n1076), .ZN(
+  NAND2_X1 U1642 ( .A1(n1443), .A2(n1077), .ZN(n1462) );
+  MUX2_X1 U1643 ( .A(n1117), .B(n1463), .S(n1256), .Z(n1491) );
+  AND2_X1 U1644 ( .A1(n1464), .A2(n1254), .ZN(n1256) );
+  MUX2_X1 U1645 ( .A(n1429), .B(n1259), .S(n1045), .Z(n1464) );
+  INV_X1 U1646 ( .A(n1428), .ZN(n1259) );
+  NAND2_X1 U1647 ( .A1(n1117), .A2(n1049), .ZN(n1463) );
+  XNOR2_X1 U1648 ( .A(n1492), .B(n1077), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[11]) );
-  AOI22_X1 U1649 ( .A1(n1446), .A2(n1250), .B1(n1256), .B2(n1421), .ZN(n1491)
+  AOI22_X1 U1649 ( .A1(n1447), .A2(n1251), .B1(n1257), .B2(n1422), .ZN(n1492)
          );
-  MUX2_X1 U1650 ( .A(n1492), .B(n1247), .S(n1044), .Z(n1256) );
-  MUX2_X1 U1651 ( .A(n1487), .B(n1489), .S(n1042), .Z(n1247) );
-  AND2_X1 U1652 ( .A1(n1493), .A2(n1569), .ZN(n1489) );
-  INV_X1 U1653 ( .A(n1494), .ZN(n1487) );
-  AOI22_X1 U1654 ( .A1(n1568), .A2(n1495), .B1(n1567), .B2(n1493), .ZN(n1494)
+  MUX2_X1 U1650 ( .A(n1493), .B(n1248), .S(n1045), .Z(n1257) );
+  MUX2_X1 U1651 ( .A(n1488), .B(n1490), .S(n1043), .Z(n1248) );
+  AND2_X1 U1652 ( .A1(n1494), .A2(n1831), .ZN(n1490) );
+  INV_X1 U1653 ( .A(n1495), .ZN(n1488) );
+  AOI22_X1 U1654 ( .A1(n1830), .A2(n1496), .B1(n1829), .B2(n1494), .ZN(n1495)
          );
-  MUX2_X1 U1655 ( .A(n1480), .B(n1486), .S(n1042), .Z(n1492) );
-  INV_X1 U1656 ( .A(n1482), .ZN(n1486) );
-  AOI22_X1 U1657 ( .A1(n1566), .A2(n1495), .B1(n1565), .B2(n1493), .ZN(n1482)
+  MUX2_X1 U1655 ( .A(n1481), .B(n1487), .S(n1043), .Z(n1493) );
+  INV_X1 U1656 ( .A(n1483), .ZN(n1487) );
+  AOI22_X1 U1657 ( .A1(n1828), .A2(n1496), .B1(n1827), .B2(n1494), .ZN(n1483)
          );
-  INV_X1 U1658 ( .A(n1488), .ZN(n1480) );
-  AOI22_X1 U1659 ( .A1(n1564), .A2(n1495), .B1(n1563), .B2(n1493), .ZN(n1488)
+  INV_X1 U1658 ( .A(n1489), .ZN(n1481) );
+  AOI22_X1 U1659 ( .A1(n1826), .A2(n1496), .B1(n1825), .B2(n1494), .ZN(n1489)
          );
-  NOR3_X1 U1660 ( .A1(n1249), .A2(n1478), .A3(n1479), .ZN(n1446) );
-  NAND2_X1 U1661 ( .A1(n1040), .A2(n1496), .ZN(n1479) );
-  XNOR2_X1 U1662 ( .A(n1497), .B(n1076), .ZN(
+  NOR3_X1 U1660 ( .A1(n1250), .A2(n1479), .A3(n1480), .ZN(n1447) );
+  NAND2_X1 U1661 ( .A1(n1041), .A2(n1497), .ZN(n1480) );
+  XNOR2_X1 U1662 ( .A(n1498), .B(n1077), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[10]) );
-  INV_X1 U1663 ( .A(n1116), .ZN(n1076) );
-  AOI22_X1 U1664 ( .A1(n1469), .A2(n1250), .B1(n1263), .B2(n1421), .ZN(n1497)
+  INV_X1 U1663 ( .A(n1117), .ZN(n1077) );
+  AOI22_X1 U1664 ( .A1(n1470), .A2(n1251), .B1(n1264), .B2(n1422), .ZN(n1498)
          );
-  INV_X1 U1665 ( .A(n1048), .ZN(n1442) );
-  MUX2_X1 U1666 ( .A(n1484), .B(n1432), .S(n1044), .Z(n1263) );
-  INV_X1 U1667 ( .A(n1251), .ZN(n1432) );
-  NAND3_X1 U1668 ( .A1(n1498), .A2(n1088), .A3(n1478), .ZN(n1251) );
-  INV_X1 U1669 ( .A(n1042), .ZN(n1478) );
-  INV_X1 U1670 ( .A(n1499), .ZN(n1484) );
-  MUX2_X1 U1671 ( .A(n1500), .B(n1501), .S(n1042), .Z(n1499) );
-  NOR2_X1 U1672 ( .A1(n1048), .A2(n1253), .ZN(n1250) );
-  INV_X1 U1673 ( .A(n1447), .ZN(n1469) );
-  NAND2_X1 U1674 ( .A1(n1443), .A2(n1044), .ZN(n1447) );
-  AND2_X1 U1675 ( .A1(n1502), .A2(n1042), .ZN(n1443) );
-  MUX2_X1 U1676 ( .A(n1496), .B(n1503), .S(n1040), .Z(n1502) );
-  NOR2_X1 U1677 ( .A1(n1118), .A2(n859), .ZN(n1503) );
-  XNOR2_X1 U1678 ( .A(n1116), .B(n1504), .ZN(
+  INV_X1 U1665 ( .A(n1049), .ZN(n1443) );
+  MUX2_X1 U1666 ( .A(n1485), .B(n1433), .S(n1045), .Z(n1264) );
+  INV_X1 U1667 ( .A(n1252), .ZN(n1433) );
+  NAND3_X1 U1668 ( .A1(n1499), .A2(n1089), .A3(n1479), .ZN(n1252) );
+  INV_X1 U1669 ( .A(n1043), .ZN(n1479) );
+  INV_X1 U1670 ( .A(n1500), .ZN(n1485) );
+  MUX2_X1 U1671 ( .A(n1501), .B(n1502), .S(n1043), .Z(n1500) );
+  NOR2_X1 U1672 ( .A1(n1049), .A2(n1254), .ZN(n1251) );
+  INV_X1 U1673 ( .A(n1448), .ZN(n1470) );
+  NAND2_X1 U1674 ( .A1(n1444), .A2(n1045), .ZN(n1448) );
+  AND2_X1 U1675 ( .A1(n1503), .A2(n1043), .ZN(n1444) );
+  MUX2_X1 U1676 ( .A(n1497), .B(n1504), .S(n1041), .Z(n1503) );
+  NOR2_X1 U1677 ( .A1(n1119), .A2(n1967), .ZN(n1504) );
+  XNOR2_X1 U1678 ( .A(n1117), .B(n1505), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[0]) );
-  NOR2_X1 U1679 ( .A1(n1473), .A2(n1048), .ZN(n1504) );
-  AOI21_X1 U1680 ( .B1(n1428), .B2(n1425), .A(n1507), .ZN(n1473) );
-  NOR3_X1 U1681 ( .A1(n1427), .A2(n1253), .A3(n1044), .ZN(n1507) );
-  INV_X1 U1682 ( .A(n1046), .ZN(n1253) );
-  MUX2_X1 U1683 ( .A(n1501), .B(n1508), .S(n1042), .Z(n1427) );
-  NAND2_X1 U1684 ( .A1(n1498), .A2(n1088), .ZN(n1508) );
-  MUX2_X1 U1685 ( .A(n1569), .B(n1568), .S(n1509), .Z(n1498) );
-  AOI22_X1 U1686 ( .A1(n1567), .A2(n1495), .B1(n1566), .B2(n1493), .ZN(n1501)
+  NOR2_X1 U1679 ( .A1(n1474), .A2(n1049), .ZN(n1505) );
+  AOI21_X1 U1680 ( .B1(n1429), .B2(n1426), .A(n1508), .ZN(n1474) );
+  NOR3_X1 U1681 ( .A1(n1428), .A2(n1254), .A3(n1045), .ZN(n1508) );
+  INV_X1 U1682 ( .A(n1047), .ZN(n1254) );
+  MUX2_X1 U1683 ( .A(n1502), .B(n1509), .S(n1043), .Z(n1428) );
+  NAND2_X1 U1684 ( .A1(n1499), .A2(n1089), .ZN(n1509) );
+  MUX2_X1 U1685 ( .A(n1831), .B(n1830), .S(n1510), .Z(n1499) );
+  AOI22_X1 U1686 ( .A1(n1829), .A2(n1496), .B1(n1828), .B2(n1494), .ZN(n1502)
          );
-  NOR2_X1 U1687 ( .A1(n1046), .A2(n1249), .ZN(n1425) );
-  INV_X1 U1688 ( .A(n1044), .ZN(n1249) );
+  NOR2_X1 U1687 ( .A1(n1047), .A2(n1250), .ZN(n1426) );
+  INV_X1 U1688 ( .A(n1045), .ZN(n1250) );
   OAI21_X1 U1689 ( .B1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N155), .B2(n1505), .A(n1506), .ZN(n1046) );
-  NAND2_X1 U1690 ( .A1(n1510), .A2(n1511), .ZN(n1506) );
-  INV_X1 U1691 ( .A(n1511), .ZN(n1505) );
-  INV_X1 U1692 ( .A(n1456), .ZN(n1428) );
-  MUX2_X1 U1693 ( .A(n1512), .B(n1500), .S(n1042), .Z(n1456) );
-  AOI22_X1 U1694 ( .A1(n1565), .A2(n1495), .B1(n1564), .B2(n1493), .ZN(n1500)
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N155), .B2(n1506), .A(n1507), .ZN(n1047) );
+  NAND2_X1 U1690 ( .A1(n1511), .A2(n1512), .ZN(n1507) );
+  INV_X1 U1691 ( .A(n1512), .ZN(n1506) );
+  INV_X1 U1692 ( .A(n1457), .ZN(n1429) );
+  MUX2_X1 U1693 ( .A(n1513), .B(n1501), .S(n1043), .Z(n1457) );
+  AOI22_X1 U1694 ( .A1(n1827), .A2(n1496), .B1(n1826), .B2(n1494), .ZN(n1501)
          );
-  NOR2_X1 U1695 ( .A1(n1040), .A2(n1118), .ZN(n1493) );
-  AOI22_X1 U1696 ( .A1(n1495), .A2(n1563), .B1(n1509), .B2(n1496), .ZN(n1512)
+  NOR2_X1 U1695 ( .A1(n1041), .A2(n1119), .ZN(n1494) );
+  AOI22_X1 U1696 ( .A1(n1496), .A2(n1825), .B1(n1510), .B2(n1497), .ZN(n1513)
          );
   INV_X1 U1697 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_285_B_0_), .ZN(n1496) );
-  NAND3_X1 U1698 ( .A1(n1117), .A2(n1088), .A3(n1514), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_285_B_0_), .ZN(n1497) );
+  NAND3_X1 U1698 ( .A1(n1118), .A2(n1089), .A3(n1515), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_285_B_0_) );
-  AOI21_X1 U1699 ( .B1(n1515), .B2(n1516), .A(n856), .ZN(n1514) );
-  NOR4_X1 U1700 ( .A1(n1580), .A2(n1581), .A3(n1582), .A4(n1583), .ZN(n1516)
+  AOI21_X1 U1699 ( .B1(n1516), .B2(n1517), .A(n2007), .ZN(n1515) );
+  NOR4_X1 U1700 ( .A1(n1820), .A2(n1819), .A3(n1818), .A4(n1817), .ZN(n1517)
          );
-  NOR4_X1 U1701 ( .A1(n1584), .A2(n1585), .A3(n1586), .A4(n1587), .ZN(n1515)
+  NOR4_X1 U1701 ( .A1(n1824), .A2(n1823), .A3(n1822), .A4(n1821), .ZN(n1516)
          );
-  INV_X1 U1702 ( .A(n1118), .ZN(n1088) );
-  NAND2_X1 U1703 ( .A1(n1517), .A2(n1518), .ZN(n1117) );
-  NOR4_X1 U1704 ( .A1(n855), .A2(n843), .A3(n839), .A4(n834), .ZN(n1518) );
-  NOR4_X1 U1705 ( .A1(n854), .A2(n842), .A3(n838), .A4(n833), .ZN(n1517) );
-  NOR2_X1 U1706 ( .A1(n1509), .A2(n1118), .ZN(n1495) );
-  NOR2_X1 U1707 ( .A1(n849), .A2(n1612), .ZN(n1223) );
-  INV_X1 U1708 ( .A(n1040), .ZN(n1509) );
+  INV_X1 U1702 ( .A(n1119), .ZN(n1089) );
+  NAND2_X1 U1703 ( .A1(n1518), .A2(n1519), .ZN(n1118) );
+  NOR4_X1 U1704 ( .A1(n1968), .A2(n1974), .A3(n1970), .A4(n1969), .ZN(n1519)
+         );
+  NOR4_X1 U1705 ( .A1(n1965), .A2(n1977), .A3(n1966), .A4(n1975), .ZN(n1518)
+         );
+  NOR2_X1 U1706 ( .A1(n1510), .A2(n1119), .ZN(n1496) );
+  NOR2_X1 U1707 ( .A1(n1961), .A2(n1908), .ZN(n1224) );
+  INV_X1 U1708 ( .A(n1041), .ZN(n1510) );
   NAND2_X1 U1709 ( .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N152), .A2(n1513), .ZN(n1040) );
-  INV_X1 U1710 ( .A(n1510), .ZN(n1513) );
-  OAI21_X1 U1711 ( .B1(n1519), .B2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[9]), .A(n1511), .ZN(n1510) );
-  OAI21_X1 U1712 ( .B1(n1520), .B2(n1521), .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[9]), .ZN(n1511) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N152), .A2(n1514), .ZN(n1041) );
+  INV_X1 U1710 ( .A(n1511), .ZN(n1514) );
+  OAI21_X1 U1711 ( .B1(n1520), .B2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[9]), .A(n1512), .ZN(n1511) );
+  OAI21_X1 U1712 ( .B1(n1521), .B2(n1522), .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[9]), .ZN(n1512) );
   NAND2_X1 U1713 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[4]), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[5]), .ZN(n1521) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[5]), .ZN(n1522) );
   NAND3_X1 U1714 ( .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[7]), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[8]), .A3(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[6]), .ZN(n1520) );
-  AND4_X1 U1715 ( .A1(n1522), .A2(n1068), .A3(n1067), .A4(n1066), .ZN(n1519)
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[6]), .ZN(n1521) );
+  AND4_X1 U1715 ( .A1(n1523), .A2(n1069), .A3(n1068), .A4(n1067), .ZN(n1520)
          );
   INV_X1 U1716 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[7]), .ZN(n1066) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[7]), .ZN(n1067) );
   INV_X1 U1717 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[8]), .ZN(n1067) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[8]), .ZN(n1068) );
   INV_X1 U1718 ( .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[6]), .ZN(n1068) );
-  AOI211_X1 U1719 ( .C1(n1523), .C2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[6]), .ZN(n1069) );
+  AOI211_X1 U1719 ( .C1(n1524), .C2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[3]), .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[4]), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[5]), .ZN(n1522) );
-  INV_X1 U1720 ( .A(n1524), .ZN(n1523) );
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[5]), .ZN(n1523) );
+  INV_X1 U1720 ( .A(n1525), .ZN(n1524) );
   AOI21_X1 U1721 ( .B1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[0]), .B2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[1]), .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N154), .ZN(n1524) );
-  AOI21_X1 U1722 ( .B1(n1612), .B2(n1608), .A(n1525), .ZN(n1114) );
-  XOR2_X1 U1723 ( .A(n1610), .B(n1609), .Z(n1525) );
-  XNOR2_X1 U1724 ( .A(n1552), .B(n1526), .ZN(n1021) );
-  MUX2_X1 U1725 ( .A(n1527), .B(n1528), .S(n849), .Z(n1526) );
-  XOR2_X1 U1726 ( .A(n1611), .B(n1612), .Z(n1528) );
-  AND2_X1 U1727 ( .A1(n1612), .A2(n1611), .ZN(n1527) );
-  OAI211_X1 U1728 ( .C1(n1529), .C2(n1530), .A(n1144), .B(n733), .ZN(busy_o)
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N154), .ZN(n1525) );
+  AOI21_X1 U1722 ( .B1(n1908), .B2(n1907), .A(n1526), .ZN(n1115) );
+  XOR2_X1 U1723 ( .A(n1868), .B(n1816), .Z(n1526) );
+  XNOR2_X1 U1724 ( .A(n1832), .B(n1527), .ZN(n1022) );
+  MUX2_X1 U1725 ( .A(n1528), .B(n1529), .S(n1961), .Z(n1527) );
+  XOR2_X1 U1726 ( .A(n1848), .B(n1908), .Z(n1529) );
+  AND2_X1 U1727 ( .A1(n1908), .A2(n1848), .ZN(n1528) );
+  OAI211_X1 U1728 ( .C1(n1530), .C2(n1531), .A(n2010), .B(n2004), .ZN(busy_o)
          );
-  NAND3_X1 U1729 ( .A1(dst_fmt_i[2]), .A2(n1531), .A3(in_valid_i), .ZN(n1530)
+  NAND3_X1 U1729 ( .A1(dst_fmt_i[2]), .A2(n1532), .A3(in_valid_i), .ZN(n1531)
          );
-  INV_X1 U1730 ( .A(dst_fmt_i[0]), .ZN(n1531) );
-  OR3_X1 U1731 ( .A1(op_i[2]), .A2(op_i[3]), .A3(dst_fmt_i[1]), .ZN(n1529) );
-  OR3_X1 U1732 ( .A1(n1532), .A2(n1533), .A3(n1534), .ZN(
+  INV_X1 U1730 ( .A(dst_fmt_i[0]), .ZN(n1532) );
+  OR3_X1 U1731 ( .A1(op_i[2]), .A2(op_i[3]), .A3(dst_fmt_i[1]), .ZN(n1530) );
+  OR3_X1 U1732 ( .A1(n1533), .A2(n1534), .A3(n1535), .ZN(
         dp_cluster_1_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_leading_zero_count_1_) );
-  OAI33_X1 U1733 ( .A1(n1224), .A2(n1350), .A3(n1230), .B1(n1225), .B2(n1233), 
-        .B3(n1232), .ZN(n1534) );
-  OR2_X1 U1734 ( .A1(n1239), .A2(n1241), .ZN(n1225) );
-  NAND2_X1 U1735 ( .A1(n1412), .A2(n1410), .ZN(n1224) );
-  NAND3_X1 U1736 ( .A1(n713), .A2(n712), .A3(n714), .ZN(n1410) );
-  OAI33_X1 U1737 ( .A1(n1234), .A2(n1235), .A3(n1242), .B1(n1535), .B2(n1238), 
-        .B3(n1239), .ZN(n1533) );
+  OAI33_X1 U1733 ( .A1(n1225), .A2(n1892), .A3(n1891), .B1(n1226), .B2(n1888), 
+        .B3(n1887), .ZN(n1535) );
+  OR2_X1 U1734 ( .A1(n1240), .A2(n1242), .ZN(n1226) );
+  NAND2_X1 U1735 ( .A1(n1413), .A2(n1411), .ZN(n1225) );
+  NAND3_X1 U1736 ( .A1(n2005), .A2(n1962), .A3(n1963), .ZN(n1411) );
+  OAI33_X1 U1737 ( .A1(n1875), .A2(n1236), .A3(n1876), .B1(n1536), .B2(n1883), 
+        .B3(n1240), .ZN(n1534) );
   INV_X1 U1738 ( .A(
-        dp_cluster_1_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_leading_zero_count_3_), .ZN(n1239) );
-  NOR2_X1 U1739 ( .A1(n1536), .A2(n1412), .ZN(
+        dp_cluster_1_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_leading_zero_count_3_), .ZN(n1240) );
+  NOR2_X1 U1739 ( .A1(n1537), .A2(n1413), .ZN(
         dp_cluster_1_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_leading_zero_count_3_) );
-  NOR4_X1 U1740 ( .A1(n1536), .A2(n1241), .A3(n1377), .A4(n1537), .ZN(n1412)
+  NOR4_X1 U1740 ( .A1(n1537), .A2(n1242), .A3(n1890), .A4(n1538), .ZN(n1413)
          );
-  NAND3_X1 U1741 ( .A1(n719), .A2(n717), .A3(n718), .ZN(n1537) );
-  NAND2_X1 U1742 ( .A1(n722), .A2(n1241), .ZN(n1535) );
-  NAND4_X1 U1743 ( .A1(n723), .A2(n722), .A3(n721), .A4(n720), .ZN(n1241) );
-  NOR3_X1 U1744 ( .A1(n1226), .A2(n1313), .A3(n1244), .ZN(n1532) );
-  NAND2_X1 U1745 ( .A1(n1235), .A2(n1536), .ZN(n1226) );
-  NAND4_X1 U1746 ( .A1(n727), .A2(n726), .A3(n1538), .A4(n725), .ZN(n1536) );
-  AND2_X1 U1747 ( .A1(n1235), .A2(n724), .ZN(n1538) );
-  NOR4_X1 U1748 ( .A1(n1234), .A2(n1242), .A3(n1379), .A4(n1368), .ZN(n1235)
+  NAND3_X1 U1741 ( .A1(n1978), .A2(n1973), .A3(n1976), .ZN(n1538) );
+  NAND2_X1 U1742 ( .A1(n1983), .A2(n1242), .ZN(n1536) );
+  NAND4_X1 U1743 ( .A1(n1984), .A2(n1983), .A3(n1981), .A4(n1980), .ZN(n1242)
          );
-  INV_X1 U1749 ( .A(n1539), .ZN(N32) );
-  AOI21_X1 U1750 ( .B1(op_i[1]), .B2(op_i[2]), .A(op_i[3]), .ZN(n1539) );
-  MUX2_X1 U1751 ( .A(op_i[2]), .B(n1540), .S(op_i[1]), .Z(N31) );
-  AOI21_X1 U1752 ( .B1(op_i[2]), .B2(op_i[0]), .A(n1541), .ZN(n1540) );
-  INV_X1 U1753 ( .A(op_i[3]), .ZN(n1541) );
+  NOR3_X1 U1744 ( .A1(n1227), .A2(n1880), .A3(n1879), .ZN(n1533) );
+  NAND2_X1 U1745 ( .A1(n1236), .A2(n1537), .ZN(n1227) );
+  NAND4_X1 U1746 ( .A1(n1992), .A2(n1991), .A3(n1539), .A4(n2006), .ZN(n1537)
+         );
+  AND2_X1 U1747 ( .A1(n1236), .A2(n1990), .ZN(n1539) );
+  NOR4_X1 U1748 ( .A1(n1875), .A2(n1876), .A3(n1877), .A4(n1878), .ZN(n1236)
+         );
+  INV_X1 U1749 ( .A(n1540), .ZN(N32) );
+  AOI21_X1 U1750 ( .B1(op_i[1]), .B2(op_i[2]), .A(op_i[3]), .ZN(n1540) );
+  MUX2_X1 U1751 ( .A(op_i[2]), .B(n1541), .S(op_i[1]), .Z(N31) );
+  AOI21_X1 U1752 ( .B1(op_i[2]), .B2(op_i[0]), .A(n1542), .ZN(n1541) );
+  INV_X1 U1753 ( .A(op_i[3]), .ZN(n1542) );
+  DFFR_X1 MY_CLK_r_REG32_S2 ( .D(n1607), .CK(clk_i), .RN(rst_ni), .Q(n1948), 
+        .QN(n2011) );
+  DFFS_X1 MY_CLK_r_REG47_S2 ( .D(n1044), .CK(clk_i), .SN(rst_ni), .Q(n1946) );
+  DFFS_X1 MY_CLK_r_REG48_S2 ( .D(n1048), .CK(clk_i), .SN(rst_ni), .Q(n1945) );
+  DFFS_X1 MY_CLK_r_REG50_S2 ( .D(n1042), .CK(clk_i), .SN(rst_ni), .Q(n1944) );
+  DFFS_X1 MY_CLK_r_REG45_S2 ( .D(n1046), .CK(clk_i), .SN(rst_ni), .Q(n1943) );
+  DFFS_X1 MY_CLK_r_REG49_S2 ( .D(n1040), .CK(clk_i), .SN(rst_ni), .Q(n1942) );
+  DFFS_X1 MY_CLK_r_REG37_S2 ( .D(n1580), .CK(clk_i), .SN(rst_ni), .Q(n1941) );
+  DFFS_X1 MY_CLK_r_REG38_S2 ( .D(n1579), .CK(clk_i), .SN(rst_ni), .Q(n1940) );
+  DFFS_X1 MY_CLK_r_REG39_S2 ( .D(n1578), .CK(clk_i), .SN(rst_ni), .Q(n1939) );
+  DFFS_X1 MY_CLK_r_REG40_S2 ( .D(n1577), .CK(clk_i), .SN(rst_ni), .Q(n1938) );
+  DFFS_X1 MY_CLK_r_REG42_S2 ( .D(n1575), .CK(clk_i), .SN(rst_ni), .Q(n1937) );
+  DFFS_X1 MY_CLK_r_REG43_S2 ( .D(n1574), .CK(clk_i), .SN(rst_ni), .Q(n1936) );
+  DFFS_X1 MY_CLK_r_REG35_S2 ( .D(n1573), .CK(clk_i), .SN(rst_ni), .Q(n1935) );
+  DFFS_X1 MY_CLK_r_REG44_S2 ( .D(n1572), .CK(clk_i), .SN(rst_ni), .Q(n1934) );
+  DFFS_X1 MY_CLK_r_REG41_S2 ( .D(n1576), .CK(clk_i), .SN(rst_ni), .Q(n1933) );
+  DFFS_X1 MY_CLK_r_REG36_S2 ( .D(n1571), .CK(clk_i), .SN(rst_ni), .Q(n1932) );
+  DFFS_X1 MY_CLK_r_REG53_S2 ( .D(n1023), .CK(clk_i), .SN(rst_ni), .Q(n1931) );
+  DFFS_X1 MY_CLK_r_REG128_S2 ( .D(n1951), .CK(clk_i), .SN(rst_ni), .Q(n1930)
+         );
+  DFFS_X1 MY_CLK_r_REG129_S2 ( .D(n1960), .CK(clk_i), .SN(rst_ni), .Q(n1929)
+         );
+  DFFS_X1 MY_CLK_r_REG130_S2 ( .D(n1971), .CK(clk_i), .SN(rst_ni), .Q(n1928)
+         );
+  DFFS_X1 MY_CLK_r_REG131_S2 ( .D(n1972), .CK(clk_i), .SN(rst_ni), .Q(n1927)
+         );
+  DFFS_X1 MY_CLK_r_REG132_S2 ( .D(n1979), .CK(clk_i), .SN(rst_ni), .Q(n1926)
+         );
+  DFFS_X1 MY_CLK_r_REG133_S2 ( .D(n1982), .CK(clk_i), .SN(rst_ni), .Q(n1925)
+         );
+  DFFR_X1 MY_CLK_r_REG125_S2 ( .D(n1551), .CK(clk_i), .RN(rst_ni), .Q(n1924)
+         );
+  DFFR_X1 MY_CLK_r_REG126_S2 ( .D(n1552), .CK(clk_i), .RN(rst_ni), .Q(n1923)
+         );
+  DFFR_X1 MY_CLK_r_REG139_S1 ( .D(n1550), .CK(clk_i), .RN(rst_ni), .Q(n1922), 
+        .QN(n2007) );
+  DFFR_X1 MY_CLK_r_REG140_S1 ( .D(n1605), .CK(clk_i), .RN(rst_ni), .Q(n1921), 
+        .QN(n2012) );
+  DFFR_X1 MY_CLK_r_REG141_S1 ( .D(n1589), .CK(clk_i), .RN(rst_ni), .Q(n1920), 
+        .QN(n2003) );
+  DFFR_X1 MY_CLK_r_REG134_S2 ( .D(
+        gen_operation_groups_0__i_opgroup_block_fmt_out_valid_4_), .CK(clk_i), 
+        .RN(rst_ni), .Q(out_valid_o), .QN(n2004) );
+  DFFR_X1 MY_CLK_r_REG124_S1 ( .D(n1614), .CK(clk_i), .RN(rst_ni), .Q(n1918), 
+        .QN(n2010) );
+  DFFR_X1 MY_CLK_r_REG52_S2 ( .D(n1025), .CK(clk_i), .RN(rst_ni), .Q(n1917), 
+        .QN(n1989) );
+  DFFR_X1 MY_CLK_r_REG51_S2 ( .D(n1026), .CK(clk_i), .RN(rst_ni), .Q(n1916), 
+        .QN(n1995) );
+  DFFR_X1 MY_CLK_r_REG61_S2 ( .D(n1027), .CK(clk_i), .RN(rst_ni), .Q(n1915), 
+        .QN(n1999) );
+  DFFR_X1 MY_CLK_r_REG60_S2 ( .D(n1028), .CK(clk_i), .RN(rst_ni), .Q(n1914), 
+        .QN(n1952) );
+  DFFR_X1 MY_CLK_r_REG59_S2 ( .D(n1029), .CK(clk_i), .RN(rst_ni), .Q(n1913) );
+  DFFR_X1 MY_CLK_r_REG58_S2 ( .D(n1030), .CK(clk_i), .RN(rst_ni), .Q(n1912), 
+        .QN(n1953) );
+  DFFR_X1 MY_CLK_r_REG57_S2 ( .D(n1031), .CK(clk_i), .RN(rst_ni), .Q(n1911), 
+        .QN(n1958) );
+  DFFR_X1 MY_CLK_r_REG56_S2 ( .D(n1033), .CK(clk_i), .RN(rst_ni), .Q(n1910) );
+  DFFR_X1 MY_CLK_r_REG55_S2 ( .D(n1034), .CK(clk_i), .RN(rst_ni), .Q(n1909) );
+  DFFR_X1 MY_CLK_r_REG135_S1 ( .D(n1613), .CK(clk_i), .RN(rst_ni), .Q(n1908)
+         );
+  DFFR_X1 MY_CLK_r_REG136_S1 ( .D(n1609), .CK(clk_i), .RN(rst_ni), .Q(n1907), 
+        .QN(n1961) );
+  DFFR_X1 MY_CLK_r_REG54_S2 ( .D(n1563), .CK(clk_i), .RN(rst_ni), .Q(n1906) );
+  DFFR_X1 MY_CLK_r_REG78_S2 ( .D(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N309), .CK(clk_i), .RN(rst_ni), .Q(n1905) );
+  DFFR_X1 MY_CLK_r_REG79_S2 ( .D(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__1_), .CK(clk_i), .RN(rst_ni), .Q(n1904), .QN(n2013) );
+  DFFR_X1 MY_CLK_r_REG80_S2 ( .D(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__2_), .CK(clk_i), .RN(rst_ni), .Q(n1903) );
+  DFFR_X1 MY_CLK_r_REG81_S2 ( .D(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__3_), .CK(clk_i), .RN(rst_ni), .Q(n1902) );
+  DFFR_X1 MY_CLK_r_REG82_S2 ( .D(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__4_), .CK(clk_i), .RN(rst_ni), .Q(n1901) );
+  DFFR_X1 MY_CLK_r_REG83_S2 ( .D(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__5_), .CK(clk_i), .RN(rst_ni), .Q(n1900) );
+  DFFR_X1 MY_CLK_r_REG84_S2 ( .D(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__6_), .CK(clk_i), .RN(rst_ni), .Q(n1899) );
+  DFFR_X1 MY_CLK_r_REG85_S2 ( .D(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__7_), .CK(clk_i), .RN(rst_ni), .Q(n1898) );
+  DFFR_X1 MY_CLK_r_REG86_S2 ( .D(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__8_), .CK(clk_i), .RN(rst_ni), .Q(n1897) );
+  DFFR_X1 MY_CLK_r_REG87_S2 ( .D(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mid_pipe_exp_prod_q_1__9_), .CK(clk_i), .RN(rst_ni), .Q(n1896) );
+  DFFR_X1 MY_CLK_r_REG33_S2 ( .D(n1562), .CK(clk_i), .RN(rst_ni), .Q(n1895) );
+  DFFR_X1 MY_CLK_r_REG2_S2 ( .D(n1079), .CK(clk_i), .RN(rst_ni), .Q(n1894), 
+        .QN(n2008) );
+  DFFR_X1 MY_CLK_r_REG31_S2 ( .D(n1352), .CK(clk_i), .RN(rst_ni), .Q(n1893), 
+        .QN(n1962) );
+  DFFR_X1 MY_CLK_r_REG30_S2 ( .D(n1351), .CK(clk_i), .RN(rst_ni), .Q(n1892), 
+        .QN(n2005) );
+  DFFR_X1 MY_CLK_r_REG29_S2 ( .D(n1231), .CK(clk_i), .RN(rst_ni), .Q(n1891), 
+        .QN(n1963) );
+  DFFR_X1 MY_CLK_r_REG28_S2 ( .D(n1378), .CK(clk_i), .RN(rst_ni), .Q(n1890), 
+        .QN(n2009) );
+  DFFR_X1 MY_CLK_r_REG27_S2 ( .D(n1375), .CK(clk_i), .RN(rst_ni), .Q(n1889), 
+        .QN(n1973) );
+  DFFR_X1 MY_CLK_r_REG26_S2 ( .D(n1234), .CK(clk_i), .RN(rst_ni), .Q(n1888), 
+        .QN(n1976) );
+  DFFR_X1 MY_CLK_r_REG25_S2 ( .D(n1233), .CK(clk_i), .RN(rst_ni), .Q(n1887), 
+        .QN(n1978) );
+  DFFR_X1 MY_CLK_r_REG24_S2 ( .D(n1376), .CK(clk_i), .RN(rst_ni), .Q(n1886), 
+        .QN(n1980) );
+  DFFR_X1 MY_CLK_r_REG23_S2 ( .D(n1372), .CK(clk_i), .RN(rst_ni), .Q(n1885), 
+        .QN(n1981) );
+  DFFR_X1 MY_CLK_r_REG22_S2 ( .D(n1241), .CK(clk_i), .RN(rst_ni), .Q(n1884), 
+        .QN(n1983) );
+  DFFR_X1 MY_CLK_r_REG21_S2 ( .D(n1239), .CK(clk_i), .RN(rst_ni), .Q(n1883), 
+        .QN(n1984) );
+  DFFR_X1 MY_CLK_r_REG20_S2 ( .D(n1373), .CK(clk_i), .RN(rst_ni), .Q(n1882), 
+        .QN(n1990) );
+  DFFR_X1 MY_CLK_r_REG19_S2 ( .D(n1244), .CK(clk_i), .RN(rst_ni), .Q(n1881), 
+        .QN(n2006) );
+  DFFR_X1 MY_CLK_r_REG18_S2 ( .D(n1314), .CK(clk_i), .RN(rst_ni), .Q(n1880), 
+        .QN(n1991) );
+  DFFR_X1 MY_CLK_r_REG17_S2 ( .D(n1245), .CK(clk_i), .RN(rst_ni), .Q(n1879), 
+        .QN(n1992) );
+  DFFR_X1 MY_CLK_r_REG16_S2 ( .D(n1369), .CK(clk_i), .RN(rst_ni), .Q(n1878), 
+        .QN(n2002) );
+  DFFR_X1 MY_CLK_r_REG15_S2 ( .D(n1380), .CK(clk_i), .RN(rst_ni), .Q(n1877), 
+        .QN(n1993) );
+  DFFR_X1 MY_CLK_r_REG14_S2 ( .D(n1243), .CK(clk_i), .RN(rst_ni), .Q(n1876), 
+        .QN(n1994) );
+  DFFR_X1 MY_CLK_r_REG13_S2 ( .D(n1235), .CK(clk_i), .RN(rst_ni), .Q(n1875), 
+        .QN(n1988) );
+  DFFR_X1 MY_CLK_r_REG3_S2 ( .D(n1561), .CK(clk_i), .RN(rst_ni), .Q(n1874) );
+  DFFR_X1 MY_CLK_r_REG1_S2 ( .D(n1113), .CK(clk_i), .RN(rst_ni), .Q(n1873), 
+        .QN(n2014) );
+  DFFR_X1 MY_CLK_r_REG119_S2 ( .D(n1606), .CK(clk_i), .RN(rst_ni), .Q(n1872), 
+        .QN(n1996) );
+  DFFR_X1 MY_CLK_r_REG123_S2 ( .D(n1559), .CK(clk_i), .RN(rst_ni), .Q(n1871), 
+        .QN(n1997) );
+  DFFR_X1 MY_CLK_r_REG121_S2 ( .D(n1557), .CK(clk_i), .RN(rst_ni), .Q(n1870)
+         );
+  DFFR_X1 MY_CLK_r_REG127_S2 ( .D(n1555), .CK(clk_i), .RN(rst_ni), .Q(n1869)
+         );
+  DFFR_X1 MY_CLK_r_REG137_S1 ( .D(n1611), .CK(clk_i), .RN(rst_ni), .Q(n1868)
+         );
+  DFFR_X1 MY_CLK_r_REG138_S1 ( .D(n1554), .CK(clk_i), .RN(rst_ni), .Q(n1867)
+         );
+  DFFR_X1 MY_CLK_r_REG122_S1 ( .D(n1558), .CK(clk_i), .RN(rst_ni), .Q(n1866)
+         );
+  DFFR_X1 MY_CLK_r_REG120_S1 ( .D(n1556), .CK(clk_i), .RN(rst_ni), .Q(n1865)
+         );
+  DFFR_X1 MY_CLK_r_REG118_S1 ( .D(n1560), .CK(clk_i), .RN(rst_ni), .Q(n1864)
+         );
+  DFFR_X1 MY_CLK_r_REG117_S1 ( .D(n1593), .CK(clk_i), .RN(rst_ni), .Q(n1863)
+         );
+  DFFR_X1 MY_CLK_r_REG116_S1 ( .D(n1594), .CK(clk_i), .RN(rst_ni), .Q(n1862), 
+        .QN(n1998) );
+  DFFR_X1 MY_CLK_r_REG115_S1 ( .D(n1595), .CK(clk_i), .RN(rst_ni), .Q(n1861), 
+        .QN(n1987) );
+  DFFR_X1 MY_CLK_r_REG114_S1 ( .D(n1590), .CK(clk_i), .RN(rst_ni), .Q(n1860)
+         );
+  DFFR_X1 MY_CLK_r_REG113_S1 ( .D(n1592), .CK(clk_i), .RN(rst_ni), .Q(n1859)
+         );
+  DFFR_X1 MY_CLK_r_REG112_S1 ( .D(n1591), .CK(clk_i), .RN(rst_ni), .Q(n1858)
+         );
+  DFFR_X1 MY_CLK_r_REG111_S1 ( .D(n1596), .CK(clk_i), .RN(rst_ni), .Q(n1857), 
+        .QN(n2000) );
+  DFFR_X1 MY_CLK_r_REG110_S1 ( .D(n1600), .CK(clk_i), .RN(rst_ni), .Q(n1856), 
+        .QN(n1986) );
+  DFFR_X1 MY_CLK_r_REG109_S1 ( .D(n1599), .CK(clk_i), .RN(rst_ni), .Q(n1855), 
+        .QN(n2001) );
+  DFFR_X1 MY_CLK_r_REG108_S1 ( .D(n1598), .CK(clk_i), .RN(rst_ni), .Q(n1854), 
+        .QN(n1985) );
+  DFFR_X1 MY_CLK_r_REG107_S1 ( .D(n1597), .CK(clk_i), .RN(rst_ni), .Q(n1853), 
+        .QN(n1954) );
+  DFFR_X1 MY_CLK_r_REG106_S1 ( .D(n1604), .CK(clk_i), .RN(rst_ni), .Q(n1852), 
+        .QN(n1955) );
+  DFFR_X1 MY_CLK_r_REG105_S1 ( .D(n1603), .CK(clk_i), .RN(rst_ni), .Q(n1851), 
+        .QN(n1956) );
+  DFFR_X1 MY_CLK_r_REG104_S1 ( .D(n1602), .CK(clk_i), .RN(rst_ni), .Q(n1850), 
+        .QN(n1957) );
+  DFFR_X1 MY_CLK_r_REG103_S1 ( .D(n1601), .CK(clk_i), .RN(rst_ni), .Q(n1849), 
+        .QN(n1959) );
+  DFFR_X1 MY_CLK_r_REG102_S1 ( .D(n1612), .CK(clk_i), .RN(rst_ni), .Q(n1848)
+         );
+  DFFR_X1 MY_CLK_r_REG101_S1 ( .D(n1659), .CK(clk_i), .RN(rst_ni), .Q(n1847)
+         );
+  DFFR_X1 MY_CLK_r_REG100_S1 ( .D(n1658), .CK(clk_i), .RN(rst_ni), .Q(n1846)
+         );
+  DFFR_X1 MY_CLK_r_REG99_S1 ( .D(n1657), .CK(clk_i), .RN(rst_ni), .Q(n1845) );
+  DFFR_X1 MY_CLK_r_REG98_S1 ( .D(n1656), .CK(clk_i), .RN(rst_ni), .Q(n1844) );
+  DFFR_X1 MY_CLK_r_REG97_S1 ( .D(n1655), .CK(clk_i), .RN(rst_ni), .Q(n1843) );
+  DFFR_X1 MY_CLK_r_REG96_S1 ( .D(n1654), .CK(clk_i), .RN(rst_ni), .Q(n1842) );
+  DFFR_X1 MY_CLK_r_REG95_S1 ( .D(n1653), .CK(clk_i), .RN(rst_ni), .Q(n1841) );
+  DFFR_X1 MY_CLK_r_REG94_S1 ( .D(n1652), .CK(clk_i), .RN(rst_ni), .Q(n1840) );
+  DFFR_X1 MY_CLK_r_REG93_S1 ( .D(n1651), .CK(clk_i), .RN(rst_ni), .Q(n1839) );
+  DFFR_X1 MY_CLK_r_REG92_S1 ( .D(n1650), .CK(clk_i), .RN(rst_ni), .Q(n1838) );
+  DFFR_X1 MY_CLK_r_REG91_S1 ( .D(n1649), .CK(clk_i), .RN(rst_ni), .Q(n1837) );
+  DFFR_X1 MY_CLK_r_REG90_S1 ( .D(n1648), .CK(clk_i), .RN(rst_ni), .Q(n1836) );
+  DFFR_X1 MY_CLK_r_REG89_S1 ( .D(n1647), .CK(clk_i), .RN(rst_ni), .Q(n1835) );
+  DFFR_X1 MY_CLK_r_REG88_S1 ( .D(n1646), .CK(clk_i), .RN(rst_ni), .Q(n1834) );
+  DFFR_X1 MY_CLK_r_REG77_S1 ( .D(n1645), .CK(clk_i), .RN(rst_ni), .Q(n1833) );
+  DFFR_X1 MY_CLK_r_REG76_S1 ( .D(n1553), .CK(clk_i), .RN(rst_ni), .Q(n1832) );
+  DFFR_X1 MY_CLK_r_REG75_S1 ( .D(n1570), .CK(clk_i), .RN(rst_ni), .Q(n1831) );
+  DFFR_X1 MY_CLK_r_REG74_S1 ( .D(n1569), .CK(clk_i), .RN(rst_ni), .Q(n1830) );
+  DFFR_X1 MY_CLK_r_REG73_S1 ( .D(n1568), .CK(clk_i), .RN(rst_ni), .Q(n1829) );
+  DFFR_X1 MY_CLK_r_REG72_S1 ( .D(n1567), .CK(clk_i), .RN(rst_ni), .Q(n1828) );
+  DFFR_X1 MY_CLK_r_REG71_S1 ( .D(n1566), .CK(clk_i), .RN(rst_ni), .Q(n1827) );
+  DFFR_X1 MY_CLK_r_REG70_S1 ( .D(n1565), .CK(clk_i), .RN(rst_ni), .Q(n1826) );
+  DFFR_X1 MY_CLK_r_REG69_S1 ( .D(n1564), .CK(clk_i), .RN(rst_ni), .Q(n1825), 
+        .QN(n1967) );
+  DFFR_X1 MY_CLK_r_REG68_S1 ( .D(n1585), .CK(clk_i), .RN(rst_ni), .Q(n1824), 
+        .QN(n1969) );
+  DFFR_X1 MY_CLK_r_REG67_S1 ( .D(n1586), .CK(clk_i), .RN(rst_ni), .Q(n1823), 
+        .QN(n1970) );
+  DFFR_X1 MY_CLK_r_REG66_S1 ( .D(n1587), .CK(clk_i), .RN(rst_ni), .Q(n1822), 
+        .QN(n1974) );
+  DFFR_X1 MY_CLK_r_REG65_S1 ( .D(n1588), .CK(clk_i), .RN(rst_ni), .Q(n1821), 
+        .QN(n1968) );
+  DFFR_X1 MY_CLK_r_REG64_S1 ( .D(n1581), .CK(clk_i), .RN(rst_ni), .Q(n1820), 
+        .QN(n1975) );
+  DFFR_X1 MY_CLK_r_REG63_S1 ( .D(n1582), .CK(clk_i), .RN(rst_ni), .Q(n1819), 
+        .QN(n1966) );
+  DFFR_X1 MY_CLK_r_REG62_S1 ( .D(n1583), .CK(clk_i), .RN(rst_ni), .Q(n1818), 
+        .QN(n1977) );
+  DFFR_X1 MY_CLK_r_REG34_S1 ( .D(n1584), .CK(clk_i), .RN(rst_ni), .Q(n1817), 
+        .QN(n1965) );
+  DFFR_X1 MY_CLK_r_REG0_S1 ( .D(n1610), .CK(clk_i), .RN(rst_ni), .Q(n1816) );
+  DFFR_X1 MY_CLK_r_REG46_S2 ( .D(n1608), .CK(clk_i), .RN(rst_ni), .Q(n1815) );
+  DFFR_X1 MY_CLK_r_REG12_S2 ( .D(n1367), .CK(clk_i), .RN(rst_ni), .Q(n1814), 
+        .QN(n2015) );
+  DFFR_X1 MY_CLK_r_REG11_S2 ( .D(n1168), .CK(clk_i), .RN(rst_ni), .Q(n1813), 
+        .QN(n2016) );
+  DFFR_X1 MY_CLK_r_REG10_S2 ( .D(n1180), .CK(clk_i), .RN(rst_ni), .Q(n1812), 
+        .QN(n1964) );
+  DFFR_X1 MY_CLK_r_REG9_S2 ( .D(n1366), .CK(clk_i), .RN(rst_ni), .Q(n1811), 
+        .QN(n2017) );
+  DFFR_X1 MY_CLK_r_REG8_S2 ( .D(n1166), .CK(clk_i), .RN(rst_ni), .Q(n1810), 
+        .QN(n2018) );
+  DFFR_X1 MY_CLK_r_REG7_S2 ( .D(n1179), .CK(clk_i), .RN(rst_ni), .Q(n1809), 
+        .QN(n2019) );
+  DFFR_X1 MY_CLK_r_REG6_S2 ( .D(n1288), .CK(clk_i), .RN(rst_ni), .Q(n1808), 
+        .QN(n2020) );
+  DFFR_X1 MY_CLK_r_REG5_S2 ( .D(n1364), .CK(clk_i), .RN(rst_ni), .Q(n1807), 
+        .QN(n2021) );
+  DFFR_X1 MY_CLK_r_REG4_S2 ( .D(n1213), .CK(clk_i), .RN(rst_ni), .Q(n1806), 
+        .QN(n2022) );
+  INV_X1 U1786 ( .A(n803), .ZN(n1571) );
+  INV_X1 U1787 ( .A(n808), .ZN(n1576) );
+  INV_X1 U1788 ( .A(n804), .ZN(n1572) );
+  INV_X1 U1789 ( .A(n805), .ZN(n1573) );
+  INV_X1 U1790 ( .A(n806), .ZN(n1574) );
+  INV_X1 U1791 ( .A(n807), .ZN(n1575) );
+  INV_X1 U1792 ( .A(n809), .ZN(n1577) );
+  INV_X1 U1793 ( .A(n810), .ZN(n1578) );
+  INV_X1 U1794 ( .A(n811), .ZN(n1579) );
+  INV_X1 U1795 ( .A(n812), .ZN(n1580) );
+  NOR2_X1 U1830 ( .A1(n584), .A2(flush_i), .ZN(n1614) );
+  NOR2_X1 U1832 ( .A1(n574), .A2(flush_i), .ZN(
+        gen_operation_groups_0__i_opgroup_block_fmt_out_valid_4_) );
+  CLKBUF_X1 U731 ( .A(n1163), .Z(n891) );
+  AND2_X1 U732 ( .A1(n1930), .A2(n874), .ZN(n1951) );
+  AND2_X1 U733 ( .A1(n1929), .A2(n874), .ZN(n1960) );
+  AND2_X1 U738 ( .A1(n1928), .A2(n874), .ZN(n1971) );
+  AND2_X1 U739 ( .A1(n1927), .A2(n874), .ZN(n1972) );
+  AND2_X1 U740 ( .A1(n1926), .A2(n874), .ZN(n1979) );
+  AND2_X1 U741 ( .A1(n1925), .A2(n874), .ZN(n1982) );
+  CLKBUF_X1 U743 ( .A(n1163), .Z(n892) );
+  CLKBUF_X1 U744 ( .A(n1167), .Z(n898) );
+  CLKBUF_X1 U745 ( .A(n1162), .Z(n889) );
   XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_542_U2 ( 
         .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_542_carry[9]), .B(
@@ -2884,508 +2765,508 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_542_carry[8]), .CO(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_542_carry[9]), .S(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N341) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U81 ( 
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U81 ( 
         .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[2]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n79) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U80 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[10]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n71) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U79 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[24]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n57) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U78 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[9]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n72) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U77 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[8]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n73) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U76 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[7]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n74) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U75 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[6]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n75) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U74 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[5]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n76) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U73 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[4]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n77) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U72 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[3]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n78) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U71 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[11]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n70) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U70 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[12]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n69) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U69 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[13]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n68) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U68 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[27]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n54) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U67 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[26]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n55) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U66 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[14]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n67) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U65 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[25]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n56) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U64 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[15]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n66) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U63 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[23]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n58) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U62 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[22]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n59) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U61 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[16]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n65) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U60 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N219), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n81) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U59 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[21]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n60) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U58 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[20]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n61) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U57 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[17]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n64) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U56 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[1]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n80) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U55 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[19]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n62) );
-  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U54 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[18]), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n63) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U53 ( 
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n78), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n26), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N222) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U80 ( 
         .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n80), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n81), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N220) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U52 ( 
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U79 ( 
         .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n79), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n31), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n16), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N221) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U51 ( 
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U78 ( 
         .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n78), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n10), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N222) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U50 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n77), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n29), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N223) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U49 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n76), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n9), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N224) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U48 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n75), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n28), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N225) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U47 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n74), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n8), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N226) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U46 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n73), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n27), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N227) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U45 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n72), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n7), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N228) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U44 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n71), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n26), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N229) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U43 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n70), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n6), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N230) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U42 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n69), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n25), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N231) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U41 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n68), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n5), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N232) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U40 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n67), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n23), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N233) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U39 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n66), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n4), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N234) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U38 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n65), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n21), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N235) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U37 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n64), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n3), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N236) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U36 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n63), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n11), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N237) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U35 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n62), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n57), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n13), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N238) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U34 ( 
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N243) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U77 ( 
         .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n61), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n14), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N239) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U33 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n60), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n15), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N240) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U32 ( 
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n58), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n12), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N242) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U76 ( 
         .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n59), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n16), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n11), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N241) );
-  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U31 ( 
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U75 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n60), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n10), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N240) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U74 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n61), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n2), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N239) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U73 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n62), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n1), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N238) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U72 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n63), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n9), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N237) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U71 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n64), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n8), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N236) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U70 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n66), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n6), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N234) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U69 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n55), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n14), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N245) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U68 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n54), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n15), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N246) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U67 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n70), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n24), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N230) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U66 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n56), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n25), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N244) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U65 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n65), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n7), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N235) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U64 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n67), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n5), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N233) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U63 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n69), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n3), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N231) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U62 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n71), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n23), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N229) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U61 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n74), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n20), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N226) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U60 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n76), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n18), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N224) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U59 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n75), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n19), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N225) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U58 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n68), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n4), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N232) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U57 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n77), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n17), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N223) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U56 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n73), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n21), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N227) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U55 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n72), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n22), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N228) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U54 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[2]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n79) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U53 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[10]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n71) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U52 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[24]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n57) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U51 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[9]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n72) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U50 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[8]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n73) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U49 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[7]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n74) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U48 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[6]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n75) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U47 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[5]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n76) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U46 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[4]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n77) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U45 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[3]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n78) );
+  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U44 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n79), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n16), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n26) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U43 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[11]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n70) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U42 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[12]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n69) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U41 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[13]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n68) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U40 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[27]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n54) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U39 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[26]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n55) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U38 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[14]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n67) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U37 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[25]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n56) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U36 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[15]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n66) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U35 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[23]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n58) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U34 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[22]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n59) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U33 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[16]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n65) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U32 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N219), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n81) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U31 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[21]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n60) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U30 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[20]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n61) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U29 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[17]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n64) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U28 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[1]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n80) );
+  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U27 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n57), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n13), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n25) );
+  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U26 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n71), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n23), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n24) );
+  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U25 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n72), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n22), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n23) );
+  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U24 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n73), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n21), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n22) );
+  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U23 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n74), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n20), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n21) );
+  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U22 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n75), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n19), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n20) );
+  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U21 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n76), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n18), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n19) );
+  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U20 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n77), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n17), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n18) );
+  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U19 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n78), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n26), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n17) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U18 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[19]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n62) );
+  INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U17 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[18]), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n63) );
+  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U16 ( 
         .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n80), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n81), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n31) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U30 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n58), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n17), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N242) );
-  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U29 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n78), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n10), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n29) );
-  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U28 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n76), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n9), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n28) );
-  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U27 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n74), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n8), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n27) );
-  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U26 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n72), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n7), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n26) );
-  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U25 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n70), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n6), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n25) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U24 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n57), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n18), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N243) );
-  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U23 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n68), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n5), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n23) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U22 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n56), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n1), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N244) );
-  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U21 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n66), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n4), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n21) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U20 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n55), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n12), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N245) );
-  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U19 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n55), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n12), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n19) );
-  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U18 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n58), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n17), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n18) );
-  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U17 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n59), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n16), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n17) );
-  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U16 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n60), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n15), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n16) );
   AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U15 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n61), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n55), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n14), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n15) );
   AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U14 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n62), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n13), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n56), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n25), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n14) );
   AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U13 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n63), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n11), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n58), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n12), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n13) );
   AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U12 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n56), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n1), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n59), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n11), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n12) );
   AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U11 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n64), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n3), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n60), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n10), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n11) );
   AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U10 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n79), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n31), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n61), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n2), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n10) );
   AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U9 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n77), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n29), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n64), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n8), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n9) );
   AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U8 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n75), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n28), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n65), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n7), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n8) );
   AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U7 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n73), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n27), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n66), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n6), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n7) );
   AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U6 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n71), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n26), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n67), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n5), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n6) );
   AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U5 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n69), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n25), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n68), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n4), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n5) );
   AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U4 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n67), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n23), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n69), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n3), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n4) );
   AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U3 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n65), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n21), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n70), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n24), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n3) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U2 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n54), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n19), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N246) );
+  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U2 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n62), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n1), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n2) );
   AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_U1 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n57), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n18), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n63), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n9), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_372_n1) );
   XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U24 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[24]), .B(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n13), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[24]) );
+  AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U23 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[24]), .A2(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n13), .ZN(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n23) );
+  XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U22 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[27]), .B(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n7), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[27]) );
+  XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U21 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[26]), .B(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n6), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[26]) );
+  XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U20 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[25]), .B(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n23), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[25]) );
+  XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U19 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[23]), .B(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n12), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[23]) );
+  XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U18 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[22]), .B(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n11), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[22]) );
+  XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U17 ( 
         .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[0]), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inject_carry_in), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_N219) );
-  XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U23 ( 
+  XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U16 ( 
         .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[27]), .B(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n13), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[27]) );
-  AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U22 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[1]), .A2(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n16), .ZN(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n22) );
-  AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U21 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[27]), .A2(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n13), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[28]) );
-  AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U20 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[20]), .A2(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n15), .ZN(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n20) );
-  AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U19 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[24]), .A2(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n18), .ZN(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n19) );
-  AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U18 ( 
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[21]), .B(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n10), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[21]) );
+  XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U15 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[20]), .B(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n3), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[20]) );
+  XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U14 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[1]), .B(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n8), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[1]) );
+  AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U13 ( 
         .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[23]), .A2(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n17), .ZN(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n18) );
-  AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U17 ( 
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n12), .ZN(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n13) );
+  AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U12 ( 
         .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[22]), .A2(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n2), .ZN(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n17) );
-  AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U16 ( 
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n11), .ZN(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n12) );
+  AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U11 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[21]), .A2(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n10), .ZN(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n11) );
+  AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U10 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[20]), .A2(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n3), .ZN(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n10) );
+  AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U9 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[27]), .A2(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n7), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[28]) );
+  AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U8 ( 
         .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[0]), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_inject_carry_in), .ZN(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n16) );
-  AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U15 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[19]), .A2(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n14), .ZN(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n15) );
-  AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U14 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[18]), .A2(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_carry[18]), .ZN(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n14) );
-  AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U13 ( 
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n8) );
+  AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U7 ( 
         .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[26]), .A2(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n1), .ZN(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n13) );
-  XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U12 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[1]), .B(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n16), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[1]) );
-  XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U11 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[25]), .B(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n19), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[25]) );
-  XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U10 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[26]), .B(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n1), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[26]) );
-  XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U9 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[24]), .B(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n18), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[24]) );
-  XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U8 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[23]), .B(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n17), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[23]) );
-  XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U7 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[21]), .B(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n20), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[21]) );
-  XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U6 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[20]), .B(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n15), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[20]) );
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n6), .ZN(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n7) );
+  AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U6 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[25]), .A2(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n23), .ZN(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n6) );
   XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U5 ( 
         .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[22]), .B(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n2), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[22]) );
-  XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U4 ( 
-        .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[19]), .B(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n14), .Z(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n2), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[19]) );
-  XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U3 ( 
+  XOR2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U4 ( 
         .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[18]), .B(
         add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_carry[18]), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[18]) );
+  AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U3 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[19]), .A2(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n2), .ZN(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n3) );
   AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U2 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[21]), .A2(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n20), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[18]), .A2(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_carry[18]), .ZN(
         add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n2) );
   AND2_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U1 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[25]), .A2(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n19), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[1]), .A2(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n8), .ZN(
         add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n1) );
   FA_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U1_2 ( 
         .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_product[0]), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_addend_shifted[2]), .CI(
-        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n22), .CO(
+        add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_n1), .CO(
         add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_carry[3]), .S(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sum_raw[2]) );
   FA_X1 add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_add_368_2_U1_3 ( 
@@ -3822,29 +3703,29 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[5]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n33) );
   INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U43 ( 
-        .A(n1658), .ZN(
+        .A(n1847), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n45) );
   INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U42 ( 
-        .A(n1657), .ZN(
+        .A(n1846), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n44) );
   INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U41 ( 
-        .A(n1656), .ZN(
+        .A(n1845), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n43) );
   INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U40 ( 
         .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[4]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n34) );
   INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U39 ( 
-        .A(n1655), .ZN(
+        .A(n1844), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n42) );
   INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U38 ( 
-        .A(n1654), .ZN(
+        .A(n1843), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n41) );
   INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U37 ( 
-        .A(n1653), .ZN(
+        .A(n1842), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n40) );
   INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U36 ( 
-        .A(n1652), .ZN(
+        .A(n1841), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n39) );
   INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U35 ( 
         .A(
@@ -3870,10 +3751,10 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
         .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[1]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n37) );
-  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U29 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__6_), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_7__7_), .ZN(
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U29 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__6_), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_7__7_), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n29) );
   AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U28 ( 
         .A1(
@@ -3885,115 +3766,115 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__4_), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_7__5_), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n27) );
-  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U26 ( 
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U26 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__5_), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_7__6_), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n26) );
+  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U25 ( 
         .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__3_), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_7__4_), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n26) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U25 ( 
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n25) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U24 ( 
         .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__0_), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__1_), .Z(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_product[1]) );
-  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U24 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__2_), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_7__3_), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__4_), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_7__5_), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n24) );
   AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U23 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__1_), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__0_), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__2_), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_7__3_), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n23) );
-  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U22 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__1_), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_7__2_), .ZN(
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U22 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__3_), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_7__4_), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n22) );
   AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U21 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__2_), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__1_), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__1_), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_7__2_), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n21) );
   AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U20 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__3_), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__2_), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n20) );
-  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U19 ( 
-        .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__0_), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_7__1_), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n20) );
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U19 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__2_), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_7__3_), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n19) );
-  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U18 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__4_), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__3_), .ZN(
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U18 ( 
+        .A(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__1_), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_7__2_), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n18) );
-  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U17 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__5_), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__4_), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n17) );
-  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U16 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__7_), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__6_), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n16) );
-  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U15 ( 
-        .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__6_), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__5_), .ZN(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n15) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U14 ( 
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U17 ( 
         .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__0_), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_7__1_), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_product[8]) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U13 ( 
+  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U16 ( 
         .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__6_), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_7__7_), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__0_), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__1_), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_product[1]) );
+  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U15 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__6_), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_7__7_), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n15) );
+  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U14 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__1_), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__0_), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n14) );
+  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U13 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__2_), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__1_), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n13) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U12 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__5_), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_7__6_), .Z(
+  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U12 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__3_), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__2_), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n12) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U11 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__4_), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_7__5_), .Z(
+  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U11 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__4_), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__3_), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n11) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U10 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__3_), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_7__4_), .Z(
+  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U10 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__5_), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__4_), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n10) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U9 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__1_), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__2_), .Z(
+  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U9 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__7_), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__6_), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n9) );
-  XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U8 ( 
-        .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__2_), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_7__3_), .Z(
+  AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U8 ( 
+        .A1(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__6_), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__5_), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n8) );
   XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U7 ( 
         .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__2_), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__3_), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__1_), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__2_), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n7) );
   XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U6 ( 
         .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__3_), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__4_), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__2_), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__3_), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n6) );
   XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U5 ( 
         .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_7__1_), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_7__2_), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__3_), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_0__4_), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n5) );
   XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_U4 ( 
         .A(
@@ -4013,50 +3894,50 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
   FA_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_S3_2_6 ( 
         .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_2__6_), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n16), .CI(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n9), .CI(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_1__7_), .CO(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_2__6_), .S(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_2__6_) );
   FA_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_S2_2_5 ( 
         .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_2__5_), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n15), .CI(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n8), .CI(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n2), .CO(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_2__5_), .S(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_2__5_) );
   FA_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_S2_2_4 ( 
         .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_2__4_), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n17), .CI(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n10), .CI(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n3), .CO(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_2__4_), .S(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_2__4_) );
   FA_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_S2_2_3 ( 
         .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_2__3_), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n18), .CI(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n11), .CI(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n4), .CO(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_2__3_), .S(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_2__3_) );
   FA_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_S2_2_2 ( 
         .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_2__2_), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n20), .CI(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n6), .CO(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n12), .CI(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n5), .CO(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_2__2_), .S(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_2__2_) );
   FA_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_S2_2_1 ( 
         .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_2__1_), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n21), .CI(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n7), .CO(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n13), .CI(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n6), .CO(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_2__1_), .S(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_SUMB_2__1_) );
   FA_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_S1_2_0 ( 
         .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_ab_2__0_), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n23), .CI(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n9), .CO(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n14), .CI(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n7), .CO(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_CARRYB_2__0_), .S(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_product[2]) );
   FA_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_S3_3_6 ( 
@@ -4306,13 +4187,13 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_product[7]) );
   NOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_U34 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n26), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n11), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n25), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n24), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_n22) );
   NAND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_U33 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n26), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n11), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n25), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n24), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_n24) );
   NAND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_U32 ( 
         .A1(
@@ -4321,13 +4202,13 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_n25) );
   NOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_U31 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n22), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n8), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n21), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n19), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_n12) );
   NAND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_U30 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n22), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n8), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n21), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n19), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_n11) );
   OAI21_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_U29 ( 
         .B1(
@@ -4337,13 +4218,13 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_n6) );
   NOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_U28 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n24), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n10), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n23), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n22), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_n9) );
   AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_U27 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n24), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n10), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n23), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n22), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_n8) );
   AOI21_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_U26 ( 
         .B1(
@@ -4365,12 +4246,12 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
   AND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_U23 ( 
         .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n27), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n12), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n26), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_n19) );
   NOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_U22 ( 
         .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n27), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n12), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n26), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_n20) );
   NOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_U21 ( 
         .A1(
@@ -4385,12 +4266,12 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
   NOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_U19 ( 
         .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n28), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n13), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n29), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_n14) );
   NAND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_U18 ( 
         .A1(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n28), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n13), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n29), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_n16) );
   NAND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_U17 ( 
         .A1(
@@ -4417,12 +4298,12 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
   XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_U13 ( 
         .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_n13), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n29), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n15), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_product[15]) );
   XOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_U12 ( 
         .A(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n19), .B(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n5), .Z(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n20), .B(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n18), .Z(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_product[9]) );
   NAND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_U11 ( 
         .A1(
@@ -4446,8 +4327,8 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_product[11]) );
   NAND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_U7 ( 
         .A1(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n5), .A2(
-        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n19), .ZN(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n18), .A2(
+        gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_n20), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_n26) );
   INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_mult_325_FS_1_U6 ( 
         .A(
@@ -4475,42 +4356,42 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_addend[0]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[0]) );
   INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_U12 ( 
-        .A(n1642), .ZN(
+        .A(n1643), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_n11) );
   INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_U11 ( 
-        .A(n1634), .ZN(
+        .A(n1635), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_n7) );
   INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_U10 ( 
-        .A(n1632), .ZN(
+        .A(n1633), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_n6) );
   INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_U9 ( 
-        .A(n1636), .ZN(
+        .A(n1637), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_n8) );
   INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_U8 ( 
-        .A(n1638), .ZN(
+        .A(n1639), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_n9) );
   INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_U7 ( 
         .A(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_addend[0]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_n2) );
   INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_U6 ( 
-        .A(n1640), .ZN(
+        .A(n1641), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_n10) );
   NAND2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_U5 ( 
-        .A1(n1642), .A2(
+        .A1(n1643), .A2(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_n2), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_carry[1]) );
   INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_U4 ( 
-        .A(n1628), .ZN(
+        .A(n1629), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_n4) );
   INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_U3 ( 
-        .A(n1630), .ZN(
+        .A(n1631), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_n5) );
   INV_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_U2 ( 
-        .A(n1626), .ZN(
+        .A(n1627), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_n3) );
   XNOR2_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_U1 ( 
-        .A(n1624), .B(
+        .A(n1625), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_carry[9]), .ZN(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[9]) );
   FA_X1 gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_U2_1 ( 
@@ -4570,49 +4451,49 @@ module fpnew_top ( clk_i, rst_ni, operands_i, rnd_mode_i, op_i, op_mod_i,
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_293_carry[9]), .S(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_exponent_difference[8]) );
   FA_X1 add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_U1_0 ( 
-        .A(n1651), .B(
+        .A(n1840), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[7]), .CI(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_info_b_is_subnormal_), .CO(
         add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_carry[1]), .S(
         add_0_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_A_0_) );
   FA_X1 add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_U1_1 ( 
-        .A(n1650), .B(
+        .A(n1839), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[8]), .CI(
         add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_carry[1]), .CO(
         add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_carry[2]), .S(
         add_0_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_A_1_) );
   FA_X1 add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_U1_2 ( 
-        .A(n1649), .B(
+        .A(n1838), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[9]), .CI(
         add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_carry[2]), .CO(
         add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_carry[3]), .S(
         add_0_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_A_2_) );
   FA_X1 add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_U1_3 ( 
-        .A(n1648), .B(
+        .A(n1837), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[10]), .CI(
         add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_carry[3]), .CO(
         add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_carry[4]), .S(
         add_0_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_A_3_) );
   FA_X1 add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_U1_4 ( 
-        .A(n1647), .B(
+        .A(n1836), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[11]), .CI(
         add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_carry[4]), .CO(
         add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_carry[5]), .S(
         add_0_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_A_4_) );
   FA_X1 add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_U1_5 ( 
-        .A(n1646), .B(
+        .A(n1835), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[12]), .CI(
         add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_carry[5]), .CO(
         add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_carry[6]), .S(
         add_0_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_A_5_) );
   FA_X1 add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_U1_6 ( 
-        .A(n1645), .B(
+        .A(n1834), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[13]), .CI(
         add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_carry[6]), .CO(
         add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_carry[7]), .S(
         add_0_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_A_6_) );
   FA_X1 add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_U1_7 ( 
-        .A(n1644), .B(
+        .A(n1833), .B(
         gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_operand_a[14]), .CI(
         add_1_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_carry[7]), .CO(
         add_0_root_add_1_root_gen_operation_groups_0__i_opgroup_block_gen_parallel_slices_4__active_format_i_fmt_slice_gen_num_lanes_0__active_lane_lane_instance_i_fma_sub_287_A_8_), .S(

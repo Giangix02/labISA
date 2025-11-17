@@ -10,6 +10,7 @@ set_load $OLOAD [all_outputs]
 ungroup -all -flatten
 set_implementation DW02_mult/pparch [find cell *mult*]
 compile
+optimize_registers
 ungroup -all -flatten
 change_names -hierarchy -rules verilog
 write_sdf ./netlist/2.2.5/fpnew_top.sdf

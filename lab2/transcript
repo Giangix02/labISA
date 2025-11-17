@@ -19804,3 +19804,5 @@ add wave -position insertpoint sim:/tb_fpnew_top/*
 add wave -r /*
 run
 run
+# End time: 14:59:01 on Nov 17,2025, Elapsed time: 92:28:31
+# Errors: 0, Warnings: 55
