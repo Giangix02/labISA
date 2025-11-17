@@ -1,0 +1,193 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/isa30_2025_2026/labISA/lab2/sim
+vCSA
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1763210670
+!i10b 1
+!s100 ;4ib=`UNBS?GoXg99^bR?0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IPfYLN^DD<EdjZh6j3?@;31
+S1
+R0
+w1763208857
+8../Multiplier/CSA.sv
+F../Multiplier/CSA.sv
+!i122 8
+L0 1 65
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2020.4;71
+r1
+!s85 0
+31
+!s108 1763210669.000000
+!s107 ../Multiplier/CSA.sv|
+!s90 -sv|../Multiplier/CSA.sv|
+!i113 0
+Z5 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+n@c@s@a
+vFA
+R1
+!s110 1763210683
+!i10b 1
+!s100 d6@`5YAPQETHCQU6`H^AP0
+R2
+I?P?d@hT?XWz53H_QlW5:G1
+S1
+R0
+w1763207352
+8../Multiplier/FA.sv
+F../Multiplier/FA.sv
+!i122 9
+L0 1 9
+R3
+R4
+r1
+!s85 0
+31
+!s108 1763210682.000000
+!s107 ../Multiplier/FA.sv|
+!s90 -sv|../Multiplier/FA.sv|
+!i113 0
+R5
+R6
+n@f@a
+vHA
+R1
+!s110 1763210684
+!i10b 1
+!s100 M]=?GWOl<0]7SaBzEB;JF1
+R2
+Ij^c<?DYKfFNh=J9FC[OdE3
+S1
+R0
+w1763206772
+8../Multiplier/HA.sv
+F../Multiplier/HA.sv
+!i122 10
+L0 1 8
+R3
+R4
+r1
+!s85 0
+31
+!s108 1763210683.000000
+!s107 ../Multiplier/HA.sv|
+!s90 -sv|../Multiplier/HA.sv|
+!i113 0
+R5
+R6
+n@h@a
+vMUX2
+R1
+Z7 !s110 1763210685
+!i10b 1
+!s100 >zhCog6IgB_dCUn<GMY:T0
+R2
+I6IORYL=8C1FaJFJnYSV1k0
+S1
+R0
+w1763207217
+8../Multiplier/MUX2.sv
+F../Multiplier/MUX2.sv
+!i122 11
+Z8 L0 1 14
+R3
+R4
+r1
+!s85 0
+31
+!s108 1763210684.000000
+!s107 ../Multiplier/MUX2.sv|
+!s90 -sv|../Multiplier/MUX2.sv|
+!i113 0
+R5
+R6
+n@m@u@x2
+vMUX3
+R1
+!s110 1763210686
+!i10b 1
+!s100 K^ZNgIMDd^?AO3iY]2aDM1
+R2
+I1m1CGQ9^W21:EE5iGQJ3Q2
+S1
+R0
+w1763207190
+8../Multiplier/MUX3.sv
+F../Multiplier/MUX3.sv
+!i122 13
+Z9 L0 1 18
+R3
+R4
+r1
+!s85 0
+31
+Z10 !s108 1763210685.000000
+!s107 ../Multiplier/MUX3.sv|
+!s90 -sv|../Multiplier/MUX3.sv|
+!i113 0
+R5
+R6
+n@m@u@x3
+vMUX_unit
+R1
+R7
+!i10b 1
+!s100 z:6;g2Sk5c?R2EZI@0<aH0
+R2
+IaIM:k`ik:@jQH1ZEBD2iP2
+S1
+R0
+w1763207240
+8../Multiplier/MUX_unit.sv
+F../Multiplier/MUX_unit.sv
+!i122 12
+R8
+R3
+R4
+r1
+!s85 0
+31
+R10
+!s107 ../Multiplier/MUX_unit.sv|
+!s90 -sv|../Multiplier/MUX_unit.sv|
+!i113 0
+R5
+R6
+n@m@u@x_unit
+vMUXBE
+R1
+!s110 1763211183
+!i10b 1
+!s100 i=of4PE8eN;TG:YRki@A20
+R2
+IRh2[OiX6njL>D;3nPgb8Z1
+S1
+R0
+w1763211139
+8../Multiplier/MUXBE.sv
+F../Multiplier/MUXBE.sv
+!i122 14
+R9
+R3
+R4
+r1
+!s85 0
+31
+!s108 1763211182.000000
+!s107 ../Multiplier/MUXBE.sv|
+!s90 -sv|../Multiplier/MUXBE.sv|
+!i113 0
+R5
+R6
+n@m@u@x@b@e

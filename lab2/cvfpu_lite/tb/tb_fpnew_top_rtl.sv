@@ -83,7 +83,6 @@ module tb_fpnew_top ();
 		 .in_ready_o,
 		 .flush_i,
 		 .result_o,
-		 .status_o,
 		 .tag_o,
 		 .out_valid_o,
 		 .out_ready_i,
