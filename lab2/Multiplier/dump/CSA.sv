@@ -1,8 +1,8 @@
 module CSA (
-    input logic[10:0] A,
-    input logic[10:0] B ,
+    input logic[11:0] A,
+    input logic[11:0] B ,
     input logic Cin , 
-    output logic[10:0] S,
+    output logic[11:0] S,
     output logic Cout
 );
 
@@ -12,7 +12,7 @@ logic [3:0] first0temp;
 logic [3:0] first1temp;
 logic [3:0] second0temp;
 logic [3:0] second1temp;
-logic [2:0] CtempA;
+logic [3:0] CtempA;
 logic [5:0] CtempB;
 logic [5:0] CtempC;
 logic [5:0] CtempD;
@@ -23,7 +23,7 @@ HA a(A[0],B[0],CtempA[0],S[0]);
 
 generate
     genvar i;
-    for (i=1;i<3;i++)
+    for (i=1;i<4;i++)
         FA a(A[i],B[i],CtempA[i-1],CtempA[i],S[i]);
 endgenerate
 assign CtempB[0] = 0;
