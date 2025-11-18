@@ -8,3 +8,8 @@ vlog -sv ../Multiplier/Adder4b.sv
 vlog -sv ../Multiplier/MUXBE.sv
 vlog -sv ../Multiplier/WT2.sv
 vlog -sv ../Multiplier/MantissaMultiplier.sv
+vlog -sv ../Multiplier/tb_MantMult.sv
+vsim work.tb_MantMult -voptargs=+acc
+add wave -r /*
+run 50 ns
+

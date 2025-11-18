@@ -1,4 +1,4 @@
-module WALLACETREE
+module WT2
 ( input logic[7:0] a0,a1,a2,a3,
 	input logic c0,c1,c2,
   output logic[13:0] O
@@ -40,7 +40,7 @@ module WALLACETREE
  FA fa6L0(add1[8],add2[8],add3[8],sum2L1[9],sum1L1[8]);
  FA fa7L0(add1[9],add2[9],add3[9],sum2L1[10],sum1L1[9]);
  FA fa8L0(add1[10],add2[10],add3[10],sum2L1[11],sum1L1[10]);
- ha ha3L0(add2[11],add3[11],sum2L1[12],sum1L1[11]);
+ HA ha3L0(add2[11],add3[11],sum2L1[12],sum1L1[11]);
  assign sum3L1[12:0] = add4[12:0];
  
  //Second layer components assignment and signals propagation

@@ -22,5 +22,5 @@ MUX_unit FirstLayerMuxCarry (cFirstLayer0,cFirstLayer1,c0,c1);
 Adder4b SecondLayer0 (A[11:8],B[11:8],1'b0,cSecondLayer0,SecondLayerBuffer0[3:0]);
 Adder4b SecondLayer1 (A[11:8],B[11:8],1'b1,cSecondLayer1,SecondLayerBuffer1[3:0]);
 MUX2 SecondLayerMux (SecondLayerBuffer0[3:0],SecondLayerBuffer1[3:0],c1,S[11:8]);
-MUX_unit SecondLayerMuxCarry (cSecondLayer0,cSecondLayer1,c0,c1);
+MUX_unit SecondLayerMuxCarry (cSecondLayer0,cSecondLayer1,c1,Cout);
 endmodule

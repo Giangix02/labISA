@@ -1,0 +1,17 @@
+//'timescale 1ns/10ps
+module tb_MantMult ();
+
+logic[6:0] A_tb,B_tb = 7'b0;
+logic[13:0] M_tb;
+
+MantissaMultiplier UUT(A_tb,B_tb,M_tb);
+initial begin 
+#10;
+A_tb = 13;
+B_tb = 10;
+end
+endmodule
+
+
+
+
