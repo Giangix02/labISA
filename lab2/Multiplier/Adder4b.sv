@@ -1,7 +1,7 @@
 module Adder4b
 ( input logic[3:0] A,B,
   input logic Cin,
-  output logic[3:0] S,
+  output logic[3:0] s,
   output logic Cout);
   
   logic c0,c1,c2,c3;

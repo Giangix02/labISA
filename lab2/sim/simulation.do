@@ -3,4 +3,8 @@ vlog -sv ../Multiplier/HA.sv
 vlog -sv ../Multiplier/MUX2.sv
 vlog -sv ../Multiplier/MUX_unit.sv
 vlog -sv ../Multiplier/MUX3.sv
-vlog -sv ../Multiplier/CSA.sv
+vlog -sv ../Multiplier/CSA2.sv
+vlog -sv ../Multiplier/Adder4b.sv
+vlog -sv ../Multiplier/MUXBE.sv
+vlog -sv ../Multiplier/WT2.sv
+vlog -sv ../Multiplier/MantissaMultiplier.sv

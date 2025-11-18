@@ -5,12 +5,9 @@ module MantissaMultiplier
 	
 //Precalculated inputs
 logic[7:0] Ax2,mA,mAx2;
-assign Ax2 = 8'b0;
-assign mA = 8'b0;
-assign mAx2 = 8'b0;
 assign Ax2 = A << 1;
-assign mA = ~A;
-assign mAx2 = ~Ax2;
+assign mA = {1'b1,~A}; //always negative, the input is unsigned
+assign mAx2 = mA << 1;
 
 //expanded B vector
 logic[8:0] B_expanded;
@@ -33,6 +30,6 @@ generate
 endgenerate
 
 //Allocation of the Wallace Tree
-WALLACETREE wallTree(encoded0,encoded1,encoded2,encoded3,B_expanded[2],B_expanded[4],B_expanded[6],M);
+WT2 wallTree(encoded0,encoded1,encoded2,encoded3,B_expanded[2],B_expanded[4],B_expanded[6],M);
 
 endmodule
