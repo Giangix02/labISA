@@ -4,9 +4,16 @@ module MantissaMultiplier
 	);
 	
 //Precalculated inputs
+
+
+//QUESTA ROBA NON VA, FACENDO COSI SHIFTO ANCHE L'LSB, E PER POTER COMMPENSARE L'INVERSIONE DOVREI AGGIUNGERE 2 E NON 1, RITORNARE ALLA FORMA VECCHIA
 logic[7:0] Ax2,mA,mAx2;
 assign Ax2 = A << 1;
 assign mA = {1'b1,~A}; //always negative, the input is unsigned
+
+
+
+
 assign mAx2 = mA << 1;
 
 //expanded B vector
