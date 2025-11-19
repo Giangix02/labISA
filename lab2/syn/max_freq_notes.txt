@@ -1,11 +1,21 @@
 lab 2.2
 1) synthesis with compile
 min period -> 4.5 ns
+max freq = 222 MHz
+area = 3674 um^2
 2) synthesis with compile + optimize_registers
 min period -> 4 ns
+max freq = 250 MHz
+area = 3149 um^2
 3) synthesis with compile_ultra
 min period -> 4.3 ns
+max freq = 233 MHz
+area = 2563 um^2
 4) synthesis with csa
 min period -> 2.5 ns
+max freq = 400 MHz
+area = 3698 um^2
 5) synthesis with pparch
 min period -> 2.5 ns
+max freq = 400 MHz
+area = 3485 um^2
