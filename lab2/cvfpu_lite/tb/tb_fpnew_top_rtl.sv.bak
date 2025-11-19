@@ -67,26 +67,32 @@ module tb_fpnew_top ();
 	       .VOUT(in_valid_i),
 	       .END_SIM(end_sim));  		       
 	       
-   fpnew_top UUT(
-                 .clk_i,
-                 .rst_ni,
-		 .operands_i,
-		 .rnd_mode_i,
-		 .op_i,
-		 .op_mod_i,
-		 .src_fmt_i,
-		 .dst_fmt_i,
-		 .int_fmt_i,
-		 .vectorial_op_i,
-		 .tag_i,
-		 .in_valid_i,
-		 .in_ready_o,
-		 .flush_i,
-		 .result_o
-		 .tag_o,
-		 .out_valid_o,
-		 .out_ready_i,
-		 .busy_o);		 
+fpnew_top UUT (
+  .clk_i        (clk_i),
+  .rst_ni       (rst_ni),
+  .operands_i   (operands_i),
+  .rnd_mode_i   (rnd_mode_i),
+  .op_i         (op_i),
+  .op_mod_i     (op_mod_i),
+  .src_fmt_i    (src_fmt_i),
+  .dst_fmt_i    (dst_fmt_i),
+  .int_fmt_i    (int_fmt_i),
+  .vectorial_op_i (vectorial_op_i),
+  .tag_i        (tag_i),
+  .in_valid_i   (in_valid_i),
+  .in_ready_o   (in_ready_o),
+  .flush_i      (flush_i),
+
+  /* output signals */
+  .result_o     (result_o),
+  .status_o     (status_o),
+  .tag_o        (tag_o),
+  .out_valid_o  (out_valid_o),
+  .out_ready_i  (out_ready_i),
+  .busy_o       (busy_o)
+);		
+
+                  
    
 endmodule
    
