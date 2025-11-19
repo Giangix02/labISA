@@ -1,0 +1,270 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/isa30_2025_2026/labISA/lab2/Multiplier/sim
+vAdder4b
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1763568702
+!i10b 1
+!s100 @e_zb8RaN<zX0AIGbbQMG1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ij5E^aXGBT9Vea?d<kHD;71
+S1
+R0
+w1763476156
+8../Adder4b.sv
+F../Adder4b.sv
+!i122 17
+L0 1 12
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2020.4;71
+r1
+!s85 0
+31
+!s108 1763568701.000000
+!s107 ../Adder4b.sv|
+!s90 -sv|../Adder4b.sv|
+!i113 0
+Z5 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+n@adder4b
+vCSA3
+R1
+!s110 1763568701
+!i10b 1
+!s100 [Y=3T;5hL=9][b48VC:Ph3
+R2
+Ie>[;N;CmaE_oYYTB<9ZVS2
+S1
+R0
+Z7 w1763567725
+8../CSA3.sv
+F../CSA3.sv
+!i122 16
+L0 1 30
+R3
+R4
+r1
+!s85 0
+31
+!s108 1763568700.000000
+!s107 ../CSA3.sv|
+!s90 -sv|../CSA3.sv|
+!i113 0
+R5
+R6
+n@c@s@a3
+vHA
+R1
+!s110 1763568697
+!i10b 1
+!s100 M]=?GWOl<0]7SaBzEB;JF1
+R2
+IaKGmM0]JOSeVW]FhZdzeh0
+S1
+R0
+w1763206772
+8../HA.sv
+F../HA.sv
+!i122 12
+L0 1 8
+R3
+R4
+r1
+!s85 0
+31
+!s108 1763568696.000000
+!s107 ../HA.sv|
+!s90 -sv|../HA.sv|
+!i113 0
+R5
+R6
+n@h@a
+vMantissaMultiplier
+R1
+!s110 1763568705
+!i10b 1
+!s100 [L_0UUM:5Df56NciV6ia01
+R2
+I<g@07dVASNjNIW@gG^CTM2
+S1
+R0
+R7
+8../MantissaMultiplier.sv
+F../MantissaMultiplier.sv
+!i122 20
+L0 1 39
+R3
+R4
+r1
+!s85 0
+31
+!s108 1763568704.000000
+!s107 ../MantissaMultiplier.sv|
+!s90 -sv|../MantissaMultiplier.sv|
+!i113 0
+R5
+R6
+n@mantissa@multiplier
+vMUX2
+R1
+!s110 1763568698
+!i10b 1
+!s100 >zhCog6IgB_dCUn<GMY:T0
+R2
+I;2Z;adJH8Bm9g;jT=G2I@2
+S1
+R0
+w1763207217
+8../MUX2.sv
+F../MUX2.sv
+!i122 13
+Z8 L0 1 14
+R3
+R4
+r1
+!s85 0
+31
+!s108 1763568697.000000
+!s107 ../MUX2.sv|
+!s90 -sv|../MUX2.sv|
+!i113 0
+R5
+R6
+n@m@u@x2
+vMUX3
+R1
+!s110 1763568700
+!i10b 1
+!s100 K^ZNgIMDd^?AO3iY]2aDM1
+R2
+IfoK]MdLYnDc:Q4TFSCO>g2
+S1
+R0
+w1763207190
+8../MUX3.sv
+F../MUX3.sv
+!i122 15
+Z9 L0 1 18
+R3
+R4
+r1
+!s85 0
+31
+!s108 1763568699.000000
+!s107 ../MUX3.sv|
+!s90 -sv|../MUX3.sv|
+!i113 0
+R5
+R6
+n@m@u@x3
+vMUX_unit
+R1
+!s110 1763568699
+!i10b 1
+!s100 z:6;g2Sk5c?R2EZI@0<aH0
+R2
+ISb9BKmNVZ4i9;Ve`I]1Sb3
+S1
+R0
+w1763207240
+8../MUX_unit.sv
+F../MUX_unit.sv
+!i122 14
+R8
+R3
+R4
+r1
+!s85 0
+31
+!s108 1763568698.000000
+!s107 ../MUX_unit.sv|
+!s90 -sv|../MUX_unit.sv|
+!i113 0
+R5
+R6
+n@m@u@x_unit
+vMUXBE
+R1
+!s110 1763568703
+!i10b 1
+!s100 =TUMI`BVeGY]7V[<;YgJM0
+R2
+Ijb]KeNG13WDflYaTADBhC1
+S1
+R0
+R7
+8../MUXBE.sv
+F../MUXBE.sv
+!i122 18
+R9
+R3
+R4
+r1
+!s85 0
+31
+!s108 1763568702.000000
+!s107 ../MUXBE.sv|
+!s90 -sv|../MUXBE.sv|
+!i113 0
+R5
+R6
+n@m@u@x@b@e
+vtb_MantMult
+R1
+!s110 1763568713
+!i10b 1
+!s100 EEP@__F0J2`cfUH9Hf1KG1
+R2
+IdZ^Q=MKEXdG`IIlR8<7Wd1
+S1
+R0
+R7
+8../tb_MantMult.sv
+F../tb_MantMult.sv
+!i122 21
+L0 2 12
+R3
+R4
+r1
+!s85 0
+31
+!s108 1763568712.000000
+!s107 ../tb_MantMult.sv|
+!s90 -sv|../tb_MantMult.sv|
+!i113 0
+R5
+R6
+ntb_@mant@mult
+vWT3
+R1
+!s110 1763568704
+!i10b 1
+!s100 d:Z82>5e^6zkU^QcAil;I2
+R2
+IMo2;R?E[hUzfO@B39`Ke?3
+S1
+R0
+w1763568681
+8../WT3.sv
+F../WT3.sv
+!i122 19
+L0 1 108
+R3
+R4
+r1
+!s85 0
+31
+!s108 1763568703.000000
+!s107 ../WT3.sv|
+!s90 -sv|../WT3.sv|
+!i113 0
+R5
+R6
+n@w@t3
