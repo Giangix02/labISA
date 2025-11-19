@@ -6,13 +6,13 @@ module MantissaMultiplier
 //Precalculated inputs
 
 
-//QUESTA ROBA NON VA, FACENDO COSI SHIFTO ANCHE L'LSB, E PER POTER COMMPENSARE L'INVERSIONE DOVREI AGGIUNGERE 2 E NON 1, RITORNARE ALLA FORMA VECCHIA
-logic[8:0] Ax2,mA,mAx2;
+logic[8:0] Ax2,mA,mAx2,A2;
+assign A2 = {'0,A[7:0]};
 assign Ax2 = A << 1;
 assign mA = {1'b1,~A}; //always negative, the input is unsigned
 assign mAx2 = ~Ax2;
 
-//expanded B vector
+//expanded B and A vectors
 logic[10:0] B_expanded;
 assign B_expanded[10:9] = 2'b0;
 assign B_expanded[0] = 0;
@@ -29,8 +29,8 @@ assign encoded4[8:0] = outboothenc[44:36];
 
 generate
 	genvar i;
-	for (i = 0; i < 6;i++)
-		MUXBE boothenc('0,A,Ax2,mA,mAx2,B_expanded[(3+i*2):i*2],outboothenc[(8+9*i):(9*i)]);
+	for (i = 0; i < 5;i++)
+		MUXBE boothenc('0,A2,Ax2,mA,mAx2,B_expanded[(2+i*2):i*2],outboothenc[(8+9*i):(9*i)]);
 endgenerate
 
 //Allocation of the Wallace Tree
