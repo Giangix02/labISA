@@ -1,5 +1,5 @@
 module MUXBE
-( input logic[7:0] zero,a, a2, ma, ma2,
+( input logic[8:0] zero,a, a2, ma, ma2,
 	input logic[2:0] sel,
 	output logic[7:0] c
 	);
