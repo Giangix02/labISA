@@ -85,7 +85,6 @@ fpnew_top UUT (
 
   /* output signals */
   .result_o     (result_o),
-  .status_o     (status_o),
   .tag_o        (tag_o),
   .out_valid_o  (out_valid_o),
   .out_ready_i  (out_ready_i),

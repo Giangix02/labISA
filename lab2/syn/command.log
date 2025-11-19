@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running dc_shell Version S-2021.06-SP4 for linux64 -- Nov 23, 2021
-#@ # Date:   Mon Nov 17 16:52:51 2025
+#@ # Date:   Tue Nov 18 22:30:19 2025
 #@ # Run by: isa30_2025_2026@isaserver
 #@ 
 
@@ -44405,79 +44405,12 @@ gui_start
 #@ # -- End source /eda/synopsys/2021-22/RHELx86/SYN_2021.06-SP4/auxx/tcllib/lib/iwidgets4.1/watch.itk
 
 gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {LeafCells}
-uplevel #0 source /home/isa30_2025_2026/labISA/lab2/syn/netlist/2.2.4/setup_script_short.tcl
-#@ # -- Starting source /home/isa30_2025_2026/labISA/lab2/syn/netlist/2.2.4/setup_script_short.tcl
+uplevel #0 source /home/isa30_2025_2026/labISA/lab2/syn/netlist/2.2.5/setup_script_short.tcl
+#@ # -- Starting source /home/isa30_2025_2026/labISA/lab2/syn/netlist/2.2.5/setup_script_short.tcl
 
 #@ analyze -library WORK -format sverilog {codes/cf_math_pkg.sv codes/lzc.sv codes/rr_arb_tree.sv codes/fpnew_pkg.sv codes/fpnew_classifier.sv codes/fpnew_rounding.sv codes/fpnew_fma.sv codes/fpnew_opgroup_fmt_slice.sv codes/fpnew_opgroup_block.sv codes/fpnew_top.sv}
 #@ elaborate fpnew_top -architecture verilog -lib work
 #@ create_clock -name MY_CLK -period 2.5 clk_i
-#@ set_dont_touch_network MY_CLK
-#@ set_clock_uncertainty 0.07 [get_clocks MY_CLK]
-#@ set_input_delay 0.5 -max -clock MY_CLK [remove_from_collection [all_inputs] MY_CLK]
-#@ set_output_delay 0.5 -max -clock MY_CLK [all_outputs]
-#@ set OLOAD [load_of NangateOpenCellLibrary/BUF_X4/A]
-#@ set_load $OLOAD [all_outputs]
-#@ ungroup -all -flatten
-#@ set_implementation DW02_mult/csa [find cell *mult*]
-#@ compile
-#@ optimize_registers
-#@ report_timing > ./report/timing/timing_csa_2.2.4.txt
-#@ report_area > ./report/area/area_csa_2.2.4.txt
-#@ report_resources > ./report/resources/resources_csa_2.2.4.txt
-#@ # -- End source /home/isa30_2025_2026/labISA/lab2/syn/netlist/2.2.4/setup_script_short.tcl
-
-remove_design -designs
-uplevel #0 source /home/isa30_2025_2026/labISA/lab2/syn/netlist/2.2.5/setup_script_short.tcl
-#@ # -- Starting source /home/isa30_2025_2026/labISA/lab2/syn/netlist/2.2.5/setup_script_short.tcl
-
-#@ analyze -library WORK -format sverilog {codes/cf_math_pkg.sv codes/lzc.sv codes/rr_arb_tree.sv codes/fpnew_pkg.sv codes/fpnew_classifier.sv codes/fpnew_rounding.sv codes/fpnew_fma.sv codes/fpnew_opgroup_fmt_slice.sv codes/fpnew_opgroup_block.sv codes/fpnew_top.sv}
-#@ elaborate fpnew_top -architecture verilog -lib work
-#@ create_clock -name MY_CLK -period 10 clk_i
-#@ set_dont_touch_network MY_CLK
-#@ set_clock_uncertainty 0.07 [get_clocks MY_CLK]
-#@ set_input_delay 0.5 -max -clock MY_CLK [remove_from_collection [all_inputs] MY_CLK]
-#@ set_output_delay 0.5 -max -clock MY_CLK [all_outputs]
-#@ set OLOAD [load_of NangateOpenCellLibrary/BUF_X4/A]
-#@ set_load $OLOAD [all_outputs]
-#@ ungroup -all -flatten
-#@ set_implementation DW02_mult/pparch [find cell *mult*]
-#@ compile
-#@ optimize_registers
-#@ ungroup -all -flatten
-#@ change_names -hierarchy -rules verilog
-#@ write_sdf ./netlist/2.2.5/fpnew_top.sdf
-#@ write -f verilog -hierarchy -output ./netlist/2.2.5/fpnew_top.v
-#@ write_sdc ./netlist/2.2.5/fpnew_top.sdc
-#@ # -- End source /home/isa30_2025_2026/labISA/lab2/syn/netlist/2.2.5/setup_script_short.tcl
-
-remove_design -designs
-uplevel #0 source /home/isa30_2025_2026/labISA/lab2/syn/netlist/2.2.5/setup_script_short.tcl
-#@ # -- Starting source /home/isa30_2025_2026/labISA/lab2/syn/netlist/2.2.5/setup_script_short.tcl
-
-#@ analyze -library WORK -format sverilog {codes/cf_math_pkg.sv codes/lzc.sv codes/rr_arb_tree.sv codes/fpnew_pkg.sv codes/fpnew_classifier.sv codes/fpnew_rounding.sv codes/fpnew_fma.sv codes/fpnew_opgroup_fmt_slice.sv codes/fpnew_opgroup_block.sv codes/fpnew_top.sv}
-#@ elaborate fpnew_top -architecture verilog -lib work
-#@ create_clock -name MY_CLK -period 10 clk_i
-#@ set_dont_touch_network MY_CLK
-#@ set_clock_uncertainty 0.07 [get_clocks MY_CLK]
-#@ set_input_delay 0.5 -max -clock MY_CLK [remove_from_collection [all_inputs] MY_CLK]
-#@ set_output_delay 0.5 -max -clock MY_CLK [all_outputs]
-#@ set OLOAD [load_of NangateOpenCellLibrary/BUF_X4/A]
-#@ set_load $OLOAD [all_outputs]
-#@ ungroup -all -flatten
-#@ set_implementation DW02_mult/pparch [find cell *mult*]
-#@ compile
-#@ optimize_registers
-#@ report_timing > timing_pparch_2.2.5.txt
-#@ report_area > area_pparch_2.2.5.txt
-#@ report_resources > resources_pparch_2.2.5.txt
-#@ # -- End source /home/isa30_2025_2026/labISA/lab2/syn/netlist/2.2.5/setup_script_short.tcl
-
-uplevel #0 source /home/isa30_2025_2026/labISA/lab2/syn/netlist/2.2.5/setup_script_short.tcl
-#@ # -- Starting source /home/isa30_2025_2026/labISA/lab2/syn/netlist/2.2.5/setup_script_short.tcl
-
-#@ analyze -library WORK -format sverilog {codes/cf_math_pkg.sv codes/lzc.sv codes/rr_arb_tree.sv codes/fpnew_pkg.sv codes/fpnew_classifier.sv codes/fpnew_rounding.sv codes/fpnew_fma.sv codes/fpnew_opgroup_fmt_slice.sv codes/fpnew_opgroup_block.sv codes/fpnew_top.sv}
-#@ elaborate fpnew_top -architecture verilog -lib work
-#@ create_clock -name MY_CLK -period 10 clk_i
 #@ set_dont_touch_network MY_CLK
 #@ set_clock_uncertainty 0.07 [get_clocks MY_CLK]
 #@ set_input_delay 0.5 -max -clock MY_CLK [remove_from_collection [all_inputs] MY_CLK]
@@ -44494,3 +44427,4 @@ uplevel #0 source /home/isa30_2025_2026/labISA/lab2/syn/netlist/2.2.5/setup_scri
 #@ # -- End source /home/isa30_2025_2026/labISA/lab2/syn/netlist/2.2.5/setup_script_short.tcl
 
 report_timing
+change_selection [get_cells {{add_0_root_gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_515}}]

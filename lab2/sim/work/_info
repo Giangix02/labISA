@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11e MIXED_VERSIONS
 !s11f vlog 2020.4 2020.10, Oct 13 2020
 13
 !s112 1.1
@@ -8,351 +9,383 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 d/home/isa30_2025_2026/labISA/lab2/sim
+d/home/isa30_2025_2026/labISA/lab2
 T_opt
-!s110 1763479955
-VoMImo=Xm1zf1B8j9oMd7@3
-04 11 4 work tb_MantMult fast 0
-=4-32c32e71d307-691c9191-b30a1-ee5
-o-quiet -auto_acc_if_foreign -work work +acc
-Z1 tCvgOpt 0
+!s110 1763562280
+VCXJHlYi?7VcIbT?=:aV<41
+04 12 4 work tb_fpnew_top fast 0
+=1-32c32e71d307-691dd326-12d81-17a5
+o-quiet -auto_acc_if_foreign -work work -L /eda/dk/nangate45/verilog/qsim2020.4
+Z0 tCvgOpt 0
 n@_opt
 OL;O;2020.4;71
-vAdder4b
-Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-!s110 1763479947
+Xcf_math_pkg
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1763562258
 !i10b 1
-!s100 @e_zb8RaN<zX0AIGbbQMG1
-Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-ITf:llXNRg4m:eUJ?V7>Xf2
+!s100 BCK1a3g]B;deb7k<XVBUH0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>5JVeH?GnFg_7b]nWKU5_1
 S1
-R0
-w1763476156
-8../Multiplier/Adder4b.sv
-F../Multiplier/Adder4b.sv
-!i122 89
-L0 1 12
-Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/isa30_2025_2026/labISA/lab2/sim
+Z4 w1762182687
+8/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/cf_math_pkg.sv
+F/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/cf_math_pkg.sv
+!i122 222
+L0 18 0
+V>5JVeH?GnFg_7b]nWKU5_1
 Z5 OL;L;2020.4;71
 r1
 !s85 0
 31
-!s108 1763479947.000000
-!s107 ../Multiplier/Adder4b.sv|
-!s90 -reportprogress|300|-sv|../Multiplier/Adder4b.sv|
+!s108 1763562257.000000
+!s107 /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/cf_math_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/cf_math_pkg.sv|
 !i113 0
-Z6 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
-n@adder4b
-vCSA
-R2
-!s110 1763392776
-!i10b 1
-!s100 ;4ib=`UNBS?GoXg99^bR?0
-R3
-IPfYLN^DD<EdjZh6j3?@;31
-S1
+Z6 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R0
-w1763208857
-8../Multiplier/CSA.sv
-F../Multiplier/CSA.sv
-!i122 16
-L0 1 65
+Eclk_gen
 R4
-R5
-r1
-!s85 0
-31
-!s108 1763392775.000000
-!s107 ../Multiplier/CSA.sv|
-!s90 -sv|../Multiplier/CSA.sv|
-!i113 0
-R6
-R1
-n@c@s@a
-vCSA2
-R2
-!s110 1763479946
-!i10b 1
-!s100 n81ccP>11Kzm8_JgT<8Af1
+Z7 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z8 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 231
 R3
-IG^bg==ZR74]M5ESm2>me;0
-S1
-R0
-w1763479929
-8../Multiplier/CSA2.sv
-F../Multiplier/CSA2.sv
-!i122 88
-L0 1 26
-R4
-R5
-r1
-!s85 0
-31
-!s108 1763479946.000000
-!s107 ../Multiplier/CSA2.sv|
-!s90 -reportprogress|300|-sv|../Multiplier/CSA2.sv|
-!i113 0
-R6
-R1
-n@c@s@a2
-vFA
-R2
-!s110 1763210683
+Z11 8/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/tb/clk_gen.vhd
+Z12 F/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/tb/clk_gen.vhd
+l0
+L6 1
+V4bc`7UdH`BlHk=^=TDQ9H2
+!s100 JA8Ue1n4KCD]`nb]FQfQ[2
+Z13 OL;C;2020.4;71
+32
+Z14 !s110 1763562268
 !i10b 1
-!s100 d6@`5YAPQETHCQU6`H^AP0
-R3
-I?P?d@hT?XWz53H_QlW5:G1
-S1
-R0
-w1763207352
-8../Multiplier/FA.sv
-F../Multiplier/FA.sv
-!i122 9
-L0 1 9
-R4
-R5
-r1
-!s85 0
-31
-!s108 1763210682.000000
-!s107 ../Multiplier/FA.sv|
-!s90 -sv|../Multiplier/FA.sv|
+Z15 !s108 1763562267.000000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/tb/clk_gen.vhd|
+Z17 !s107 /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/tb/clk_gen.vhd|
 !i113 0
-R6
-R1
-n@f@a
-vHA
-R2
-!s110 1763479941
-!i10b 1
-!s100 M]=?GWOl<0]7SaBzEB;JF1
-R3
-Ij^c<?DYKfFNh=J9FC[OdE3
-S1
-R0
-w1763206772
-8../Multiplier/HA.sv
-F../Multiplier/HA.sv
-!i122 84
-L0 1 8
-R4
-R5
-r1
-!s85 0
-31
-!s108 1763479940.000000
-!s107 ../Multiplier/HA.sv|
-!s90 -reportprogress|300|-sv|../Multiplier/HA.sv|
-!i113 0
-R6
-R1
-n@h@a
-vMantissaMultiplier
-R2
-!s110 1763479951
-!i10b 1
-!s100 jjAPnG0GhLRC?9McOQ^fL3
-R3
-IiWb:bl8K27Kd6Nb?UVZ]92
-S1
-R0
-w1763476620
-8../Multiplier/MantissaMultiplier.sv
-F../Multiplier/MantissaMultiplier.sv
-!i122 92
-L0 1 35
-R4
-R5
-r1
-!s85 0
-31
-!s108 1763479950.000000
-!s107 ../Multiplier/MantissaMultiplier.sv|
-!s90 -reportprogress|300|-sv|../Multiplier/MantissaMultiplier.sv|
-!i113 0
-R6
-R1
-n@mantissa@multiplier
-vMUX2
-R2
-!s110 1763479942
-!i10b 1
-!s100 >zhCog6IgB_dCUn<GMY:T0
-R3
-I6IORYL=8C1FaJFJnYSV1k0
-S1
-R0
-w1763207217
-8../Multiplier/MUX2.sv
-F../Multiplier/MUX2.sv
-!i122 85
-Z7 L0 1 14
-R4
-R5
-r1
-!s85 0
-31
-!s108 1763479942.000000
-!s107 ../Multiplier/MUX2.sv|
-!s90 -reportprogress|300|-sv|../Multiplier/MUX2.sv|
-!i113 0
-R6
-R1
-n@m@u@x2
-vMUX3
-R2
-!s110 1763479945
-!i10b 1
-!s100 K^ZNgIMDd^?AO3iY]2aDM1
-R3
-I1m1CGQ9^W21:EE5iGQJ3Q2
-S1
-R0
-w1763207190
-8../Multiplier/MUX3.sv
-F../Multiplier/MUX3.sv
-!i122 87
-Z8 L0 1 18
-R4
-R5
-r1
-!s85 0
-31
-!s108 1763479944.000000
-!s107 ../Multiplier/MUX3.sv|
-!s90 -reportprogress|300|-sv|../Multiplier/MUX3.sv|
-!i113 0
-R6
-R1
-n@m@u@x3
-vMUX_unit
-R2
-!s110 1763479944
-!i10b 1
-!s100 z:6;g2Sk5c?R2EZI@0<aH0
-R3
-IaIM:k`ik:@jQH1ZEBD2iP2
-S1
-R0
-w1763207240
-8../Multiplier/MUX_unit.sv
-F../Multiplier/MUX_unit.sv
-!i122 86
+Z18 o-work work -2002 -explicit
+Z19 tExplicit 1 CvgOpt 0
+Abeh
 R7
-R4
-R5
-r1
-!s85 0
-31
-!s108 1763479943.000000
-!s107 ../Multiplier/MUX_unit.sv|
-!s90 -reportprogress|300|-sv|../Multiplier/MUX_unit.sv|
-!i113 0
-R6
-R1
-n@m@u@x_unit
-vMUXBE
-R2
-!s110 1763479949
-!i10b 1
-!s100 bQoc7Rk0L<R5Lg@mP1bSn3
-R3
-IH0@hL:oc`cUCD?1kYJgAY0
-S1
-R0
-w1763475552
-8../Multiplier/MUXBE.sv
-F../Multiplier/MUXBE.sv
-!i122 90
 R8
-R4
-R5
-r1
-!s85 0
-31
-!s108 1763479948.000000
-!s107 ../Multiplier/MUXBE.sv|
-!s90 -reportprogress|300|-sv|../Multiplier/MUXBE.sv|
-!i113 0
-R6
-R1
-n@m@u@x@b@e
-vtb_MantMult
-R2
-!s110 1763479953
-!i10b 1
-!s100 ddR>;aGb7<jJnz4kNMJ1h2
-R3
-IUVQX;zCT^enJ^mZTXiOPC3
-S1
-R0
-w1763479458
-8../Multiplier/tb_MantMult.sv
-F../Multiplier/tb_MantMult.sv
-!i122 93
-L0 2 12
-R4
-R5
-r1
-!s85 0
-31
-!s108 1763479952.000000
-!s107 ../Multiplier/tb_MantMult.sv|
-!s90 -reportprogress|300|-sv|../Multiplier/tb_MantMult.sv|
-!i113 0
-R6
-R1
-ntb_@mant@mult
-vWALLACETREE
-R2
-!s110 1763479613
-!i10b 1
-!s100 hTXhKEK3774P64Jk^fTec1
-R3
-ImKSZKcN;Dk2?1=4f]P2H;2
-S1
-R0
-w1763476282
-Z9 8../Multiplier/WT2.sv
-Z10 F../Multiplier/WT2.sv
-!i122 58
-Z11 L0 1 66
-R4
-R5
-r1
-!s85 0
-31
-!s108 1763479612.000000
-Z12 !s107 ../Multiplier/WT2.sv|
-Z13 !s90 -reportprogress|300|-sv|../Multiplier/WT2.sv|
-!i113 0
-R6
-R1
-n@w@a@l@l@a@c@e@t@r@e@e
-vWT2
-R2
-!s110 1763479950
-!i10b 1
-!s100 `>?ngQ_Q2Bj6l8dJ=8PAZ3
-R3
-I[eB`mc`hlmdEf3KJ`gDQb3
-S1
-R0
-w1763479762
 R9
 R10
-!i122 91
-R11
+DEx4 work 7 clk_gen 0 22 4bc`7UdH`BlHk=^=TDQ9H2
+!i122 231
+l20
+L13 32
+VCo>]>?2Z99;X<1fXGlGlG3
+!s100 8aA_N51Ib_9C[Km31laZ20
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Edata_gen16
+Z20 w1763394293
+R7
+R8
+R9
+R10
+!i122 232
+R3
+Z21 8/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/tb/data_gen16.vhd
+Z22 F/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/tb/data_gen16.vhd
+l0
+L6 1
+V3^z9TZPce7:1^?J>=ob>[3
+!s100 <4h_0T4270TOFIKia`D^81
+R13
+32
+Z23 !s110 1763562269
+!i10b 1
+Z24 !s108 1763562268.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/tb/data_gen16.vhd|
+Z26 !s107 /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/tb/data_gen16.vhd|
+!i113 0
+R18
+R19
+Abeh
+R7
+R8
+R9
+R10
+DEx4 work 10 data_gen16 0 22 3^z9TZPce7:1^?J>=ob>[3
+!i122 232
+l68
+L17 90
+VzL?Mf3KHRAB]>=0>MoGR<1
+!s100 9FYgWWhR=]^dF=ODDQW_43
+R13
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R18
+R19
+vfpnew_classifier
+R1
+Z27 DXx4 work 9 fpnew_pkg 0 22 2RbmBSDNI_i>CaGAg]9IO2
+!s110 1763562259
+!i10b 1
+!s100 ^>C:@EOR6`<5i^oRB0CX>1
+R2
+IK^FWMaIRNW=[^Q4gj;NSP1
+S1
+R3
 R4
+8/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv
+F/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv
+!i122 223
+Z28 L0 16 59
+Z29 VDg1SIo80bB@j0V0VzS_@n1
 R5
 r1
 !s85 0
 31
-!s108 1763479949.000000
-R12
-R13
+!s108 1763562258.000000
+!s107 /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_classifier.sv|
 !i113 0
 R6
+R0
+vfpnew_fma
 R1
-n@w@t2
+R27
+!s110 1763562261
+!i10b 1
+!s100 @]WIK=X8@VVlE0j3^LWba1
+R2
+I0;KPc8bf9Ycj]FL@KVzXL3
+S1
+R3
+R4
+8/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_fma.sv
+F/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_fma.sv
+!i122 224
+L0 19 658
+R29
+R5
+r1
+!s85 0
+31
+!s108 1763562259.000000
+!s107 /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/registers.svh|/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_fma.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_fma.sv|
+!i113 0
+R6
+R0
+vfpnew_opgroup_block
+R1
+R27
+!s110 1763562262
+!i10b 1
+!s100 lzidkXG5>eQa^SZjRa`Be0
+R2
+I10[C_9TG5?NO;XMScE7]@1
+S1
+R3
+R4
+8/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_block.sv
+F/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_block.sv
+!i122 225
+L0 16 217
+R29
+R5
+r1
+!s85 0
+31
+!s108 1763562261.000000
+!s107 /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_block.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_block.sv|
+!i113 0
+R6
+R0
+vfpnew_opgroup_fmt_slice
+R1
+R27
+!s110 1763562263
+!i10b 1
+!s100 gJ[81<gc0;Q7bLAf`hRa<2
+R2
+I49R5FDj@ARmb69@i19fU70
+S1
+R3
+R4
+8/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_fmt_slice.sv
+F/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_fmt_slice.sv
+!i122 226
+L0 17 266
+R29
+R5
+r1
+!s85 0
+31
+!s108 1763562262.000000
+!s107 /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_fmt_slice.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_opgroup_fmt_slice.sv|
+!i113 0
+R6
+R0
+Xfpnew_pkg
+R1
+!s110 1763562264
+!i10b 1
+!s100 JOA>c8aIU=GVVlIWIFaVc0
+R2
+I2RbmBSDNI_i>CaGAg]9IO2
+S1
+R3
+R4
+8/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_pkg.sv
+F/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_pkg.sv
+!i122 227
+L0 17 0
+V2RbmBSDNI_i>CaGAg]9IO2
+R5
+r1
+!s85 0
+31
+!s108 1763562263.000000
+!s107 /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_pkg.sv|
+!i113 0
+R6
+R0
+vfpnew_rounding
+R1
+R27
+!s110 1763562265
+!i10b 1
+!s100 9<FbZBjX3>zdj2CV[ZFQE1
+R2
+ID:HG9V6AhQ]UCB0_U>29J0
+S1
+R3
+R4
+8/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_rounding.sv
+F/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_rounding.sv
+!i122 228
+R28
+R29
+R5
+r1
+!s85 0
+31
+!s108 1763562264.000000
+!s107 /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_rounding.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/fpnew_rounding.sv|
+!i113 0
+R6
+R0
+vfpnew_top
+!s110 1763562271
+!i10b 1
+!s100 ?;Eh5P?4[_>67AiRQeY0W2
+R2
+IzlNH1:ZZ8Ia2J<W3zXz883
+R3
+w1763395734
+8/home/isa30_2025_2026/labISA/lab2/syn/netlist/2.2.5/fpnew_top.v
+F/home/isa30_2025_2026/labISA/lab2/syn/netlist/2.2.5/fpnew_top.v
+!i122 234
+L0 8 3659
+R29
+R5
+r1
+!s85 0
+31
+!s108 1763562270.000000
+!s107 /home/isa30_2025_2026/labISA/lab2/syn/netlist/2.2.5/fpnew_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/home/isa30_2025_2026/labISA/lab2/syn/netlist/2.2.5/fpnew_top.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vlzc
+R1
+DXx4 work 11 cf_math_pkg 0 22 >5JVeH?GnFg_7b]nWKU5_1
+!s110 1763562266
+!i10b 1
+!s100 lZa^Mnl[28h8>3g_j;k>A3
+R2
+I5LXLEVX;MzI5g5_=fWLW_1
+S1
+R3
+R4
+8/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/lzc.sv
+F/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/lzc.sv
+!i122 229
+L0 25 88
+R29
+R5
+r1
+!s85 0
+31
+!s108 1763562265.000000
+!s107 /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/lzc.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/lzc.sv|
+!i113 0
+R6
+R0
+vrr_arb_tree
+R1
+!s110 1763562267
+!i10b 1
+!s100 M@oWCbPTB=:l:]<3_]CFW3
+R2
+Im;W0AdXHaMQT`5aSUoC<j2
+S1
+R3
+R4
+8/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/rr_arb_tree.sv
+F/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/rr_arb_tree.sv
+!i122 230
+L0 47 301
+R29
+R5
+r1
+!s85 0
+31
+!s108 1763562266.000000
+!s107 /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/rr_arb_tree.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/src/rr_arb_tree.sv|
+!i113 0
+R6
+R0
+vtb_fpnew_top
+R1
+R27
+!s110 1763562270
+!i10b 1
+!s100 E5ZLmWm9^mAHD:`ET;7_b2
+R2
+IfijjDbi3P01D?H4e_fTC83
+S1
+R3
+w1763554725
+8/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/tb/tb_fpnew_top_rtl.sv
+F/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/tb/tb_fpnew_top_rtl.sv
+!i122 233
+L0 1 96
+R29
+R5
+r1
+!s85 0
+31
+!s108 1763562269.000000
+!s107 /home/isa30_2025_2026/labISA/lab2/cvfpu_lite/tb/tb_fpnew_top_rtl.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/isa30_2025_2026/labISA/lab2/cvfpu_lite/tb/tb_fpnew_top_rtl.sv|
+!i113 0
+R6
+R0
