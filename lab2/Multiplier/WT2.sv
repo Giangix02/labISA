@@ -73,6 +73,7 @@ endgenerate
 endgenerate
  FA fa2L1(sum1L1[14],sum3L1[14],sum4L1[14],sum2L2[15],sum1L1[14]);
  HA ha4L1(sum3L1[15],sum4L1[15],dump,sum1L2[15]);
+ assign sum3L2[13:7] = {sum4L1[13:7]};
  
  // FA fa2L1 (sum1L1[6],sum2L1[6],sum3L1[6],sum2L2[7],sum1L2[6]);
  // FA fa3L1 (sum1L1[7],sum2L1[7],sum3L1[7],sum2L2[8],sum1L2[7]);
@@ -87,7 +88,20 @@ endgenerate
  // assign sum2L2[3] = 1'b0;
 
 //Third layer components assignment and signals propagation
-  assign O[1:0] = sum1L2[1:0];
-  CSA2 CSA (sum1L2[13:2],sum2L2[13:2],1'b0,O[13:2],DummyCout);
+HA ha1L2(sum1L2[2],sum1L2[2],sum2L3[3],sum1L3[2]};
+generate 
+	genvar j
+	for (j=9,j<14,j++)
+		FA faL2 (sum1L2[j],sum2L2[j],sum3L2[j],sum2L3[j+1],sum1L3[j]);
+endgenerate
+assign sum1L3[8:3] = sum1L2[8:3];
+assign sum1L3[1:0] = sum1L2[1:0];
+assign sum2L3[8:3] = {sum2L2[8:4],1'b0};
+assign sum2L3[2:0] = 3'b0;
+
+//Final Layer 
+  assign O[2:0] = sum1L3[2:0];
+  logic DummyCout;
+  CSA3 CSA (sum1L3[16:3],sum2L3[6:3],1'b0,O[16:3],DummyCout);
   endmodule
   
