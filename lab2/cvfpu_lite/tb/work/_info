@@ -10,7 +10,7 @@ cModel Technology
 dC:/intelFPGA/18.1
 vAdder4b
 Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z1 !s110 1763654100
+Z1 !s110 1763662163
 !i10b 1
 !s100 Rk^f6eaQal1l8:PDRF^3W3
 ID@=o^hfZ9lMeBhV`]QSO_0
@@ -26,7 +26,7 @@ Z5 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z6 !s108 1763654100.000000
+Z6 !s108 1763662163.000000
 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/Adder4b.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/Adder4b.sv|
 !i113 1
@@ -35,7 +35,7 @@ Z8 tCvgOpt 0
 n@adder4b
 Xcf_math_pkg
 R0
-Z9 !s110 1763654101
+Z9 !s110 1763662164
 !i10b 1
 !s100 QcAWVUd3>H`Jc[58jH[FO1
 IVYYoXGfGYj[hcTi6;9S1[0
@@ -50,7 +50,7 @@ R5
 r1
 !s85 0
 31
-Z11 !s108 1763654101.000000
+Z11 !s108 1763662164.000000
 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/cf_math_pkg.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/cf_math_pkg.sv|
 !i113 1
@@ -220,25 +220,25 @@ R8
 vfpnew_fma
 R0
 R28
-R9
+!s110 1763663054
 !i10b 1
-!s100 ?NC<8gEl[78RAD[K0E4_W3
-ILkl@h24`ii6lkmlafm>FY3
+!s100 g[d5Eh9F@ao:RbT`E12hm3
+I_7>8E3fX:FbM=_I1712l83
 R2
 !s105 fpnew_fma_sv_unit
 S1
 R3
-w1763654097
-8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_fma.sv
-FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_fma.sv
+w1763662966
+8C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab2\cvfpu_lite\src\fpnew_fma.sv
+FC:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab2\cvfpu_lite\src\fpnew_fma.sv
 L0 19
 R5
 r1
 !s85 0
 31
-R11
-!s107 C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab2\cvfpu_lite\src\registers.svh|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_fma.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_fma.sv|
+!s108 1763663054.000000
+!s107 C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab2\cvfpu_lite\src\registers.svh|C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab2\cvfpu_lite\src\fpnew_fma.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab2\cvfpu_lite\src\fpnew_fma.sv|
 !i113 1
 R7
 R8
@@ -417,15 +417,15 @@ R7
 R8
 vMantissaMultiplier
 R0
-R9
+R1
 !i10b 1
-!s100 V`^U1em8O=HlimB>0[D]Y2
-I]FfcO`l^IGRczJ>4m>^A70
+!s100 MXnZmRA]iT46hmTKbbJka2
+IcXObTW>K[eeR=3hiRDhNc1
 R2
 !s105 MantissaMultiplier_sv_unit
 S1
 R3
-R4
+Z31 w1763662045
 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/MantissaMultiplier.sv
 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/MantissaMultiplier.sv
 L0 1
@@ -433,7 +433,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/MantissaMultiplier.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/MantissaMultiplier.sv|
 !i113 1
@@ -519,13 +519,13 @@ vMUXBE
 R0
 R1
 !i10b 1
-!s100 5nJ:WkF=S5o@Q:;QGEYDT0
-IV_gnOehmADTl9C^G>eGW62
+!s100 OUB;3zdz5BD[e9`Y_:zWS1
+IRh]ncEzbM0zJSF:f<iiHV1
 R2
 !s105 MUXBE_sv_unit
 S1
 R3
-R4
+R31
 8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/MUXBE.sv
 FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/MUXBE.sv
 L0 1
@@ -567,7 +567,7 @@ R8
 vtb_fpnew_top
 R0
 R28
-!s110 1763654186
+R9
 !i10b 1
 !s100 F74Eib@c[AVk<Lg:IFZG51
 IPg9EWcMBjPki08YASd?ef0
@@ -583,7 +583,7 @@ R5
 r1
 !s85 0
 31
-!s108 1763654186.000000
+R11
 !s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/tb/tb_fpnew_top_rtl.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/tb/tb_fpnew_top_rtl.sv|
 !i113 1
@@ -591,7 +591,7 @@ R7
 R8
 vWT3
 R0
-R9
+R1
 !i10b 1
 !s100 eeSZ[jB]5`HkYHiG9d4T50
 IWmfA`]`jE]BLK9BQ_U>;_2

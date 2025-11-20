@@ -5,14 +5,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	CSA3
 
-} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_fma.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/fpnew_fma.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module fpnew_fma
--- Importing package fpnew_pkg
-
-Top level modules:
-	fpnew_fma
-
 } {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/cf_math_pkg.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/cf_math_pkg.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling package cf_math_pkg
@@ -67,6 +59,14 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	MUX3
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/tb/tb_fpnew_top_rtl.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/tb/tb_fpnew_top_rtl.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_fpnew_top
+-- Importing package fpnew_pkg
+
+Top level modules:
+	tb_fpnew_top
 
 } {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/MantissaMultiplier.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/MantissaMultiplier.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -158,6 +158,13 @@ These features are only supported in Questasim.
 Top level modules:
 	rr_arb_tree
 
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/MUXBE.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/MUXBE.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MUXBE
+
+Top level modules:
+	MUXBE
+
 } {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/tb/data_gen16.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Utente\OneDrive\Documenti\progetti isa\labISA\lab2\cvfpu_lite\tb\data_gen16.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -185,13 +192,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	lzc
-
-} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/MUXBE.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/MUXBE.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module MUXBE
-
-Top level modules:
-	MUXBE
 
 } {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/MUX_unit.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/cvfpu_lite/src/MUX_unit.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
