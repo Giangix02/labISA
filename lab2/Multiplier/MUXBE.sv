@@ -11,7 +11,7 @@ always_comb begin
 	3'b011 : c = a2;
 	3'b100 : c = ma2;
 	3'b101 : c = ma;
-	3'b110 : c = ma2;
+	3'b110 : c = ma;
 	3'b111 : c = zero;
 	endcase
 end

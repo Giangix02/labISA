@@ -9,6 +9,9 @@ initial begin
 #10;
 A_tb = 13;
 B_tb = 10;
+#20
+A_tb = 118;
+B_tb = 35;
 end
 endmodule
 

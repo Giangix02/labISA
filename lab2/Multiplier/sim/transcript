@@ -12,501 +12,111 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-# ** Warning: License feature 'msimviewer' will expire in 11 days.
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 17:35:44 on Nov 19,2025
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Error: ../WT3.sv(44): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(46): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(47): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(48): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(49): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(50): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(51): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(52): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(53): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(67): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(74): Module 'FA' is not defined.
-# ** Error: ../Adder4b.sv(8): Module 'FA' is not defined.
-# ** Error: ../Adder4b.sv(9): Module 'FA' is not defined.
-# ** Error: ../Adder4b.sv(10): Module 'FA' is not defined.
-# ** Error: ../Adder4b.sv(11): Module 'FA' is not defined.
-# ** Error: ../CSA3.sv(25): Module 'FA' is not defined.
-# ** Error: ../CSA3.sv(26): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(95): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(95): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(95): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(95): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(95): Module 'FA' is not defined.
-# Optimization failed
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=30, Warnings=0.
-# Error loading design
-# End time: 17:35:47 on Nov 19,2025, Elapsed time: 0:00:03
-# Errors: 30, Warnings: 0
-vlog -sv ../FA.sv
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:36:46 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 17:36:47 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vsim work.tb_MantMult -voptargs=+acc
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 17:37:22 on Nov 19,2025
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Error: ../WT3.sv(44): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(46): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(47): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(48): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(49): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(50): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(51): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(52): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(53): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(67): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(74): Module 'FA' is not defined.
-# ** Error: ../Adder4b.sv(8): Module 'FA' is not defined.
-# ** Error: ../Adder4b.sv(9): Module 'FA' is not defined.
-# ** Error: ../Adder4b.sv(10): Module 'FA' is not defined.
-# ** Error: ../Adder4b.sv(11): Module 'FA' is not defined.
-# ** Error: ../CSA3.sv(25): Module 'FA' is not defined.
-# ** Error: ../CSA3.sv(26): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(95): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(95): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(95): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(95): Module 'FA' is not defined.
-# ** Error: ../WT3.sv(95): Module 'FA' is not defined.
-# Optimization failed
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=30, Warnings=0.
-# Error loading design
-# End time: 17:37:25 on Nov 19,2025, Elapsed time: 0:00:03
-# Errors: 30, Warnings: 0
+# ** Warning: License feature 'msimviewer' will expire in 10 days.
 do simulation.do
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:37:50 on Nov 19,2025
+# Start time: 08:51:49 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../FA.sv 
 # -- Compiling module FA
 # 
 # Top level modules:
 # 	FA
-# End time: 17:37:51 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:51:50 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:37:51 on Nov 19,2025
+# Start time: 08:51:50 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../HA.sv 
 # -- Compiling module HA
 # 
 # Top level modules:
 # 	HA
-# End time: 17:37:52 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:51:51 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:37:52 on Nov 19,2025
+# Start time: 08:51:51 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUX2.sv 
 # -- Compiling module MUX2
 # 
 # Top level modules:
 # 	MUX2
-# End time: 17:37:53 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:51:51 on Nov 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:37:53 on Nov 19,2025
+# Start time: 08:51:52 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUX_unit.sv 
 # -- Compiling module MUX_unit
 # 
 # Top level modules:
 # 	MUX_unit
-# End time: 17:37:54 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:51:52 on Nov 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:37:54 on Nov 19,2025
+# Start time: 08:51:53 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUX3.sv 
 # -- Compiling module MUX3
 # 
 # Top level modules:
 # 	MUX3
-# End time: 17:37:55 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:51:53 on Nov 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:37:55 on Nov 19,2025
+# Start time: 08:51:53 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../CSA3.sv 
 # -- Compiling module CSA3
 # 
 # Top level modules:
 # 	CSA3
-# End time: 17:37:56 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:51:54 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:37:56 on Nov 19,2025
+# Start time: 08:51:54 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../Adder4b.sv 
 # -- Compiling module Adder4b
 # 
 # Top level modules:
 # 	Adder4b
-# End time: 17:37:57 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:51:55 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:37:57 on Nov 19,2025
+# Start time: 08:51:55 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUXBE.sv 
 # -- Compiling module MUXBE
 # 
 # Top level modules:
 # 	MUXBE
-# End time: 17:37:58 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:51:56 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:37:58 on Nov 19,2025
+# Start time: 08:51:56 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../WT3.sv 
 # -- Compiling module WT3
 # 
 # Top level modules:
 # 	WT3
-# End time: 17:37:59 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:51:57 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:37:59 on Nov 19,2025
+# Start time: 08:51:57 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
 # -- Compiling module MantissaMultiplier
 # 
 # Top level modules:
 # 	MantissaMultiplier
-# End time: 17:38:00 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:51:58 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:38:00 on Nov 19,2025
+# Start time: 08:51:58 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../tb_MantMult.sv 
 # -- Compiling module tb_MantMult
 # 
 # Top level modules:
 # 	tb_MantMult
-# End time: 17:38:01 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:51:59 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 17:38:01 on Nov 19,2025
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# ** Error: ../WT3.sv(72): Module 'Fa' is not defined.
-# Optimization failed
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=8, Warnings=0.
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./simulation.do PAUSED at line 12
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:38:58 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 17:38:59 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:38:59 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 17:39:00 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:39:00 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 17:39:01 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:39:01 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 17:39:02 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:39:02 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 17:39:03 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:39:03 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 17:39:04 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:39:04 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 17:39:05 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:39:05 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 17:39:06 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:39:06 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 17:39:07 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:39:07 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 17:39:08 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:39:08 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 17:39:09 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 17:38:01 on Nov 19,2025
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Warning: ../MantissaMultiplier.sv(33): (vopt-2697) MSB 11 of part-select into 'B_expanded' is out of bounds.
-# ** Warning: ../MantissaMultiplier.sv(33): (vopt-2697) MSB 13 of part-select into 'B_expanded' is out of bounds.
-# ** Warning: ../MantissaMultiplier.sv(33): (vopt-2697) MSB 53 of part-select into 'outboothenc' is out of bounds.
-# ** Warning: ../MantissaMultiplier.sv(33): (vopt-2697) LSB 45 of part-select into 'outboothenc' is out of bounds.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=8, Warnings=4.
-# ** Warning: License feature 'msimhdlsim' will expire in 11 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[0]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[0]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[0]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[1]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[1]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[1]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[2]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[2]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[2]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[3]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[3]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[3]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[4]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[4]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[4]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[5]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[5]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[5]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/InputLayer File: ../CSA3.sv Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/InputLayer File: ../CSA3.sv Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer0 File: ../CSA3.sv Line: 17
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer0 File: ../CSA3.sv Line: 17
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer1 File: ../CSA3.sv Line: 18
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer1 File: ../CSA3.sv Line: 18
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer0 File: ../CSA3.sv Line: 23
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer0 File: ../CSA3.sv Line: 23
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer1 File: ../CSA3.sv Line: 24
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer1 File: ../CSA3.sv Line: 24
-# ** Error (suppressible): (vsim-3839) Variable '/tb_MantMult/UUT/wallTree/sum2L3[8:3]', driven via a port connection, is multiply driven. See ../WT3.sv(91).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree File: ../WT3.sv Line: 99
-# ** Error (suppressible): (vsim-3839) Variable '/tb_MantMult/UUT/wallTree/sum3L1[12:0]', driven via a port connection, is multiply driven. See ../WT3.sv(57).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree File: ../WT3.sv Line: 56
-# ** Error (suppressible): (vsim-3839) Variable '/tb_MantMult/UUT/wallTree/sum1L1[14:13]', driven via a port connection, is multiply driven. See ../WT3.sv(74).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree File: ../WT3.sv Line: 55
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./simulation.do PAUSED at line 12
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:07 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 17:46:08 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:08 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 17:46:09 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:09 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 17:46:10 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:10 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 17:46:11 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:11 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 17:46:12 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:12 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 17:46:13 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:13 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 17:46:14 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:14 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 17:46:15 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:15 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 17:46:16 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:16 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 17:46:17 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:18 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 17:46:18 on Nov 19,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 17:38:01 on Nov 19,2025
+# Start time: 08:51:59 on Nov 20,2025
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 11 days.
+# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
 # Loading sv_std.std
 # Loading work.tb_MantMult(fast)
 # Loading work.MantissaMultiplier(fast)
@@ -518,349 +128,131 @@ do simulation.do
 # Loading work.Adder4b(fast)
 # Loading work.MUX2(fast)
 # Loading work.MUX_unit(fast)
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[0]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[0]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[0]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[1]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[1]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[1]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[2]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[2]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[2]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[3]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[3]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[3]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[4]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[4]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[4]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[5]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[5]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[5]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/InputLayer File: ../CSA3.sv Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/InputLayer File: ../CSA3.sv Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer0 File: ../CSA3.sv Line: 17
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer0 File: ../CSA3.sv Line: 17
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer1 File: ../CSA3.sv Line: 18
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer1 File: ../CSA3.sv Line: 18
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer0 File: ../CSA3.sv Line: 23
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer0 File: ../CSA3.sv Line: 23
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer1 File: ../CSA3.sv Line: 24
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer1 File: ../CSA3.sv Line: 24
-# ** Error (suppressible): (vsim-3839) Variable '/tb_MantMult/UUT/wallTree/sum2L3[8:3]', driven via a port connection, is multiply driven. See ../WT3.sv(91).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree File: ../WT3.sv Line: 99
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./simulation.do PAUSED at line 12
-do simulation.do
+vlog -sv ../tb_MantMult
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:48:49 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 17:48:50 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
+# Start time: 08:54:43 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult 
+# ** Error: (vlog-7) Failed to open design unit file "../tb_MantMult" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 08:54:44 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+vlog -sv ../tb_MantMult.sv
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:48:50 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 17:48:51 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:48:51 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 17:48:52 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:48:52 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 17:48:53 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:48:53 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 17:48:54 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:48:54 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 17:48:55 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:48:56 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 17:48:57 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:48:57 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 17:48:58 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:48:58 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 17:48:59 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:48:59 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 17:49:00 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:49:00 on Nov 19,2025
+# Start time: 08:54:51 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../tb_MantMult.sv 
 # -- Compiling module tb_MantMult
 # 
 # Top level modules:
 # 	tb_MantMult
-# End time: 17:49:00 on Nov 19,2025, Elapsed time: 0:00:00
+# End time: 08:54:52 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 17:38:01 on Nov 19,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 11 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[0]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[0]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[0]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[1]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[1]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[1]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[2]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[2]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[2]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[3]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[3]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[3]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[4]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[4]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[4]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[5]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[5]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[5]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/InputLayer File: ../CSA3.sv Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/InputLayer File: ../CSA3.sv Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer0 File: ../CSA3.sv Line: 17
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer0 File: ../CSA3.sv Line: 17
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer1 File: ../CSA3.sv Line: 18
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer1 File: ../CSA3.sv Line: 18
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer0 File: ../CSA3.sv Line: 23
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer0 File: ../CSA3.sv Line: 23
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer1 File: ../CSA3.sv Line: 24
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer1 File: ../CSA3.sv Line: 24
-# ** Error (suppressible): (vsim-3839) Variable '/tb_MantMult/UUT/wallTree/sum2L3[8:3]', driven via a port connection, is multiply driven. See ../WT3.sv(91).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree File: ../WT3.sv Line: 99
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./simulation.do PAUSED at line 12
 do simulation.do
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:50:20 on Nov 19,2025
+# Start time: 08:54:55 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../FA.sv 
 # -- Compiling module FA
 # 
 # Top level modules:
 # 	FA
-# End time: 17:50:21 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:54:56 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:50:21 on Nov 19,2025
+# Start time: 08:54:56 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../HA.sv 
 # -- Compiling module HA
 # 
 # Top level modules:
 # 	HA
-# End time: 17:50:22 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:54:57 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:50:22 on Nov 19,2025
+# Start time: 08:54:57 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUX2.sv 
 # -- Compiling module MUX2
 # 
 # Top level modules:
 # 	MUX2
-# End time: 17:50:23 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:54:58 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:50:23 on Nov 19,2025
+# Start time: 08:54:58 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUX_unit.sv 
 # -- Compiling module MUX_unit
 # 
 # Top level modules:
 # 	MUX_unit
-# End time: 17:50:24 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:54:59 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:50:24 on Nov 19,2025
+# Start time: 08:54:59 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUX3.sv 
 # -- Compiling module MUX3
 # 
 # Top level modules:
 # 	MUX3
-# End time: 17:50:25 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:54:59 on Nov 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:50:25 on Nov 19,2025
+# Start time: 08:54:59 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../CSA3.sv 
 # -- Compiling module CSA3
 # 
 # Top level modules:
 # 	CSA3
-# End time: 17:50:26 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:55:00 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:50:26 on Nov 19,2025
+# Start time: 08:55:00 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../Adder4b.sv 
 # -- Compiling module Adder4b
 # 
 # Top level modules:
 # 	Adder4b
-# End time: 17:50:27 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:55:01 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:50:27 on Nov 19,2025
+# Start time: 08:55:01 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUXBE.sv 
 # -- Compiling module MUXBE
 # 
 # Top level modules:
 # 	MUXBE
-# End time: 17:50:28 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:55:02 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:50:28 on Nov 19,2025
+# Start time: 08:55:02 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../WT3.sv 
 # -- Compiling module WT3
 # 
 # Top level modules:
 # 	WT3
-# End time: 17:50:29 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:55:03 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:50:29 on Nov 19,2025
+# Start time: 08:55:03 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
 # -- Compiling module MantissaMultiplier
 # 
 # Top level modules:
 # 	MantissaMultiplier
-# End time: 17:50:30 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:55:04 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:50:30 on Nov 19,2025
+# Start time: 08:55:04 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../tb_MantMult.sv 
 # -- Compiling module tb_MantMult
 # 
 # Top level modules:
 # 	tb_MantMult
-# End time: 17:50:31 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 08:55:05 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 08:55:09 on Nov 20,2025, Elapsed time: 0:03:10
 # Errors: 0, Warnings: 0
 # vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 17:38:01 on Nov 19,2025
+# Start time: 08:55:09 on Nov 20,2025
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 11 days.
+# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
 # Loading sv_std.std
 # Loading work.tb_MantMult(fast)
 # Loading work.MantissaMultiplier(fast)
@@ -872,724 +264,230 @@ do simulation.do
 # Loading work.Adder4b(fast)
 # Loading work.MUX2(fast)
 # Loading work.MUX_unit(fast)
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[0]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[0]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[0]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[1]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[1]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[1]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[2]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[2]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[2]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[3]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[3]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[3]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[4]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[4]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[4]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'a'. The port definition is at: ../MUXBE.sv(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[5]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[5]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[5]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/InputLayer File: ../CSA3.sv Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/InputLayer File: ../CSA3.sv Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer0 File: ../CSA3.sv Line: 17
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer0 File: ../CSA3.sv Line: 17
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer1 File: ../CSA3.sv Line: 18
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer1 File: ../CSA3.sv Line: 18
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer0 File: ../CSA3.sv Line: 23
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer0 File: ../CSA3.sv Line: 23
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer1 File: ../CSA3.sv Line: 24
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer1 File: ../CSA3.sv Line: 24
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 08:57:26 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 08:57:27 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 08:57:27 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 08:57:28 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 08:57:28 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 08:57:29 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 08:57:29 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 08:57:30 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 08:57:30 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 08:57:30 on Nov 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 08:57:30 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 08:57:31 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 08:57:31 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 08:57:32 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 08:57:32 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 08:57:33 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 08:57:33 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../WT3.sv 
+# -- Compiling module WT3
+# 
+# Top level modules:
+# 	WT3
+# End time: 08:57:34 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 08:57:34 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 08:57:34 on Nov 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 08:57:35 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# 
+# Top level modules:
+# 	tb_MantMult
+# End time: 08:57:36 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 08:57:40 on Nov 20,2025, Elapsed time: 0:02:31
+# Errors: 0, Warnings: 0
+# vsim work.tb_MantMult -voptargs="+acc" 
+# Start time: 08:57:40 on Nov 20,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
+# Loading sv_std.std
+# Loading work.tb_MantMult(fast)
+# Loading work.MantissaMultiplier(fast)
+# Loading work.MUXBE(fast)
+# Loading work.WT3(fast)
+# Loading work.HA(fast)
+# Loading work.FA(fast)
+# Loading work.CSA3(fast)
+# Loading work.Adder4b(fast)
+# Loading work.MUX2(fast)
+# Loading work.MUX_unit(fast)
 # Causality operation skipped due to absence of debug database file
 do simulation.do
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:58:03 on Nov 19,2025
+# Start time: 09:10:42 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../FA.sv 
 # -- Compiling module FA
 # 
 # Top level modules:
 # 	FA
-# End time: 17:58:05 on Nov 19,2025, Elapsed time: 0:00:02
+# End time: 09:10:43 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:58:05 on Nov 19,2025
+# Start time: 09:10:43 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../HA.sv 
 # -- Compiling module HA
 # 
 # Top level modules:
 # 	HA
-# End time: 17:58:06 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:10:43 on Nov 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:58:06 on Nov 19,2025
+# Start time: 09:10:44 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUX2.sv 
 # -- Compiling module MUX2
 # 
 # Top level modules:
 # 	MUX2
-# End time: 17:58:07 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:10:44 on Nov 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:58:07 on Nov 19,2025
+# Start time: 09:10:44 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUX_unit.sv 
 # -- Compiling module MUX_unit
 # 
 # Top level modules:
 # 	MUX_unit
-# End time: 17:58:08 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:10:45 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:58:08 on Nov 19,2025
+# Start time: 09:10:45 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUX3.sv 
 # -- Compiling module MUX3
 # 
 # Top level modules:
 # 	MUX3
-# End time: 17:58:09 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:10:46 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:58:09 on Nov 19,2025
+# Start time: 09:10:46 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../CSA3.sv 
 # -- Compiling module CSA3
 # 
 # Top level modules:
 # 	CSA3
-# End time: 17:58:10 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:10:47 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:58:10 on Nov 19,2025
+# Start time: 09:10:47 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../Adder4b.sv 
 # -- Compiling module Adder4b
 # 
 # Top level modules:
 # 	Adder4b
-# End time: 17:58:10 on Nov 19,2025, Elapsed time: 0:00:00
+# End time: 09:10:48 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:58:11 on Nov 19,2025
+# Start time: 09:10:48 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUXBE.sv 
 # -- Compiling module MUXBE
 # 
 # Top level modules:
 # 	MUXBE
-# End time: 17:58:11 on Nov 19,2025, Elapsed time: 0:00:00
+# End time: 09:10:49 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:58:12 on Nov 19,2025
+# Start time: 09:10:49 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../WT3.sv 
 # -- Compiling module WT3
 # 
 # Top level modules:
 # 	WT3
-# End time: 17:58:13 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:10:50 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:58:13 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# ** Warning: ../MantissaMultiplier.sv(10): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 17:58:13 on Nov 19,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:58:14 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 17:58:15 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 17:58:22 on Nov 19,2025, Elapsed time: 0:20:21
-# Errors: 13, Warnings: 116
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 17:58:22 on Nov 19,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: ../MantissaMultiplier.sv(10): (vopt-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
-# ** Warning: ../MantissaMultiplier.sv(33): (vopt-2697) MSB 11 of part-select into 'B_expanded' is out of bounds.
-# ** Warning: ../MantissaMultiplier.sv(33): (vopt-2697) MSB 13 of part-select into 'B_expanded' is out of bounds.
-# ** Warning: ../MantissaMultiplier.sv(33): (vopt-2697) MSB 53 of part-select into 'outboothenc' is out of bounds.
-# ** Warning: ../MantissaMultiplier.sv(33): (vopt-2697) LSB 45 of part-select into 'outboothenc' is out of bounds.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=5.
-# ** Warning: License feature 'msimhdlsim' will expire in 11 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[0]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[1]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[2]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[3]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[4]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'sel'. The port definition is at: ../MUXBE.sv(3).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[5]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/InputLayer File: ../CSA3.sv Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/InputLayer File: ../CSA3.sv Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer0 File: ../CSA3.sv Line: 17
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer0 File: ../CSA3.sv Line: 17
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer1 File: ../CSA3.sv Line: 18
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer1 File: ../CSA3.sv Line: 18
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer0 File: ../CSA3.sv Line: 23
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer0 File: ../CSA3.sv Line: 23
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer1 File: ../CSA3.sv Line: 24
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer1 File: ../CSA3.sv Line: 24
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:59:55 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 17:59:56 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:59:56 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 17:59:57 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:59:57 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 17:59:58 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:59:58 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 17:59:59 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:59:59 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 18:00:00 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:00:00 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 18:00:01 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:00:01 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 18:00:02 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:00:02 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 18:00:03 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:00:03 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 18:00:04 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:00:04 on Nov 19,2025
+# Start time: 09:10:50 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
 # -- Compiling module MantissaMultiplier
 # 
 # Top level modules:
 # 	MantissaMultiplier
-# End time: 18:00:05 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:10:51 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:00:06 on Nov 19,2025
+# Start time: 09:10:51 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../tb_MantMult.sv 
 # -- Compiling module tb_MantMult
 # 
 # Top level modules:
 # 	tb_MantMult
-# End time: 18:00:06 on Nov 19,2025, Elapsed time: 0:00:00
+# End time: 09:10:52 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# End time: 18:00:11 on Nov 19,2025, Elapsed time: 0:01:49
-# Errors: 0, Warnings: 21
+# End time: 09:10:57 on Nov 20,2025, Elapsed time: 0:13:17
+# Errors: 0, Warnings: 0
 # vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 18:00:11 on Nov 19,2025
+# Start time: 09:10:57 on Nov 20,2025
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: ../MantissaMultiplier.sv(33): (vopt-2697) MSB 12 of part-select into 'B_expanded' is out of bounds.
-# ** Warning: ../MantissaMultiplier.sv(33): (vopt-2697) MSB 53 of part-select into 'outboothenc' is out of bounds.
-# ** Warning: ../MantissaMultiplier.sv(33): (vopt-2697) LSB 45 of part-select into 'outboothenc' is out of bounds.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=3.
-# ** Warning: License feature 'msimhdlsim' will expire in 11 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/InputLayer File: ../CSA3.sv Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/InputLayer File: ../CSA3.sv Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer0 File: ../CSA3.sv Line: 17
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer0 File: ../CSA3.sv Line: 17
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer1 File: ../CSA3.sv Line: 18
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer1 File: ../CSA3.sv Line: 18
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer0 File: ../CSA3.sv Line: 23
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer0 File: ../CSA3.sv Line: 23
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer1 File: ../CSA3.sv Line: 24
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer1 File: ../CSA3.sv Line: 24
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:08:02 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 18:08:03 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:08:03 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 18:08:04 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:08:04 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 18:08:05 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:08:05 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 18:08:06 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:08:06 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 18:08:07 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:08:07 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 18:08:08 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:08:08 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 18:08:09 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:08:09 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 18:08:10 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:08:10 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 18:08:11 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:08:11 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 18:08:12 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:08:12 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 18:08:13 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 18:08:18 on Nov 19,2025, Elapsed time: 0:08:07
-# Errors: 0, Warnings: 13
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 18:08:19 on Nov 19,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 11 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/InputLayer File: ../CSA3.sv Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/InputLayer File: ../CSA3.sv Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer0 File: ../CSA3.sv Line: 17
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer0 File: ../CSA3.sv Line: 17
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer1 File: ../CSA3.sv Line: 18
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/FirstLayer1 File: ../CSA3.sv Line: 18
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer0 File: ../CSA3.sv Line: 23
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer0 File: ../CSA3.sv Line: 23
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer1 File: ../CSA3.sv Line: 24
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/SecondLayer1 File: ../CSA3.sv Line: 24
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:12:03 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 18:12:04 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:12:04 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 18:12:05 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:12:06 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 18:12:07 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:12:07 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 18:12:08 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:12:08 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 18:12:09 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:12:09 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 18:12:10 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:12:10 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 18:12:11 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:12:11 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 18:12:12 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:12:12 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 18:12:13 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:12:13 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 18:12:14 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:12:14 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 18:12:15 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 18:12:22 on Nov 19,2025, Elapsed time: 0:04:03
-# Errors: 0, Warnings: 10
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 18:12:22 on Nov 19,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 11 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 's'. The port definition is at: ../Adder4b.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/InputLayer File: ../CSA3.sv Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'Cout'. The port definition is at: ../Adder4b.sv(5).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/wallTree/CSA/InputLayer File: ../CSA3.sv Line: 14
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:13:07 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 18:13:08 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:13:08 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 18:13:09 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:13:10 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 18:13:10 on Nov 19,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:13:11 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 18:13:11 on Nov 19,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:13:11 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 18:13:12 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:13:12 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 18:13:14 on Nov 19,2025, Elapsed time: 0:00:02
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:13:14 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 18:13:15 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:13:15 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 18:13:16 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:13:16 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 18:13:17 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:13:17 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 18:13:18 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:13:18 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 18:13:19 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 18:13:25 on Nov 19,2025, Elapsed time: 0:01:03
-# Errors: 0, Warnings: 2
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 18:13:25 on Nov 19,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 11 days.
+# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
 # Loading sv_std.std
 # Loading work.tb_MantMult(fast)
 # Loading work.MantissaMultiplier(fast)
@@ -1603,110 +501,110 @@ do simulation.do
 # Loading work.MUX_unit(fast)
 do simulation.do
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:24:04 on Nov 19,2025
+# Start time: 09:13:44 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../FA.sv 
 # -- Compiling module FA
 # 
 # Top level modules:
 # 	FA
-# End time: 18:24:05 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:13:45 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:24:05 on Nov 19,2025
+# Start time: 09:13:45 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../HA.sv 
 # -- Compiling module HA
 # 
 # Top level modules:
 # 	HA
-# End time: 18:24:06 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:13:46 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:24:07 on Nov 19,2025
+# Start time: 09:13:46 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUX2.sv 
 # -- Compiling module MUX2
 # 
 # Top level modules:
 # 	MUX2
-# End time: 18:24:08 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:13:46 on Nov 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:24:08 on Nov 19,2025
+# Start time: 09:13:47 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUX_unit.sv 
 # -- Compiling module MUX_unit
 # 
 # Top level modules:
 # 	MUX_unit
-# End time: 18:24:09 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:13:47 on Nov 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:24:09 on Nov 19,2025
+# Start time: 09:13:47 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUX3.sv 
 # -- Compiling module MUX3
 # 
 # Top level modules:
 # 	MUX3
-# End time: 18:24:10 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:13:48 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:24:10 on Nov 19,2025
+# Start time: 09:13:48 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../CSA3.sv 
 # -- Compiling module CSA3
 # 
 # Top level modules:
 # 	CSA3
-# End time: 18:24:11 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:13:49 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:24:11 on Nov 19,2025
+# Start time: 09:13:49 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../Adder4b.sv 
 # -- Compiling module Adder4b
 # 
 # Top level modules:
 # 	Adder4b
-# End time: 18:24:12 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:13:50 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:24:13 on Nov 19,2025
+# Start time: 09:13:50 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUXBE.sv 
 # -- Compiling module MUXBE
 # 
 # Top level modules:
 # 	MUXBE
-# End time: 18:24:14 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:13:51 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:24:14 on Nov 19,2025
+# Start time: 09:13:51 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../WT3.sv 
 # -- Compiling module WT3
 # 
 # Top level modules:
 # 	WT3
-# End time: 18:24:15 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:13:52 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:24:15 on Nov 19,2025
+# Start time: 09:13:52 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
 # -- Compiling module MantissaMultiplier
 # 
 # Top level modules:
 # 	MantissaMultiplier
-# End time: 18:24:16 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:13:53 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:24:16 on Nov 19,2025
+# Start time: 09:13:53 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../tb_MantMult.sv 
 # -- Compiling module tb_MantMult
 # 
 # Top level modules:
 # 	tb_MantMult
-# End time: 18:24:17 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:13:54 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# End time: 18:24:23 on Nov 19,2025, Elapsed time: 0:10:58
+# End time: 09:14:00 on Nov 20,2025, Elapsed time: 0:03:03
 # Errors: 0, Warnings: 0
 # vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 18:24:23 on Nov 19,2025
+# Start time: 09:14:00 on Nov 20,2025
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 11 days.
+# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
 # Loading sv_std.std
 # Loading work.tb_MantMult(fast)
 # Loading work.MantissaMultiplier(fast)
@@ -1720,397 +618,325 @@ do simulation.do
 # Loading work.MUX_unit(fast)
 do simulation.do
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:35:41 on Nov 19,2025
+# Start time: 09:16:01 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../FA.sv 
 # -- Compiling module FA
 # 
 # Top level modules:
 # 	FA
-# End time: 18:35:42 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:16:02 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:35:42 on Nov 19,2025
+# Start time: 09:16:02 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../HA.sv 
 # -- Compiling module HA
 # 
 # Top level modules:
 # 	HA
-# End time: 18:35:43 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:16:03 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:35:43 on Nov 19,2025
+# Start time: 09:16:03 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUX2.sv 
 # -- Compiling module MUX2
 # 
 # Top level modules:
 # 	MUX2
-# End time: 18:35:44 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:16:04 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:35:44 on Nov 19,2025
+# Start time: 09:16:04 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUX_unit.sv 
 # -- Compiling module MUX_unit
 # 
 # Top level modules:
 # 	MUX_unit
-# End time: 18:35:45 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:16:05 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:35:45 on Nov 19,2025
+# Start time: 09:16:05 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUX3.sv 
 # -- Compiling module MUX3
 # 
 # Top level modules:
 # 	MUX3
-# End time: 18:35:46 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:16:06 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:35:46 on Nov 19,2025
+# Start time: 09:16:06 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../CSA3.sv 
 # -- Compiling module CSA3
 # 
 # Top level modules:
 # 	CSA3
-# End time: 18:35:47 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:16:07 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:35:48 on Nov 19,2025
+# Start time: 09:16:07 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../Adder4b.sv 
 # -- Compiling module Adder4b
 # 
 # Top level modules:
 # 	Adder4b
-# End time: 18:35:49 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:16:08 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:35:49 on Nov 19,2025
+# Start time: 09:16:08 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUXBE.sv 
 # -- Compiling module MUXBE
 # 
 # Top level modules:
 # 	MUXBE
-# End time: 18:35:50 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:16:08 on Nov 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:35:50 on Nov 19,2025
+# Start time: 09:16:09 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../WT3.sv 
 # -- Compiling module WT3
-# ** Error: (vlog-13069) ../WT3.sv(62): near "assign": syntax error, unexpected assign, expecting ';' or ','.
-# End time: 18:35:51 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 0
-# ** Error: /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
-# Error in macro ./simulation.do line 9
+# 
+# Top level modules:
+# 	WT3
+# End time: 09:16:09 on Nov 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:16:09 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 09:16:10 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:16:10 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# 
+# Top level modules:
+# 	tb_MantMult
+# End time: 09:16:11 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 09:16:15 on Nov 20,2025, Elapsed time: 0:02:15
+# Errors: 0, Warnings: 0
+# vsim work.tb_MantMult -voptargs="+acc" 
+# Start time: 09:16:15 on Nov 20,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
+# Loading sv_std.std
+# Loading work.tb_MantMult(fast)
+# Loading work.MantissaMultiplier(fast)
+# Loading work.MUXBE(fast)
+# Loading work.WT3(fast)
+# Loading work.HA(fast)
+# Loading work.FA(fast)
+# Loading work.CSA3(fast)
+# Loading work.Adder4b(fast)
+# Loading work.MUX2(fast)
+# Loading work.MUX_unit(fast)
+vlog -sv ../tb_WT.sv
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:30:14 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../tb_WT.sv 
+# -- Compiling module tb_WT
+# ** Error: (vlog-13069) ../tb_WT.sv(3): near "a0_tb": syntax error, unexpected IDENTIFIER, expecting "SystemVerilog keyword 'new'".
+# ** Error: (vlog-13069) ../tb_WT.sv(10): near "{": syntax error, unexpected '{', expecting ';'.
+# ** Error: (vlog-13069) ../tb_WT.sv(11): near "{": syntax error, unexpected '{', expecting ';'.
+# ** Error: (vlog-13069) ../tb_WT.sv(12): near "{": syntax error, unexpected '{', expecting ';'.
+# ** Error: (vlog-13069) ../tb_WT.sv(13): near "{": syntax error, unexpected '{', expecting ';'.
+# ** Error: (vlog-13069) ../tb_WT.sv(14): near "{": syntax error, unexpected '{', expecting ';'.
+# End time: 09:30:15 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 6, Warnings: 0
 # /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
-#     while executing
-# "vlog -sv ../WT3.sv"
-do simulation.do
+vlog -sv ../tb_WT.sv
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:36:07 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 18:36:08 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:36:08 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 18:36:10 on Nov 19,2025, Elapsed time: 0:00:02
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:36:10 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 18:36:11 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:36:11 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 18:36:12 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:36:13 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 18:36:14 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:36:14 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 18:36:15 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:36:15 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 18:36:16 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:36:17 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 18:36:18 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:36:18 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 18:36:19 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:36:19 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 18:36:20 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:36:20 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 18:36:21 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 18:36:28 on Nov 19,2025, Elapsed time: 0:12:05
-# Errors: 1, Warnings: 0
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 18:36:28 on Nov 19,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 11 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:40:32 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 18:40:33 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:40:33 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 18:40:34 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:40:34 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 18:40:35 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:40:36 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 18:40:37 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:40:37 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 18:40:38 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:40:38 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 18:40:39 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:40:39 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 18:40:40 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:40:40 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 18:40:41 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:40:41 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# ** Error: (vlog-13069) ../WT3.sv(63): near "b0": syntax error, unexpected IDENTIFIER, expecting ';' or ','.
-# End time: 18:40:43 on Nov 19,2025, Elapsed time: 0:00:02
-# Errors: 1, Warnings: 0
-# ** Error: /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
-# Error in macro ./simulation.do line 9
+# Start time: 09:30:41 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../tb_WT.sv 
+# -- Compiling module tb_WT
+# ** Error: (vlog-13069) ../tb_WT.sv(10): near "{": syntax error, unexpected '{', expecting ';'.
+# ** Error: (vlog-13069) ../tb_WT.sv(11): near "{": syntax error, unexpected '{', expecting ';'.
+# ** Error: (vlog-13069) ../tb_WT.sv(12): near "{": syntax error, unexpected '{', expecting ';'.
+# ** Error: (vlog-13069) ../tb_WT.sv(13): near "{": syntax error, unexpected '{', expecting ';'.
+# ** Error: (vlog-13069) ../tb_WT.sv(14): near "{": syntax error, unexpected '{', expecting ';'.
+# End time: 09:30:42 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 0
 # /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
-#     while executing
-# "vlog -sv ../WT3.sv"
-do simulation.do
+vlog -sv ../tb_WT.sv
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:41:00 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
+# Start time: 09:31:55 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../tb_WT.sv 
+# -- Compiling module tb_WT
 # 
 # Top level modules:
-# 	FA
-# End time: 18:41:01 on Nov 19,2025, Elapsed time: 0:00:01
+# 	tb_WT
+# End time: 09:31:56 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
+vsim work.tb_WT -voptargs="+acc" 
+# End time: 09:32:31 on Nov 20,2025, Elapsed time: 0:16:16
+# Errors: 0, Warnings: 0
+# vsim work.tb_WT -voptargs=""+acc"" 
+# Start time: 09:32:31 on Nov 20,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
+# Loading sv_std.std
+# Loading work.tb_WT(fast)
+# Loading work.WT3(fast)
+# Loading work.HA(fast)
+# Loading work.FA(fast)
+# Loading work.CSA3(fast)
+# Loading work.Adder4b(fast)
+# Loading work.MUX2(fast)
+# Loading work.MUX_unit(fast)
+add wave -r/*
+# Unrecognized option: "-r/*" ignored.
+# Missing signal name or pattern.
+add wave -r/ *
+# Unrecognized option: "-r/" ignored.
+add wave -r /*
+run 50 ns
+vlog -sv ../tb_WT.sv
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:41:01 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
+# Start time: 09:59:28 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../tb_WT.sv 
+# -- Compiling module tb_WT
 # 
 # Top level modules:
-# 	HA
-# End time: 18:41:02 on Nov 19,2025, Elapsed time: 0:00:01
+# 	tb_WT
+# End time: 09:59:29 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
+vlog -sv ../WT3.sv
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:41:05 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 18:41:06 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:41:06 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 18:41:07 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:41:07 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 18:41:08 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:41:08 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 18:41:09 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:41:10 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 18:41:11 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:41:11 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 18:41:12 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:41:12 on Nov 19,2025
+# Start time: 09:59:36 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../WT3.sv 
 # -- Compiling module WT3
 # 
 # Top level modules:
 # 	WT3
-# End time: 18:41:13 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 09:59:37 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.tb_WT -voptargs="+acc"
+# End time: 09:59:45 on Nov 20,2025, Elapsed time: 0:27:14
+# Errors: 0, Warnings: 0
+# vsim work.tb_WT -voptargs=""+acc"" 
+# Start time: 09:59:46 on Nov 20,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
+# Loading sv_std.std
+# Loading work.tb_WT(fast)
+# Loading work.WT3(fast)
+# Loading work.HA(fast)
+# Loading work.FA(fast)
+# Loading work.CSA3(fast)
+# Loading work.Adder4b(fast)
+# Loading work.MUX2(fast)
+# Loading work.MUX_unit(fast)
+add wave -r /*
+run 50 ns
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:03:22 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 10:03:23 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:41:13 on Nov 19,2025
+# Start time: 10:03:24 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 10:03:25 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:03:25 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 10:03:25 on Nov 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:03:26 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 10:03:27 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:03:27 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 10:03:27 on Nov 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:03:27 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 10:03:28 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:03:28 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 10:03:29 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:03:29 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 10:03:30 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:03:30 on Nov 20,2025
+# vlog -reportprogress 300 -sv ../WT3.sv 
+# -- Compiling module WT3
+# 
+# Top level modules:
+# 	WT3
+# End time: 10:03:31 on Nov 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:03:32 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
 # -- Compiling module MantissaMultiplier
 # 
 # Top level modules:
 # 	MantissaMultiplier
-# End time: 18:41:14 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 10:03:32 on Nov 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:41:14 on Nov 19,2025
+# Start time: 10:03:32 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../tb_MantMult.sv 
 # -- Compiling module tb_MantMult
 # 
 # Top level modules:
 # 	tb_MantMult
-# End time: 18:41:15 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 10:03:33 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# End time: 18:41:27 on Nov 19,2025, Elapsed time: 0:04:59
-# Errors: 1, Warnings: 0
+# End time: 10:03:38 on Nov 20,2025, Elapsed time: 0:03:52
+# Errors: 0, Warnings: 0
 # vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 18:41:27 on Nov 19,2025
+# Start time: 10:03:38 on Nov 20,2025
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 11 days.
+# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
 # Loading sv_std.std
 # Loading work.tb_MantMult(fast)
 # Loading work.MantissaMultiplier(fast)
@@ -2124,195 +950,110 @@ do simulation.do
 # Loading work.MUX_unit(fast)
 do simulation.do
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:47:38 on Nov 19,2025
+# Start time: 10:25:17 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../FA.sv 
 # -- Compiling module FA
 # 
 # Top level modules:
 # 	FA
-# End time: 18:47:39 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 10:25:18 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:47:39 on Nov 19,2025
+# Start time: 10:25:18 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../HA.sv 
 # -- Compiling module HA
 # 
 # Top level modules:
 # 	HA
-# End time: 18:47:40 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 10:25:19 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:47:40 on Nov 19,2025
+# Start time: 10:25:19 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUX2.sv 
 # -- Compiling module MUX2
 # 
 # Top level modules:
 # 	MUX2
-# End time: 18:47:41 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 10:25:20 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:47:41 on Nov 19,2025
+# Start time: 10:25:20 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUX_unit.sv 
 # -- Compiling module MUX_unit
 # 
 # Top level modules:
 # 	MUX_unit
-# End time: 18:47:43 on Nov 19,2025, Elapsed time: 0:00:02
+# End time: 10:25:21 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:47:43 on Nov 19,2025
+# Start time: 10:25:21 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUX3.sv 
 # -- Compiling module MUX3
 # 
 # Top level modules:
 # 	MUX3
-# End time: 18:47:44 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 10:25:22 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:47:44 on Nov 19,2025
+# Start time: 10:25:22 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../CSA3.sv 
 # -- Compiling module CSA3
 # 
 # Top level modules:
 # 	CSA3
-# End time: 18:47:45 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 10:25:23 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:47:45 on Nov 19,2025
+# Start time: 10:25:23 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../Adder4b.sv 
 # -- Compiling module Adder4b
 # 
 # Top level modules:
 # 	Adder4b
-# End time: 18:47:46 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 10:25:24 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:47:46 on Nov 19,2025
+# Start time: 10:25:24 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MUXBE.sv 
 # -- Compiling module MUXBE
 # 
 # Top level modules:
 # 	MUXBE
-# End time: 18:47:47 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 10:25:25 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:47:47 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# ** Error: ../WT3.sv(101): (vlog-13282) 'ha2L2' already declared in this scope.
-# End time: 18:47:48 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 0
-# ** Error: /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
-# Error in macro ./simulation.do line 9
-# /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
-#     while executing
-# "vlog -sv ../WT3.sv"
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:48:44 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 18:48:45 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:48:46 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 18:48:46 on Nov 19,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:48:47 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 18:48:48 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:48:48 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 18:48:49 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:48:49 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 18:48:50 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:48:50 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 18:48:51 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:48:51 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 18:48:52 on Nov 19,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:48:52 on Nov 19,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 18:48:54 on Nov 19,2025, Elapsed time: 0:00:02
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:48:54 on Nov 19,2025
+# Start time: 10:25:25 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../WT3.sv 
 # -- Compiling module WT3
 # 
 # Top level modules:
 # 	WT3
-# End time: 18:48:55 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 10:25:26 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:48:55 on Nov 19,2025
+# Start time: 10:25:26 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
 # -- Compiling module MantissaMultiplier
 # 
 # Top level modules:
 # 	MantissaMultiplier
-# End time: 18:48:56 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 10:25:27 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:48:57 on Nov 19,2025
+# Start time: 10:25:27 on Nov 20,2025
 # vlog -reportprogress 300 -sv ../tb_MantMult.sv 
 # -- Compiling module tb_MantMult
 # 
 # Top level modules:
 # 	tb_MantMult
-# End time: 18:48:58 on Nov 19,2025, Elapsed time: 0:00:01
+# End time: 10:25:28 on Nov 20,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# End time: 18:49:06 on Nov 19,2025, Elapsed time: 0:07:39
-# Errors: 1, Warnings: 0
+# End time: 10:25:32 on Nov 20,2025, Elapsed time: 0:21:54
+# Errors: 0, Warnings: 0
 # vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 18:49:07 on Nov 19,2025
+# Start time: 10:25:32 on Nov 20,2025
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 11 days.
+# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
 # Loading sv_std.std
 # Loading work.tb_MantMult(fast)
 # Loading work.MantissaMultiplier(fast)
@@ -2324,3 +1065,6 @@ do simulation.do
 # Loading work.Adder4b(fast)
 # Loading work.MUX2(fast)
 # Loading work.MUX_unit(fast)
+quit -f
+# End time: 10:26:59 on Nov 20,2025, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 0

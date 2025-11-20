@@ -23,14 +23,14 @@ module WT3
  logic[15:0] sum1L2,sum2L2,sum3L2;
  
  //Third Layer dummy carry out
- logic[15:0] sum1L3,sum2L3,sum3L3;
+ logic[15:0] sum1L3,sum2L3;
  
  //Entry layer components assignments and signals propagation
 assign sum1L1[15:13] = {1'b0,add3[14:13]};
 assign sum2L1[15:14] = 2'b0;
 assign sum2L1[2] = 1'b0;
 assign sum2L1[0] = 1'b0;
-assign sum3L1[7] = add3[7];
+assign sum3L1[7] = add4[7];
 assign sum3L1[5:0] = {1'b0,add4[4],4'b0};
 assign sum4L1[8] = 1'b0;
 assign sum4L1[6:0] = 7'b0;
@@ -76,34 +76,25 @@ endgenerate
  FA fa2L1(sum1L1[14],sum3L1[14],sum4L1[14],sum2L2[15],sum1L2[14]);
  HA ha4L1(sum3L1[15],sum4L1[15],dump,sum1L2[15]);
  assign sum3L2[13:7] = {sum4L1[13:7]};
- 
- // FA fa2L1 (sum1L1[6],sum2L1[6],sum3L1[6],sum2L2[7],sum1L2[6]);
- // FA fa3L1 (sum1L1[7],sum2L1[7],sum3L1[7],sum2L2[8],sum1L2[7]);
- // FA fa4L1 (sum1L1[8],sum2L1[8],sum3L1[8],sum2L2[9],sum1L2[8]);
- // FA fa5L1 (sum1L1[9],sum2L1[9],sum3L1[9],sum2L2[10],sum1L2[9]);
- // FA fa6L1 (sum1L1[10],sum2L1[10],sum3L1[10],sum2L2[11],sum1L2[10]);
- // FA fa7L1 (sum1L1[11],sum2L1[11],sum3L1[11],sum2L2[12],sum1L2[11]);
- // FA fa8L1 (sum1L1[12],sum2L1[12],sum3L1[12],sum2L2[13],sum1L2[12]);
- // assign sum1L2[0] = sum1L1[0];
- // assign sum1L2[2] = sum1L1[2];
- // assign sum1L2[13] = 1'b0;
- // assign sum2L2[3] = 1'b0;
 
 //Third layer components assignment and signals propagation
-HA ha1L2(sum1L2[2],sum1L2[2],sum2L3[3],sum1L3[2]);
+HA ha1L2(sum1L2[2],sum2L2[2],sum2L3[3],sum1L3[2]);
+FA fa1L2(sum1L2[7],sum2L2[7],sum3L2[7],sum2L3[8],sum1L3[7]);
+HA ha2L2(sum1L2[8],sum2L2[8],sum2L3[9],sum1L3[8]);
+
 generate 
 	genvar j;
 	for (j=9;j<14;j++)
 		FA faL2 (sum1L2[j],sum2L2[j],sum3L2[j],sum2L3[j+1],sum1L3[j]);
 endgenerate
 logic dummyL2;
-HA ha2L2(sum1L2[14],sum2L2[14],sum2L3[15],sum1L3[14]);
-HA ha3L2(sum1L2[15],sum2L2[15],dummyL2,sum1L3[15]);
-assign sum1L3[8:3] = sum1L2[8:3];
+HA ha3L2(sum1L2[14],sum2L2[14],sum2L3[15],sum1L3[14]);
+HA ha4L2(sum1L2[15],sum2L2[15],dummyL2,sum1L3[15]);
+assign sum1L3[6:3] = sum1L2[6:3];
 assign sum1L3[1:0] = sum1L2[1:0];
-assign sum2L3[8:4] = sum2L2[8:4];
+assign sum2L3[6:4] = sum2L2[6:4];
 assign sum2L3[2:0] = 3'b0;
-assign sum2L3[9] = 1'b0;
+assign sum2L3[7] = 1'b0;
 
 //Final Layer 
   assign O[2:0] = sum1L3[2:0];
