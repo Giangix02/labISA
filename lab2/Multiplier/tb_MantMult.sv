@@ -18,6 +18,9 @@ B_tb = 224;
 #40;
 A_tb = 255;
 B_tb = 255;
+#50;
+A_tb = 255;
+B_tb = 0;
 end
 endmodule
 

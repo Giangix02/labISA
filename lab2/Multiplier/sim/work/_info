@@ -9,10 +9,10 @@ z2
 cModel Technology
 Z0 d/home/isa30_2025_2026/labISA/lab2/Multiplier/sim
 T_opt
-!s110 1763661706
-Vb_;Ae43]i;VCGjHTeHC7e2
+!s110 1763662881
+VdMM3>Fam^fKQ2e1he6bnm3
 04 11 4 work tb_MantMult fast 0
-=1-32c32e71d307-691f5789-44544-dc4
+=1-32c32e71d307-691f5c20-1938c-2510
 Z1 o-quiet -auto_acc_if_foreign -work work +acc
 Z2 tCvgOpt 0
 n@_opt
@@ -29,7 +29,7 @@ R3
 R0
 vAdder4b
 Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-!s110 1763661693
+!s110 1763662870
 !i10b 1
 !s100 @e_zb8RaN<zX0AIGbbQMG1
 Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -39,14 +39,14 @@ R0
 w1763476156
 8../Adder4b.sv
 F../Adder4b.sv
-!i122 502
+!i122 513
 L0 1 12
 Z6 VDg1SIo80bB@j0V0VzS_@n1
 Z7 OL;L;2020.4;71
 r1
 !s85 0
 31
-!s108 1763661692.000000
+!s108 1763662869.000000
 !s107 ../Adder4b.sv|
 !s90 -reportprogress|300|-sv|../Adder4b.sv|
 !i113 0
@@ -55,7 +55,7 @@ R2
 n@adder4b
 vCSA3
 R4
-!s110 1763661692
+!s110 1763662869
 !i10b 1
 !s100 X5O?T>>@mG1bK@2=;hB7i1
 R5
@@ -65,14 +65,14 @@ R0
 w1763572383
 8../CSA3.sv
 F../CSA3.sv
-!i122 501
+!i122 512
 L0 1 30
 R6
 R7
 r1
 !s85 0
 31
-!s108 1763661691.000000
+!s108 1763662868.000000
 !s107 ../CSA3.sv|
 !s90 -reportprogress|300|-sv|../CSA3.sv|
 !i113 0
@@ -81,7 +81,7 @@ R2
 n@c@s@a3
 vFA
 R4
-!s110 1763661687
+!s110 1763662864
 !i10b 1
 !s100 d6@`5YAPQETHCQU6`H^AP0
 R5
@@ -91,14 +91,14 @@ R0
 w1763570262
 8../FA.sv
 F../FA.sv
-!i122 496
+!i122 507
 L0 1 9
 R6
 R7
 r1
 !s85 0
 31
-!s108 1763661686.000000
+!s108 1763662862.000000
 !s107 ../FA.sv|
 !s90 -reportprogress|300|-sv|../FA.sv|
 !i113 0
@@ -107,7 +107,7 @@ R2
 n@f@a
 vHA
 R4
-!s110 1763661688
+!s110 1763662865
 !i10b 1
 !s100 M]=?GWOl<0]7SaBzEB;JF1
 R5
@@ -117,14 +117,14 @@ R0
 w1763206772
 8../HA.sv
 F../HA.sv
-!i122 497
+!i122 508
 L0 1 8
 R6
 R7
 r1
 !s85 0
 31
-!s108 1763661687.000000
+!s108 1763662864.000000
 !s107 ../HA.sv|
 !s90 -reportprogress|300|-sv|../HA.sv|
 !i113 0
@@ -133,7 +133,7 @@ R2
 n@h@a
 vMantissaMultiplier
 R4
-!s110 1763661696
+Z9 !s110 1763662872
 !i10b 1
 !s100 <30dQiW8aHUCkMB_d^aH02
 R5
@@ -143,14 +143,14 @@ R0
 w1763661680
 8../MantissaMultiplier.sv
 F../MantissaMultiplier.sv
-!i122 505
+!i122 516
 L0 1 39
 R6
 R7
 r1
 !s85 0
 31
-!s108 1763661695.000000
+!s108 1763662872.000000
 !s107 ../MantissaMultiplier.sv|
 !s90 -reportprogress|300|-sv|../MantissaMultiplier.sv|
 !i113 0
@@ -159,7 +159,7 @@ R2
 n@mantissa@multiplier
 vMUX2
 R4
-!s110 1763661689
+Z10 !s110 1763662866
 !i10b 1
 !s100 >zhCog6IgB_dCUn<GMY:T0
 R5
@@ -169,14 +169,14 @@ R0
 w1763207217
 8../MUX2.sv
 F../MUX2.sv
-!i122 498
-Z9 L0 1 14
+!i122 509
+Z11 L0 1 14
 R6
 R7
 r1
 !s85 0
 31
-!s108 1763661688.000000
+!s108 1763662865.000000
 !s107 ../MUX2.sv|
 !s90 -reportprogress|300|-sv|../MUX2.sv|
 !i113 0
@@ -185,7 +185,7 @@ R2
 n@m@u@x2
 vMUX3
 R4
-!s110 1763661691
+!s110 1763662867
 !i10b 1
 !s100 K^ZNgIMDd^?AO3iY]2aDM1
 R5
@@ -195,14 +195,14 @@ R0
 w1763207190
 8../MUX3.sv
 F../MUX3.sv
-!i122 500
-Z10 L0 1 18
+!i122 511
+Z12 L0 1 18
 R6
 R7
 r1
 !s85 0
 31
-Z11 !s108 1763661690.000000
+!s108 1763662867.000000
 !s107 ../MUX3.sv|
 !s90 -reportprogress|300|-sv|../MUX3.sv|
 !i113 0
@@ -211,7 +211,7 @@ R2
 n@m@u@x3
 vMUX_unit
 R4
-!s110 1763661690
+R10
 !i10b 1
 !s100 z:6;g2Sk5c?R2EZI@0<aH0
 R5
@@ -221,14 +221,14 @@ R0
 w1763207240
 8../MUX_unit.sv
 F../MUX_unit.sv
-!i122 499
-R9
+!i122 510
+R11
 R6
 R7
 r1
 !s85 0
 31
-R11
+!s108 1763662866.000000
 !s107 ../MUX_unit.sv|
 !s90 -reportprogress|300|-sv|../MUX_unit.sv|
 !i113 0
@@ -237,7 +237,7 @@ R2
 n@m@u@x_unit
 vMUXBE
 R4
-!s110 1763661694
+!s110 1763662871
 !i10b 1
 !s100 632hmh[[Z]gLE:1aK^IV`1
 R5
@@ -247,14 +247,14 @@ R0
 w1763661203
 8../MUXBE.sv
 F../MUXBE.sv
-!i122 503
-R10
+!i122 514
+R12
 R6
 R7
 r1
 !s85 0
 31
-!s108 1763661693.000000
+!s108 1763662870.000000
 !s107 ../MUXBE.sv|
 !s90 -reportprogress|300|-sv|../MUXBE.sv|
 !i113 0
@@ -263,24 +263,24 @@ R2
 n@m@u@x@b@e
 vtb_MantMult
 R4
-!s110 1763661697
+!s110 1763662873
 !i10b 1
-!s100 8kSXcF[R72RE^S:ZA`zQ61
+!s100 ?ZQ4gfEmo=G6DWARhkV]@3
 R5
-I84b77LzWMZ@cFY=1Xl7PM1
+I]ZT=4NlCU@WYZ[681YaYA3
 S1
 R0
-w1763657922
+w1763662847
 8../tb_MantMult.sv
 F../tb_MantMult.sv
-!i122 506
-L0 2 21
+!i122 517
+L0 2 24
 R6
 R7
 r1
 !s85 0
 31
-!s108 1763661697.000000
+!s108 1763662873.000000
 !s107 ../tb_MantMult.sv|
 !s90 -reportprogress|300|-sv|../tb_MantMult.sv|
 !i113 0
@@ -315,7 +315,7 @@ R2
 ntb_@w@t
 vWT3
 R4
-!s110 1763661695
+R9
 !i10b 1
 !s100 NCje84C6R_hOX1Kdf^lh^1
 R5
@@ -325,14 +325,14 @@ R0
 w1763630706
 8../WT3.sv
 F../WT3.sv
-!i122 504
+!i122 515
 L0 1 104
 R6
 R7
 r1
 !s85 0
 31
-!s108 1763661694.000000
+!s108 1763662871.000000
 !s107 ../WT3.sv|
 !s90 -reportprogress|300|-sv|../WT3.sv|
 !i113 0
