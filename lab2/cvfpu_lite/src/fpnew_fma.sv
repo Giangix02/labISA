@@ -322,7 +322,8 @@ module fpnew_fma #(
   assign mantissa_c = {info_c.is_normal, operand_c.mantissa};
 
   // Mantissa multiplier (a*b)
-  assign product = mantissa_a * mantissa_b;
+  //assign product = mantissa_a * mantissa_b;
+Multiplier MantissaMultiplier(mantissa_a[PRECISION_BITS-1:0],mantissa_a[PRECISION_BITS-1:0],product[2*PRECISION_BITS-1:0]);
 
   // Product is placed into a 3p+4 bit wide vector, padded with 2 bits for round and sticky:
   // | 000...000 | product | RS |
