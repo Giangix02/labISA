@@ -11,4 +11,4 @@ vlog -sv ../MantissaMultiplier.sv
 vlog -sv ../tb_MantMult.sv
 vsim work.tb_MantMult -voptargs=+acc
 add wave -r /*
-run 50 ns
+run 200 ns

@@ -1,7 +1,7 @@
 module MUXBE
-( input logic[8:0] zero,a, a2, ma, ma2,
+( input logic[9:0] zero,a, a2, ma, ma2,
 	input logic[2:0] sel,
-	output logic[8:0] c
+	output logic[9:0] c
 	);
 always_comb begin
 	case (sel)

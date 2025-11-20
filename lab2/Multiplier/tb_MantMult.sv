@@ -12,6 +12,12 @@ B_tb = 10;
 #20
 A_tb = 118;
 B_tb = 35;
+#30;
+A_tb = 224;
+B_tb = 224;
+#40;
+A_tb = 255;
+B_tb = 255;
 end
 endmodule
 
