@@ -4,7 +4,7 @@ logic[8:0] a0_tb,a1_tb,a2_tb,a3_tb,a4_tb;
 logic c0_tb,c1_tb,c2_tb,c3_tb;
 logic[15:0] o_tb;
 
-WT3v2 UUT(a0_tb,a1_tb,a2_tb,a3_tb,a4_tb,c0_tb,c1_tb,c2_tb,c3_tb,o_tb);
+WT3 UUT(a0_tb,a1_tb,a2_tb,a3_tb,a4_tb,c0_tb,c1_tb,c2_tb,c3_tb,o_tb);
 initial begin
 #0
 a0_tb = 511;

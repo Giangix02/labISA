@@ -34,6 +34,6 @@ generate
 endgenerate
 
 //Allocation of the Wallace Tree
-WT3 wallTree(encoded0,encoded1,encoded2,encoded3,encoded4,outboothenc[9],outboothenc[19],outboothenc[29],outboothenc[39],M);
+WT3v2 wallTree(encoded0,encoded1,encoded2,encoded3,encoded4,outboothenc[9],outboothenc[19],outboothenc[29],outboothenc[39],M);
 
 endmodule

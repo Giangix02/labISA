@@ -1,0 +1,92 @@
+{C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUX3.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUX3.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MUX3
+
+Top level modules:
+	MUX3
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/Adder4b.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/Adder4b.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Adder4b
+
+Top level modules:
+	Adder4b
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/WT3.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/WT3.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module WT3
+
+Top level modules:
+	WT3
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MantissaMultiplier.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MantissaMultiplier.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MantissaMultiplier
+
+Top level modules:
+	MantissaMultiplier
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/FA.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/FA.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module FA
+
+Top level modules:
+	FA
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/tb_MantMult.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/tb_MantMult.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_MantMult
+
+Top level modules:
+	tb_MantMult
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/HA.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/HA.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module HA
+
+Top level modules:
+	HA
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUXBE.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUXBE.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MUXBE
+
+Top level modules:
+	MUXBE
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUX2.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUX2.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MUX2
+
+Top level modules:
+	MUX2
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/WT3v2.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/WT3v2.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module WT3v2
+
+Top level modules:
+	WT3v2
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/tb_WT.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/tb_WT.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_WT
+
+Top level modules:
+	tb_WT
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUX_unit.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUX_unit.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MUX_unit
+
+Top level modules:
+	MUX_unit
+
+} {} {}} {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/CSA3.sv} {1 {vlog -work work -sv -stats=none {C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/CSA3.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CSA3
+
+Top level modules:
+	CSA3
+
+} {} {}}

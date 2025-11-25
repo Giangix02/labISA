@@ -1,0 +1,335 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2
+vAdder4b
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1764099122
+!i10b 1
+!s100 Rk^f6eaQal1l8:PDRF^3W3
+IFXN9TeeYHh^3f=lOboHQH3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 Adder4b_sv_unit
+S1
+Z3 dC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier
+Z4 w1763650204
+8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/Adder4b.sv
+FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/Adder4b.sv
+L0 1
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1764099122.000000
+!s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/Adder4b.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/Adder4b.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+n@adder4b
+vCSA3
+R0
+R1
+!i10b 1
+!s100 iEDX;[X2:`<DjEm`;X`^a1
+I<R64G9m55j2RNUIJKhYkV0
+R2
+!s105 CSA3_sv_unit
+S1
+R3
+R4
+8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/CSA3.sv
+FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/CSA3.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/CSA3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/CSA3.sv|
+!i113 1
+R7
+R8
+n@c@s@a3
+vFA
+R0
+!s110 1764099216
+!i10b 1
+!s100 BGZMST699nhiYHhQ=X=e^3
+In6;HWf2m3]@mkza`^3SXd3
+R2
+!s105 FA_sv_unit
+S1
+R3
+w1763651203
+8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/FA.sv
+FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/FA.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1764099216.000000
+!s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/FA.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/FA.sv|
+!i113 1
+R7
+R8
+n@f@a
+vHA
+R0
+Z9 !s110 1764099123
+!i10b 1
+!s100 Tad0Im2MbTnTCV2eLH`8:2
+IEZM3_n9^IKfh7H7@A:[i62
+R2
+!s105 HA_sv_unit
+S1
+R3
+Z10 w1763394206
+8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/HA.sv
+FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/HA.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z11 !s108 1764099123.000000
+!s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/HA.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/HA.sv|
+!i113 1
+R7
+R8
+n@h@a
+vMantissaMultiplier
+R0
+!s110 1764099267
+!i10b 1
+!s100 280E7WfONIUBd[K^JGb1^1
+Ii7GNozI6i7o5n7]iFS;[K2
+R2
+!s105 MantissaMultiplier_sv_unit
+S1
+R3
+w1764099231
+8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MantissaMultiplier.sv
+FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MantissaMultiplier.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1764099267.000000
+!s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MantissaMultiplier.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MantissaMultiplier.sv|
+!i113 1
+R7
+R8
+n@mantissa@multiplier
+vMUX2
+R0
+R9
+!i10b 1
+!s100 oUE4ZPU^nTJT@K0T82UO>3
+IV=?KlEi_TXGl5o]f4`V_12
+R2
+!s105 MUX2_sv_unit
+S1
+R3
+R10
+8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUX2.sv
+FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUX2.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUX2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUX2.sv|
+!i113 1
+R7
+R8
+n@m@u@x2
+vMUX3
+R0
+R9
+!i10b 1
+!s100 >_o?A8o8HWeUhbe7eIn^R2
+IT_8KajQBT7WD9EG8=Jb^g1
+R2
+!s105 MUX3_sv_unit
+S1
+R3
+R10
+8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUX3.sv
+FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUX3.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUX3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUX3.sv|
+!i113 1
+R7
+R8
+n@m@u@x3
+vMUX_unit
+R0
+R9
+!i10b 1
+!s100 S_<zj3aQW43`]jRTPEOSA0
+IFLEP[2E<X>==Cd=hARTCA2
+R2
+!s105 MUX_unit_sv_unit
+S1
+R3
+R10
+8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUX_unit.sv
+FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUX_unit.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUX_unit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUX_unit.sv|
+!i113 1
+R7
+R8
+n@m@u@x_unit
+vMUXBE
+R0
+R9
+!i10b 1
+!s100 OUB;3zdz5BD[e9`Y_:zWS1
+IK>UYaLG@P>zn0A[Mh[?921
+R2
+!s105 MUXBE_sv_unit
+S1
+R3
+w1763662045
+8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUXBE.sv
+FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUXBE.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUXBE.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/MUXBE.sv|
+!i113 1
+R7
+R8
+n@m@u@x@b@e
+vtb_MantMult
+R0
+R9
+!i10b 1
+!s100 nKa2cNO82So6JbM<0zje<3
+IQ2N4f3CY[2NA4544<c:;Y2
+R2
+!s105 tb_MantMult_sv_unit
+S1
+R3
+w1763993850
+8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/tb_MantMult.sv
+FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/tb_MantMult.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/tb_MantMult.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/tb_MantMult.sv|
+!i113 1
+R7
+R8
+ntb_@mant@mult
+vtb_WT
+R0
+!s110 1764101790
+!i10b 1
+!s100 I4[anYHVm24la8f?UzY[U3
+Iz_QS=gfjAVUXobSe>Q]4A1
+R2
+!s105 tb_WT_sv_unit
+S1
+R3
+w1764101788
+8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/tb_WT.sv
+FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/tb_WT.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1764101790.000000
+!s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/tb_WT.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/tb_WT.sv|
+!i113 1
+R7
+R8
+ntb_@w@t
+vWT3
+R0
+R9
+!i10b 1
+!s100 eeSZ[jB]5`HkYHiG9d4T50
+InXRnOPEdl81N9gLL:;SF21
+R2
+!s105 WT3_sv_unit
+S1
+R3
+R4
+8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/WT3.sv
+FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/WT3.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/WT3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/WT3.sv|
+!i113 1
+R7
+R8
+n@w@t3
+vWT3v2
+R0
+!s110 1764102219
+!i10b 1
+!s100 ;Y>m0TH^_IPGmg63>=Cfa1
+IPmDLXRcSX<=HGkK3nIFzm1
+R2
+!s105 WT3v2_sv_unit
+S1
+R3
+w1764102147
+8C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/WT3v2.sv
+FC:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/WT3v2.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1764102219.000000
+!s107 C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/WT3v2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Utente/OneDrive/Documenti/progetti isa/labISA/lab2/Multiplier/WT3v2.sv|
+!i113 1
+R7
+R8
+n@w@t3v2
