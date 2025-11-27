@@ -1,0 +1,130 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : fpnew_top
+Version: S-2021.06-SP4
+Date   : Thu Nov 27 17:09:28 2025
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/MY_CLK_r_REG51_S2
+              (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: status_o[UF]
+            (output port clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fpnew_top          5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/MY_CLK_r_REG51_S2/CK (DFFS_X2)
+                                                          0.00       0.00 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/MY_CLK_r_REG51_S2/Q (DFFS_X2)
+                                                          0.14       0.14 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/U267/ZN (AND2_X1)
+                                                          0.06       0.19 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/U268/ZN (AND2_X2)
+                                                          0.05       0.24 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/U9/Z (BUF_X1)
+                                                          0.04       0.28 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/U1323/ZN (NAND2_X1)
+                                                          0.03       0.31 f
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/U134/ZN (NAND2_X1)
+                                                          0.05       0.36 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_542/A[0] (fpnew_fma_4_00000002_3__logic_Z_1yB___logic_Z_1yB__DW01_inc_0)
+                                                          0.00       0.36 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_542/U9/CO (HA_X1)
+                                                          0.07       0.43 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_542/U18/ZN (AND2_X1)
+                                                          0.05       0.48 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_542/U7/CO (HA_X1)
+                                                          0.06       0.54 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_542/U6/CO (HA_X1)
+                                                          0.06       0.59 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_542/U5/CO (HA_X1)
+                                                          0.06       0.65 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_542/U4/CO (HA_X1)
+                                                          0.06       0.71 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_542/U15/ZN (NAND2_X1)
+                                                          0.03       0.74 f
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_542/U14/ZN (XNOR2_X1)
+                                                          0.05       0.79 f
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/add_542/SUM[9] (fpnew_fma_4_00000002_3__logic_Z_1yB___logic_Z_1yB__DW01_inc_0)
+                                                          0.00       0.79 f
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/U449/ZN (NAND2_X1)
+                                                          0.03       0.82 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/U349/ZN (NAND2_X1)
+                                                          0.03       0.85 f
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/U438/ZN (NOR2_X1)
+                                                          0.04       0.89 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/U1260/ZN (NAND4_X1)
+                                                          0.05       0.94 f
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/U266/ZN (AND2_X2)
+                                                          0.06       1.00 f
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/U1295/ZN (NAND4_X1)
+                                                          0.05       1.06 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/i_fpnew_rounding/abs_value_i[6] (fpnew_rounding_0000000f)
+                                                          0.00       1.06 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/i_fpnew_rounding/U53/ZN (AND2_X2)
+                                                          0.06       1.12 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/i_fpnew_rounding/U8/ZN (AND4_X1)
+                                                          0.08       1.20 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/i_fpnew_rounding/U48/ZN (AND3_X1)
+                                                          0.06       1.25 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/i_fpnew_rounding/U75/ZN (XNOR2_X1)
+                                                          0.06       1.31 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/i_fpnew_rounding/abs_rounded_o[12] (fpnew_rounding_0000000f)
+                                                          0.00       1.31 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/U309/ZN (AND4_X1)
+                                                          0.07       1.38 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/U456/ZN (NAND3_X1)
+                                                          0.04       1.42 f
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/U323/ZN (NAND2_X1)
+                                                          0.03       1.45 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/U1292/ZN (AND2_X1)
+                                                          0.04       1.49 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/gen_num_lanes[0].active_lane.lane_instance.i_fma/status_o[UF] (fpnew_fma_4_00000002_3__logic_Z_1yB___logic_Z_1yB_)
+                                                          0.00       1.49 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/U36/ZN (AND2_X1)
+                                                          0.04       1.52 r
+  gen_operation_groups[0].i_opgroup_block/gen_parallel_slices[4].active_format.i_fmt_slice/status_o[UF] (fpnew_opgroup_fmt_slice_0_4_00000010_0_00000002_3__logic_Z_1yB_)
+                                                          0.00       1.52 r
+  gen_operation_groups[0].i_opgroup_block/i_arbiter/data_i[4][status][UF] (rr_arb_tree_00000005_1_024242)
+                                                          0.00       1.52 r
+  gen_operation_groups[0].i_opgroup_block/i_arbiter/U31/ZN (AND2_X1)
+                                                          0.04       1.56 r
+  gen_operation_groups[0].i_opgroup_block/i_arbiter/data_o[status][UF] (rr_arb_tree_00000005_1_024242)
+                                                          0.00       1.56 r
+  gen_operation_groups[0].i_opgroup_block/status_o[UF] (fpnew_opgroup_block_0_00000010_0_01_4_155_3__logic_Z_1yB__395949)
+                                                          0.00       1.56 r
+  i_arbiter/data_i[0][status][UF] (rr_arb_tree_00000004_1_891242)
+                                                          0.00       1.56 r
+  i_arbiter/U27/ZN (AND2_X1)                              0.04       1.61 r
+  i_arbiter/data_o[status][UF] (rr_arb_tree_00000004_1_891242)
+                                                          0.00       1.61 r
+  status_o[UF] (out)                                      0.02       1.63 r
+  data arrival time                                                  1.63
+
+  clock MY_CLK (rise edge)                                2.20       2.20
+  clock network delay (ideal)                             0.00       2.20
+  clock uncertainty                                      -0.07       2.13
+  output external delay                                  -0.50       1.63
+  data required time                                                 1.63
+  --------------------------------------------------------------------------
+  data required time                                                 1.63
+  data arrival time                                                 -1.63
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

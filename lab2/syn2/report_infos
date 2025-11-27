@@ -1,0 +1,6 @@
+1) compile 
+min period 2.7 ns
+2) compile + optimize_registers
+min period 2.2 ns
+3) compile_ultra
+min period 2.5 ns
