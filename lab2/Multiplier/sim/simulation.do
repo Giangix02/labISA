@@ -6,9 +6,9 @@ vlog -sv ../MUX3.sv
 vlog -sv ../CSA3.sv
 vlog -sv ../Adder4b.sv
 vlog -sv ../MUXBE.sv
-vlog -sv ../WT3.sv
+vlog -sv ../WT3v2.sv
 vlog -sv ../MantissaMultiplier.sv
 vlog -sv ../tb_MantMult.sv
 vsim work.tb_MantMult -voptargs=+acc
 add wave -r /*
-run 200 ns
+run 220 ns

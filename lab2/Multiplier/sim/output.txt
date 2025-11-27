@@ -1,0 +1,200 @@
+A:  x | B:  0 | M:    0 | Ideal_M:    x | Error:    x
+A:199 | B:231 | M:45969 | Ideal_M:45969 | Error:    0
+A: 78 | B:118 | M: 9204 | Ideal_M: 9204 | Error:    0
+A: 77 | B: 58 | M: 4466 | Ideal_M: 4466 | Error:    0
+A:188 | B: 69 | M:12972 | Ideal_M:12972 | Error:    0
+A: 80 | B:230 | M:18400 | Ideal_M:18400 | Error:    0
+A:249 | B:236 | M:58764 | Ideal_M:58764 | Error:    0
+A: 60 | B: 71 | M: 4260 | Ideal_M: 4260 | Error:    0
+A:150 | B: 54 | M: 8100 | Ideal_M: 8100 | Error:    0
+A:104 | B: 83 | M: 8632 | Ideal_M: 8632 | Error:    0
+A:178 | B:233 | M:41474 | Ideal_M:41474 | Error:    0
+A:182 | B:219 | M:39858 | Ideal_M:39858 | Error:    0
+A: 25 | B:180 | M: 4500 | Ideal_M: 4500 | Error:    0
+A: 39 | B:  0 | M:    0 | Ideal_M:    0 | Error:    0
+A:120 | B:144 | M:17280 | Ideal_M:17280 | Error:    0
+A: 25 | B:  7 | M:  175 | Ideal_M:  175 | Error:    0
+A: 26 | B:186 | M: 4836 | Ideal_M: 4836 | Error:    0
+A: 36 | B:240 | M: 8640 | Ideal_M: 8640 | Error:    0
+A: 17 | B: 80 | M: 1360 | Ideal_M: 1360 | Error:    0
+A: 98 | B:248 | M:24304 | Ideal_M:24304 | Error:    0
+A: 29 | B:234 | M: 6786 | Ideal_M: 6786 | Error:    0
+A:  4 | B:231 | M:  924 | Ideal_M:  924 | Error:    0
+A:218 | B:241 | M:52538 | Ideal_M:52538 | Error:    0
+A:116 | B: 90 | M:10440 | Ideal_M:10440 | Error:    0
+A:109 | B:172 | M:18748 | Ideal_M:18748 | Error:    0
+A:131 | B:213 | M:27903 | Ideal_M:27903 | Error:    0
+A:106 | B: 89 | M: 9434 | Ideal_M: 9434 | Error:    0
+A:190 | B:  0 | M:    0 | Ideal_M:    0 | Error:    0
+A: 34 | B:215 | M: 7310 | Ideal_M: 7310 | Error:    0
+A:240 | B:231 | M:55440 | Ideal_M:55440 | Error:    0
+A: 35 | B:156 | M: 5460 | Ideal_M: 5460 | Error:    0
+A:241 | B:231 | M:55671 | Ideal_M:55671 | Error:    0
+A:234 | B: 92 | M:21528 | Ideal_M:21528 | Error:    0
+A:216 | B:200 | M:43200 | Ideal_M:43200 | Error:    0
+A: 42 | B:162 | M: 6804 | Ideal_M: 6804 | Error:    0
+A:140 | B: 99 | M:13860 | Ideal_M:13860 | Error:    0
+A: 64 | B:122 | M: 7808 | Ideal_M: 7808 | Error:    0
+A:220 | B:  5 | M: 1100 | Ideal_M: 1100 | Error:    0
+A: 16 | B:  4 | M:   64 | Ideal_M:   64 | Error:    0
+A: 15 | B:  3 | M:   45 | Ideal_M:   45 | Error:    0
+A:235 | B: 77 | M:18095 | Ideal_M:18095 | Error:    0
+A: 91 | B:208 | M:18928 | Ideal_M:18928 | Error:    0
+A:173 | B:117 | M:20241 | Ideal_M:20241 | Error:    0
+A:183 | B: 26 | M: 4758 | Ideal_M: 4758 | Error:    0
+A:114 | B:141 | M:16074 | Ideal_M:16074 | Error:    0
+A: 20 | B:176 | M: 3520 | Ideal_M: 3520 | Error:    0
+A:183 | B: 14 | M: 2562 | Ideal_M: 2562 | Error:    0
+A:131 | B: 26 | M: 3406 | Ideal_M: 3406 | Error:    0
+A:  4 | B: 40 | M:  160 | Ideal_M:  160 | Error:    0
+A: 61 | B: 78 | M: 4758 | Ideal_M: 4758 | Error:    0
+A:209 | B: 63 | M:13167 | Ideal_M:13167 | Error:    0
+A: 13 | B: 61 | M:  793 | Ideal_M:  793 | Error:    0
+A: 20 | B:196 | M: 3920 | Ideal_M: 3920 | Error:    0
+A:188 | B:225 | M:42300 | Ideal_M:42300 | Error:    0
+A: 84 | B: 92 | M: 7728 | Ideal_M: 7728 | Error:    0
+A:148 | B: 71 | M:10508 | Ideal_M:10508 | Error:    0
+A: 78 | B:241 | M:18798 | Ideal_M:18798 | Error:    0
+A:  3 | B:144 | M:  432 | Ideal_M:  432 | Error:    0
+A:162 | B:182 | M:29484 | Ideal_M:29484 | Error:    0
+A: 62 | B: 36 | M: 2232 | Ideal_M: 2232 | Error:    0
+A: 98 | B:215 | M:21070 | Ideal_M:21070 | Error:    0
+A:103 | B:164 | M:16892 | Ideal_M:16892 | Error:    0
+A:136 | B:192 | M:26112 | Ideal_M:26112 | Error:    0
+A:233 | B: 55 | M:12815 | Ideal_M:12815 | Error:    0
+A:131 | B:174 | M:22794 | Ideal_M:22794 | Error:    0
+A: 90 | B:116 | M:10440 | Ideal_M:10440 | Error:    0
+A:216 | B:201 | M:43416 | Ideal_M:43416 | Error:    0
+A:197 | B:218 | M:42946 | Ideal_M:42946 | Error:    0
+A: 20 | B:  0 | M:    0 | Ideal_M:    0 | Error:    0
+A:198 | B:155 | M:30690 | Ideal_M:30690 | Error:    0
+A:232 | B:112 | M:25984 | Ideal_M:25984 | Error:    0
+A:124 | B:122 | M:15128 | Ideal_M:15128 | Error:    0
+A:222 | B:101 | M:22422 | Ideal_M:22422 | Error:    0
+A:170 | B: 97 | M:16490 | Ideal_M:16490 | Error:    0
+A: 31 | B:159 | M: 4929 | Ideal_M: 4929 | Error:    0
+A: 62 | B: 89 | M: 5518 | Ideal_M: 5518 | Error:    0
+A: 55 | B:237 | M:13035 | Ideal_M:13035 | Error:    0
+A:224 | B:  9 | M: 2016 | Ideal_M: 2016 | Error:    0
+A:165 | B:121 | M:19965 | Ideal_M:19965 | Error:    0
+A:141 | B: 69 | M: 9729 | Ideal_M: 9729 | Error:    0
+A: 46 | B:233 | M:10718 | Ideal_M:10718 | Error:    0
+A:154 | B:225 | M:34650 | Ideal_M:34650 | Error:    0
+A:184 | B: 49 | M: 9016 | Ideal_M: 9016 | Error:    0
+A:191 | B:115 | M:21965 | Ideal_M:21965 | Error:    0
+A: 77 | B:204 | M:15708 | Ideal_M:15708 | Error:    0
+A:238 | B: 99 | M:23562 | Ideal_M:23562 | Error:    0
+A:213 | B: 33 | M: 7029 | Ideal_M: 7029 | Error:    0
+A:213 | B:117 | M:24921 | Ideal_M:24921 | Error:    0
+A:  8 | B:142 | M: 1136 | Ideal_M: 1136 | Error:    0
+A: 83 | B: 36 | M: 2988 | Ideal_M: 2988 | Error:    0
+A:239 | B:192 | M:45888 | Ideal_M:45888 | Error:    0
+A: 18 | B:131 | M: 2358 | Ideal_M: 2358 | Error:    0
+A:226 | B: 79 | M:17854 | Ideal_M:17854 | Error:    0
+A:198 | B: 26 | M: 5148 | Ideal_M: 5148 | Error:    0
+A:169 | B: 68 | M:11492 | Ideal_M:11492 | Error:    0
+A:176 | B:109 | M:19184 | Ideal_M:19184 | Error:    0
+A: 41 | B: 85 | M: 3485 | Ideal_M: 3485 | Error:    0
+A:107 | B: 91 | M: 9737 | Ideal_M: 9737 | Error:    0
+A:162 | B:  5 | M:  810 | Ideal_M:  810 | Error:    0
+A:198 | B:133 | M:26334 | Ideal_M:26334 | Error:    0
+A:153 | B: 77 | M:11781 | Ideal_M:11781 | Error:    0
+A:103 | B: 68 | M: 7004 | Ideal_M: 7004 | Error:    0
+A:129 | B:114 | M:14706 | Ideal_M:14706 | Error:    0
+A:136 | B: 49 | M: 6664 | Ideal_M: 6664 | Error:    0
+A: 62 | B: 56 | M: 3472 | Ideal_M: 3472 | Error:    0
+A: 88 | B:170 | M:14960 | Ideal_M:14960 | Error:    0
+A: 14 | B: 87 | M: 1218 | Ideal_M: 1218 | Error:    0
+A:240 | B: 83 | M:19920 | Ideal_M:19920 | Error:    0
+A:  9 | B: 23 | M:  207 | Ideal_M:  207 | Error:    0
+A:248 | B: 47 | M:11656 | Ideal_M:11656 | Error:    0
+A:156 | B: 43 | M: 6708 | Ideal_M: 6708 | Error:    0
+A:213 | B:191 | M:40683 | Ideal_M:40683 | Error:    0
+A:196 | B: 60 | M:11760 | Ideal_M:11760 | Error:    0
+A: 76 | B:237 | M:18012 | Ideal_M:18012 | Error:    0
+A:143 | B: 82 | M:11726 | Ideal_M:11726 | Error:    0
+A:122 | B:228 | M:27816 | Ideal_M:27816 | Error:    0
+A: 28 | B:179 | M: 5012 | Ideal_M: 5012 | Error:    0
+A:254 | B:150 | M:38100 | Ideal_M:38100 | Error:    0
+A:165 | B:  4 | M:  660 | Ideal_M:  660 | Error:    0
+A:108 | B:238 | M:25704 | Ideal_M:25704 | Error:    0
+A: 61 | B:138 | M: 8418 | Ideal_M: 8418 | Error:    0
+A:135 | B:246 | M:33210 | Ideal_M:33210 | Error:    0
+A:148 | B:  7 | M: 1036 | Ideal_M: 1036 | Error:    0
+A:234 | B: 87 | M:20358 | Ideal_M:20358 | Error:    0
+A: 40 | B:188 | M: 7520 | Ideal_M: 7520 | Error:    0
+A:254 | B:247 | M:62738 | Ideal_M:62738 | Error:    0
+A:238 | B:204 | M:48552 | Ideal_M:48552 | Error:    0
+A: 37 | B: 65 | M: 2405 | Ideal_M: 2405 | Error:    0
+A:198 | B: 81 | M:16038 | Ideal_M:16038 | Error:    0
+A:189 | B:177 | M:33453 | Ideal_M:33453 | Error:    0
+A:192 | B:104 | M:19968 | Ideal_M:19968 | Error:    0
+A:162 | B:156 | M:25272 | Ideal_M:25272 | Error:    0
+A:251 | B:240 | M:60240 | Ideal_M:60240 | Error:    0
+A: 84 | B:158 | M:13272 | Ideal_M:13272 | Error:    0
+A: 72 | B:178 | M:12816 | Ideal_M:12816 | Error:    0
+A: 93 | B:184 | M:17112 | Ideal_M:17112 | Error:    0
+A: 65 | B:128 | M: 8320 | Ideal_M: 8320 | Error:    0
+A:124 | B:204 | M:25296 | Ideal_M:25296 | Error:    0
+A:158 | B:197 | M:31126 | Ideal_M:31126 | Error:    0
+A:104 | B: 72 | M: 7488 | Ideal_M: 7488 | Error:    0
+A:104 | B: 55 | M: 5720 | Ideal_M: 5720 | Error:    0
+A:248 | B:  9 | M: 2232 | Ideal_M: 2232 | Error:    0
+A: 67 | B: 80 | M: 5360 | Ideal_M: 5360 | Error:    0
+A:118 | B:206 | M:24308 | Ideal_M:24308 | Error:    0
+A:104 | B:228 | M:23712 | Ideal_M:23712 | Error:    0
+A: 28 | B:103 | M: 2884 | Ideal_M: 2884 | Error:    0
+A:183 | B: 90 | M:16470 | Ideal_M:16470 | Error:    0
+A:127 | B:175 | M:22225 | Ideal_M:22225 | Error:    0
+A:218 | B: 26 | M: 5668 | Ideal_M: 5668 | Error:    0
+A: 88 | B:211 | M:18568 | Ideal_M:18568 | Error:    0
+A:228 | B: 74 | M:16872 | Ideal_M:16872 | Error:    0
+A:194 | B: 72 | M:13968 | Ideal_M:13968 | Error:    0
+A:116 | B:181 | M:20996 | Ideal_M:20996 | Error:    0
+A:219 | B: 25 | M: 5475 | Ideal_M: 5475 | Error:    0
+A: 67 | B:221 | M:14807 | Ideal_M:14807 | Error:    0
+A: 99 | B: 52 | M: 5148 | Ideal_M: 5148 | Error:    0
+A:162 | B: 94 | M:15228 | Ideal_M:15228 | Error:    0
+A:201 | B: 60 | M:12060 | Ideal_M:12060 | Error:    0
+A: 62 | B: 91 | M: 5642 | Ideal_M: 5642 | Error:    0
+A: 40 | B:246 | M: 9840 | Ideal_M: 9840 | Error:    0
+A:191 | B: 51 | M: 9741 | Ideal_M: 9741 | Error:    0
+A: 53 | B:250 | M:13250 | Ideal_M:13250 | Error:    0
+A:159 | B:118 | M:18762 | Ideal_M:18762 | Error:    0
+A: 60 | B: 79 | M: 4740 | Ideal_M: 4740 | Error:    0
+A: 51 | B:214 | M:10914 | Ideal_M:10914 | Error:    0
+A:  7 | B: 21 | M:  147 | Ideal_M:  147 | Error:    0
+A: 40 | B:184 | M: 7360 | Ideal_M: 7360 | Error:    0
+A:188 | B:187 | M:35156 | Ideal_M:35156 | Error:    0
+A:  4 | B:247 | M:  988 | Ideal_M:  988 | Error:    0
+A: 14 | B:248 | M: 3472 | Ideal_M: 3472 | Error:    0
+A: 15 | B:130 | M: 1950 | Ideal_M: 1950 | Error:    0
+A:  3 | B: 13 | M:   39 | Ideal_M:   39 | Error:    0
+A: 59 | B:218 | M:12862 | Ideal_M:12862 | Error:    0
+A:253 | B: 63 | M:15939 | Ideal_M:15939 | Error:    0
+A:190 | B:197 | M:37430 | Ideal_M:37430 | Error:    0
+A: 42 | B: 31 | M: 1302 | Ideal_M: 1302 | Error:    0
+A:230 | B:129 | M:29670 | Ideal_M:29670 | Error:    0
+A:251 | B:113 | M:28363 | Ideal_M:28363 | Error:    0
+A:157 | B: 48 | M: 7536 | Ideal_M: 7536 | Error:    0
+A:246 | B:  2 | M:  492 | Ideal_M:  492 | Error:    0
+A:111 | B:241 | M:26751 | Ideal_M:26751 | Error:    0
+A: 50 | B:100 | M: 5000 | Ideal_M: 5000 | Error:    0
+A:141 | B:216 | M:30456 | Ideal_M:30456 | Error:    0
+A:101 | B: 67 | M: 6767 | Ideal_M: 6767 | Error:    0
+A:196 | B:101 | M:19796 | Ideal_M:19796 | Error:    0
+A: 96 | B:240 | M:23040 | Ideal_M:23040 | Error:    0
+A:175 | B: 59 | M:10325 | Ideal_M:10325 | Error:    0
+A:191 | B: 80 | M:15280 | Ideal_M:15280 | Error:    0
+A: 46 | B:145 | M: 6670 | Ideal_M: 6670 | Error:    0
+A: 16 | B:157 | M: 2512 | Ideal_M: 2512 | Error:    0
+A:  4 | B:153 | M:  612 | Ideal_M:  612 | Error:    0
+A:180 | B:164 | M:29520 | Ideal_M:29520 | Error:    0
+A:  7 | B:110 | M:  770 | Ideal_M:  770 | Error:    0
+A:248 | B:197 | M:48856 | Ideal_M:48856 | Error:    0
+A: 47 | B:186 | M: 8742 | Ideal_M: 8742 | Error:    0
+A:150 | B: 25 | M: 3750 | Ideal_M: 3750 | Error:    0
+A: 16 | B:130 | M: 2080 | Ideal_M: 2080 | Error:    0
+A: 77 | B:101 | M: 7777 | Ideal_M: 7777 | Error:    0
+A: 54 | B:  2 | M:  108 | Ideal_M:  108 | Error:    0
+A: 57 | B:160 | M: 9120 | Ideal_M: 9120 | Error:    0

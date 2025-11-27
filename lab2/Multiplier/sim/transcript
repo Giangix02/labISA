@@ -12,2172 +12,3482 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-# ** Warning: License feature 'msimviewer' will expire in 10 days.
 do simulation.do
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:09:05 on Nov 20,2025
+# Start time: 16:28:42 on Nov 27,2025
 # vlog -reportprogress 300 -sv ../FA.sv 
 # -- Compiling module FA
 # 
 # Top level modules:
 # 	FA
-# End time: 17:09:06 on Nov 20,2025, Elapsed time: 0:00:01
+# End time: 16:28:42 on Nov 27,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:09:07 on Nov 20,2025
+# Start time: 16:28:43 on Nov 27,2025
 # vlog -reportprogress 300 -sv ../HA.sv 
 # -- Compiling module HA
 # 
 # Top level modules:
 # 	HA
-# End time: 17:09:07 on Nov 20,2025, Elapsed time: 0:00:00
+# End time: 16:28:44 on Nov 27,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:09:07 on Nov 20,2025
+# Start time: 16:28:44 on Nov 27,2025
 # vlog -reportprogress 300 -sv ../MUX2.sv 
 # -- Compiling module MUX2
 # 
 # Top level modules:
 # 	MUX2
-# End time: 17:09:08 on Nov 20,2025, Elapsed time: 0:00:01
+# End time: 16:28:44 on Nov 27,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:09:08 on Nov 20,2025
+# Start time: 16:28:45 on Nov 27,2025
 # vlog -reportprogress 300 -sv ../MUX_unit.sv 
 # -- Compiling module MUX_unit
 # 
 # Top level modules:
 # 	MUX_unit
-# End time: 17:09:09 on Nov 20,2025, Elapsed time: 0:00:01
+# End time: 16:28:45 on Nov 27,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:09:09 on Nov 20,2025
+# Start time: 16:28:45 on Nov 27,2025
 # vlog -reportprogress 300 -sv ../MUX3.sv 
 # -- Compiling module MUX3
 # 
 # Top level modules:
 # 	MUX3
-# End time: 17:09:10 on Nov 20,2025, Elapsed time: 0:00:01
+# End time: 16:28:46 on Nov 27,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:09:10 on Nov 20,2025
+# Start time: 16:28:46 on Nov 27,2025
 # vlog -reportprogress 300 -sv ../CSA3.sv 
 # -- Compiling module CSA3
 # 
 # Top level modules:
 # 	CSA3
-# End time: 17:09:11 on Nov 20,2025, Elapsed time: 0:00:01
+# End time: 16:28:46 on Nov 27,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:09:11 on Nov 20,2025
+# Start time: 16:28:47 on Nov 27,2025
 # vlog -reportprogress 300 -sv ../Adder4b.sv 
 # -- Compiling module Adder4b
 # 
 # Top level modules:
 # 	Adder4b
-# End time: 17:09:12 on Nov 20,2025, Elapsed time: 0:00:01
+# End time: 16:28:47 on Nov 27,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:09:12 on Nov 20,2025
+# Start time: 16:28:48 on Nov 27,2025
 # vlog -reportprogress 300 -sv ../MUXBE.sv 
 # -- Compiling module MUXBE
 # 
 # Top level modules:
 # 	MUXBE
-# End time: 17:09:13 on Nov 20,2025, Elapsed time: 0:00:01
+# End time: 16:28:48 on Nov 27,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:09:13 on Nov 20,2025
+# Start time: 16:28:48 on Nov 27,2025
 # vlog -reportprogress 300 -sv ../WT3.sv 
 # -- Compiling module WT3
 # 
 # Top level modules:
 # 	WT3
-# End time: 17:09:14 on Nov 20,2025, Elapsed time: 0:00:01
+# End time: 16:28:49 on Nov 27,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:09:14 on Nov 20,2025
+# Start time: 16:28:49 on Nov 27,2025
 # vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
 # -- Compiling module MantissaMultiplier
 # 
 # Top level modules:
 # 	MantissaMultiplier
-# End time: 17:09:15 on Nov 20,2025, Elapsed time: 0:00:01
+# End time: 16:28:50 on Nov 27,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:09:15 on Nov 20,2025
+# Start time: 16:28:50 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# ** Error: ../tb_MantMult.sv(9): (vlog-2730) Undefined variable: 'A'.
+# ** Error: ../tb_MantMult.sv(9): (vlog-2730) Undefined variable: 'B'.
+# ** Warning: ../tb_MantMult.sv(11): (vlog-2643) Unterminated string literal continues onto next line.
+# ** Error: ../tb_MantMult.sv(33): Unterminated string literal started on line 11.
+# ** Error: (vlog-13069) ../tb_MantMult.sv(33): near "EOF": syntax error, unexpected end of source code, expecting ')' or ','.
+# End time: 16:28:51 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 1
+# ** Error: /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+# Error in macro ./simulation.do line 11
+# /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog -sv ../tb_MantMult.sv"
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:29:16 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 16:29:16 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:29:17 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 16:29:17 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:29:17 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 16:29:18 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:29:18 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 16:29:18 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:29:19 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 16:29:19 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:29:20 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 16:29:20 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:29:21 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 16:29:21 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:29:21 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 16:29:21 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:29:22 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3.sv 
+# -- Compiling module WT3
+# 
+# Top level modules:
+# 	WT3
+# End time: 16:29:22 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:29:23 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 16:29:23 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:29:23 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# ** Warning: ../tb_MantMult.sv(11): (vlog-2643) Unterminated string literal continues onto next line.
+# ** Error: ../tb_MantMult.sv(33): Unterminated string literal started on line 11.
+# ** Error: (vlog-13069) ../tb_MantMult.sv(33): near "EOF": syntax error, unexpected end of source code, expecting ')' or ','.
+# End time: 16:29:24 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 1
+# ** Error: /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+# Error in macro ./simulation.do line 11
+# /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog -sv ../tb_MantMult.sv"
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:30:01 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 16:30:02 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:30:02 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 16:30:02 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:30:03 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 16:30:03 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:30:04 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 16:30:04 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:30:04 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 16:30:05 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:30:05 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 16:30:05 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:30:06 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 16:30:06 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:30:06 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 16:30:07 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:30:07 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3.sv 
+# -- Compiling module WT3
+# 
+# Top level modules:
+# 	WT3
+# End time: 16:30:07 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:30:08 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 16:30:08 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:30:09 on Nov 27,2025
 # vlog -reportprogress 300 -sv ../tb_MantMult.sv 
 # -- Compiling module tb_MantMult
 # 
 # Top level modules:
 # 	tb_MantMult
-# End time: 17:09:16 on Nov 20,2025, Elapsed time: 0:00:01
+# End time: 16:30:09 on Nov 27,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 17:09:16 on Nov 20,2025
+# Start time: 16:30:09 on Nov 27,2025
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
+# ** Error: ../MantissaMultiplier.sv(37): Module 'WT3v2' is not defined.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./simulation.do PAUSED at line 12
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:31:22 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 16:31:22 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:31:23 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 16:31:23 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:31:23 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 16:31:24 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:31:24 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 16:31:24 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:31:25 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 16:31:25 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:31:25 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 16:31:26 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:31:26 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 16:31:27 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:31:27 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 16:31:27 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:31:28 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3.sv 
+# -- Compiling module WT3
+# 
+# Top level modules:
+# 	WT3
+# End time: 16:31:28 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:31:28 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 16:31:28 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:31:29 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# 
+# Top level modules:
+# 	tb_MantMult
+# End time: 16:31:29 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.tb_MantMult -voptargs="+acc" 
+# Start time: 16:30:09 on Nov 27,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: ../MantissaMultiplier.sv(37): Module 'WT3v2' is not defined.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=0.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./simulation.do PAUSED at line 12
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:32:06 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 16:32:07 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:32:07 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 16:32:07 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:32:08 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 16:32:08 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:32:09 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 16:32:09 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:32:09 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 16:32:09 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:32:10 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 16:32:10 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:32:11 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 16:32:11 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:32:12 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 16:32:12 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:32:13 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3v2.sv 
+# -- Compiling module WT3v2
+# 
+# Top level modules:
+# 	WT3v2
+# End time: 16:32:13 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:32:13 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 16:32:14 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:32:14 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# 
+# Top level modules:
+# 	tb_MantMult
+# End time: 16:32:14 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.tb_MantMult -voptargs="+acc" 
+# Start time: 16:30:09 on Nov 27,2025
+# ** Note: (vsim-3812) Design is being optimized...
 # Loading sv_std.std
 # Loading work.tb_MantMult(fast)
 # Loading work.MantissaMultiplier(fast)
 # Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
+# Loading work.WT3v2(fast)
 # Loading work.HA(fast)
 # Loading work.FA(fast)
 # Loading work.CSA3(fast)
 # Loading work.Adder4b(fast)
 # Loading work.MUX2(fast)
 # Loading work.MUX_unit(fast)
+# The results different is:     x
+# The results different is: 65504
+# The results different is: 65496
+# The results different is:    19
+# The results different is:   119
+# The results different is: 65386
 run
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:40:22 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 16:40:22 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:40:22 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 16:40:23 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:40:23 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 16:40:23 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:40:24 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 16:40:24 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:40:25 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 16:40:25 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:40:25 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 16:40:25 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:40:26 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 16:40:26 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:40:27 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 16:40:27 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:40:27 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3v2.sv 
+# -- Compiling module WT3v2
+# 
+# Top level modules:
+# 	WT3v2
+# End time: 16:40:28 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:40:28 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 16:40:28 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:40:29 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# ** Error: ../tb_MantMult.sv(9): (vlog-2730) Undefined variable: 'M'.
+# End time: 16:40:29 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+# Error in macro ./simulation.do line 11
+# /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog -sv ../tb_MantMult.sv"
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:41:00 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 16:41:00 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:41:01 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 16:41:01 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:41:02 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 16:41:02 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:41:02 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 16:41:02 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:41:03 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 16:41:03 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:41:04 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 16:41:04 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:41:04 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 16:41:04 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:41:05 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 16:41:05 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:41:05 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3v2.sv 
+# -- Compiling module WT3v2
+# 
+# Top level modules:
+# 	WT3v2
+# End time: 16:41:06 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:41:06 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 16:41:06 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:41:07 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# 
+# Top level modules:
+# 	tb_MantMult
+# End time: 16:41:07 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:41:30 on Nov 27,2025, Elapsed time: 0:11:21
+# Errors: 3, Warnings: 0
+# vsim work.tb_MantMult -voptargs="+acc" 
+# Start time: 16:41:30 on Nov 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb_MantMult(fast)
+# Loading work.MantissaMultiplier(fast)
+# Loading work.MUXBE(fast)
+# Loading work.WT3v2(fast)
+# Loading work.HA(fast)
+# Loading work.FA(fast)
+# Loading work.CSA3(fast)
+# Loading work.Adder4b(fast)
+# Loading work.MUX2(fast)
+# Loading work.MUX_unit(fast)
+# The results different is:     x
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:48:06 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 16:48:06 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:48:06 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 16:48:07 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:48:07 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 16:48:07 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:48:08 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 16:48:09 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:48:09 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 16:48:10 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:48:10 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 16:48:11 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:48:11 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 16:48:11 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:48:12 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 16:48:12 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:48:12 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3v2.sv 
+# -- Compiling module WT3v2
+# 
+# Top level modules:
+# 	WT3v2
+# End time: 16:48:13 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:48:13 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 16:48:13 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:48:14 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# ** Error: ../tb_MantMult.sv(13): (vlog-2730) Undefined variable: 'i'.
+# End time: 16:48:14 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+# Error in macro ./simulation.do line 11
+# /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog -sv ../tb_MantMult.sv"
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:53:10 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 16:53:10 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:53:10 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 16:53:11 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:53:11 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 16:53:11 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:53:12 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 16:53:12 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:53:13 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 16:53:13 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:53:13 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 16:53:13 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:53:14 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 16:53:14 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:53:15 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 16:53:15 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:53:15 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3v2.sv 
+# -- Compiling module WT3v2
+# 
+# Top level modules:
+# 	WT3v2
+# End time: 16:53:16 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:53:16 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 16:53:17 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:53:17 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# 
+# Top level modules:
+# 	tb_MantMult
+# End time: 16:53:17 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:53:39 on Nov 27,2025, Elapsed time: 0:12:09
+# Errors: 1, Warnings: 0
+# vsim work.tb_MantMult -voptargs="+acc" 
+# Start time: 16:53:39 on Nov 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb_MantMult(fast)
+# Loading work.MantissaMultiplier(fast)
+# Loading work.MUXBE(fast)
+# Loading work.WT3v2(fast)
+# Loading work.HA(fast)
+# Loading work.FA(fast)
+# Loading work.CSA3(fast)
+# Loading work.Adder4b(fast)
+# Loading work.MUX2(fast)
+# Loading work.MUX_unit(fast)
+# The results different is:     x
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:55:00 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 16:55:00 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:55:01 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 16:55:01 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:55:02 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 16:55:02 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:55:02 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 16:55:03 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:55:03 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 16:55:03 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:55:04 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 16:55:04 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:55:05 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 16:55:05 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:55:05 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 16:55:06 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:55:06 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3v2.sv 
+# -- Compiling module WT3v2
+# 
+# Top level modules:
+# 	WT3v2
+# End time: 16:55:07 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:55:07 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 16:55:07 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:55:08 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# 
+# Top level modules:
+# 	tb_MantMult
+# End time: 16:55:08 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:55:30 on Nov 27,2025, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 0
+# vsim work.tb_MantMult -voptargs="+acc" 
+# Start time: 16:55:30 on Nov 27,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.tb_MantMult(fast)
+# Loading work.MantissaMultiplier(fast)
+# Loading work.MUXBE(fast)
+# Loading work.WT3v2(fast)
+# Loading work.HA(fast)
+# Loading work.FA(fast)
+# Loading work.CSA3(fast)
+# Loading work.Adder4b(fast)
+# Loading work.MUX2(fast)
+# Loading work.MUX_unit(fast)
+# The results different is:     x
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:59:24 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 16:59:25 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:59:25 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 16:59:26 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:59:26 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 16:59:26 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:59:27 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 16:59:27 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:59:28 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 16:59:28 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:59:28 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 16:59:29 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:59:29 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 16:59:30 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:59:30 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 16:59:30 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:59:31 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3v2.sv 
+# -- Compiling module WT3v2
+# 
+# Top level modules:
+# 	WT3v2
+# End time: 16:59:31 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:59:32 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 16:59:32 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:59:33 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# 
+# Top level modules:
+# 	tb_MantMult
+# End time: 16:59:34 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:59:59 on Nov 27,2025, Elapsed time: 0:04:29
+# Errors: 0, Warnings: 0
+# vsim work.tb_MantMult -voptargs="+acc" 
+# Start time: 16:59:59 on Nov 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb_MantMult(fast)
+# Loading work.MantissaMultiplier(fast)
+# Loading work.MUXBE(fast)
+# Loading work.WT3v2(fast)
+# Loading work.HA(fast)
+# Loading work.FA(fast)
+# Loading work.CSA3(fast)
+# Loading work.Adder4b(fast)
+# Loading work.MUX2(fast)
+# Loading work.MUX_unit(fast)
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:03:28 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 17:03:28 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:03:29 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 17:03:29 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:03:30 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 17:03:30 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:03:30 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 17:03:31 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:03:31 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 17:03:31 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:03:32 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 17:03:32 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:03:33 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 17:03:33 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:03:34 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 17:03:34 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:03:35 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3v2.sv 
+# -- Compiling module WT3v2
+# 
+# Top level modules:
+# 	WT3v2
+# End time: 17:03:35 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:03:35 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 17:03:36 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:03:36 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# ** Error: ../tb_MantMult.sv(13): (vlog-2730) Undefined variable: 't'.
+# ** Error: (vlog-13069) ../tb_MantMult.sv(14): near "i": syntax error, unexpected IDENTIFIER, expecting ';'.
+# ** Error: (vlog-13069) ../tb_MantMult.sv(36): near "end": syntax error, unexpected end.
+# End time: 17:03:37 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# ** Error: /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+# Error in macro ./simulation.do line 11
+# /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog -sv ../tb_MantMult.sv"
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:04:10 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 17:04:11 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:04:11 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 17:04:12 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:04:12 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 17:04:13 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:04:13 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 17:04:14 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:04:14 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 17:04:15 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:04:15 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 17:04:16 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:04:17 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 17:04:17 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:04:18 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 17:04:19 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:04:19 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3v2.sv 
+# -- Compiling module WT3v2
+# 
+# Top level modules:
+# 	WT3v2
+# End time: 17:04:20 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:04:21 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 17:04:21 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:04:22 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# ** Error: (vlog-13069) ../tb_MantMult.sv(14): near "i": syntax error, unexpected IDENTIFIER, expecting ';'.
+# ** Error: (vlog-13069) ../tb_MantMult.sv(36): near "end": syntax error, unexpected end.
+# End time: 17:04:22 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+# Error in macro ./simulation.do line 11
+# /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog -sv ../tb_MantMult.sv"
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:08 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 17:05:09 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:10 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 17:05:10 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:11 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 17:05:11 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:12 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 17:05:12 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:13 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 17:05:13 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:14 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 17:05:14 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:15 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 17:05:15 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:15 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 17:05:16 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:16 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3v2.sv 
+# -- Compiling module WT3v2
+# 
+# Top level modules:
+# 	WT3v2
+# End time: 17:05:17 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:18 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 17:05:18 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:19 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# ** Error: (vlog-13069) ../tb_MantMult.sv(15): near ";": syntax error, unexpected ';'.
+# End time: 17:05:19 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+# Error in macro ./simulation.do line 11
+# /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog -sv ../tb_MantMult.sv"
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:44 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 17:05:45 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:46 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 17:05:47 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:48 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 17:05:49 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:49 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 17:05:50 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:51 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 17:05:51 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:52 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 17:05:53 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:53 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 17:05:54 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:54 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 17:05:55 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:56 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3v2.sv 
+# -- Compiling module WT3v2
+# 
+# Top level modules:
+# 	WT3v2
+# End time: 17:05:56 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:57 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 17:05:57 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:05:58 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# ** Error: (vlog-13069) ../tb_MantMult.sv(16): near "=": syntax error, unexpected '=', expecting ';'.
+# End time: 17:05:59 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+# Error in macro ./simulation.do line 11
+# /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog -sv ../tb_MantMult.sv"
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:06:42 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 17:06:42 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:06:43 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 17:06:43 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:06:44 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 17:06:44 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:06:45 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 17:06:45 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:06:46 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 17:06:46 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:06:47 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 17:06:47 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:06:48 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 17:06:49 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:06:49 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 17:06:49 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:06:50 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3v2.sv 
+# -- Compiling module WT3v2
+# 
+# Top level modules:
+# 	WT3v2
+# End time: 17:06:50 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:06:50 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 17:06:51 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:06:52 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# 
+# Top level modules:
+# 	tb_MantMult
+# End time: 17:06:52 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:07:15 on Nov 27,2025, Elapsed time: 0:07:16
+# Errors: 4, Warnings: 0
+# vsim work.tb_MantMult -voptargs="+acc" 
+# Start time: 17:07:15 on Nov 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb_MantMult(fast)
+# Loading work.MantissaMultiplier(fast)
+# Loading work.MUXBE(fast)
+# Loading work.WT3v2(fast)
+# Loading work.HA(fast)
+# Loading work.FA(fast)
+# Loading work.CSA3(fast)
+# Loading work.Adder4b(fast)
+# Loading work.MUX2(fast)
+# Loading work.MUX_unit(fast)
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+run
+# The results different is:     0
+run
+# The results different is:     0
+# The results different is:     0
+vlog -sv ../Multiplier/tb_MantMult.sv
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:14:59 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Multiplier/tb_MantMult.sv 
+# ** Error: (vlog-7) Failed to open design unit file "../Multiplier/tb_MantMult.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 17:15:00 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+vlog -sv ../tb_MantMult.sv
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:15:18 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# 
+# Top level modules:
+# 	tb_MantMult
+# End time: 17:15:18 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:15:29 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 17:15:30 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:15:31 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 17:15:32 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:15:32 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 17:15:32 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:15:33 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 17:15:33 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:15:34 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 17:15:34 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:15:34 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 17:15:35 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:15:35 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 17:15:36 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:15:36 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 17:15:37 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:15:37 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3v2.sv 
+# -- Compiling module WT3v2
+# 
+# Top level modules:
+# 	WT3v2
+# End time: 17:15:38 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:15:38 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 17:15:38 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:15:39 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# 
+# Top level modules:
+# 	tb_MantMult
+# End time: 17:15:39 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:16:03 on Nov 27,2025, Elapsed time: 0:08:48
+# Errors: 0, Warnings: 0
+# vsim work.tb_MantMult -voptargs="+acc" 
+# Start time: 17:16:03 on Nov 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb_MantMult(fast)
+# Loading work.MantissaMultiplier(fast)
+# Loading work.MUXBE(fast)
+# Loading work.WT3v2(fast)
+# Loading work.HA(fast)
+# Loading work.FA(fast)
+# Loading work.CSA3(fast)
+# Loading work.Adder4b(fast)
+# Loading work.MUX2(fast)
+# Loading work.MUX_unit(fast)
+# The results different is:     x
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+clear
+# [3;J[H[2J
+.main clear
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:18:39 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 17:18:39 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:18:40 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 17:18:40 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:18:40 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 17:18:40 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:18:41 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 17:18:42 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:18:42 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 17:18:42 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:18:43 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 17:18:43 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:18:44 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 17:18:44 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:18:45 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 17:18:45 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:18:45 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3v2.sv 
+# -- Compiling module WT3v2
+# 
+# Top level modules:
+# 	WT3v2
+# End time: 17:18:46 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:18:46 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 17:18:46 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:18:47 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# 
+# Top level modules:
+# 	tb_MantMult
+# End time: 17:18:47 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:19:12 on Nov 27,2025, Elapsed time: 0:03:09
+# Errors: 0, Warnings: 0
+# vsim work.tb_MantMult -voptargs="+acc" 
+# Start time: 17:19:12 on Nov 27,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.tb_MantMult(fast)
+# Loading work.MantissaMultiplier(fast)
+# Loading work.MUXBE(fast)
+# Loading work.WT3v2(fast)
+# Loading work.HA(fast)
+# Loading work.FA(fast)
+# Loading work.CSA3(fast)
+# Loading work.Adder4b(fast)
+# Loading work.MUX2(fast)
+# Loading work.MUX_unit(fast)
+# The results different is:     x
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+# The results different is:     0
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:26:21 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 17:26:21 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:26:21 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 17:26:22 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:26:23 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 17:26:23 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:26:24 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 17:26:24 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:26:25 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 17:26:25 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:26:26 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 17:26:26 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:26:27 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 17:26:27 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:26:28 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 17:26:29 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:26:29 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3v2.sv 
+# -- Compiling module WT3v2
+# 
+# Top level modules:
+# 	WT3v2
+# End time: 17:26:30 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:26:30 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 17:26:31 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:26:31 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# ** Error: (vlog-13069) ../tb_MantMult.sv(19): near "%": syntax error, unexpected '%'.
+# End time: 17:26:32 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+# Error in macro ./simulation.do line 11
+# /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog -sv ../tb_MantMult.sv"
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:27:23 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 17:27:24 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:27:24 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 17:27:24 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:27:25 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 17:27:25 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:27:26 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 17:27:26 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:27:27 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 17:27:27 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:27:28 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 17:27:28 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:27:29 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 17:27:29 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:27:30 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 17:27:30 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:27:31 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3v2.sv 
+# -- Compiling module WT3v2
+# 
+# Top level modules:
+# 	WT3v2
+# End time: 17:27:31 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:27:32 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 17:27:32 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:27:33 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# ** Error: (vlog-13069) ../tb_MantMult.sv(19): near "%": syntax error, unexpected '%'.
+# End time: 17:27:33 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+# Error in macro ./simulation.do line 11
+# /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog -sv ../tb_MantMult.sv"
+vlog -sv ../tb_MantMult.sv
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:29:39 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# ** Error: (vlog-13069) ../tb_MantMult.sv(19): near "%": syntax error, unexpected '%'.
+# End time: 17:29:39 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
+vlog -sv ../tb_MantMult.sv
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:30:00 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# 
+# Top level modules:
+# 	tb_MantMult
+# End time: 17:30:01 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:30:03 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 17:30:03 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:30:04 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 17:30:04 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:30:05 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 17:30:05 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:30:05 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 17:30:06 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:30:06 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 17:30:07 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:30:07 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 17:30:07 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:30:08 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 17:30:08 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:30:09 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 17:30:09 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:30:10 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3v2.sv 
+# -- Compiling module WT3v2
+# 
+# Top level modules:
+# 	WT3v2
+# End time: 17:30:10 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:30:10 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 17:30:11 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:30:11 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# 
+# Top level modules:
+# 	tb_MantMult
+# End time: 17:30:12 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 17:30:33 on Nov 27,2025, Elapsed time: 0:11:21
+# Errors: 2, Warnings: 0
+# vsim work.tb_MantMult -voptargs="+acc" 
+# Start time: 17:30:33 on Nov 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb_MantMult(fast)
+# Loading work.MantissaMultiplier(fast)
+# Loading work.MUXBE(fast)
+# Loading work.WT3v2(fast)
+# Loading work.HA(fast)
+# Loading work.FA(fast)
+# Loading work.CSA3(fast)
+# Loading work.Adder4b(fast)
+# Loading work.MUX2(fast)
+# Loading work.MUX_unit(fast)
+# ** Error (suppressible): (vsim-PLI-3069) $fmonitor : Argument number 1 is invalid.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult File: ../tb_MantMult.sv Line: 13
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./simulation.do PAUSED at line 12
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:31:21 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 17:31:22 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:31:22 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 17:31:23 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:31:23 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 17:31:24 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:31:24 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 17:31:25 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:31:25 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 17:31:26 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:31:26 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 17:31:27 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:31:27 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 17:31:27 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:31:28 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 17:31:28 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:31:28 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3v2.sv 
+# -- Compiling module WT3v2
+# 
+# Top level modules:
+# 	WT3v2
+# End time: 17:31:29 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:31:29 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 17:31:29 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:31:30 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# 
+# Top level modules:
+# 	tb_MantMult
+# End time: 17:31:30 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.tb_MantMult -voptargs="+acc" 
+# Start time: 17:30:33 on Nov 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb_MantMult(fast)
+# Loading work.MantissaMultiplier(fast)
+# Loading work.MUXBE(fast)
+# Loading work.WT3v2(fast)
+# Loading work.HA(fast)
+# Loading work.FA(fast)
+# Loading work.CSA3(fast)
+# Loading work.Adder4b(fast)
+# Loading work.MUX2(fast)
+# Loading work.MUX_unit(fast)
+# ** Error (suppressible): (vsim-PLI-3069) $fmonitor : Argument number 1 is invalid.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult File: ../tb_MantMult.sv Line: 13
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./simulation.do PAUSED at line 12
+vlog -sv ../tb_MantMult.sv
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:32:09 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# 
+# Top level modules:
+# 	tb_MantMult
+# End time: 17:32:09 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:32:11 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 17:32:11 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:32:12 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 17:32:13 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:32:13 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 17:32:14 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:32:14 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 17:32:15 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:32:15 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 17:32:16 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:32:16 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 17:32:16 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:32:17 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 17:32:18 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:32:18 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 17:32:19 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:32:19 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3v2.sv 
+# -- Compiling module WT3v2
+# 
+# Top level modules:
+# 	WT3v2
+# End time: 17:32:20 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:32:20 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 17:32:21 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:32:21 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# 
+# Top level modules:
+# 	tb_MantMult
+# End time: 17:32:21 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.tb_MantMult -voptargs="+acc" 
+# Start time: 17:30:33 on Nov 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb_MantMult(fast)
+# Loading work.MantissaMultiplier(fast)
+# Loading work.MUXBE(fast)
+# Loading work.WT3v2(fast)
+# Loading work.HA(fast)
+# Loading work.FA(fast)
+# Loading work.CSA3(fast)
+# Loading work.Adder4b(fast)
+# Loading work.MUX2(fast)
+# Loading work.MUX_unit(fast)
+# ** Warning: No matching channel descriptor '2' found.  Ignoring the write into the invalid channel.
+#    Time: 200 ns  Iteration: 4  Instance: /tb_MantMult
+do simulation.do
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:34:25 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../FA.sv 
+# -- Compiling module FA
+# 
+# Top level modules:
+# 	FA
+# End time: 17:34:25 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:34:25 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../HA.sv 
+# -- Compiling module HA
+# 
+# Top level modules:
+# 	HA
+# End time: 17:34:26 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:34:26 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX2.sv 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 17:34:27 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:34:28 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX_unit.sv 
+# -- Compiling module MUX_unit
+# 
+# Top level modules:
+# 	MUX_unit
+# End time: 17:34:28 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:34:29 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUX3.sv 
+# -- Compiling module MUX3
+# 
+# Top level modules:
+# 	MUX3
+# End time: 17:34:29 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:34:30 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../CSA3.sv 
+# -- Compiling module CSA3
+# 
+# Top level modules:
+# 	CSA3
+# End time: 17:34:30 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:34:31 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../Adder4b.sv 
+# -- Compiling module Adder4b
+# 
+# Top level modules:
+# 	Adder4b
+# End time: 17:34:31 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:34:31 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MUXBE.sv 
+# -- Compiling module MUXBE
+# 
+# Top level modules:
+# 	MUXBE
+# End time: 17:34:31 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:34:33 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../WT3v2.sv 
+# -- Compiling module WT3v2
+# 
+# Top level modules:
+# 	WT3v2
+# End time: 17:34:33 on Nov 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:34:33 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
+# -- Compiling module MantissaMultiplier
+# 
+# Top level modules:
+# 	MantissaMultiplier
+# End time: 17:34:34 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 17:34:34 on Nov 27,2025
+# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
+# -- Compiling module tb_MantMult
+# 
+# Top level modules:
+# 	tb_MantMult
+# End time: 17:34:35 on Nov 27,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 17:35:18 on Nov 27,2025, Elapsed time: 0:04:45
+# Errors: 2, Warnings: 1
+# vsim work.tb_MantMult -voptargs="+acc" 
+# Start time: 17:35:18 on Nov 27,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb_MantMult(fast)
+# Loading work.MantissaMultiplier(fast)
+# Loading work.MUXBE(fast)
+# Loading work.WT3v2(fast)
+# Loading work.HA(fast)
+# Loading work.FA(fast)
+# Loading work.CSA3(fast)
+# Loading work.Adder4b(fast)
+# Loading work.MUX2(fast)
+# Loading work.MUX_unit(fast)
+# ** Warning: No matching channel descriptor '2' found.  Ignoring the write into the invalid channel.
+#    Time: 200 ns  Iteration: 4  Instance: /tb_MantMult
 # Causality operation skipped due to absence of debug database file
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:44:02 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 17:44:03 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:44:03 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 17:44:04 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:44:04 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 17:44:05 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:44:05 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 17:44:06 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:44:06 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 17:44:07 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:44:07 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 17:44:08 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:44:08 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 17:44:09 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:44:09 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 17:44:10 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:44:10 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 17:44:11 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:44:11 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 17:44:12 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:44:12 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 17:44:13 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 17:44:17 on Nov 20,2025, Elapsed time: 0:35:01
-# Errors: 0, Warnings: 0
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 17:44:17 on Nov 20,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
-run
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:44 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 17:46:46 on Nov 20,2025, Elapsed time: 0:00:02
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:46 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 17:46:47 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:47 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 17:46:48 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:48 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 17:46:49 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:49 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 17:46:50 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:50 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 17:46:51 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:51 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 17:46:52 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:52 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 17:46:53 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:53 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 17:46:54 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:54 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 17:46:55 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:46:55 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 17:46:56 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 17:47:00 on Nov 20,2025, Elapsed time: 0:02:43
-# Errors: 0, Warnings: 0
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 17:47:00 on Nov 20,2025
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
-run
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:51:31 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 17:51:33 on Nov 20,2025, Elapsed time: 0:00:02
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:51:33 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 17:51:33 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:51:34 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 17:51:34 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:51:34 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 17:51:35 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:51:35 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 17:51:36 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:51:37 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 17:51:38 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:51:38 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 17:51:39 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:51:39 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 17:51:40 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:51:40 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 17:51:41 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:51:41 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 17:51:42 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:51:42 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 17:51:43 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 17:51:46 on Nov 20,2025, Elapsed time: 0:04:46
-# Errors: 0, Warnings: 0
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 17:51:46 on Nov 20,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
-run
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:53:25 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 17:53:26 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:53:26 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 17:53:27 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:53:27 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 17:53:28 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:53:28 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 17:53:29 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:53:29 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 17:53:30 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:53:30 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 17:53:31 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:53:31 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 17:53:32 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:53:32 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 17:53:33 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:53:33 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 17:53:34 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:53:34 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 17:53:34 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:53:35 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 17:53:36 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 17:53:40 on Nov 20,2025, Elapsed time: 0:01:54
-# Errors: 0, Warnings: 0
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 17:53:40 on Nov 20,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:55:18 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 17:55:19 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:55:19 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 17:55:20 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:55:20 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 17:55:21 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:55:21 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 17:55:22 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:55:22 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 17:55:22 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:55:23 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 17:55:23 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:55:23 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 17:55:24 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:55:24 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 17:55:25 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:55:25 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 17:55:26 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:55:26 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 17:55:27 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:55:27 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 17:55:28 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 17:55:32 on Nov 20,2025, Elapsed time: 0:01:52
-# Errors: 0, Warnings: 0
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 17:55:32 on Nov 20,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:56:54 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 17:56:55 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:56:55 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 17:56:56 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:56:56 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 17:56:57 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:56:57 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 17:56:58 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:56:58 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 17:56:59 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:56:59 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 17:57:00 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:57:00 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 17:57:01 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:57:01 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 17:57:02 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:57:02 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 17:57:03 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:57:03 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 17:57:03 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:57:04 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 17:57:04 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 17:57:10 on Nov 20,2025, Elapsed time: 0:01:38
-# Errors: 0, Warnings: 0
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 17:57:10 on Nov 20,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:58:52 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 17:58:53 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:58:53 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 17:58:54 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:58:54 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 17:58:55 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:58:55 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 17:58:56 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:58:56 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 17:58:57 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:58:57 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 17:58:58 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:58:58 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 17:58:59 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:58:59 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 17:59:00 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:59:00 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 17:59:01 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:59:01 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 17:59:02 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 17:59:02 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 17:59:03 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 17:59:09 on Nov 20,2025, Elapsed time: 0:01:59
-# Errors: 0, Warnings: 0
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 17:59:09 on Nov 20,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:22:37 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 18:22:38 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:22:38 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 18:22:39 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:22:39 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 18:22:40 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:22:40 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 18:22:41 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:22:41 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 18:22:42 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:22:42 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 18:22:43 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:22:43 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 18:22:44 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:22:44 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 18:22:45 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:22:45 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 18:22:46 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:22:46 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 18:22:47 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:22:47 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 18:22:48 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 18:22:52 on Nov 20,2025, Elapsed time: 0:23:43
-# Errors: 0, Warnings: 0
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 18:22:52 on Nov 20,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:26:13 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 18:26:14 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:26:14 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 18:26:15 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:26:15 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 18:26:16 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:26:16 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 18:26:17 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:26:17 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 18:26:18 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:26:18 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 18:26:19 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:26:19 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 18:26:20 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:26:20 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 18:26:20 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:26:21 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 18:26:21 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:26:22 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 18:26:22 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:26:22 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 18:26:23 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 18:26:27 on Nov 20,2025, Elapsed time: 0:03:35
-# Errors: 0, Warnings: 0
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 18:26:28 on Nov 20,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:31:01 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 18:31:02 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:31:02 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 18:31:03 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:31:04 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 18:31:04 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:31:04 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 18:31:05 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:31:05 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 18:31:06 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:31:06 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 18:31:07 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:31:07 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 18:31:08 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:31:08 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 18:31:09 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:31:09 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 18:31:10 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:31:10 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 18:31:10 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:31:11 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 18:31:12 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 18:31:14 on Nov 20,2025, Elapsed time: 0:04:46
-# Errors: 0, Warnings: 0
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 18:31:14 on Nov 20,2025
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:33:20 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 18:33:21 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:33:21 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 18:33:22 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:33:22 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 18:33:23 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:33:24 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 18:33:24 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:33:24 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 18:33:25 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:33:25 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 18:33:26 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:33:27 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 18:33:27 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:33:27 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 18:33:28 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:33:28 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 18:33:29 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:33:29 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# ** Error: (vlog-13057) ../MantissaMultiplier.sv(12): near "[end of file]": Expecting numeric digits.
-# ** Error: (vlog-13069) ../MantissaMultiplier.sv(13): near "assign": syntax error, unexpected assign, expecting ';' or ','.
-# End time: 18:33:30 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 0
-# ** Error: /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
-# Error in macro ./simulation.do line 10
-# /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
-#     while executing
-# "vlog -sv ../MantissaMultiplier.sv"
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:33:49 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 18:33:50 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:33:50 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 18:33:51 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:33:51 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 18:33:52 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:33:52 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 18:33:53 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:33:53 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 18:33:54 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:33:54 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 18:33:55 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:33:55 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 18:33:56 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:33:56 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 18:33:57 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:33:57 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 18:33:58 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:33:58 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# ** Error: (vlog-13057) ../MantissaMultiplier.sv(12): near "[end of file]": Expecting numeric digits.
-# End time: 18:33:59 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 0
-# ** Error: /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
-# Error in macro ./simulation.do line 10
-# /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
-#     while executing
-# "vlog -sv ../MantissaMultiplier.sv"
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:34:35 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 18:34:36 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:34:36 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 18:34:37 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:34:37 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 18:34:38 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:34:38 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 18:34:39 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:34:39 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 18:34:40 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:34:40 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 18:34:41 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:34:41 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 18:34:42 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:34:42 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 18:34:43 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:34:43 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 18:34:44 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:34:44 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 18:34:45 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:34:45 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 18:34:46 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 18:34:49 on Nov 20,2025, Elapsed time: 0:03:35
-# Errors: 2, Warnings: 0
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 18:34:49 on Nov 20,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:36:31 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 18:36:32 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:36:32 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 18:36:33 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:36:33 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 18:36:34 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:36:34 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 18:36:35 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:36:35 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 18:36:36 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:36:36 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 18:36:37 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:36:37 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 18:36:38 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:36:38 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 18:36:39 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:36:39 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 18:36:40 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:36:40 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# ** Error: ../MantissaMultiplier.sv(10): (vlog-2730) Undefined variable: 'a'.
-# End time: 18:36:41 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 0
-# ** Error: /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
-# Error in macro ./simulation.do line 10
-# /eda/mentor/2020-21/RHELx86/QUESTA-CORE-PRIME_2020.4/questasim/linux_x86_64/vlog failed.
-#     while executing
-# "vlog -sv ../MantissaMultiplier.sv"
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:37:09 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 18:37:10 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:37:10 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 18:37:11 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:37:11 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 18:37:12 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:37:12 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 18:37:13 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:37:13 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 18:37:14 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:37:14 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 18:37:15 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:37:15 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 18:37:16 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:37:16 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 18:37:17 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:37:17 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 18:37:18 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:37:18 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 18:37:19 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:37:19 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 18:37:19 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 18:37:23 on Nov 20,2025, Elapsed time: 0:02:34
-# Errors: 1, Warnings: 0
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 18:37:23 on Nov 20,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:56:21 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 18:56:22 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:56:22 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 18:56:23 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:56:23 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 18:56:24 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:56:24 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 18:56:26 on Nov 20,2025, Elapsed time: 0:00:02
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:56:26 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 18:56:26 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:56:27 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 18:56:27 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:56:28 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 18:56:28 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:56:28 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 18:56:29 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:56:29 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 18:56:30 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:56:31 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 18:56:32 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 18:56:32 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 18:56:33 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 18:56:37 on Nov 20,2025, Elapsed time: 0:19:14
-# Errors: 0, Warnings: 0
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 18:56:37 on Nov 20,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
-# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[0]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[1]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[2]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[3]/boothenc File: ../MantissaMultiplier.sv Line: 33
-# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (9) for port 'c'. The port definition is at: ../MUXBE.sv(4).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_MantMult/UUT/genblk1[4]/boothenc File: ../MantissaMultiplier.sv Line: 33
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:01:26 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 19:01:27 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:01:27 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 19:01:28 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:01:28 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 19:01:29 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:01:30 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 19:01:30 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:01:30 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 19:01:31 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:01:31 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 19:01:32 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:01:32 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 19:01:33 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:01:33 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 19:01:34 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:01:34 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 19:01:35 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:01:35 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 19:01:36 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:01:37 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 19:01:37 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 19:01:43 on Nov 20,2025, Elapsed time: 0:05:06
-# Errors: 0, Warnings: 5
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 19:01:44 on Nov 20,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
-do simulation.do
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:21:02 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../FA.sv 
-# -- Compiling module FA
-# 
-# Top level modules:
-# 	FA
-# End time: 19:21:04 on Nov 20,2025, Elapsed time: 0:00:02
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:21:04 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../HA.sv 
-# -- Compiling module HA
-# 
-# Top level modules:
-# 	HA
-# End time: 19:21:05 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:21:05 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX2.sv 
-# -- Compiling module MUX2
-# 
-# Top level modules:
-# 	MUX2
-# End time: 19:21:06 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:21:06 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX_unit.sv 
-# -- Compiling module MUX_unit
-# 
-# Top level modules:
-# 	MUX_unit
-# End time: 19:21:06 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:21:07 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUX3.sv 
-# -- Compiling module MUX3
-# 
-# Top level modules:
-# 	MUX3
-# End time: 19:21:07 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:21:08 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../CSA3.sv 
-# -- Compiling module CSA3
-# 
-# Top level modules:
-# 	CSA3
-# End time: 19:21:09 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:21:09 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../Adder4b.sv 
-# -- Compiling module Adder4b
-# 
-# Top level modules:
-# 	Adder4b
-# End time: 19:21:10 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:21:10 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MUXBE.sv 
-# -- Compiling module MUXBE
-# 
-# Top level modules:
-# 	MUXBE
-# End time: 19:21:11 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:21:11 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../WT3.sv 
-# -- Compiling module WT3
-# 
-# Top level modules:
-# 	WT3
-# End time: 19:21:12 on Nov 20,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:21:12 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../MantissaMultiplier.sv 
-# -- Compiling module MantissaMultiplier
-# 
-# Top level modules:
-# 	MantissaMultiplier
-# End time: 19:21:12 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 19:21:13 on Nov 20,2025
-# vlog -reportprogress 300 -sv ../tb_MantMult.sv 
-# -- Compiling module tb_MantMult
-# 
-# Top level modules:
-# 	tb_MantMult
-# End time: 19:21:13 on Nov 20,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 19:21:18 on Nov 20,2025, Elapsed time: 0:19:34
-# Errors: 0, Warnings: 0
-# vsim work.tb_MantMult -voptargs="+acc" 
-# Start time: 19:21:18 on Nov 20,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: License feature 'msimhdlsim' will expire in 10 days.
-# Loading sv_std.std
-# Loading work.tb_MantMult(fast)
-# Loading work.MantissaMultiplier(fast)
-# Loading work.MUXBE(fast)
-# Loading work.WT3(fast)
-# Loading work.HA(fast)
-# Loading work.FA(fast)
-# Loading work.CSA3(fast)
-# Loading work.Adder4b(fast)
-# Loading work.MUX2(fast)
-# Loading work.MUX_unit(fast)
