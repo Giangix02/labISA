@@ -6,7 +6,17 @@ All the source codes of the Mantissa multiplier are included in the src folder
 
 
 
-//
+//compiling order
+HA.sv
+FA.sv
+MUX_unit.sv
+MUX2.sv
+MUX3.sv
+MUXBE.sv
+Adder4b.sv
+CSA3.sv
+WT3v2.sv
+MantissaMultiplier.sv
 cf_math_pkg.sv
 lzc.sv
 rr_arb_tree.sv
