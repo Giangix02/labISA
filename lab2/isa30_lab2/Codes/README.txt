@@ -7,27 +7,27 @@ All the source codes of the Mantissa multiplier are included in the src folder
 
 
 //compiling order
-HA.sv
-FA.sv
-MUX_unit.sv
-MUX2.sv
-MUX3.sv
-MUXBE.sv
-Adder4b.sv
-CSA3.sv
-WT3v2.sv
-MantissaMultiplier.sv
-cf_math_pkg.sv
-lzc.sv
-rr_arb_tree.sv
-fpnew_pkg.sv
-fpnew_classifier.sv
-fpnew_rounding.sv
-fpnew_fma.sv
-fpnew_opgroup_fmt_slice.sv
-fpnew_opgroup_block.sv
-fpnew_top.sv
+vlog -sv ./src/HA.sv
+vlog -sv ./src/FA.sv
+vlog -sv ./src/MUX_unit.sv
+vlog -sv ./src/MUX2.sv
+vlog -sv ./src/MUX3.sv
+vlog -sv ./src/MUXBE.sv
+vlog -sv ./src/Adder4b.sv
+vlog -sv ./src/CSA3.sv
+vlog -sv ./src/WT3v2.sv
+vlog -sv ./src/MantissaMultiplier.sv
+vlog -sv ./src/cf_math_pkg.sv
+vlog -sv ./src/lzc.sv
+vlog -sv ./src/rr_arb_tree.sv
+vlog -sv ./src/fpnew_pkg.sv
+vlog -sv ./src/fpnew_classifier.sv
+vlog -sv ./src/fpnew_rounding.sv
+vlog -sv ./src/fpnew_fma.sv
+vlog -sv ./src/fpnew_opgroup_fmt_slice.sv
+vlog -sv ./src/fpnew_opgroup_block.sv
+vlog -sv ./src/fpnew_top.sv
 
-clk_gen.vhd
-data_gen16.vhd
-tb_fpnew_top.v
+vcom ./tb/clk_gen.vhd
+vcom ./tb/data_gen16.vhd
+vlog -sv ./tb/tb_fpnew_top_rtl.sv
